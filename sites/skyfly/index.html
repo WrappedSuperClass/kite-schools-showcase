@@ -20,16 +20,18 @@
   <a class="nav-logo" href="#top" id="logo">SKY<span>FLY</span></a>
   <div class="nav-links">
     <a href="#ile">L'île</a>
+    <a href="#seance">Votre 1ʳᵉ séance</a>
     <a href="#offres">Cours &amp; tarifs</a>
     <a href="#ecole">L'école</a>
     <a href="#contact">Contact</a>
   </div>
-  <a class="btn btn-small" href="mailto:contact@sky-fly.com?subject=R%C3%A9servation%20cours%20kitesurf">Réserver</a>
+  <a class="btn btn-small" href="#contact">Réserver</a>
   <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
 </nav>
 
 <header class="hero" id="top">
-  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <img class="hero-bg" src="img/hero-island.jpg" alt="L'île de la Rascasse au milieu de l'étang de Port Leucate, vue du ciel" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
   <div class="hero-inner">
     <p class="hero-kicker reveal">École de kitesurf · Port Leucate / Le Barcarès</p>
     <h1 class="reveal">Votre cours de kite<br /><em>sur une île déserte.</em></h1>
@@ -48,6 +50,13 @@
   <div class="hero-scroll">↓</div>
 </header>
 
+<div class="badges">
+  <span><i>✔</i> Moniteurs diplômés, <b>20 ans</b> de kite</span>
+  <span><i>✔</i> Île <b>privatisée</b> pour les cours</span>
+  <span><i>✔</i> Matériel complet <b>fourni</b>, radio incluse</span>
+  <span><i>✔</i> Ouvert 7 j/7, 10 h – 19 h</span>
+</div>
+
 <section class="strip">
   <div class="strip-track">
     <span>Kitesurf</span><i>☀</i><span>Wingfoil</span><i>☀</i><span>Kitefoil</span><i>☀</i><span>Strapless</span><i>☀</i><span>Île de la Rascasse</span><i>☀</i>
@@ -60,22 +69,59 @@
     <p class="eyebrow">Le spot</p>
     <h2>L'île de la Rascasse, <em>un spot 100 % privé.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="reveal">
-      <p class="lead">Loin de la foule des plages, votre cours démarre par une mini-croisière.
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/boat-tow.jpg" alt="Le bateau SkyFly tractant vers le spot" loading="lazy" />
+      <span class="img-tag">Départ en bateau vers l'île</span>
+    </div>
+    <div>
+      <p class="lead reveal">Loin de la foule des plages, votre cours démarre par une mini-croisière.
       Sur l'île, <strong>vous avez pied partout</strong> et il n'y a <strong>aucun autre pratiquant</strong> :
       les conditions parfaites pour apprendre vite, en confiance, dans l'une des régions les plus
       ventées et ensoleillées de France.</p>
-      <ul class="checklist">
+      <ul class="checklist reveal">
         <li>Accès en bateau, encadrement au plus près</li>
         <li>Eau peu profonde sur toute la zone d'apprentissage</li>
         <li>Casques radio : les consignes en direct dans l'oreille</li>
         <li>À ~1 h 50 de Toulouse, entre Narbonne et Perpignan</li>
       </ul>
     </div>
-    <div class="map-wrap reveal">
-      <iframe title="Carte — Étang de Port Leucate" src="https://www.openstreetmap.org/export/embed.html?bbox=2.98%2C42.82%2C3.06%2C42.88&amp;layer=mapnik&amp;marker=42.8485%2C3.0208" loading="lazy"></iframe>
+  </div>
+</section>
+
+<section class="section section-alt" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Votre première séance</p>
+    <h2>Trois heures, une île, <em>zéro spectateur.</em></h2>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration : pilotage de l'aile" loading="lazy" /></div>
+      <div class="tl-body"><h3>Cap sur l'île</h3><p>Équipement, embarquement, briefing du spot et des signaux de sécurité. Puis pilotage statique et découverte de la fenêtre de vol.</p></div>
     </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration : waterstart" loading="lazy" /></div>
+      <div class="tl-body"><h3>Le waterstart</h3><p>Nage tractée orientée, relances de l'aile, puis l'entraînement au waterstart — avec pied à chaque pause, l'apprentissage sans appréhension.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration : premiers bords" loading="lazy" /></div>
+      <div class="tl-body"><h3>Vos premiers bords</h3><p>Premiers bords et remontée au vent — jusqu'aux sauts, rotations et strapless pour les plus avancés.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">En images</p>
+    <h2>Une journée <em>chez SkyFly.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/island2.jpg" alt="L'île de la Rascasse vue du ciel" loading="lazy" /><figcaption>L'île de la Rascasse, votre spot privé</figcaption></figure>
+    <figure><img src="img/lesson-walk.jpg" alt="Élèves marchant dans l'eau peu profonde" loading="lazy" /><figcaption>Pied partout autour de l'île</figcaption></figure>
+    <figure><img src="img/kid-board.jpg" alt="Jeune élève sur la planche avec son moniteur" loading="lazy" /><figcaption>Les jeunes progressent vite</figcaption></figure>
+    <figure class="m-wide"><img src="img/students.jpg" alt="Groupe d'élèves à l'eau avec casques radio" loading="lazy" /><figcaption>Casques radio pour tous</figcaption></figure>
+    <figure><img src="img/boat-dock.jpg" alt="Le bateau de l'école au ponton" loading="lazy" /><figcaption>Embarquement au ponton</figcaption></figure>
+    <figure><img src="img/gear.jpg" alt="Le local matériel de l'école" loading="lazy" /><figcaption>Matériel complet fourni</figcaption></figure>
   </div>
 </section>
 
@@ -133,34 +179,57 @@
     <p class="eyebrow">L'école</p>
     <h2>20 ans de kite, <em>zéro routine.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="card reveal">
-      <p class="card-big">Sylvain Colson &amp; son équipe</p>
-      <p>Moniteurs diplômés pratiquant le kitesurf depuis <strong>une vingtaine d'années</strong>,
-      installés à la frontière de Port Leucate et du Barcarès depuis 2002. Pionniers de la glisse
-      tractée — l'équipe a même inventé son propre sport aérien, le Sky Fly, accessible à tous.</p>
-      <p class="card-tags"><span>Moniteurs diplômés</span><span>Depuis 2002</span><span>FR · EN</span></p>
+  <div class="split rev">
+    <div class="split-img reveal-img">
+      <img src="img/group.jpg" alt="Groupe d'élèves SkyFly en combinaison" loading="lazy" />
+      <span class="img-tag">Le crew du jour, prêt à embarquer</span>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b>20</b><span>ans d'expérience de kite</span></div>
-      <div class="stat"><b>7/7</b><span>ouvert, de 10 h à 19 h</span></div>
-      <div class="stat"><b>100%</b><span>matériel fourni, radio incluse</span></div>
-      <div class="stat"><b>1</b><span>île rien que pour vos cours</span></div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Sylvain Colson &amp; son équipe</p>
+        <p>Moniteurs diplômés pratiquant le kitesurf depuis <strong>une vingtaine d'années</strong>,
+        installés à la frontière de Port Leucate et du Barcarès depuis 2002. Pionniers de la glisse
+        tractée — l'équipe a même inventé son propre sport aérien, le Sky Fly, accessible à tous.</p>
+        <p class="card-tags"><span>Moniteurs diplômés</span><span>Depuis 2002</span><span>FR · EN</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="20" data-suffix="+">0</b><span>ans d'expérience de kite</span></div>
+        <div class="stat"><b data-count="7">0</b><span>jours sur 7, de 10 h à 19 h</span></div>
+        <div class="stat"><b data-count="100" data-suffix="%">0</b><span>matériel fourni, radio incluse</span></div>
+        <div class="stat"><b data-count="1">0</b><span>île rien que pour vos cours</span></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section section-alt" id="contact">
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Questions fréquentes</p>
+    <h2>Avant <em>d'embarquer.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Où se trouve le point de rendez-vous ?</summary><p>Au 22 avenue Cap de Front, 66420 Le Barcarès — à la frontière de Port Leucate. Le bateau part de là pour rejoindre l'île de la Rascasse en quelques minutes.</p></details>
+    <details><summary>Faut-il savoir nager ?</summary><p>Oui, mais rassurez-vous : autour de l'île, vous avez pied partout. Le gilet et le casque radio fournis ajoutent une double sécurité.</p></details>
+    <details><summary>Que comprend le tarif ?</summary><p>Tout le matériel : aile, planche, combinaison, harnais, gilet et casque avec radio — plus le transport en bateau jusqu'au spot. Apportez seulement vos chaussons si vous en avez.</p></details>
+    <details><summary>Le spot est-il vraiment privé ?</summary><p>L'île est au milieu de l'étang, accessible uniquement en bateau : pendant votre cours, il n'y a aucun autre pratiquant dans la zone. C'est unique dans la région.</p></details>
+    <details><summary>Et pour un groupe ou une famille ?</summary><p>La formule tribu / famille (3 h, 400 €) est faite pour ça, et la découverte à deux (65 €/pers) permet de goûter au kite à petit prix.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
   <div class="section-head reveal">
     <p class="eyebrow">Contact</p>
     <h2>Embarquement <em>immédiat.</em></h2>
   </div>
   <div class="grid grid-2">
     <div class="reveal">
-      <p class="lead">Réservez par téléphone ou par mail — l'équipe vous confirme le créneau selon la météo.</p>
+      <p class="lead">Réservez par téléphone ou par message — l'équipe vous confirme le créneau selon la météo.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33675422691?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20un%20cours%20de%20kitesurf" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33675422691">📞 06 75 42 26 91</a>
+      </div>
       <div class="contact-lines">
         <a href="mailto:contact@sky-fly.com" class="contact-line">✉ contact@sky-fly.com</a>
-        <a href="tel:+33675422691" class="contact-line">📞 +33 (0)6 75 42 26 91</a>
         <span class="contact-line">📍 22 avenue Cap de Front, 66420 Le Barcarès</span>
       </div>
     </div>
@@ -177,16 +246,22 @@
         <option>Cours particulier / formule tribu</option>
       </select>
       <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
-      <button type="submit" class="btn">Envoyer la demande</button>
-      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+      <button type="submit" class="btn">Envoyer par e-mail</button>
+      <p class="form-note">Le bouton ouvre votre messagerie avec le mail prérempli — ou plus rapide : WhatsApp ci-contre.</p>
     </form>
   </div>
 </section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33675422691">📞 Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33675422691" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
 
 <footer class="footer">
   <div>
     <p class="nav-logo">SKY<span>FLY</span></p>
     <p>École de kitesurf · Port Leucate / Le Barcarès · île de la Rascasse</p>
+    <p class="credits">Maquette de démonstration. Photos : SkyFly Kiteschool.</p>
   </div>
   <p class="footer-hint" title="Un indice…">🏝️ Psst… pour décoller, tapez <b>V·E·N·T</b></p>
 </footer>
@@ -202,9 +277,9 @@ window.SITE = {
   name: "SkyFly Kiteschool",
   spotName: "sur l'étang de Port Leucate",
   email: "contact@sky-fly.com",
-  lat: 42.8485, lon: 3.0208,
-  fx: "particles",
-  fxColor: [29, 143, 224],
+  phone: "+33675422691",
+  lat: 42.8485, lon: 3.0208, zoom: 13,
+  kite: { main: 0xffb340, stripe: 0x1d8fe0 },
   egg: { sky: [0x0d5ca8, 0xbde4ff], water: 0x1a7fc2, kite: 0xffb340, kiteStripe: 0x1d8fe0, sun: 0xfff6dd },
 };
 </script>

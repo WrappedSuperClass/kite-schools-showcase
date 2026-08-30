@@ -19,26 +19,27 @@
 <nav class="nav" id="nav">
   <a class="nav-logo" href="#top" id="logo">KITE<span>PULSION</span></a>
   <div class="nav-links">
+    <a href="#seance">Votre 1ʳᵉ séance</a>
     <a href="#ecole">L'école</a>
     <a href="#formules">Formules</a>
     <a href="#spot">Le spot</a>
-    <a href="#infos">Infos pratiques</a>
     <a href="#contact">Contact</a>
   </div>
-  <a class="btn btn-small" href="mailto:kitepulsion@gmail.com?subject=R%C3%A9servation%20stage%20kitesurf">Réserver</a>
+  <a class="btn btn-small" href="#contact">Réserver</a>
   <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
 </nav>
 
 <header class="hero" id="top">
-  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <img class="hero-bg" src="../shared/img/hero-bigair.jpg" alt="Kitesurfeur en plein saut au-dessus de la mer" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
   <div class="hero-inner">
     <p class="hero-kicker reveal">École Française de Kite · FFVL · La Franqui</p>
     <h1 class="reveal">Le vent vous attend<br /><em>aux Coussoules.</em></h1>
     <p class="hero-sub reveal">8 km de plage vierge, la tramontane en moteur, et un moniteur diplômé d'État
     qui enseigne ici depuis 2002. Du premier décollage à la performance sportive.</p>
     <div class="hero-cta reveal">
-      <a class="btn" href="#formules">Voir les formules</a>
-      <a class="btn btn-ghost" href="#spot">Découvrir le spot</a>
+      <a class="btn" href="#contact">Réserver un stage</a>
+      <a class="btn btn-ghost" href="#seance">Comment ça se passe ?</a>
     </div>
     <div class="wind-widget reveal" title="Prévisions Open-Meteo pour la plage des Coussoules">
       <span class="wind-dot"></span>
@@ -48,6 +49,13 @@
   <div class="hero-scroll">↓</div>
 </header>
 
+<div class="badges">
+  <span><i>✔</i> École labellisée <b>FFVL</b></span>
+  <span><i>✔</i> Moniteur <b>BPJEPS &amp; DEJEPS</b>, formateur CREPS</span>
+  <span><i>✔</i> Sur le spot depuis <b>2002</b></span>
+  <span><i>✔</i> Français · English · Deutsch</span>
+</div>
+
 <section class="strip">
   <div class="strip-track">
     <span>Kitesurf</span><i>✦</i><span>Freestyle</span><i>✦</i><span>Strapless</span><i>✦</i><span>Foil</span><i>✦</i><span>Powerkite</span><i>✦</i><span>Catakite</span><i>✦</i><span>Snowkite</span><i>✦</i>
@@ -55,30 +63,68 @@
   </div>
 </section>
 
-<section class="section" id="ecole">
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Votre première séance</p>
+    <h2>Trois heures pour <em>attraper le virus.</em></h2>
+    <p class="section-sub">Rendez-vous fixé la veille à 20 h sur le meilleur créneau de vent. Radio dans le casque, consignes en direct, 3 stagiaires maximum.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration : pilotage de l'aile dans l'eau" loading="lazy" /></div>
+      <div class="tl-body"><h3>Apprivoiser l'aile</h3><p>Fenêtre de vol, sécurité, pilotage dans l'eau peu profonde. Le vent devient un partenaire, plus un mystère.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration : waterstart avec bateau d'assistance" loading="lazy" /></div>
+      <div class="tl-body"><h3>Le waterstart</h3><p>Nage tractée puis premiers départs sur la planche, Zodiac en assistance. C'est là que tout bascule.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration : premiers bords en kitesurf" loading="lazy" /></div>
+      <div class="tl-body"><h3>Vos premiers bords</h3><p>Glisser, remonter au vent, enchaîner les bords — avec l'analyse vidéo de Thomas pour progresser deux fois plus vite.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
   <div class="section-head reveal">
     <p class="eyebrow">L'école</p>
     <h2>Une école, un lieu, <em>un moniteur.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="card reveal">
-      <p class="card-big">Thomas Kraemer</p>
-      <p>Moniteur et entraîneur haut-niveau, formateur CREPS, diplômé d'État
-      <strong>BPJEPS &amp; DEJEPS Kite</strong>. Il enseigne sur le spot de Leucate depuis
-      <strong>2002</strong> — plus de vingt ans à lire le vent des Coussoules.</p>
-      <p class="card-tags"><span>Français</span><span>English</span><span>Deutsch</span></p>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/zodiac-bw.jpg" alt="Le Zodiac d'assistance de Kitepulsion sur la plage des Coussoules" loading="lazy" />
+      <span class="img-tag">Le Zodiac de l'école, Coussoules</span>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b>3</b><span>stagiaires max par moniteur</span></div>
-      <div class="stat"><b>3h</b><span>par séance, radio sur le casque</span></div>
-      <div class="stat"><b>8 km</b><span>de plage vierge aux Coussoules</span></div>
-      <div class="stat"><b>2002</b><span>première saison à Leucate</span></div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Thomas Kraemer</p>
+        <p>Moniteur et entraîneur haut-niveau, formateur CREPS, diplômé d'État
+        <strong>BPJEPS &amp; DEJEPS Kite</strong>. Il enseigne sur le spot de Leucate depuis
+        <strong>2002</strong> — plus de vingt ans à lire le vent des Coussoules.</p>
+        <p class="card-tags"><span>Français</span><span>English</span><span>Deutsch</span><span>Analyse vidéo</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="3">0</b><span>stagiaires max par moniteur</span></div>
+        <div class="stat"><b data-count="3" data-suffix=" h">0</b><span>par séance, radio sur le casque</span></div>
+        <div class="stat"><b data-count="8" data-suffix=" km">0</b><span>de plage vierge aux Coussoules</span></div>
+        <div class="stat"><b data-count="20" data-suffix="+">0</b><span>ans d'enseignement à Leucate</span></div>
+      </div>
     </div>
   </div>
-  <div class="grid grid-3 features">
-    <div class="feature reveal"><h3>Enseignement individualisé</h3><p>Mini-groupes de 3 stagiaires maximum, consignes en temps réel par radio HF directement dans le casque.</p></div>
-    <div class="feature reveal"><h3>Sécurité assurée</h3><p>Eau peu profonde, pleine eau avec assistance Zodiac, personnel de sécurité et stockage sur site.</p></div>
-    <div class="feature reveal"><h3>Météo garantie</h3><p>Report ou remboursement si les conditions ne sont pas réunies. Les reports restent valables un an.</p></div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">En images</p>
+    <h2>Ce qui vous attend <em>là-haut.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="../shared/img/action-jump.jpg" alt="Saut en kitesurf" loading="lazy" /><figcaption>Le freestyle, quand vous serez prêt</figcaption></figure>
+    <figure><img src="../shared/img/lagoon-kites.jpg" alt="Ailes de kite sur lagune" loading="lazy" /><figcaption>Eau peu profonde pour débuter</figcaption></figure>
+    <figure><img src="../shared/img/beach-kite.jpg" alt="Aile de kite posée sur la plage" loading="lazy" /><figcaption>Préparation du matériel</figcaption></figure>
+    <figure class="m-wide"><img src="../shared/img/speed.jpg" alt="Rider à pleine vitesse" loading="lazy" /><figcaption>La glisse, pure</figcaption></figure>
+    <figure><img src="../shared/img/strapless.jpg" alt="Surf strapless" loading="lazy" /><figcaption>Strapless &amp; foil au programme</figcaption></figure>
+    <figure><img src="../shared/img/sunset-kite.jpg" alt="Kite au coucher du soleil" loading="lazy" /><figcaption>Sessions du soir en été</figcaption></figure>
   </div>
 </section>
 
@@ -95,7 +141,7 @@
       <ul>
         <li>Séance collective de 3 h</li>
         <li>3 stagiaires max par moniteur</li>
-        <li>Créneaux optimisés selon la météo, fixés la veille à 20 h</li>
+        <li>Créneaux optimisés selon la météo</li>
         <li>Débutant, initié ou confirmé</li>
       </ul>
     </div>
@@ -127,11 +173,10 @@
         <li>Freestyle, strapless, foil</li>
         <li>Nouveaux supports à tester</li>
         <li>Réalisation &amp; analyse vidéo</li>
-        <li>Un nouvel élan dans votre pratique</li>
       </ul>
     </div>
   </div>
-  <p class="fine-print reveal">Licence / assurance FFVL obligatoire, non incluse : à partir de 7,50 € (2 ou 9 jours), annuelle à partir de 25 €. L'hiver, l'école propose aussi le snowkite.</p>
+  <p class="fine-print reveal">Licence / assurance FFVL obligatoire, non incluse : à partir de 7,50 € (2 ou 9 jours), annuelle à partir de 25 €. Report ou remboursement si la météo n'est pas au rendez-vous — les reports restent valables un an. L'hiver, l'école propose aussi le snowkite.</p>
 </section>
 
 <section class="section" id="spot">
@@ -151,30 +196,21 @@
         <li>À ~1 h 45 de Toulouse, 30 min de Perpignan</li>
       </ul>
     </div>
-    <div class="map-wrap reveal">
-      <iframe title="Carte — Plage des Coussoules, La Franqui" src="https://www.openstreetmap.org/export/embed.html?bbox=2.99%2C42.92%2C3.06%2C42.955&amp;layer=mapnik&amp;marker=42.9385%2C3.0255" loading="lazy"></iframe>
-    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Plage des Coussoules, La Franqui"></div></div>
   </div>
 </section>
 
-<section class="section section-alt" id="infos">
+<section class="section section-alt">
   <div class="section-head reveal">
-    <p class="eyebrow">Infos pratiques</p>
+    <p class="eyebrow">Questions fréquentes</p>
     <h2>Avant de <em>décoller.</em></h2>
   </div>
-  <div class="grid grid-3">
-    <div class="feature reveal">
-      <h3>🕗 Horaires malins</h3>
-      <p>Pour viser les meilleurs créneaux de vent, l'horaire et le lieu de rendez-vous sont confirmés la veille à 20 h, après le dernier bulletin météo.</p>
-    </div>
-    <div class="feature reveal">
-      <h3>🎒 À prévoir</h3>
-      <p>Combinaison néoprène intégrale (prêt possible, signalez votre taille), chaussons néoprène, lunettes, crème solaire, en-cas et eau.</p>
-    </div>
-    <div class="feature reveal">
-      <h3>📋 Assurance</h3>
-      <p>La licence FFVL « glisses aérotractées » est obligatoire. Souscrivez-la en ligne avant le stage pour gagner du temps le premier jour.</p>
-    </div>
+  <div class="faq reveal">
+    <details><summary>Et s'il n'y a pas de vent pendant mon stage ?</summary><p>La séance est reportée à l'initiative du moniteur, ou remboursée. Les reports restent valables un an — prévoyez si possible un jour de battement dans votre séjour.</p></details>
+    <details><summary>À quelle heure a lieu le cours ?</summary><p>L'horaire et le lieu de rendez-vous sont confirmés la veille à 20 h, après le dernier bulletin météo, pour viser le meilleur créneau de vent.</p></details>
+    <details><summary>Que dois-je apporter ?</summary><p>Combinaison néoprène intégrale (prêt possible, signalez votre taille à la réservation), chaussons néoprène, lunettes, crème solaire, en-cas et eau.</p></details>
+    <details><summary>L'assurance est-elle incluse ?</summary><p>Non — la licence FFVL « glisses aérotractées » est obligatoire : à partir de 7,50 € pour 2 ou 9 jours, 25 € à l'année. Souscrivez-la en ligne avant le stage pour gagner du temps le premier jour.</p></details>
+    <details><summary>Je suis déjà autonome, que proposez-vous ?</summary><p>Coaching perfectionnement en groupe de 4 à 6 : freestyle, strapless, foil, vidéos et analyse. Et l'hiver, le snowkite prend le relais.</p></details>
   </div>
 </section>
 
@@ -185,11 +221,15 @@
   </div>
   <div class="grid grid-2">
     <div class="reveal">
-      <p class="lead">Envoyez un mail avec vos dates, votre niveau et vos envies — Thomas vous répond rapidement pour bâtir votre stage.</p>
+      <p class="lead">Envoyez vos dates, votre niveau et vos envies — Thomas vous répond rapidement pour bâtir votre stage.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33682314920?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20un%20stage%20de%20kitesurf" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33682314920">📞 06 82 31 49 20</a>
+      </div>
       <div class="contact-lines">
         <a href="mailto:kitepulsion@gmail.com" class="contact-line">✉ kitepulsion@gmail.com</a>
-        <a href="tel:+33682314920" class="contact-line">📞 +33 (0)6 82 31 49 20</a>
         <span class="contact-line">📍 La Franqui, 11370 Leucate</span>
+        <img src="img/logo-efk.png" alt="Label FFVL — École Française de Kite" style="width:110px;margin-top:1rem" loading="lazy" />
       </div>
     </div>
     <form class="contact-form reveal" id="contact-form">
@@ -204,16 +244,22 @@
         <option>Coaching perfectionnement (groupe)</option>
       </select>
       <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
-      <button type="submit" class="btn">Envoyer la demande</button>
-      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+      <button type="submit" class="btn">Envoyer par e-mail</button>
+      <p class="form-note">Le bouton ouvre votre messagerie avec le mail prérempli — ou plus rapide : WhatsApp ci-contre.</p>
     </form>
   </div>
 </section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33682314920">📞 Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33682314920" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
 
 <footer class="footer">
   <div>
     <p class="nav-logo">KITE<span>PULSION</span></p>
     <p>École Française de Kite affiliée FFVL · Plage des Coussoules, La Franqui</p>
+    <p class="credits">Maquette de démonstration. Photos d'illustration : Kitepulsion · Wikimedia Commons (P. Bouras, Q. Dein e.a. — CC BY-SA / CC0).</p>
   </div>
   <p class="footer-hint" title="Un indice…">🪁 Psst… le vent se lève quand on tape <b>V·E·N·T</b></p>
 </footer>
@@ -229,9 +275,9 @@ window.SITE = {
   name: "Kitepulsion",
   spotName: "aux Coussoules",
   email: "kitepulsion@gmail.com",
-  lat: 42.9385, lon: 3.0255,
-  fx: "streaks",
-  fxColor: [55, 224, 255],
+  phone: "+33682314920",
+  lat: 42.9385, lon: 3.0255, zoom: 13,
+  kite: { main: 0x37e0ff, stripe: 0xb4ff3a },
   egg: { sky: [0x0b1e33, 0x37b6e0], water: 0x0e3a52, kite: 0x37e0ff, kiteStripe: 0xb4ff3a, sun: 0xfff3d6 },
 };
 </script>

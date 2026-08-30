@@ -20,17 +20,18 @@
   <a class="nav-logo" href="#top" id="logo">KSL<span> · Kite Surf Leucate</span></a>
   <div class="nav-links">
     <a href="#club">Le club</a>
+    <a href="#equipe">L'équipe</a>
     <a href="#ecole">L'école</a>
-    <a href="#services">Services</a>
     <a href="#avis">Avis</a>
     <a href="#contact">Contact</a>
   </div>
-  <a class="btn btn-small" href="mailto:ecole.kitesurfleucate@gmail.com?subject=R%C3%A9servation%20stage%20kitesurf">Réserver</a>
+  <a class="btn btn-small" href="#contact">Réserver</a>
   <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
 </nav>
 
 <header class="hero" id="top">
-  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <img class="hero-bg" src="img/hero-franqui.jpg" alt="La plage des Coussoules à La Franqui, vue du ciel, couverte de kites" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
   <div class="hero-inner">
     <p class="hero-kicker reveal">Club &amp; école · Plage des Coussoules · depuis 2004</p>
     <h1 class="reveal">Apprendre la glisse,<br /><em>vivre l'esprit club.</em></h1>
@@ -49,6 +50,13 @@
   <div class="hero-scroll">↓</div>
 </header>
 
+<div class="badges">
+  <span><i>✔</i> Association depuis <b>2004</b></span>
+  <span><i>✔</i> <b>5 moniteurs</b> diplômés BPJEPS</span>
+  <span><i>✔</i> Sécurité du spot &amp; <b>handikite</b></span>
+  <span><i>✔</i> Pôle Espoir kiteboard</span>
+</div>
+
 <section class="strip">
   <div class="strip-track">
     <span>Kitesurf</span><i>🩵</i><span>Wing</span><i>🩵</i><span>Handikite</span><i>🩵</i><span>Pôle Espoir</span><i>🩵</i><span>Teams jeunes &amp; adultes</span><i>🩵</i>
@@ -61,30 +69,45 @@
     <p class="eyebrow">Le club</p>
     <h2>Plus qu'un club : <em>un lieu de partage.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="card reveal">
-      <p class="card-big">Né pour structurer le spot</p>
-      <p>L'association KSL est née en <strong>2004</strong> pour structurer la pratique, <strong>sécuriser
-      le site des Coussoules</strong> et créer une vraie communauté. Installé dans l'ancien poste de secours,
-      le club accompagne les pratiquants à toutes les étapes : découverte, apprentissage, navigation,
-      progression, compétition.</p>
-      <p class="card-tags"><span>Sécurité du spot</span><span>Communauté</span><span>Compétition</span></p>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/aerial.jpg" alt="La lagune des Coussoules vue du ciel avec des kites" loading="lazy" />
+      <span class="img-tag">Le spot des Coussoules, vu du ciel</span>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b>2004</b><span>naissance de l'association</span></div>
-      <div class="stat"><b>9</b><span>passionnés dans l'équipe</span></div>
-      <div class="stat"><b>5</b><span>moniteurs diplômés BPJEPS</span></div>
-      <div class="stat"><b>1</b><span>Pôle Espoir kiteboard</span></div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Né pour structurer le spot</p>
+        <p>L'association KSL est née en <strong>2004</strong> pour structurer la pratique, <strong>sécuriser
+        le site des Coussoules</strong> et créer une vraie communauté. Installé dans l'ancien poste de secours,
+        le club accompagne les pratiquants à toutes les étapes : découverte, apprentissage, navigation,
+        progression, compétition.</p>
+        <p class="card-tags"><span>Sécurité du spot</span><span>Location kite &amp; SUP</span><span>Compétition</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="20" data-suffix=" ans">0</b><span>d'esprit club aux Coussoules</span></div>
+        <div class="stat"><b data-count="9">0</b><span>passionnés dans l'équipe</span></div>
+        <div class="stat"><b data-count="5">0</b><span>moniteurs diplômés BPJEPS</span></div>
+        <div class="stat"><b data-count="1">0</b><span>Pôle Espoir kiteboard</span></div>
+      </div>
     </div>
-  </div>
-  <div class="grid grid-3 features">
-    <div class="feature reveal"><h3>Une équipe complète</h3><p>Bernard à la présidence, Thomas à la base nautique, Guillaume, Cédric, Robin, Thomas et Antoine à l'enseignement, Lilou à l'accueil, Eliot à la sécurité en mer.</p></div>
-    <div class="feature reveal"><h3>Des teams pour tous</h3><p>Jeunes débutants, jeunes performance, adultes : naviguez encadrés, progressez ensemble, et visez la compétition si le cœur vous en dit.</p></div>
-    <div class="feature reveal"><h3>Handikite</h3><p>Le tandem handikite ouvre le spot à tous. La glisse est un droit, pas un privilège — et KSL le prouve chaque saison.</p></div>
   </div>
 </section>
 
-<section class="section section-alt" id="ecole">
+<section class="section section-alt" id="equipe">
+  <div class="section-head reveal">
+    <p class="eyebrow">L'équipe</p>
+    <h2>Des visages, pas <em>des avatars.</em></h2>
+    <p class="section-sub">Bernard à la présidence, Thomas à la base nautique, Guillaume, Cédric, Robin, Thomas et Antoine à l'enseignement, Lilou à l'accueil, Eliot à la sécurité en mer.</p>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-tall"><img src="img/team1.png" alt="Moniteur de l'équipe KSL" loading="lazy" /><figcaption>L'équipe KSL</figcaption></figure>
+    <figure class="m-tall"><img src="img/team2.jpg" alt="Membre de l'équipe KSL" loading="lazy" /><figcaption>L'équipe KSL</figcaption></figure>
+    <figure class="m-tall"><img src="img/team3.jpg" alt="Moniteur KSL devant le club" loading="lazy" /><figcaption>L'équipe KSL</figcaption></figure>
+    <figure class="m-tall"><img src="img/team4.jpg" alt="Moniteur KSL en combinaison sur la plage" loading="lazy" /><figcaption>L'équipe KSL</figcaption></figure>
+  </div>
+</section>
+
+<section class="section" id="ecole">
   <div class="section-head reveal">
     <p class="eyebrow">L'école</p>
     <h2>Du premier bord <em>à la compétition.</em></h2>
@@ -122,6 +145,20 @@
   </div>
 </section>
 
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">En images</p>
+    <h2>La vie <em>du crew.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/hero-franqui.jpg" alt="La Franqui un jour de tramontane" loading="lazy" /><figcaption>La Franqui, jour de tramontane</figcaption></figure>
+    <figure><img src="img/handikite.jpg" alt="Session handikite en buggy sur la plage" loading="lazy" /><figcaption>Le handikite, fierté du club</figcaption></figure>
+    <figure><img src="img/rider.jpg" alt="Rideuse préparant son matériel" loading="lazy" /><figcaption>Préparation avant session</figcaption></figure>
+    <figure class="m-wide"><img src="img/wings.jpg" alt="Deux wings en vol" loading="lazy" /><figcaption>La section wing</figcaption></figure>
+    <figure><img src="img/foil-sunset.jpg" alt="Foil au coucher du soleil" loading="lazy" /><figcaption>Sessions du soir</figcaption></figure>
+  </div>
+</section>
+
 <section class="section" id="services">
   <div class="section-head reveal">
     <p class="eyebrow">Services du club</p>
@@ -135,13 +172,11 @@
       <ul class="checklist">
         <li>Service de sécurité sur le spot</li>
         <li>Location kite et stand up paddle</li>
-        <li>Live conditions du spot des Coussoules</li>
+        <li>Tandem handikite — la glisse pour tous</li>
         <li>À ~1 h 45 de Toulouse — l'ancien poste de secours, La Franqui</li>
       </ul>
     </div>
-    <div class="map-wrap reveal">
-      <iframe title="Carte — Plage des Coussoules, La Franqui" src="https://www.openstreetmap.org/export/embed.html?bbox=2.99%2C42.92%2C3.06%2C42.955&amp;layer=mapnik&amp;marker=42.937%2C3.027" loading="lazy"></iframe>
-    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Club KSL, plage des Coussoules"></div></div>
   </div>
 </section>
 
@@ -151,13 +186,26 @@
     <h2>Ils ont rejoint <em>le crew KSL.</em></h2>
   </div>
   <div class="grid grid-3">
-    <div class="quote reveal">Superbe équipe qui sait mettre en confiance et très pro. Ambiance toujours au top !<b>Tchinta</b></div>
-    <div class="quote reveal">Moniteurs qualifiés et pédagogues. Merci pour votre patience et votre gentillesse.<b>Laurent</b></div>
-    <div class="quote reveal">4 jours de kite avec une équipe au top ! Une expérience inoubliable, je recommande fortement cette école !<b>Romane</b></div>
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>Superbe équipe qui sait mettre en confiance et très pro. Ambiance toujours au top !<b>Tchinta</b></div>
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>Moniteurs qualifiés et pédagogues. Merci pour votre patience et votre gentillesse.<b>Laurent</b></div>
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>4 jours de kite avec une équipe au top ! Une expérience inoubliable, je recommande fortement cette école !<b>Romane</b></div>
   </div>
 </section>
 
-<section class="section" id="contact">
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">Questions fréquentes</p>
+    <h2>Rejoindre <em>le club.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Quelle différence entre le club et l'école ?</summary><p>L'école donne les cours (kitesurf et wing, tous niveaux, sur réservation). Le club anime le spot : sécurité, location kite et SUP, teams, compétition et vie associative. Deux contacts, une même maison.</p></details>
+    <details><summary>Quand le service sécurité / location est-il ouvert ?</summary><p>Tous les jours de vent tramontane : d'avril à octobre de 9 h à 17 h, les week-ends jusqu'à 19 h, juillet-août jusqu'à 20 h.</p></details>
+    <details><summary>Le handikite, comment ça marche ?</summary><p>Le tandem handikite ouvre la glisse aux personnes en situation de handicap, encadré par l'équipe du club. Contactez le club pour organiser une session adaptée.</p></details>
+    <details><summary>Mon enfant veut progresser en compétition, c'est possible ?</summary><p>Oui — c'est même une spécialité du club : teams jeunes débutants et jeunes performance, filière vers le Pôle Espoir kiteboard.</p></details>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
   <div class="section-head reveal">
     <p class="eyebrow">Contact</p>
     <h2>Rejoignez le crew <em>sur l'eau.</em></h2>
@@ -165,11 +213,14 @@
   <div class="grid grid-2">
     <div class="reveal">
       <p class="lead">Deux contacts selon votre besoin : l'école pour les cours, le club pour la sécurité, la location et la vie associative.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33611581614?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20un%20cours%20au%20KSL" target="_blank" rel="noopener">💬 WhatsApp école</a>
+        <a class="btn btn-ghost" href="tel:+33611581614">📞 École : 06 11 58 16 14</a>
+      </div>
       <div class="contact-lines">
         <a href="mailto:ecole.kitesurfleucate@gmail.com" class="contact-line">✉ École : ecole.kitesurfleucate@gmail.com</a>
-        <a href="tel:+33611581614" class="contact-line">📞 École : +33 (0)6 11 58 16 14</a>
         <a href="mailto:contact.kitesurfleucate@gmail.com" class="contact-line">✉ Club : contact.kitesurfleucate@gmail.com</a>
-        <a href="tel:+33619959802" class="contact-line">📞 Club : +33 (0)6 19 95 98 02</a>
+        <a href="tel:+33619959802" class="contact-line">📞 Club : 06 19 95 98 02</a>
         <span class="contact-line">📍 Plage des Coussoules, 11370 La Franqui</span>
       </div>
     </div>
@@ -187,16 +238,22 @@
         <option>Teams / compétition</option>
       </select>
       <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
-      <button type="submit" class="btn">Envoyer la demande</button>
-      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+      <button type="submit" class="btn">Envoyer par e-mail</button>
+      <p class="form-note">Le bouton ouvre votre messagerie avec le mail prérempli — ou plus rapide : WhatsApp ci-contre.</p>
     </form>
   </div>
 </section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33611581614">📞 Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33611581614" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
 
 <footer class="footer">
   <div>
     <p class="nav-logo">KSL<span> · Kite Surf Leucate</span></p>
     <p>Club &amp; école de kitesurf · Plage des Coussoules, La Franqui · depuis 2004</p>
+    <p class="credits">Maquette de démonstration. Photos : KSL Kite Surf Leucate.</p>
   </div>
   <p class="footer-hint" title="Un indice…">🩵 Psst… le crew tape <b>V·E·N·T</b></p>
 </footer>
@@ -212,9 +269,9 @@ window.SITE = {
   name: "KSL Kite Surf Leucate",
   spotName: "aux Coussoules",
   email: "ecole.kitesurfleucate@gmail.com",
-  lat: 42.937, lon: 3.027,
-  fx: "streaks",
-  fxColor: [111, 199, 255],
+  phone: "+33611581614",
+  lat: 42.937, lon: 3.027, zoom: 13,
+  kite: { main: 0x6fc7ff, stripe: 0xffd166 },
   egg: { sky: [0x0a1f4d, 0x7fc4f0], water: 0x123a75, kite: 0x6fc7ff, kiteStripe: 0xffd166, sun: 0xfff3d6 },
 };
 </script>

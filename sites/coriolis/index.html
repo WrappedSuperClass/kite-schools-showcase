@@ -20,16 +20,18 @@
   <a class="nav-logo" href="#top" id="logo">CORIOLIS<span> FOIL SCHOOL</span></a>
   <div class="nav-links">
     <a href="#foil">Le foil</a>
+    <a href="#seance">Votre 1ʳᵉ séance</a>
     <a href="#cours">Cours</a>
     <a href="#tarifs">Tarifs</a>
     <a href="#contact">Contact</a>
   </div>
-  <a class="btn btn-small" href="mailto:contact@coriolisfoilschool.fr?subject=R%C3%A9servation%20cours%20foil">Réserver</a>
+  <a class="btn btn-small" href="#contact">Réserver</a>
   <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
 </nav>
 
 <header class="hero" id="top">
-  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <img class="hero-bg" src="img/hero-foiljump.jpg" alt="Rider en kite foil suspendu au-dessus de l'eau" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
   <div class="hero-inner">
     <p class="hero-kicker reveal">École 100 % foil · Port Leucate</p>
     <h1 class="reveal">Et si vous voliez<br /><em>au-dessus de l'eau ?</em></h1>
@@ -47,6 +49,13 @@
   <div class="hero-scroll">↓</div>
 </header>
 
+<div class="badges">
+  <span><i>✔</i> Spécialiste <b>100 % foil</b></span>
+  <span><i>✔</i> <b>3 personnes max</b> par cours</span>
+  <span><i>✔</i> Simulateur tracté <b>exclusif</b></span>
+  <span><i>✔</i> D'avril à novembre</span>
+</div>
+
 <section class="strip">
   <div class="strip-track">
     <span>Wing foil</span><i>▲</i><span>Kite foil</span><i>▲</i><span>Wake foil</span><i>▲</i><span>Simulateur</span><i>▲</i><span>Vol au-dessus de l'eau</span><i>▲</i>
@@ -59,30 +68,53 @@
     <p class="eyebrow">Le foil</p>
     <h2>Une aile sous l'eau, <em>des ailes dans la tête.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="card reveal">
-      <p class="card-big">Comme un avion, sous la surface</p>
-      <p>Le foil se compose d'une <strong>aile avant</strong> et d'un <strong>stabilisateur</strong> reliés
-      par un mât à la planche. Dès quelques nœuds de vitesse, la portance vous soulève :
-      vous naviguez <strong>un mètre au-dessus de l'eau</strong>, sans bruit, sans effort,
-      même dans un vent très léger.</p>
-      <p class="card-tags"><span>Peu traumatisant</span><span>Vent léger OK</span><span>Sensations uniques</span></p>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/wing-bw.jpg" alt="Wing foil en contre-jour sur la mer" loading="lazy" />
+      <span class="img-tag">Le vol, en silence</span>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b>3</b><span>personnes max par cours</span></div>
-      <div class="stat"><b>3</b><span>disciplines : wing, kite, wake foil</span></div>
-      <div class="stat"><b>1 m</b><span>au-dessus de l'eau, en silence</span></div>
-      <div class="stat"><b>8</b><span>mois de saison, d'avril à novembre</span></div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Comme un avion, sous la surface</p>
+        <p>Le foil se compose d'une <strong>aile avant</strong> et d'un <strong>stabilisateur</strong> reliés
+        par un mât à la planche. Dès quelques nœuds de vitesse, la portance vous soulève :
+        vous naviguez <strong>un mètre au-dessus de l'eau</strong>, sans bruit, sans effort,
+        même dans un vent très léger.</p>
+        <p class="card-tags"><span>Peu traumatisant</span><span>Vent léger OK</span><span>Sensations uniques</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="3">0</b><span>personnes max par cours</span></div>
+        <div class="stat"><b data-count="3">0</b><span>disciplines : wing, kite, wake foil</span></div>
+        <div class="stat"><b data-count="1" data-suffix=" m">0</b><span>au-dessus de l'eau, en silence</span></div>
+        <div class="stat"><b data-count="8">0</b><span>mois de saison, avril à novembre</span></div>
+      </div>
     </div>
-  </div>
-  <div class="grid grid-3 features">
-    <div class="feature reveal"><h3>Débutants bienvenus</h3><p>Un sport ludique et doux pour le corps : le simulateur tracté vous fait voler dès la première séance, sans gérer d'aile.</p></div>
-    <div class="feature reveal"><h3>Riders confirmés</h3><p>Kiteurs, windsurfeurs, wakeboardeurs : le foil ouvre les jours de vent léger et renouvelle complètement vos sensations.</p></div>
-    <div class="feature reveal"><h3>Progression modulaire</h3><p>Simulateur → wing ou kite foil : on adapte le support à votre objectif, étape par étape, jusqu'au vol autonome.</p></div>
   </div>
 </section>
 
-<section class="section section-alt" id="cours">
+<section class="section section-alt" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Votre première séance</p>
+    <h2>45 minutes pour <em>décoller.</em></h2>
+    <p class="section-sub">Le simulateur tracté bateau : aucune aile à gérer, juste vous, la planche et le foil. La meilleure porte d'entrée vers le vol.</p>
+  </div>
+  <div class="grid grid-3">
+    <figure class="reveal" style="position:relative;border-radius:var(--radius);overflow:hidden">
+      <img src="img/simulateur.jpg" alt="Départ en simulateur tracté derrière le bateau" style="width:100%;height:280px;object-fit:cover" loading="lazy" />
+      <figcaption style="padding:1rem 1.2rem;background:var(--panel);border:1px solid var(--line);border-top:0"><b>1 · On se lance</b><br /><span style="color:var(--muted);font-size:0.93rem">Tracté par le bateau, vous trouvez l'équilibre sur la planche, sans vous soucier du vent.</span></figcaption>
+    </figure>
+    <figure class="reveal" style="position:relative;border-radius:var(--radius);overflow:hidden">
+      <img src="img/paddle-wing.jpg" alt="Découverte de l'aile de wing au bord de l'eau" style="width:100%;height:280px;object-fit:cover" loading="lazy" />
+      <figcaption style="padding:1rem 1.2rem;background:var(--panel);border:1px solid var(--line);border-top:0"><b>2 · Premiers vols</b><br /><span style="color:var(--muted);font-size:0.93rem">Le foil décolle, vous planez au-dessus de l'eau. Ensuite : wing ou kite foil selon votre projet.</span></figcaption>
+    </figure>
+    <figure class="reveal" style="position:relative;border-radius:var(--radius);overflow:hidden">
+      <img src="img/wing-tack.jpg" alt="Rider en wing foil vu de la planche" style="width:100%;height:280px;object-fit:cover" loading="lazy" />
+      <figcaption style="padding:1rem 1.2rem;background:var(--panel);border:1px solid var(--line);border-top:0"><b>3 · L'autonomie</b><br /><span style="color:var(--muted);font-size:0.93rem">Décollage, transitions, jibes : vous volez seul, même dans 8 nœuds de vent.</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="cours">
   <div class="section-head reveal">
     <p class="eyebrow">Les cours</p>
     <h2>Trois portes d'entrée <em>vers le vol.</em></h2>
@@ -119,7 +151,7 @@
   </div>
 </section>
 
-<section class="section" id="tarifs">
+<section class="section section-alt" id="tarifs">
   <div class="section-head reveal">
     <p class="eyebrow">Tarifs</p>
     <h2>Clairs comme <em>l'eau de l'étang.</em></h2>
@@ -135,10 +167,25 @@
         <li>Wing foil &amp; kite foil : sur demande</li>
         <li>Matériel et équipement fournis</li>
       </ul>
+      <div class="split-img reveal-img" style="margin-top:1.6rem">
+        <img src="img/boat-crew.jpg" alt="L'équipe Coriolis sur le bateau au coucher du soleil" loading="lazy" />
+        <span class="img-tag">L'équipe, en fin de session</span>
+      </div>
     </div>
-    <div class="map-wrap reveal">
-      <iframe title="Carte — Port Leucate" src="https://www.openstreetmap.org/export/embed.html?bbox=2.99%2C42.845%2C3.07%2C42.895&amp;layer=mapnik&amp;marker=42.8704%2C3.0345" loading="lazy"></iframe>
-    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Coriolis Foil School, Port Leucate"></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">Questions fréquentes</p>
+    <h2>Le vol en <em>questions.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Faut-il déjà savoir naviguer pour débuter le foil ?</summary><p>Non. Le simulateur tracté est fait pour ça : aucune aile à gérer, le bateau fournit la traction, vous vous concentrez sur l'équilibre et le vol. Beaucoup volent dès la première séance.</p></details>
+    <details><summary>Le foil, c'est dangereux ?</summary><p>C'est une glisse douce et peu traumatisante pour le corps quand elle est bien encadrée : casque, gilet, plan d'eau adapté et progression graduelle font partie de la méthode Coriolis.</p></details>
+    <details><summary>Wing foil ou kite foil, que choisir ?</summary><p>La wing est plus simple à mettre en œuvre et parfaite sur les étangs ; le kite foil offre plus de vitesse et de finesse, mais suppose d'être déjà autonome en kitesurf twintip.</p></details>
+    <details><summary>Que se passe-t-il s'il n'y a pas de vent ?</summary><p>C'est la beauté du wake foil : le bateau remplace le vent. Les jours de pétole deviennent des jours de vol.</p></details>
   </div>
 </section>
 
@@ -150,9 +197,12 @@
   <div class="grid grid-2">
     <div class="reveal">
       <p class="lead">Luc vous répond rapidement pour composer votre parcours de vol — du premier ride tracté au foil autonome.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33662070867?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20un%20cours%20de%20foil" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33662070867">📞 06 62 07 08 67</a>
+      </div>
       <div class="contact-lines">
         <a href="mailto:contact@coriolisfoilschool.fr" class="contact-line">✉ contact@coriolisfoilschool.fr</a>
-        <a href="tel:+33662070867" class="contact-line">📞 +33 (0)6 62 07 08 67</a>
         <span class="contact-line">📍 Port Leucate, 11370 Leucate</span>
       </div>
     </div>
@@ -168,16 +218,22 @@
         <option>Pack 3 séances</option>
       </select>
       <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
-      <button type="submit" class="btn">Envoyer la demande</button>
-      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+      <button type="submit" class="btn">Envoyer par e-mail</button>
+      <p class="form-note">Le bouton ouvre votre messagerie avec le mail prérempli — ou plus rapide : WhatsApp ci-contre.</p>
     </form>
   </div>
 </section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33662070867">📞 Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33662070867" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
 
 <footer class="footer">
   <div>
     <p class="nav-logo">CORIOLIS<span> FOIL SCHOOL</span></p>
     <p>Wing foil · Kite foil · Wake foil — Port Leucate</p>
+    <p class="credits">Maquette de démonstration. Photos : Coriolis Foil School.</p>
   </div>
   <p class="footer-hint" title="Un indice…">🛸 Psst… pour léviter, tapez <b>V·E·N·T</b></p>
 </footer>
@@ -193,9 +249,9 @@ window.SITE = {
   name: "Coriolis Foil School",
   spotName: "à Port Leucate",
   email: "contact@coriolisfoilschool.fr",
-  lat: 42.8704, lon: 3.0345,
-  fx: "waves",
-  fxColor: [139, 123, 255],
+  phone: "+33662070867",
+  lat: 42.8704, lon: 3.0345, zoom: 13,
+  kite: { main: 0x8b7bff, stripe: 0x4de1ff },
   egg: { sky: [0x120f2e, 0x6d5bd0], water: 0x1c1650, kite: 0x8b7bff, kiteStripe: 0x4de1ff, sun: 0xe8e0ff },
 };
 </script>
