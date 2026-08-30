@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Narbonne Kite Passion — Escuela de kitesurf en la laguna de Bages</title>
+<meta name="description" content="Escuela de kitesurf y stand up paddle en Narbonne desde 2011. Spot exclusivo de aguas poco profundas accesible solo en barco, máximo 4 alumnos por monitor, enseñanza por radio. A 1 h 15 de Toulouse." />
+<meta property="og:title" content="Narbonne Kite Passion — Kitesurf en la laguna de Bages" />
+<meta property="og:description" content="Un spot solo para ti, agua por la cintura y un monitor en el oído." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">NKP <span>· Narbonne Kite Passion</span></a>
+  <div class="nav-links">
+    <a href="#seance">Tu 1ª sesión</a>
+    <a href="#pourquoi">La escuela</a>
+    <a href="#stages">Cursos</a>
+    <a href="#spot">El spot</a>
+    <a href="#contact">Contacto</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Reservar</a>
+  <button class="nav-burger" id="burger" aria-label="Menú">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-aerial.jpg" alt="Vista aérea de la laguna de Bages al atardecer" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Escuela de kitesurf y SUP · Narbonne · desde 2011</p>
+    <h1 class="reveal">Una laguna solo<br /><em>para ti.</em></h1>
+    <p class="hero-sub reveal">En la laguna de Bages, en pleno corazón del Parc Naturel Régional de la Narbonnaise,
+    aprende kitesurf haciendo pie en todas partes, con un monitor en el oído y sin ningún otro rider a la vista.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#stages">Ver los cursos</a>
+      <a class="btn btn-ghost" href="#spot">El spot secreto</a>
+    </div>
+    <div class="wind-widget reveal" title="Previsión de Open-Meteo para la laguna de Bages">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Cargando el viento…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> Monitores con <b>titulación oficial</b></span>
+  <span><i>✔</i> Material <b>Duotone</b> renovado cada año</span>
+  <span><i>✔</i> Desde <b>2011</b> en la Nautique</span>
+  <span><i>✔</i> Duchas calientes y vestuarios</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurf</span><i>~</i><span>Kitefoil</span><i>~</i><span>Stand Up Paddle</span><i>~</i><span>Alquiler</span><i>~</i><span>Navegación supervisada</span><i>~</i>
+    <span>Kitesurf</span><i>~</i><span>Kitefoil</span><i>~</i><span>Stand Up Paddle</span><i>~</i><span>Alquiler</span><i>~</i><span>Navegación supervisada</span><i>~</i>
+  </div>
+</section>
+
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Tu primera sesión</p>
+    <h2>Cuatro horas, <em>100 % dentro del agua.</em></h2>
+    <p class="section-sub">El barco te deja en el banco de arena. Un kite por alumno, una radio por casco, y a volar.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Ilustración: pilotaje de la cometa en el agua" loading="lazy" /></div>
+      <div class="tl-body"><h3>Domar la cometa</h3><p>Ventana de vuelo, redespegue, seguridad — de pie en agua por la cintura, en un spot donde estás solo en el mundo.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Ilustración: waterstart con barco de apoyo" loading="lazy" /></div>
+      <div class="tl-body"><h3>El waterstart</h3><p>Body drag y después las primeras salidas con la tabla en los pies. El monitor te habla en directo por el casco, en un canal independiente.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Ilustración: primeros bordos en kitesurf" loading="lazy" /></div>
+      <div class="tl-body"><h3>Tus primeros bordos</h3><p>El enorme banco de arena lo perdona todo: te caes, haces pie, vuelves a empezar. La autonomía llega antes cuando no tienes miedo.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="pourquoi">
+  <div class="section-head reveal">
+    <p class="eyebrow">Por qué NKP</p>
+    <h2>Aprende con total <em>tranquilidad.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/lesson.jpg" alt="Clase de kitesurf NKP en aguas poco profundas" loading="lazy" />
+      <span class="img-tag">Clases en aguas poco profundas, laguna de Bages</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">La comodidad de aprender bien acompañado</p>
+        <p>Desde <strong>2011</strong>, NKP acoge a principiantes y riders experimentados a las puertas de Narbonne.
+        Material <strong>Duotone renovado cada año</strong>, vestuarios, duchas calientes y WC in situ.
+        Si el tiempo no acompaña, la clase se <strong>aplaza según tu disponibilidad</strong> — garantía de viento.</p>
+        <p class="card-tags"><span>Duotone</span><span>Duchas calientes</span><span>Garantía de viento</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="4">0</b><span>alumnos máx. por monitor</span></div>
+        <div class="stat"><b data-count="1">0</b><span>kite por alumno, a tu ritmo</span></div>
+        <div class="stat"><b data-count="100" data-suffix="%">0</b><span>dentro del agua desde la 1ª sesión</span></div>
+        <div class="stat"><b data-count="0">0</b><span>otros riders en el spot</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">En imágenes</p>
+    <h2>La vida en <em>la Nautique.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/hero-aerial.jpg" alt="La laguna de Bages vista desde el cielo" loading="lazy" /><figcaption>La laguna de Bages, tu terreno de juego</figcaption></figure>
+    <figure><img src="img/jump.jpg" alt="Salto de kitesurf en la laguna" loading="lazy" /><figcaption>Progresar hasta el salto</figcaption></figure>
+    <figure><img src="img/team-beach.jpg" alt="Grupo de alumnos de NKP en la orilla" loading="lazy" /><figcaption>Los alumnos de NKP</figcaption></figure>
+    <figure class="m-wide"><img src="../shared/img/lagoon-kites.jpg" alt="Kites en una laguna poco profunda" loading="lazy" /><figcaption>Haces pie en todas partes, cero estrés</figcaption></figure>
+    <figure><img src="../shared/img/lesson.jpg" alt="Clase de kitesurf en la playa" loading="lazy" /><figcaption>Pedagogía paso a paso</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="stages">
+  <div class="section-head reveal">
+    <p class="eyebrow">Cursos y clases</p>
+    <h2>Dos turnos al día, <em>toda la temporada.</em></h2>
+    <p class="section-sub">De marzo a noviembre, todos los días: <strong>9 h – 13 h</strong> o <strong>14 h – 18 h</strong>. Sesiones de 4 horas, material y equipo de neopreno incluidos.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card reveal">
+      <h3>Iniciarse</h3>
+      <p class="price">desde 130 €<span>1 sesión de 4 h</span></p>
+      <ul>
+        <li>Sin requisitos previos</li>
+        <li>Preparar y recoger el material</li>
+        <li>Ventana de vuelo, redespegue, seguridad</li>
+        <li>Pilotaje y body drag</li>
+      </ul>
+    </div>
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">El favorito</div>
+      <h3>Curso descubrimiento</h3>
+      <p class="price">255 €<span>2 × 4 h</span></p>
+      <ul>
+        <li>Día 1: pilotaje en el agua</li>
+        <li>Día 2: combinar kite y tabla</li>
+        <li>Primeros waterstarts</li>
+        <li>280 € en temporada alta</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Perfeccionarse</h3>
+      <p class="price">desde 130 €<span>4 h — tú marcas los objetivos</span></p>
+      <ul>
+        <li>Waterstart, rumbos, transiciones</li>
+        <li>Kitefoil para ir más lejos</li>
+        <li>Nivel intermedio / avanzado</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Navegación y alquiler</h3>
+      <p class="price">desde 45 €<span>riders autónomos</span></p>
+      <ul>
+        <li>Navegación supervisada desde el barco</li>
+        <li>Material Duotone del año</li>
+        <li>Alquiler de media jornada 55 €</li>
+        <li>Stand up paddle desde 30 €</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">Las tarifas incluyen el alquiler del material y el equipo de neopreno y técnico (traje, arnés, chaleco, casco con radio). Seguro AFKite obligatorio: 25 € en práctica de escuela, 35 € en práctica libre — válido 365 días en todo el mundo.</p>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">El spot</p>
+    <h2>La laguna de Bages, <em>tu jardín de agua plana.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">A 3 minutos de la salida 38 de la A9 y a 10 minutos de Gruissan, la base de la Nautique
+      se abre a un plano de agua <strong>poco profundo, liso e inmenso</strong>, frecuentado exclusivamente por la escuela.
+      El barco te deja en el banco de arena: solo queda volar.</p>
+      <ul class="checklist">
+        <li>Spot accesible solo en barco — cero aglomeraciones</li>
+        <li>Agua por la cintura durante cientos de metros</li>
+        <li>En pleno corazón del Parc Naturel Régional de la Narbonnaise</li>
+        <li>A ~1 h 15 de Toulouse por la A61/A9</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Base de la Nautique, Narbonne"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Preguntas frecuentes</p>
+    <h2>Todo lo que hay que <em>saber.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>¿Y si no hay viento el día de mi clase?</summary><p>La clase se anula y se aplaza según tu disponibilidad: es la garantía de viento de NKP. Nunca pagas una sesión sin condiciones navegables.</p></details>
+    <details><summary>¿Hay que saber nadar? ¿Existe un peso mínimo?</summary><p>Saber nadar es imprescindible. El kitesurf se practica a partir de unos 45 kg. No se exige ninguna otra condición física especial para empezar.</p></details>
+    <details><summary>¿Cómo funciona la reserva?</summary><p>Consulta la disponibilidad, apúntate online o por teléfono y recibe la confirmación por correo. La escuela abre los 7 días de la semana de marzo a noviembre, de 8:30 a 19:30.</p></details>
+    <details><summary>¿El material está incluido?</summary><p>Sí, todo va incluido: cometa y tabla Duotone del año, traje de neopreno, arnés, chaleco y casco con radio. Trae bañador, toalla y crema solar.</p></details>
+    <details><summary>¿Podemos venir dos personas con niveles distintos?</summary><p>Sí — cada alumno tiene su propio kite y su propio canal de radio, y el monitor adapta las instrucciones a cada uno en tiempo real.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Contacto</p>
+    <h2>¿Te guardamos <em>una plaza?</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Llama, escribe o rellena el formulario: el equipo de NKP te responde los 7 días de la semana de 8:30 a 19:30.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33679827253?text=Hola%2C%20quiero%20reservar%20un%20curso%20de%20kitesurf" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33679827253">📞 06 79 82 72 53</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:contact@narbonnekitepassion.com" class="contact-line">✉ contact@narbonnekitepassion.com</a>
+        <span class="contact-line">📍 Base de la Nautique, rue des Nautiquards, 11100 Narbonne</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Tu nombre" required />
+        <input type="text" id="cf-dates" placeholder="Tus fechas (p. ej. 12–15 de julio)" />
+      </div>
+      <select id="cf-level">
+        <option>Iniciación — nunca lo he probado</option>
+        <option>Curso descubrimiento 2 × 4 h</option>
+        <option>Perfeccionamiento</option>
+        <option>Alquiler / navegación supervisada</option>
+        <option>Stand up paddle</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Tu mensaje…"></textarea>
+      <button type="submit" class="btn">Enviar por correo</button>
+      <p class="form-note">El botón abre tu correo con el mensaje ya preparado — o más rápido: el WhatsApp de al lado.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33679827253">📞 Llamar</a>
+  <a class="btn btn-wa" href="https://wa.me/33679827253" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">NKP <span>· Narbonne Kite Passion</span></p>
+    <p>Escuela de kitesurf y stand up paddle · La Nautique, Narbonne · desde 2011</p>
+    <p class="credits">Maqueta de demostración. Fotos: Narbonne Kite Passion · complementos de Wikimedia Commons (CC BY / CC BY-SA).</p>
+  </div>
+  <p class="footer-hint" title="Una pista…">🌊 Psst… aquí todo empieza cuando escribes <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>¡Easter egg encontrado!</b> Mueve el ratón para pilotar la cometa — <kbd>ESC</kbd> para volver.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Narbonne Kite Passion",
+  lang: "es",
+  spotName: "en la laguna de Bages",
+  email: "contact@narbonnekitepassion.com",
+  phone: "+33679827253",
+  lat: 43.1403, lon: 3.0078, zoom: 13,
+  kite: { main: 0xff7a59, stripe: 0xfff3e0 },
+  egg: { sky: [0x1e6e96, 0xbfe8ee], water: 0x2fa8a0, kite: 0xff7a59, kiteStripe: 0xfff3e0, sun: 0xfff0d0 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

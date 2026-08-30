@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tendance Kite — Kitesurf school in Sigean, Port Mahon lagoon</title>
+<meta name="description" content="Kitesurf school in Sigean, in the heart of the Narbonnaise Regional Nature Park. Lessons in the shallow water of the lagoon, boat trips out to sea at la Vieille Nouvelle. Just 1 h 30 from Toulouse." />
+<meta property="og:title" content="Tendance Kite — Kitesurfing in Sigean" />
+<meta property="og:description" content="Learn to kite among the flamingos: shallow lagoon, boat, certified instructor. From 120 € per session." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦩</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">TENDANCE<span> KITE</span></a>
+  <div class="nav-links">
+    <a href="#seance">Your 1st session</a>
+    <a href="#ecole">The school</a>
+    <a href="#tarifs">Courses &amp; prices</a>
+    <a href="#spot">The spot</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Book now</a>
+  <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-jump.jpg" alt="Kitesurf jump above the Sigean lagoon" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Kitesurf school · Sigean · Narbonnaise Nature Park</p>
+    <h1 class="reveal">Learn to kite among<br /><em>the flamingos.</em></h1>
+    <p class="hero-sub reveal">At the Port Mahon water-sports base, the Sigean lagoon spreads its shallow water
+    across the scenery of a nature park. And when you're ready for the sea, the boat takes you
+    to la Vieille Nouvelle.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#tarifs">Courses &amp; prices</a>
+      <a class="btn btn-ghost" href="#spot">Discover the spot</a>
+    </div>
+    <div class="wind-widget reveal" title="Open-Meteo forecast for the Sigean lagoon">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Loading wind…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> <b>State-certified</b> instructor — Xavier Dumas</span>
+  <span><i>✔</i> Just <b>1 h 30</b> from Toulouse</span>
+  <span><i>✔</i> <b>Shallow</b> lagoon + sea trips</span>
+  <span><i>✔</i> English spoken</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurfing</span><i>❋</i><span>Sigean lagoon</span><i>❋</i><span>Sea trips</span><i>❋</i><span>Kayak tours</span><i>❋</i><span>Supervised riding</span><i>❋</i>
+    <span>Kitesurfing</span><i>❋</i><span>Sigean lagoon</span><i>❋</i><span>Sea trips</span><i>❋</i><span>Kayak tours</span><i>❋</i><span>Supervised riding</span><i>❋</i>
+  </div>
+</section>
+
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Your first session</p>
+    <h2>Four hours, boat <em>included.</em></h2>
+    <p class="section-sub">Every 4-hour session includes the prep, the boat ride out to the spot and time on the water.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration: flying the kite in the water" loading="lazy" /></div>
+      <div class="tl-body"><h3>Tame the kite</h3><p>Wind window, safety and kite control, standing in the lagoon's shallow water — the perfect cocoon for your first steps.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration: waterstart with boat" loading="lazy" /></div>
+      <div class="tl-body"><h3>The waterstart</h3><p>Body-dragging, then your first starts with the board on your feet — Xavier's boat always within reach.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration: first runs" loading="lazy" /></div>
+      <div class="tl-body"><h3>Your first runs</h3><p>Once you've mastered riding upwind, it's off to the sea: the wild beach of la Vieille Nouvelle, reachable only by boat.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
+  <div class="section-head reveal">
+    <p class="eyebrow">The school</p>
+    <h2>Xavier Dumas, your instructor <em>in the heart of the park.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/boat-selfie.jpg" alt="Xavier on the boat with a student" loading="lazy" />
+      <span class="img-tag">On the boat, between two exercises</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">A school on a human scale</p>
+        <p>A certified instructor, Xavier welcomes you <strong>every day</strong> at the Port Mahon water-sports base.
+        Beginner, intermediate or advanced: your progression is built in shallow water,
+        then at sea with <strong>boat transport</strong> to the spot. The school also offers
+        kayak tours to explore the lagoon's ecosystem.</p>
+        <p class="card-tags"><span>Certified instructor</span><span>English spoken</span><span>Kayak &amp; canoe</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="4" data-suffix=" h">0</b><span>per session: prep, boat, riding</span></div>
+        <div class="stat"><b data-count="10" data-suffix=" km">0</b><span>from Leucate, Narbonne and Gruissan</span></div>
+        <div class="stat"><b data-count="90" data-suffix=" min">0</b><span>from Toulouse by car</span></div>
+        <div class="stat"><b data-count="7">0</b><span>days a week in season</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">In pictures</p>
+    <h2>The lagoon, the sea, <em>freedom.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/pov.jpg" alt="First-person view of a student riding in a red helmet" loading="lazy" /><figcaption>Your first rides, seen through your own eyes</figcaption></figure>
+    <figure><img src="img/kitefoil.jpg" alt="Kitefoil above the lagoon" loading="lazy" /><figcaption>The foil, to go further</figcaption></figure>
+    <figure><img src="img/lesson.jpg" alt="Student in a yellow vest during the lesson" loading="lazy" /><figcaption>Step-by-step progression</figcaption></figure>
+    <figure class="m-wide"><img src="img/sit.jpg" alt="Student sitting on the board in front of the boat" loading="lazy" /><figcaption>A well-earned break on the lagoon</figcaption></figure>
+    <figure><img src="img/boat.jpg" alt="The school's yellow boat and kites" loading="lazy" /><figcaption>The boat, your personal ski lift</figcaption></figure>
+    <figure><img src="img/hero-jump.jpg" alt="Kitesurf jump" loading="lazy" /><figcaption>And one day, your first jump</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="tarifs">
+  <div class="section-head reveal">
+    <p class="eyebrow">Courses &amp; prices</p>
+    <h2>Multi-session packs, <em>no surprises.</em></h2>
+    <p class="section-sub">Group sessions of 4 h, full equipment included. Low season / <strong>high season (July–August)</strong>.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card reveal">
+      <h3>Tendance Découverte</h3>
+      <p class="price">120–140 €<span>1 session of 4 h</span></p>
+      <ul>
+        <li>Intro to kite control</li>
+        <li>Safety and the wind window</li>
+        <li>Full equipment provided</li>
+      </ul>
+    </div>
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Most popular</div>
+      <h3>Tendance Évolution</h3>
+      <p class="price">330–390 €<span>3 sessions of 4 h</span></p>
+      <ul>
+        <li>From kite control to your first rides</li>
+        <li>Real, lasting progress</li>
+        <li>Also: Initiation 2 sess. 230–270 €</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Tendance Évasion</h3>
+      <p class="price">530–600 €<span>5 sessions of 4 h</span></p>
+      <ul>
+        <li>The full journey to independence</li>
+        <li>Lagoon + sea trips by boat</li>
+        <li>Also: Glisse 4 sess. 430–500 €</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Private &amp; rental</h3>
+      <p class="price">from 40 €<span>supervised kiting 4 h</span></p>
+      <ul>
+        <li>Private lesson, 1 h in the water: 180–200 €</li>
+        <li>Full rental: 80 €</li>
+        <li>Board / kite +20 €, foil +50 €</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">Third-party kite liability insurance required. Payment by card, cash, cheques and French holiday vouchers. You must be able to swim to take part.</p>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">The spot</p>
+    <h2>From the lagoon to the sea, <em>by boat.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">The Sigean lagoon, <strong>shallow and sheltered</strong>, is the perfect cocoon for your first steps.
+      Once you've mastered riding upwind, it's off to <strong>la Vieille Nouvelle beach</strong>,
+      a wild gem between Gruissan and Port-la-Nouvelle, reachable only by boat.</p>
+      <ul class="checklist">
+        <li>Shallow water: you learn with your feet on the bottom</li>
+        <li>The unique scenery of the Narbonnaise Nature Park</li>
+        <li>Sea trips to a wild beach, far from the concrete</li>
+        <li>Water-sports base: parking, easy launch</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Port Mahon water-sports base, Sigean"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Frequently asked questions</p>
+    <h2>Good to <em>know.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Why learn on a lagoon rather than at sea?</summary><p>Shallow water, a sheltered spot, steady wind: you keep your feet on the bottom, you string exercises together without fear, and you progress much faster. The sea comes next — by boat.</p></details>
+    <details><summary>What does a 4-hour session include?</summary><p>Equipment prep, the boat ride out to the spot and time on the water. Full equipment provided — bring a swimsuit, a towel and sunscreen.</p></details>
+    <details><summary>What if there's no wind?</summary><p>The session is rescheduled to suit your availability. On site, kayak tours through the nature park make a lovely plan B to explore the lagoon's ecosystem.</p></details>
+    <details><summary>How can I pay?</summary><p>Card, cash, cheques, French holiday vouchers and bank transfers are accepted. Third-party kite liability insurance is required and not included.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Contact</p>
+    <h2>Your next session <em>starts here.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Message or call Xavier with your dates: he'll put together the course that fits your level and the weather.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33662091703?text=Hello%20Xavier%2C%20I%27d%20like%20to%20book%20a%20kitesurfing%20course" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33662091703">📞 06 62 09 17 03</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:tendancekite@gmail.com" class="contact-line">✉ tendancekite@gmail.com</a>
+        <span class="contact-line">📍 Port Mahon water-sports base, 11130 Sigean</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Your name" required />
+        <input type="text" id="cf-dates" placeholder="Your dates (e.g. 12–15 July)" />
+      </div>
+      <select id="cf-level">
+        <option>Découverte — 1 session</option>
+        <option>Initiation / Évolution — 2 or 3 sessions</option>
+        <option>Glisse / Évasion — 4 or 5 sessions</option>
+        <option>Private lesson</option>
+        <option>Supervised kiting / rental</option>
+        <option>Kayak tour</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Your message…"></textarea>
+      <button type="submit" class="btn">Send by e-mail</button>
+      <p class="form-note">The button opens your e-mail app with the message pre-filled — or even faster: WhatsApp opposite.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33662091703">📞 Call</a>
+  <a class="btn btn-wa" href="https://wa.me/33662091703" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">TENDANCE<span> KITE</span></p>
+    <p>Kitesurf school · Port Mahon, Sigean · Narbonnaise Regional Nature Park</p>
+    <p class="credits">Demo mockup. Photos: Tendance Kite.</p>
+  </div>
+  <p class="footer-hint" title="A hint…">🦩 Psst… even the flamingos type <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter egg found!</b> Move your mouse to fly the kite — <kbd>ESC</kbd> to go back.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Tendance Kite",
+  lang: "en",
+  spotName: "on the Sigean lagoon",
+  email: "tendancekite@gmail.com",
+  phone: "+33662091703",
+  lat: 43.0581, lon: 3.0033, zoom: 13,
+  kite: { main: 0xf47fa0, stripe: 0xffffff },
+  egg: { sky: [0x1a5e4a, 0xd8f2c8], water: 0x2e8f74, kite: 0xf47fa0, kiteStripe: 0xffffff, sun: 0xfff5d8 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

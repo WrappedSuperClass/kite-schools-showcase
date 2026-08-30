@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Osmose Kite — Kitesurfschule in La Franqui, Leucate</title>
+<meta name="description" content="Kitesurfschule in La Franqui (Coussoules Basses). Kurse à la carte, bezahlt am Kursende: Du zahlst nur die Zeit, die Du bei optimalem Wind gefahren bist. Kitesurfen, Foil, Strapless, Mountainboard — das ganze Jahr." />
+<meta property="og:title" content="Osmose Kite — Kitesurfen in La Franqui" />
+<meta property="og:description" content="Wind-Garantie: Du zahlst nur die Sessions, die Du wirklich gefahren bist. 4 Spots je nach Wind, Videoanalyse inklusive." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌀</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">OSMOSE<span> KITE</span></a>
+  <div class="nav-links">
+    <a href="#concept">Das Konzept</a>
+    <a href="#seance">Deine 1. Session</a>
+    <a href="#tarifs">Preise</a>
+    <a href="#spots">Die Spots</a>
+    <a href="#contact">Kontakt</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Buchen</a>
+  <button class="nav-burger" id="burger" aria-label="Menü">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-jump.jpg" alt="Osmose Kite Rider mitten im Sprung, Board-Grab" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Kitesurfschule · La Franqui · das ganze Jahr geöffnet</p>
+    <h1 class="reveal">Kein Wind?<br /><em>Keine Kosten.</em></h1>
+    <p class="hero-sub reveal">Bei Osmose zahlst Du am Ende des Kurses — und nur die Zeit, die Du wirklich
+    bei optimalem Wind auf dem Wasser warst. Der Rest — die Leidenschaft, die Videoanalyse, die 4 Spots von Les Coussoules —
+    ist geschenkt.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#tarifs">Preise ansehen</a>
+      <a class="btn btn-ghost" href="#concept">Das Konzept</a>
+    </div>
+    <div class="wind-widget reveal" title="Open-Meteo-Vorhersage für La Franqui">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Wind wird geladen…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> Bezahlung <b>am Kursende</b></span>
+  <span><i>✔</i> Videoanalyse <b>inklusive</b></span>
+  <span><i>✔</i> Material von <b>North Kiteboarding</b></span>
+  <span><i>✔</i> Geöffnet <b>12 Monate im Jahr</b></span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Twintip</span><i>◆</i><span>Strapless-Surf</span><i>◆</i><span>Foil</span><i>◆</i><span>Mountainboard</span><i>◆</i><span>Simulator</span><i>◆</i><span>Verleih</span><i>◆</i>
+    <span>Twintip</span><i>◆</i><span>Strapless-Surf</span><i>◆</i><span>Foil</span><i>◆</i><span>Mountainboard</span><i>◆</i><span>Simulator</span><i>◆</i><span>Verleih</span><i>◆</i>
+  </div>
+</section>
+
+<section class="section" id="concept">
+  <div class="section-head reveal">
+    <p class="eyebrow">Das Konzept</p>
+    <h2>Wind-Garantie, <em>wirklich.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/lesson.jpg" alt="Material-Briefing mit Osmose-Schülern am Strand" loading="lazy" />
+      <span class="img-tag">Material-Briefing, Coussoules Basses</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Kurse à la carte</p>
+        <p>Du zahlst nur die Zeit, die Du bei optimalem Wind für Deinen Fortschritt gefahren bist.
+        Kein Wind während Deines Aufenthalts? <strong>Nichts zu zahlen, nichts nachzuholen.</strong>
+        Bezahlt wird <strong>am Kursende</strong> — eine seltene Transparenz, die alles
+        über die Philosophie der Schule sagt.</p>
+        <p class="card-tags"><span>Bezahlung am Kursende</span><span>Videoanalyse inklusive</span><span>North Kiteboarding</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="4">0</b><span>Spots je nach Windrichtung</span></div>
+        <div class="stat"><b data-count="12">0</b><span>Monate geöffnet im Jahr</span></div>
+        <div class="stat"><b data-count="0" data-suffix=" €">0</b><span>wenn der Wind nicht mitspielt</span></div>
+        <div class="stat"><b data-count="100" data-suffix="%">0</b><span>Erinnerungsvideos Deiner Sessions</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Deine erste Session</p>
+    <h2>Vier Stunden, um <em>in Osmose zu kommen.</em></h2>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration: Kitesteuerung im Wasser" loading="lazy" /></div>
+      <div class="tl-body"><h3>Den Kite zähmen</h3><p>Windfenster und Kitesteuerung im flachen Wasser, am jeweils am besten ausgerichteten der 4 Spots der Schule.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration: Waterstart" loading="lazy" /></div>
+      <div class="tl-body"><h3>Der Waterstart</h3><p>Bodydrag und Starts mit dem Board an den Füßen — alles gefilmt. Abends zeigt Dir die Videoanalyse genau, was zu korrigieren ist.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration: erste Meter" loading="lazy" /></div>
+      <div class="tl-body"><h3>Deine ersten Meter</h3><p>Gleiten und Höhe laufen — und wenn der Wind einschläft, endet die Session und Du zahlst sie nicht. So einfach ist das.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">In Bildern</p>
+    <h2>Das Leben an den <em>Coussoules Basses.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/jump2.jpg" alt="Sprung über türkisfarbenem Wasser" loading="lazy" /><figcaption>Das türkisfarbene Wasser von Les Coussoules</figcaption></figure>
+    <figure><img src="img/kids.jpg" alt="Kindergruppe mit Osmose-Lehrer" loading="lazy" /><figcaption>Gruppen &amp; Ferienlager willkommen</figcaption></figure>
+    <figure><img src="img/walk.jpg" alt="Auf dem Weg zum Spot mit den Kites" loading="lazy" /><figcaption>Unterwegs zum Spot des Tages</figcaption></figure>
+    <figure class="m-wide"><img src="img/mountainboard.jpg" alt="Mountainboard, gezogen von einem Kite" loading="lazy" /><figcaption>Mountainboard an Tagen ohne Wasser</figcaption></figure>
+    <figure><img src="img/base.jpg" alt="Die Osmose-Basis am Strand der Coussoules" loading="lazy" /><figcaption>Die Basis, Coussoules Basses</figcaption></figure>
+    <figure><img src="img/hero-jump.jpg" alt="Grab mitten im Sprung" loading="lazy" /><figcaption>Freestyle für Fortgeschrittene</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="tarifs">
+  <div class="section-head reveal">
+    <p class="eyebrow">Preise</p>
+    <h2>Einfach, gestaffelt, <em>ehrlich.</em></h2>
+    <p class="section-sub">Nebensaison: 15. März – 30. Juni und 1. Sept. – 15. Nov. · Hauptsaison: Juli–August · Winter: 1. Dez. – 15. März.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Beliebteste Formel</div>
+      <h3>4-Stunden-Kurs</h3>
+      <p class="price">130 €<span>150 € im Sommer · 100 € im Winter</span></p>
+      <ul>
+        <li>Optimaler Wind garantiert</li>
+        <li>Bezahlung am Kursende</li>
+        <li>100 € / 110 € ab der 6. Session</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Foilkurs</h3>
+      <p class="price">ab 130 €<span>+ Foil-Miete: 140–160 €</span></p>
+      <ul>
+        <li>Entdecke das Fliegen über dem Wasser</li>
+        <li>Begleiteter Fortschritt</li>
+        <li>Wintertarif 100–140 €</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Fahren &amp; Verleih</h3>
+      <p class="price">ab 70 €<span>3 Std. Miete mit Sicherung</span></p>
+      <ul>
+        <li>Begleitetes Fahren 4 Std. + Material: 90–110 €</li>
+        <li>Nur Kite ab 50 €</li>
+        <li>Board + Kite ab 100 €</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Gruppen</h3>
+      <p class="price">Auf Anfrage<span>ab 3 Personen</span></p>
+      <ul>
+        <li>Firmenevents</li>
+        <li>JGA, Ferienlager, Schulklassen</li>
+        <li>Vorzugspreise</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">Material von North Kiteboarding, weltweit anerkannt für Qualität und Sicherheit. Obligatorische FFVL-Lizenz / -Versicherung nicht inbegriffen.</p>
+</section>
+
+<section class="section" id="spots">
+  <div class="section-head reveal">
+    <p class="eyebrow">Die Spots</p>
+    <h2>4 Spots, jeder Wind, <em>keine verlorene Session.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Basis an den <strong>Coussoules Basses</strong> in La Franqui, am riesigen Strand des Mondial du Vent.
+      Je nach Richtung und Stärke des Windes wechselt Osmose zwischen <strong>4 verschiedenen Spots</strong>, um Dir
+      die besten Bedingungen des Tages zu bieten — Meer, Lagune, Flachwasser oder kleine Wellen.</p>
+      <ul class="checklist">
+        <li>8 km wilder Strand an den Coussoules</li>
+        <li>Flaches Wasser für einen sicheren Einstieg</li>
+        <li>Tramontane und Seewind: es weht fast das ganze Jahr</li>
+        <li>Ca. 1 Std. 45 von Toulouse, WeRide-Partnershop im Ort</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Coussoules Basses, La Franqui"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Häufige Fragen</p>
+    <h2>Bevor Du <em>startest.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Wie funktioniert die Bezahlung am Kursende?</summary><p>Du buchst Deine Sessions, Du fährst… und Du zahlst erst am Ende — nur die Zeit, die Du wirklich bei ordentlichem Wind gefahren bist. Kein Wind = keine Rechnung, und nichts nachzuholen.</p></details>
+    <details><summary>Was passiert an Tagen ohne Wind?</summary><p>Entweder wird nicht gefahren (und Du zahlst nichts), oder wir wechseln aufs Mountainboard, den Powerkite oder den Simulator, um im Trockenen weiter Fortschritte zu machen.</p></details>
+    <details><summary>Ist die Videoanalyse wirklich inklusive?</summary><p>Ja — Deine Sessions werden gefilmt, gemeinsam mit Dir analysiert, und Du bekommst die Videos als Erinnerung. Das ist in jedem Kurs enthalten.</p></details>
+    <details><summary>Kann man im Winter fahren?</summary><p>Ja, Osmose ist das ganze Jahr geöffnet, mit einem Wintertarif von 100 € für die 4-Stunden-Session (1. Dezember – 15. März). Warmer Neoprenanzug auf Anfrage gestellt.</p></details>
+    <details><summary>Und für Gruppen?</summary><p>Ab 3 Personen: Firmenevents, JGA, Schulklassen, Ferienlager — maßgeschneidertes Angebot mit Vorzugspreisen.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Kontakt</p>
+    <h2>Komm in <em>Osmose.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Sag uns Deine Termine und Dein Niveau — die Schule ruft Dich schnell zurück, um Deine Sessions auf die besten Windfenster zu legen.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33670708653?text=Hallo%2C%20ich%20m%C3%B6chte%20Kitesurfkurse%20buchen" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33670708653">📞 06 70 70 86 53</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:osmose.kite@gmail.com" class="contact-line">✉ osmose.kite@gmail.com</a>
+        <span class="contact-line">📍 Coussoules Basses, La Franqui, 11370 Leucate</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Dein Name" required />
+        <input type="text" id="cf-dates" placeholder="Deine Termine (z. B. 12.–15. Juli)" />
+      </div>
+      <select id="cf-level">
+        <option>Einsteiger — noch nie probiert</option>
+        <option>Fortgeschritten — Perfektionierung / Strapless</option>
+        <option>Foil</option>
+        <option>Verleih / begleitetes Fahren</option>
+        <option>Gruppe (3+ Personen)</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Deine Nachricht…"></textarea>
+      <button type="submit" class="btn">Per E-Mail senden</button>
+      <p class="form-note">Der Button öffnet Dein Mailprogramm mit vorausgefüllter E-Mail — oder noch schneller: WhatsApp nebenan.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33670708653">📞 Anrufen</a>
+  <a class="btn btn-wa" href="https://wa.me/33670708653" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">OSMOSE<span> KITE</span></p>
+    <p>Kitesurfschule · Coussoules Basses, La Franqui · das ganze Jahr geöffnet</p>
+    <p class="credits">Demo-Entwurf. Fotos: Osmose Kite.</p>
+  </div>
+  <p class="footer-hint" title="Ein Hinweis…">🌀 Psst… die Osmose wirkt: tippe <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter Egg gefunden!</b> Beweg die Maus, um den Kite zu steuern — <kbd>ESC</kbd> zum Zurückkehren.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Osmose Kite",
+  lang: "de",
+  spotName: "in La Franqui",
+  email: "osmose.kite@gmail.com",
+  phone: "+33670708653",
+  lat: 42.93, lon: 3.033, zoom: 13,
+  kite: { main: 0x2ee6a8, stripe: 0xd9f76e },
+  egg: { sky: [0x03231c, 0x1f8f7a], water: 0x0a3d33, kite: 0x2ee6a8, kiteStripe: 0xd9f76e, sun: 0xeafff2 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tendance Kite — Kitesurfschule in Sigean, Lagune von Port Mahon</title>
+<meta name="description" content="Kitesurfschule in Sigean, im Herzen des Regionalen Naturparks Narbonnaise. Kurse im flachen Wasser der Lagune, Meeressessions mit Bootstransfer zur Vieille Nouvelle. Nur 1 h 30 von Toulouse." />
+<meta property="og:title" content="Tendance Kite — Kitesurfen in Sigean" />
+<meta property="og:description" content="Lerne Kiten zwischen Flamingos: flache Lagune, Boot, staatlich geprüfter Lehrer. Ab 120 € pro Session." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦩</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">TENDANCE<span> KITE</span></a>
+  <div class="nav-links">
+    <a href="#seance">Deine 1. Session</a>
+    <a href="#ecole">Die Schule</a>
+    <a href="#tarifs">Kurse &amp; Preise</a>
+    <a href="#spot">Der Spot</a>
+    <a href="#contact">Kontakt</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Buchen</a>
+  <button class="nav-burger" id="burger" aria-label="Menü">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-jump.jpg" alt="Kitesurf-Sprung über der Lagune von Sigean" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Kitesurfschule · Sigean · Naturpark Narbonnaise</p>
+    <h1 class="reveal">Lerne Kiten zwischen<br /><em>Flamingos.</em></h1>
+    <p class="hero-sub reveal">An der Wassersportbasis Port Mahon breitet die Lagune von Sigean ihr flaches Wasser
+    inmitten der Kulisse eines Naturparks aus. Und sobald Du bereit fürs Meer bist, bringt Dich das Boot
+    zur Vieille Nouvelle.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#tarifs">Kurse &amp; Preise</a>
+      <a class="btn btn-ghost" href="#spot">Spot entdecken</a>
+    </div>
+    <div class="wind-widget reveal" title="Open-Meteo-Vorhersage für die Lagune von Sigean">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Wind wird geladen…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> Kitelehrer <b>mit staatlichem Diplom</b> — Xavier Dumas</span>
+  <span><i>✔</i> Nur <b>1 h 30</b> von Toulouse</span>
+  <span><i>✔</i> <b>Flache</b> Lagune + Meeressessions</span>
+  <span><i>✔</i> English spoken</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurfen</span><i>❋</i><span>Lagune von Sigean</span><i>❋</i><span>Meeressessions</span><i>❋</i><span>Kajaktouren</span><i>❋</i><span>Betreutes Kiten</span><i>❋</i>
+    <span>Kitesurfen</span><i>❋</i><span>Lagune von Sigean</span><i>❋</i><span>Meeressessions</span><i>❋</i><span>Kajaktouren</span><i>❋</i><span>Betreutes Kiten</span><i>❋</i>
+  </div>
+</section>
+
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Deine erste Session</p>
+    <h2>Vier Stunden, Boot <em>inklusive.</em></h2>
+    <p class="section-sub">Jede 4-Stunden-Session umfasst die Vorbereitung, den Bootstransfer zum Spot und das Fahren auf dem Wasser.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration: Kitesteuerung im Wasser" loading="lazy" /></div>
+      <div class="tl-body"><h3>Den Kite zähmen</h3><p>Windfenster, Sicherheit und Kitesteuerung — stehend im flachen Wasser der Lagune, dem perfekten Kokon für den Einstieg.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration: Wasserstart mit Boot" loading="lazy" /></div>
+      <div class="tl-body"><h3>Der Wasserstart</h3><p>Bodydrag, dann die ersten Starts mit dem Board an den Füßen — Xaviers Boot immer in Reichweite.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration: erste Schläge" loading="lazy" /></div>
+      <div class="tl-body"><h3>Deine ersten Schläge</h3><p>Sobald das Höhelaufen sitzt, geht es aufs Meer: zum wilden Strand der Vieille Nouvelle, nur per Boot erreichbar.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
+  <div class="section-head reveal">
+    <p class="eyebrow">Die Schule</p>
+    <h2>Xavier Dumas, Dein Lehrer <em>im Herzen des Parks.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/boat-selfie.jpg" alt="Xavier auf dem Boot mit einem Schüler" loading="lazy" />
+      <span class="img-tag">Auf dem Boot, zwischen zwei Übungen</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Eine Schule mit familiärer Größe</p>
+        <p>Xavier, Kitelehrer mit staatlichem Diplom, empfängt Dich <strong>jeden Tag</strong> an der Wassersportbasis Port Mahon.
+        Ob Anfänger, Aufsteiger oder Fortgeschrittener: Der Fortschritt beginnt im flachen Wasser,
+        dann geht es aufs Meer — mit <strong>Bootstransfer</strong> zum Spot. Die Schule bietet außerdem
+        Kajaktouren an, um das Ökosystem der Lagune zu entdecken.</p>
+        <p class="card-tags"><span>Staatlich geprüfter Lehrer</span><span>English spoken</span><span>Kajak &amp; Kanu</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="4" data-suffix=" h">0</b><span>pro Session: Vorbereitung, Boot, Fahren</span></div>
+        <div class="stat"><b data-count="10" data-suffix=" km">0</b><span>von Leucate, Narbonne und Gruissan</span></div>
+        <div class="stat"><b data-count="90" data-suffix=" min">0</b><span>von Toulouse mit dem Auto</span></div>
+        <div class="stat"><b data-count="7">0</b><span>Tage die Woche in der Saison</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">In Bildern</p>
+    <h2>Die Lagune, das Meer, <em>die Freiheit.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/pov.jpg" alt="Ego-Perspektive eines Schülers mit rotem Helm beim Fahren" loading="lazy" /><figcaption>Deine ersten Meter, aus Deiner Sicht</figcaption></figure>
+    <figure><img src="img/kitefoil.jpg" alt="Kitefoil über der Lagune" loading="lazy" /><figcaption>Mit dem Foil noch weiter hinaus</figcaption></figure>
+    <figure><img src="img/lesson.jpg" alt="Schüler mit gelber Weste während des Kurses" loading="lazy" /><figcaption>Fortschritt Schritt für Schritt</figcaption></figure>
+    <figure class="m-wide"><img src="img/sit.jpg" alt="Schüler sitzt auf dem Board vor dem Boot" loading="lazy" /><figcaption>Wohlverdiente Pause auf der Lagune</figcaption></figure>
+    <figure><img src="img/boat.jpg" alt="Das gelbe Boot der Schule und Kites" loading="lazy" /><figcaption>Das Boot, Dein Schlepplift</figcaption></figure>
+    <figure><img src="img/hero-jump.jpg" alt="Kitesurf-Sprung" loading="lazy" /><figcaption>Und eines Tages: der erste Sprung</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="tarifs">
+  <div class="section-head reveal">
+    <p class="eyebrow">Kurse &amp; Preise</p>
+    <h2>Gestaffelte Pakete, <em>ohne Überraschungen.</em></h2>
+    <p class="section-sub">4-Stunden-Gruppensessions, komplette Ausrüstung inklusive. Nebensaison / <strong>Hauptsaison (Juli–August)</strong>.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card reveal">
+      <h3>Tendance Découverte</h3>
+      <p class="price">120–140 €<span>1 Session à 4 h</span></p>
+      <ul>
+        <li>Erste Schritte in der Kitesteuerung</li>
+        <li>Sicherheit und Windfenster</li>
+        <li>Komplette Ausrüstung inklusive</li>
+      </ul>
+    </div>
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Am beliebtesten</div>
+      <h3>Tendance Évolution</h3>
+      <p class="price">330–390 €<span>3 Sessions à 4 h</span></p>
+      <ul>
+        <li>Von der Kitesteuerung zu den ersten Metern</li>
+        <li>Echter, nachhaltiger Fortschritt</li>
+        <li>Auch: Initiation 2 Sess. 230–270 €</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Tendance Évasion</h3>
+      <p class="price">530–600 €<span>5 Sessions à 4 h</span></p>
+      <ul>
+        <li>Der große Weg zur Selbstständigkeit</li>
+        <li>Lagune + Meeressessions per Boot</li>
+        <li>Auch: Glisse 4 Sess. 430–500 €</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Privatstunden &amp; Verleih</h3>
+      <p class="price">ab 40 €<span>betreutes Kiten 4 h</span></p>
+      <ul>
+        <li>Privatstunde, 1 h im Wasser: 180–200 €</li>
+        <li>Kompletter Verleih: 80 €</li>
+        <li>Board / Kite +20 €, Foil +50 €</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">Kite-Haftpflichtversicherung ist Pflicht. Zahlung per Karte, bar, Scheck und Chèques Vacances möglich. Schwimmen können ist Voraussetzung für die Teilnahme.</p>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">Der Spot</p>
+    <h2>Von der Lagune aufs Meer, <em>per Boot.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Die Lagune von Sigean, <strong>flach und geschützt</strong>, ist der perfekte Kokon für Deine ersten Schritte.
+      Sobald Du das Höhelaufen beherrschst, geht es zum <strong>Strand der Vieille Nouvelle</strong> —
+      einem wilden Juwel zwischen Gruissan und Port-la-Nouvelle, nur per Boot erreichbar.</p>
+      <ul class="checklist">
+        <li>Flaches Wasser: Du lernst mit Boden unter den Füßen</li>
+        <li>Einzigartige Kulisse des Naturparks Narbonnaise</li>
+        <li>Meeressessions am wilden Strand, weit weg vom Beton</li>
+        <li>Wassersportbasis: Parkplatz, einfacher Einstieg ins Wasser</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Wassersportbasis Port Mahon, Sigean"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Häufige Fragen</p>
+    <h2>Gut zu <em>wissen.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Warum auf einer Lagune starten statt auf dem Meer?</summary><p>Flaches Wasser, geschütztes Revier, konstanter Wind: Du behältst Boden unter den Füßen, übst ohne Angst eine Übung nach der anderen und kommst viel schneller voran. Das Meer kommt danach — per Boot.</p></details>
+    <details><summary>Was umfasst eine 4-Stunden-Session?</summary><p>Die Vorbereitung des Materials, den Bootstransfer zum Spot und das Fahren. Komplette Ausrüstung inklusive — bring Badesachen, Handtuch und Sonnencreme mit.</p></details>
+    <details><summary>Und wenn kein Wind weht?</summary><p>Die Session wird nach Deiner Verfügbarkeit verschoben. Vor Ort sind die Kajaktouren durch den Naturpark ein schöner Plan B, um das Ökosystem der Lagune zu entdecken.</p></details>
+    <details><summary>Wie kann ich bezahlen?</summary><p>Karte, Bargeld, Schecks, Chèques Vacances und Überweisungen werden akzeptiert. Die Kite-Haftpflichtversicherung ist Pflicht und nicht inbegriffen.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Kontakt</p>
+    <h2>Deine nächste Session <em>beginnt hier.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Schreib Xavier oder ruf ihn an — mit Deinen Wunschterminen: Er stellt den Kurs zusammen, der zu Deinem Niveau und zum Wetter passt.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33662091703?text=Hallo%20Xavier%2C%20ich%20m%C3%B6chte%20einen%20Kitesurf-Kurs%20buchen" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33662091703">📞 06 62 09 17 03</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:tendancekite@gmail.com" class="contact-line">✉ tendancekite@gmail.com</a>
+        <span class="contact-line">📍 Wassersportbasis Port Mahon, 11130 Sigean</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Dein Name" required />
+        <input type="text" id="cf-dates" placeholder="Deine Termine (z. B. 12.–15. Juli)" />
+      </div>
+      <select id="cf-level">
+        <option>Découverte — 1 Session</option>
+        <option>Initiation / Évolution — 2 oder 3 Sessions</option>
+        <option>Glisse / Évasion — 4 oder 5 Sessions</option>
+        <option>Privatstunde</option>
+        <option>Betreutes Kiten / Verleih</option>
+        <option>Kajaktour</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Deine Nachricht…"></textarea>
+      <button type="submit" class="btn">Per E-Mail senden</button>
+      <p class="form-note">Der Button öffnet Dein E-Mail-Programm mit vorausgefüllter Nachricht — oder noch schneller: WhatsApp nebenan.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33662091703">📞 Anrufen</a>
+  <a class="btn btn-wa" href="https://wa.me/33662091703" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">TENDANCE<span> KITE</span></p>
+    <p>Kitesurfschule · Port Mahon, Sigean · Regionaler Naturpark Narbonnaise</p>
+    <p class="credits">Demo-Entwurf. Fotos: Tendance Kite.</p>
+  </div>
+  <p class="footer-hint" title="Ein Hinweis…">🦩 Psst… sogar die Flamingos tippen <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter Egg gefunden!</b> Beweg die Maus, um den Kite zu steuern — <kbd>ESC</kbd> zum Zurückkehren.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Tendance Kite",
+  lang: "de",
+  spotName: "auf der Lagune von Sigean",
+  email: "tendancekite@gmail.com",
+  phone: "+33662091703",
+  lat: 43.0581, lon: 3.0033, zoom: 13,
+  kite: { main: 0xf47fa0, stripe: 0xffffff },
+  egg: { sky: [0x1a5e4a, 0xd8f2c8], water: 0x2e8f74, kite: 0xf47fa0, kiteStripe: 0xffffff, sun: 0xfff5d8 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

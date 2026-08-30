@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Narbonne Kite Passion — Kitesurfschule auf der Lagune von Bages</title>
+<meta name="description" content="Kitesurf- und Stand-up-Paddle-Schule in Narbonne seit 2011. Exklusiver Flachwasser-Spot, nur per Boot erreichbar, max. 4 Schüler pro Lehrer, Funkunterricht. 1 h 15 von Toulouse." />
+<meta property="og:title" content="Narbonne Kite Passion — Kitesurfen auf der Lagune von Bages" />
+<meta property="og:description" content="Ein Spot ganz für Dich, hüfttiefes Wasser und ein Lehrer direkt im Ohr." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">NKP <span>· Narbonne Kite Passion</span></a>
+  <div class="nav-links">
+    <a href="#seance">Deine 1. Session</a>
+    <a href="#pourquoi">Die Schule</a>
+    <a href="#stages">Kurse</a>
+    <a href="#spot">Der Spot</a>
+    <a href="#contact">Kontakt</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Buchen</a>
+  <button class="nav-burger" id="burger" aria-label="Menü">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-aerial.jpg" alt="Luftaufnahme der Lagune von Bages bei Sonnenuntergang" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Kitesurf- &amp; SUP-Schule · Narbonne · seit 2011</p>
+    <h1 class="reveal">Eine Lagune ganz<br /><em>für Dich.</em></h1>
+    <p class="hero-sub reveal">Auf der Lagune von Bages, im Herzen des Parc Naturel Régional de la Narbonnaise,
+    lernst Du Kitesurfen mit Stehtiefe überall, einem Lehrer im Ohr und keinem anderen Kiter weit und breit.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#stages">Kurse ansehen</a>
+      <a class="btn btn-ghost" href="#spot">Der geheime Spot</a>
+    </div>
+    <div class="wind-widget reveal" title="Open-Meteo-Vorhersage für die Lagune von Bages">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Wind wird geladen…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> Lehrer mit <b>staatlichem Diplom</b></span>
+  <span><i>✔</i> <b>Duotone</b>-Material, jedes Jahr erneuert</span>
+  <span><i>✔</i> Seit <b>2011</b> an la Nautique</span>
+  <span><i>✔</i> Warme Duschen &amp; Umkleiden</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurfen</span><i>~</i><span>Kitefoil</span><i>~</i><span>Stand Up Paddle</span><i>~</i><span>Verleih</span><i>~</i><span>Betreutes Kiten</span><i>~</i>
+    <span>Kitesurfen</span><i>~</i><span>Kitefoil</span><i>~</i><span>Stand Up Paddle</span><i>~</i><span>Verleih</span><i>~</i><span>Betreutes Kiten</span><i>~</i>
+  </div>
+</section>
+
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Deine erste Session</p>
+    <h2>Vier Stunden, <em>100 % im Wasser.</em></h2>
+    <p class="section-sub">Das Boot setzt Dich auf der Sandbank ab. Ein Kite pro Schüler, ein Funkhelm pro Kopf — und los geht's.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration: Kitesteuerung im Wasser" loading="lazy" /></div>
+      <div class="tl-body"><h3>Den Kite zähmen</h3><p>Windfenster, Relaunch, Sicherheit — stehend im hüfttiefen Wasser, auf einem Spot, den Du ganz für Dich hast.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration: Waterstart mit Begleitboot" loading="lazy" /></div>
+      <div class="tl-body"><h3>Der Waterstart</h3><p>Bodydrag, dann die ersten Starts mit dem Board an den Füßen. Der Lehrer spricht live über den Funkhelm mit Dir, auf eigenem Kanal.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration: erste Schläge beim Kitesurfen" loading="lazy" /></div>
+      <div class="tl-body"><h3>Deine ersten Meter</h3><p>Die riesige Sandbank verzeiht alles: Du fällst, stehst wieder, fährst weiter. Ohne Angst kommt die Selbstständigkeit viel schneller.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="pourquoi">
+  <div class="section-head reveal">
+    <p class="eyebrow">Warum NKP</p>
+    <h2>Lernen in aller <em>Ruhe.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/lesson.jpg" alt="NKP-Kitekurs im flachen Wasser" loading="lazy" />
+      <span class="img-tag">Kurs im flachen Wasser, Lagune von Bages</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Der Komfort, gut betreut zu lernen</p>
+        <p>Seit <strong>2011</strong> empfängt NKP Anfänger und erfahrene Rider vor den Toren von Narbonne.
+        <strong>Duotone-Material, jedes Jahr erneuert</strong>, Umkleiden, warme Duschen und WC vor Ort.
+        Spielt das Wetter nicht mit, wird der Kurs <strong>nach Deiner Verfügbarkeit verschoben</strong> — Windgarantie.</p>
+        <p class="card-tags"><span>Duotone</span><span>Warme Duschen</span><span>Windgarantie</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="4">0</b><span>Schüler max. pro Lehrer</span></div>
+        <div class="stat"><b data-count="1">0</b><span>Kite pro Schüler, in Deinem Tempo</span></div>
+        <div class="stat"><b data-count="100" data-suffix="%">0</b><span>im Wasser ab der 1. Session</span></div>
+        <div class="stat"><b data-count="0">0</b><span>andere Kiter auf dem Spot</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">In Bildern</p>
+    <h2>Das Leben an <em>la Nautique.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/hero-aerial.jpg" alt="Die Lagune von Bages aus der Luft" loading="lazy" /><figcaption>Die Lagune von Bages, Dein Spielplatz</figcaption></figure>
+    <figure><img src="img/jump.jpg" alt="Kitesurf-Sprung auf der Lagune" loading="lazy" /><figcaption>Fortschritt bis zum Sprung</figcaption></figure>
+    <figure><img src="img/team-beach.jpg" alt="Gruppe von NKP-Schülern am Ufer" loading="lazy" /><figcaption>Die NKP-Kursteilnehmer</figcaption></figure>
+    <figure class="m-wide"><img src="../shared/img/lagoon-kites.jpg" alt="Kites auf einer flachen Lagune" loading="lazy" /><figcaption>Überall Stehtiefe, null Stress</figcaption></figure>
+    <figure><img src="../shared/img/lesson.jpg" alt="Kitekurs am Strand" loading="lazy" /><figcaption>Unterricht Schritt für Schritt</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="stages">
+  <div class="section-head reveal">
+    <p class="eyebrow">Kurse &amp; Stunden</p>
+    <h2>Zwei Slots pro Tag, <em>die ganze Saison.</em></h2>
+    <p class="section-sub">Von März bis November, täglich: <strong>9 – 13 Uhr</strong> oder <strong>14 – 18 Uhr</strong>. 4-Stunden-Sessions, Material und Neopren-Ausrüstung inklusive.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card reveal">
+      <h3>Einsteigen</h3>
+      <p class="price">ab 130 €<span>1 Session à 4 h</span></p>
+      <ul>
+        <li>Keine Vorkenntnisse nötig</li>
+        <li>Material auf- und abbauen</li>
+        <li>Windfenster, Relaunch, Sicherheit</li>
+        <li>Kitesteuerung und Bodydrag</li>
+      </ul>
+    </div>
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Der Favorit</div>
+      <h3>Schnupperkurs</h3>
+      <p class="price">255 €<span>2 × 4 h</span></p>
+      <ul>
+        <li>Tag 1: Kitesteuerung im Wasser</li>
+        <li>Tag 2: Kite und Board kombinieren</li>
+        <li>Erste Waterstarts</li>
+        <li>280 € in der Hochsaison</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Weiterkommen</h3>
+      <p class="price">ab 130 €<span>4 h — Du bestimmst die Ziele</span></p>
+      <ul>
+        <li>Waterstart, Höhe fahren, Transitions</li>
+        <li>Kitefoil für den nächsten Schritt</li>
+        <li>Mittleres / fortgeschrittenes Niveau</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Kiten &amp; Verleih</h3>
+      <p class="price">ab 45 €<span>selbstständige Rider</span></p>
+      <ul>
+        <li>Betreutes Kiten vom Boot aus</li>
+        <li>Aktuelles Duotone-Material</li>
+        <li>Halbtagesmiete 55 €</li>
+        <li>Stand up paddle ab 30 €</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">Die Preise beinhalten die Materialmiete sowie die Neopren- und Technik-Ausrüstung (Neoprenanzug, Trapez, Weste, Funkhelm). AFKite-Versicherung obligatorisch: 25 € für Schulpraxis, 35 € für freies Kiten — 365 Tage weltweit gültig.</p>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">Der Spot</p>
+    <h2>Die Lagune von Bages, <em>Dein Flachwasser-Garten.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">3 Minuten von der Ausfahrt 38 der A9 und 10 Minuten von Gruissan öffnet sich die Basis la Nautique
+      auf ein <strong>flaches, glattes und riesiges</strong> Gewässer, das ausschließlich von der Schule genutzt wird.
+      Das Boot setzt Dich auf der Sandbank ab: Du musst nur noch fliegen.</p>
+      <ul class="checklist">
+        <li>Spot nur per Boot erreichbar — null Andrang</li>
+        <li>Hüfttiefes Wasser über Hunderte von Metern</li>
+        <li>Im Herzen des Parc Naturel Régional de la Narbonnaise</li>
+        <li>Ca. 1 h 15 von Toulouse über die A61/A9</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Basis la Nautique, Narbonne"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Häufige Fragen</p>
+    <h2>Alles, was Du <em>wissen musst.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Und wenn am Tag meines Kurses kein Wind weht?</summary><p>Der Kurs wird abgesagt und nach Deiner Verfügbarkeit verschoben — das ist die NKP-Windgarantie. Du zahlst nie für eine Session ohne Wind.</p></details>
+    <details><summary>Muss ich schwimmen können? Gibt es ein Mindestgewicht?</summary><p>Schwimmen können ist Pflicht. Kitesurfen geht ab etwa 45 kg. Sonst brauchst Du keine besondere körperliche Voraussetzung, um anzufangen.</p></details>
+    <details><summary>Wie läuft die Buchung ab?</summary><p>Verfügbarkeit prüfen, online oder telefonisch anmelden, Bestätigung per Mail erhalten. Die Schule ist von März bis November 7 Tage die Woche geöffnet, 8:30 – 19:30 Uhr.</p></details>
+    <details><summary>Ist das Material inklusive?</summary><p>Ja, alles ist dabei: aktueller Duotone-Kite samt Board, Neoprenanzug, Trapez, Weste und Funkhelm. Bring nur Badesachen, Handtuch und Sonnencreme mit.</p></details>
+    <details><summary>Können wir zu zweit mit unterschiedlichem Niveau kommen?</summary><p>Ja — jeder Schüler hat seinen eigenen Kite und seinen eigenen Funkkanal, der Lehrer passt die Anweisungen in Echtzeit individuell an.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Kontakt</p>
+    <h2>Sollen wir Dir <em>einen Platz freihalten?</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Ruf an, schreib uns oder füll das Formular aus: Das NKP-Team antwortet 7 Tage die Woche von 8:30 bis 19:30 Uhr.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33679827253?text=Hallo%2C%20ich%20m%C3%B6chte%20einen%20Kitesurfkurs%20buchen" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33679827253">📞 06 79 82 72 53</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:contact@narbonnekitepassion.com" class="contact-line">✉ contact@narbonnekitepassion.com</a>
+        <span class="contact-line">📍 Base de la Nautique, rue des Nautiquards, 11100 Narbonne</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Dein Name" required />
+        <input type="text" id="cf-dates" placeholder="Deine Daten (z. B. 12.–15. Juli)" />
+      </div>
+      <select id="cf-level">
+        <option>Einsteigerkurs — noch nie gekitet</option>
+        <option>Schnupperkurs 2 × 4 h</option>
+        <option>Aufbaukurs</option>
+        <option>Verleih / betreutes Kiten</option>
+        <option>Stand up paddle</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Deine Nachricht…"></textarea>
+      <button type="submit" class="btn">Per E-Mail senden</button>
+      <p class="form-note">Der Button öffnet Dein Mailprogramm mit vorausgefüllter Nachricht — oder schneller: WhatsApp nebenan.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33679827253">📞 Anrufen</a>
+  <a class="btn btn-wa" href="https://wa.me/33679827253" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">NKP <span>· Narbonne Kite Passion</span></p>
+    <p>Kitesurf- &amp; Stand-up-Paddle-Schule · La Nautique, Narbonne · seit 2011</p>
+    <p class="credits">Demo-Entwurf. Fotos: Narbonne Kite Passion · Ergänzungen Wikimedia Commons (CC BY / CC BY-SA).</p>
+  </div>
+  <p class="footer-hint" title="Ein Hinweis…">🌊 Psst… hier beginnt alles, wenn Du <b>V·E·N·T</b> tippst</p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter Egg gefunden!</b> Beweg die Maus, um den Kite zu steuern — <kbd>ESC</kbd> zum Zurückkehren.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Narbonne Kite Passion",
+  lang: "de",
+  spotName: "auf der Lagune von Bages",
+  email: "contact@narbonnekitepassion.com",
+  phone: "+33679827253",
+  lat: 43.1403, lon: 3.0078, zoom: 13,
+  kite: { main: 0xff7a59, stripe: 0xfff3e0 },
+  egg: { sky: [0x1e6e96, 0xbfe8ee], water: 0x2fa8a0, kite: 0xff7a59, kiteStripe: 0xfff3e0, sun: 0xfff0d0 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

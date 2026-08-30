@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Addicted2kite — Escuela de kitesurf &amp; wingfoil en Narbonne-Plage</title>
+<meta name="description" content="Escuela familiar de kitesurf y wingfoil en Narbonne-Plage desde 2015. Coaching con barco + radio en los spots de Narbonne y Gruissan. Iniciación, perfeccionamiento, wingfoil, alquiler supervisado." />
+<meta property="og:title" content="Addicted2kite — Kitesurf & wingfoil en Narbonne-Plage" />
+<meta property="og:description" content="Una escuela familiar donde el deslizamiento es religión. Ju & Lolo te esperan en el agua." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">ADDICTED<span>2</span>KITE</a>
+  <div class="nav-links">
+    <a href="#seance">Tu 1ª sesión</a>
+    <a href="#ecole">La escuela</a>
+    <a href="#formules">Fórmulas</a>
+    <a href="#spots">Los spots</a>
+    <a href="#contact">Contacto</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Reservar</a>
+  <button class="nav-burger" id="burger" aria-label="Menú">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-carve.jpg" alt="Rider de Addicted2kite en pleno carve entre la espuma" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Escuela familiar · Narbonne-Plage · desde 2015</p>
+    <h1 class="reveal">Aquí, el deslizamiento<br /><em>es religión.</em></h1>
+    <p class="hero-sub reveal">Kitesurf y wingfoil en los grandes espacios de Narbonne y Gruissan.
+    Un monitor en barco a tu lado, una radio en el casco y el buen rollo de Ju &amp; Lolo de regalo.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#contact">Reservar mi sesión</a>
+      <a class="btn btn-ghost" href="#spots">Ver los spots</a>
+    </div>
+    <div class="wind-widget reveal" title="Previsión de Open-Meteo para Narbonne-Plage">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Cargando el viento…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> Monitores <b>titulados</b> — Julien &amp; Laurent</span>
+  <span><i>✔</i> Coaching <b>barco + radio</b></span>
+  <span><i>✔</i> Desde <b>2015</b>, espíritu de familia</span>
+  <span><i>✔</i> Niños desde 40 kg</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Evasión</span><i>★</i><span>Experiencia única</span><i>★</i><span>Sensación &amp; placer</span><i>★</i><span>Kitesurf</span><i>★</i><span>Wingfoil</span><i>★</i>
+    <span>Evasión</span><i>★</i><span>Experiencia única</span><i>★</i><span>Sensación &amp; placer</span><i>★</i><span>Kitesurf</span><i>★</i><span>Wingfoil</span><i>★</i>
+  </div>
+</section>
+
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Tu primera sesión</p>
+    <h2>De la arena a los primeros bordos, <em>sin estrés.</em></h2>
+    <p class="section-sub">Salida desde la playa, ejercicios en aguas poco profundas y luego los grandes espacios: el barco te sube contra el viento para maximizar el deslizamiento.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Ilustración: pilotaje de la cometa en el agua" loading="lazy" /></div>
+      <div class="tl-body"><h3>Domar la cometa</h3><p>Pilotaje, ventana de vuelo y seguridad en la zona de aguas poco profundas de 200 m: haces pie, respiras, aprendes.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Ilustración: waterstart con barco de apoyo" loading="lazy" /></div>
+      <div class="tl-body"><h3>El waterstart</h3><p>Tu monitor te guía desde el barco, con la radio en el casco. Se acabó caminar: la lancha te devuelve contra el viento.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Ilustración: primeros bordos en kitesurf" loading="lazy" /></div>
+      <div class="tl-body"><h3>Tus primeros bordos</h3><p>Los grandes espacios en el mar para largas planeadas, en situación real: el verdadero camino hacia la autonomía.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
+  <div class="section-head reveal">
+    <p class="eyebrow">La escuela</p>
+    <h2>Ju &amp; Lolo, adictos <em>desde 2015.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/beach.jpg" alt="Preparación del kite en la playa de Narbonne" loading="lazy" />
+      <span class="img-tag">Briefing en la playa del Créneau Naturel</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Una escuela familiar</p>
+        <p>Julien y Laurent, monitores titulados, montaron su escuela en <strong>2015</strong> tras años
+        en las mejores escuelas de la costa. Su credo: compartir la pasión <strong>con buen rollo</strong>,
+        con material reciente y barcos para ir a buscar las mejores condiciones del día.</p>
+        <p class="card-tags"><span>Monitores titulados</span><span>Barcos</span><span>Radio</span><span>Niños desde 40 kg</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="2">0</b><span>spots: Narbonne &amp; Gruissan</span></div>
+        <div class="stat"><b data-count="7">0</b><span>días a la semana, con reserva</span></div>
+        <div class="stat"><b data-count="200" data-suffix=" m">0</b><span>de zona de aguas poco profundas</span></div>
+        <div class="stat"><b data-count="40" data-suffix=" kg">0</b><span>peso mínimo para los niños</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">En imágenes</p>
+    <h2>La prueba, <em>sobre el agua.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/aerial.jpg" alt="Vista aérea del spot turquesa de Narbonne" loading="lazy" /><figcaption>El terreno de juego, visto desde el cielo</figcaption></figure>
+    <figure><img src="img/jump.jpg" alt="Salto de kitesurf" loading="lazy" /><figcaption>Objetivo: primeros saltos</figcaption></figure>
+    <figure><img src="img/wingfoil.jpg" alt="Wingfoil en mar en calma" loading="lazy" /><figcaption>El wingfoil, la modalidad en auge</figcaption></figure>
+    <figure class="m-wide"><img src="img/hero-carve.jpg" alt="Carve entre la espuma" loading="lazy" /><figcaption>Sensación &amp; placer</figcaption></figure>
+    <figure><img src="img/waves-bw.jpg" alt="Olas en blanco y negro" loading="lazy" /><figcaption>El mar, nuestro terreno de juego</figcaption></figure>
+    <figure><img src="img/beach.jpg" alt="Kite en la playa" loading="lazy" /><figcaption>Salida desde la playa, con suavidad</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="formules">
+  <div class="section-head reveal">
+    <p class="eyebrow">Fórmulas</p>
+    <h2>Del descubrimiento <em>a los primeros saltos.</em></h2>
+    <p class="section-sub">Fórmulas adaptadas a tu nivel y a tus ganas: contacta con la escuela para montar tu curso y conocer la disponibilidad.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Para empezar</div>
+      <h3>Iniciación al kitesurf</h3>
+      <p class="price">Principiante<span>o con 1–2 sesiones hechas</span></p>
+      <ul>
+        <li>Pilotaje, seguridad, body drag</li>
+        <li>Zona de aguas poco profundas</li>
+        <li>Primeros deslizamientos asistidos por barco</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Perfeccionamiento</h3>
+      <p class="price">Progresión<span>ya has probado la tabla</span></p>
+      <ul>
+        <li>Waterstart fiable, rumbos</li>
+        <li>Ceñida, transiciones</li>
+        <li>Rumbo a la autonomía y a los saltos</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Wingsurf / Wingfoil</h3>
+      <p class="price">Novedad<span>la modalidad en auge</span></p>
+      <ul>
+        <li>Entre el kitesurf y el windsurf</li>
+        <li>Despega sobre el agua</li>
+        <li>Ideal con viento suave</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Alquiler supervisado</h3>
+      <p class="price">Autónomo<span>navega con seguridad</span></p>
+      <ul>
+        <li>Material reciente incluido</li>
+        <li>Vigilancia desde el barco</li>
+        <li>Las mejores ventanas meteorológicas</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">El seguro de responsabilidad civil «kite / wing» es obligatorio para practicar en la escuela (contratación online posible, justificante requerido al inicio del curso). Se recomienda un seguro individual de accidentes.</p>
+</section>
+
+<section class="section" id="spots">
+  <div class="section-head reveal">
+    <p class="eyebrow">Los spots</p>
+    <h2>Narbonne-Plage &amp; Gruissan, <em>lo mejor de los dos.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Base en el <strong>Créneau Naturel</strong> de Narbonne-Plage (D332, frente al Aquajet),
+      con un segundo terreno de juego en <strong>la Vieille Nouvelle</strong>, en el lado de Gruissan. Grandes espacios,
+      agua plana la mayor parte del tiempo y barcos para navegar siempre donde mejor está.</p>
+      <ul class="checklist">
+        <li>Dos spots complementarios según el viento</li>
+        <li>Zona para principiantes de unos 200 m de aguas poco profundas</li>
+        <li>Práctica real en el mar, rumbo a la autonomía</li>
+        <li>A ~1 h 30 de Toulouse, parking y punto de agua en el sitio</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Créneau Naturel, Narbonne-Plage"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt" id="avis">
+  <div class="section-head reveal">
+    <p class="eyebrow">Están enganchados</p>
+    <h2>Palabras de <em>riders.</em></h2>
+  </div>
+  <div class="grid grid-3">
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>¡Un recibimiento y un acompañamiento tan simpáticos como súper profesionales! El equipo no duda en llevarte a otras playas en sus lanchas para aprovechar siempre las mejores condiciones. Una experiencia padre-hijo genial.<b>Alain</b></div>
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>Una escuela de kite muy simpática y con muy buen espíritu. Laurent y Julien sabrán enseñarte todos los aspectos de este deporte magnífico con total seguridad, en un spot totalmente adaptado. ¡Es súper green, disfruto muchísimo!<b>Patrick</b></div>
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>¡Un equipo de profesionales atentos, pedagógicos y sobre todo divertidos! Principiante o experimentado, el equipo de Addicted te hará progresar a tu ritmo. Recomiendo esta escuela al 200 %.<b>Brice</b></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">Preguntas frecuentes</p>
+    <h2>Te lo contamos <em>todo.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>¿Cuánto tiempo se tarda en aprender kitesurf?</summary><p>Cada uno progresa a su ritmo: cuenta con al menos 3 sesiones para lo básico y 5 para una base sólida (pilotaje, viento, deslizamiento, seguridad, meteorología, material). La autonomía llega después.</p></details>
+    <details><summary>¿Es difícil practicar en el mar en Narbonne?</summary><p>No: salimos desde la playa, trabajamos en la zona de aguas poco profundas y luego usamos los grandes espacios para los primeros deslizamientos. El barco te recoge y te sube contra el viento.</p></details>
+    <details><summary>¿A partir de qué edad pueden practicar los niños?</summary><p>Lo que cuenta es el peso: 40 kg como mínimo. Cometas pequeñas de poca tracción y acompañamiento adaptado caso por caso. Se piden certificado de natación y autorización parental.</p></details>
+    <details><summary>¿Necesito un seguro?</summary><p>Sí, la responsabilidad civil kite/wing es obligatoria en la escuela: tus seguros personales no cubren esta práctica. Contratación online posible, justificante requerido al inicio del curso.</p></details>
+    <details><summary>¿Kitesurf o wingfoil? ¿Cuál elegir?</summary><p>El kite da sensaciones más rápido; la wing permite navegar con muy poco viento y en aguas interiores. En A2K puedes probar los dos.</p></details>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Contacto</p>
+    <h2>Únete a la <em>crew.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Un mensaje con tus fechas y tu nivel, y Ju &amp; Lolo se encargan del resto. Abierto los 7 días de la semana, con reserva.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33674651701?text=Hola%20Ju%20%26%20Lolo%2C%20quiero%20reservar%20un%20curso" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33674651701">📞 06 74 65 17 01</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:contact@addicted2kite.fr" class="contact-line">✉ contact@addicted2kite.fr</a>
+        <span class="contact-line">📍 Base multiocio le Créneau Naturel (D332), 11100 Narbonne-Plage</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Tu nombre" required />
+        <input type="text" id="cf-dates" placeholder="Tus fechas (ej. 12–15 de julio)" />
+      </div>
+      <select id="cf-level">
+        <option>Iniciación al kitesurf</option>
+        <option>Perfeccionamiento de kitesurf</option>
+        <option>Wingsurf / Wingfoil</option>
+        <option>Alquiler supervisado</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Tu mensaje…"></textarea>
+      <button type="submit" class="btn">Enviar por correo</button>
+      <p class="form-note">El botón abre tu correo con el mensaje ya rellenado — o más rápido aún: el WhatsApp de al lado.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33674651701">📞 Llamar</a>
+  <a class="btn btn-wa" href="https://wa.me/33674651701" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">ADDICTED<span>2</span>KITE</p>
+    <p>Escuela de kitesurf &amp; wingfoil · Créneau Naturel, Narbonne-Plage · desde 2015</p>
+    <p class="credits">Maqueta de demostración. Fotos: Addicted2kite.</p>
+  </div>
+  <p class="footer-hint" title="Una pista…">🔥 Psst… ¿eres un addict? Escribe <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>¡Easter egg encontrado!</b> Mueve el ratón para pilotar la cometa — <kbd>ESC</kbd> para volver.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Addicted2kite",
+  lang: "es",
+  spotName: "en Narbonne-Plage",
+  email: "contact@addicted2kite.fr",
+  phone: "+33674651701",
+  lat: 43.1594, lon: 3.1697, zoom: 13,
+  kite: { main: 0xffb43a, stripe: 0xff5e7a },
+  egg: { sky: [0x351a5e, 0xffa46b], water: 0x2d2a5e, kite: 0xffb43a, kiteStripe: 0xff5e7a, sun: 0xffd9a0 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

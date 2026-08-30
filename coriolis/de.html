@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Coriolis Foil School — Wing Foil, Kite Foil &amp; Wake Foil in Leucate</title>
+<meta name="description" content="Die 100 % Foil-Schule in Port Leucate: Wing Foil, Kite Foil und bootgezogener Simulator. Flieg über dem Wasser, schon bei leichtem Wind, mit Luc Graulou. Max. 3 Personen pro Kurs." />
+<meta property="og:title" content="Coriolis Foil School — Flieg über dem Wasser" />
+<meta property="og:description" content="Wing Foil, Kite Foil, Wake Foil: die Spezialschule fürs Fliegen in Port Leucate." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛸</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">CORIOLIS<span> FOIL SCHOOL</span></a>
+  <div class="nav-links">
+    <a href="#foil">Das Foil</a>
+    <a href="#seance">Deine 1. Stunde</a>
+    <a href="#cours">Kurse</a>
+    <a href="#tarifs">Preise</a>
+    <a href="#contact">Kontakt</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Buchen</a>
+  <button class="nav-burger" id="burger" aria-label="Menü">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-foiljump.jpg" alt="Kite-Foil-Rider schwebt über dem Wasser" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">100 % Foil-Schule · Port Leucate</p>
+    <h1 class="reveal">Was, wenn Du<br /><em>über dem Wasser fliegen könntest?</em></h1>
+    <p class="hero-sub reveal">Wing Foil, Kite Foil, gezogener Simulator: Coriolis ist die Foil-Spezialschule
+    in Leucate. Ein feines, lautloses, fast magisches Gleiten — erlebbar schon in der ersten Stunde.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#cours">Kurse entdecken</a>
+      <a class="btn btn-ghost" href="#foil">Was ist ein Foil?</a>
+    </div>
+    <div class="wind-widget reveal" title="Open-Meteo-Vorhersage für Port Leucate">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Wind wird geladen…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> Spezialist für <b>100 % Foil</b></span>
+  <span><i>✔</i> <b>Max. 3 Personen</b> pro Kurs</span>
+  <span><i>✔</i> Gezogener Simulator — <b>exklusiv</b></span>
+  <span><i>✔</i> Von April bis November</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Wing Foil</span><i>▲</i><span>Kite Foil</span><i>▲</i><span>Wake Foil</span><i>▲</i><span>Simulator</span><i>▲</i><span>Fliegen über dem Wasser</span><i>▲</i>
+    <span>Wing Foil</span><i>▲</i><span>Kite Foil</span><i>▲</i><span>Wake Foil</span><i>▲</i><span>Simulator</span><i>▲</i><span>Fliegen über dem Wasser</span><i>▲</i>
+  </div>
+</section>
+
+<section class="section" id="foil">
+  <div class="section-head reveal">
+    <p class="eyebrow">Das Foil</p>
+    <h2>Ein Flügel unter dem Wasser, <em>Flügel im Kopf.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/wing-bw.jpg" alt="Wing Foiler im Gegenlicht auf dem Meer" loading="lazy" />
+      <span class="img-tag">Fliegen, in Stille</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Wie ein Flugzeug, unter der Oberfläche</p>
+        <p>Das Foil besteht aus einem <strong>Frontflügel</strong> und einem <strong>Stabilisator</strong>, die
+        über einen Mast mit dem Board verbunden sind. Schon bei wenigen Knoten Fahrt hebt Dich der Auftrieb an:
+        Du gleitest <strong>einen Meter über dem Wasser</strong> — lautlos, mühelos,
+        selbst bei sehr leichtem Wind.</p>
+        <p class="card-tags"><span>Gelenkschonend</span><span>Leichtwind OK</span><span>Einzigartiges Gefühl</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="3">0</b><span>Personen max. pro Kurs</span></div>
+        <div class="stat"><b data-count="3">0</b><span>Disziplinen: Wing, Kite, Wake Foil</span></div>
+        <div class="stat"><b data-count="1" data-suffix=" m">0</b><span>über dem Wasser, in Stille</span></div>
+        <div class="stat"><b data-count="8">0</b><span>Monate Saison, April bis November</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Deine erste Stunde</p>
+    <h2>45 Minuten bis zum <em>Abheben.</em></h2>
+    <p class="section-sub">Der bootgezogene Simulator: kein Flügel, den Du halten musst — nur Du, das Board und das Foil. Der beste Einstieg ins Fliegen.</p>
+  </div>
+  <div class="grid grid-3">
+    <figure class="reveal" style="position:relative;border-radius:var(--radius);overflow:hidden">
+      <img src="img/simulateur.jpg" alt="Start am gezogenen Simulator hinter dem Boot" style="width:100%;height:280px;object-fit:cover" loading="lazy" />
+      <figcaption style="padding:1rem 1.2rem;background:var(--panel);border:1px solid var(--line);border-top:0"><b>1 · Los geht's</b><br /><span style="color:var(--muted);font-size:0.93rem">Vom Boot gezogen findest Du die Balance auf dem Board — ganz ohne an den Wind zu denken.</span></figcaption>
+    </figure>
+    <figure class="reveal" style="position:relative;border-radius:var(--radius);overflow:hidden">
+      <img src="img/paddle-wing.jpg" alt="Erste Schritte mit dem Wing am Wasser" style="width:100%;height:280px;object-fit:cover" loading="lazy" />
+      <figcaption style="padding:1rem 1.2rem;background:var(--panel);border:1px solid var(--line);border-top:0"><b>2 · Erste Flüge</b><br /><span style="color:var(--muted);font-size:0.93rem">Das Foil hebt ab, Du schwebst über dem Wasser. Danach: Wing oder Kite Foil, je nach Deinem Ziel.</span></figcaption>
+    </figure>
+    <figure class="reveal" style="position:relative;border-radius:var(--radius);overflow:hidden">
+      <img src="img/wing-tack.jpg" alt="Wing-Foil-Rider vom Board aus gesehen" style="width:100%;height:280px;object-fit:cover" loading="lazy" />
+      <figcaption style="padding:1rem 1.2rem;background:var(--panel);border:1px solid var(--line);border-top:0"><b>3 · Die Selbstständigkeit</b><br /><span style="color:var(--muted);font-size:0.93rem">Abheben, Transitions, Jibes: Du fliegst allein, selbst bei 8 Knoten Wind.</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section" id="cours">
+  <div class="section-head reveal">
+    <p class="eyebrow">Die Kurse</p>
+    <h2>Drei Wege <em>zum Fliegen.</em></h2>
+  </div>
+  <div class="grid grid-3 pricing">
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Exklusiv bei Coriolis</div>
+      <h3>Simulator / Wake Foil</h3>
+      <p class="price">Vom Boot gezogen<span>45 Min. pures Fliegen</span></p>
+      <ul>
+        <li>Kein Flügel, kein Schirm: 100 % Foil</li>
+        <li>Flieg schon in der ersten Stunde</li>
+        <li>Der beste Weg zum Einstieg</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Wing Foil</h3>
+      <p class="price">Einstieg &amp; Aufbau<span>das Gleiten, das gerade explodiert</span></p>
+      <ul>
+        <li>Leichter Flügel in der Hand</li>
+        <li>Ideal für Lagunen und leichten Wind</li>
+        <li>Abheben, Transitions, Jibes</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Kite Foil</h3>
+      <p class="price">Für Kiter<span>selbstständig am Twintip</span></p>
+      <ul>
+        <li>Fahre schon bei 8 Knoten Wind</li>
+        <li>Unvergleichliche Geschwindigkeit und Finesse</li>
+        <li>Präzises Technik-Coaching</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="tarifs">
+  <div class="section-head reveal">
+    <p class="eyebrow">Preise</p>
+    <h2>Klar wie <em>das Wasser der Lagune.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Die Simulator-Stunden dauern <strong>45 Minuten</strong>, in Gruppen von
+      <strong>maximal 3 Personen</strong>. Nebensaison von April bis November, Hauptsaison im Juli und August.
+      Für die aktuellen Wing-Foil- und Kite-Foil-Preise kontaktiere einfach die Schule.</p>
+      <ul class="checklist">
+        <li>1 Simulator-Stunde: 100 € (120 € im Sommer)</li>
+        <li>3er-Pack: 280 € (340 € im Sommer)</li>
+        <li>Wing Foil &amp; Kite Foil: auf Anfrage</li>
+        <li>Material und Ausrüstung inklusive</li>
+      </ul>
+      <div class="split-img reveal-img" style="margin-top:1.6rem">
+        <img src="img/boat-crew.jpg" alt="Das Coriolis-Team auf dem Boot bei Sonnenuntergang" loading="lazy" />
+        <span class="img-tag">Das Team, nach der Session</span>
+      </div>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Coriolis Foil School, Port Leucate"></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">Häufige Fragen</p>
+    <h2>Das Fliegen in <em>Fragen.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Muss ich schon Wassersport-Erfahrung haben, um mit dem Foil zu starten?</summary><p>Nein. Genau dafür gibt es den gezogenen Simulator: kein Flügel, das Boot zieht Dich, Du konzentrierst Dich ganz auf Balance und Flug. Viele fliegen schon in der ersten Stunde.</p></details>
+    <details><summary>Ist Foilen gefährlich?</summary><p>Es ist ein sanftes, gelenkschonendes Gleiten, wenn es gut betreut wird: Helm, Weste, das passende Revier und eine schrittweise Progression gehören zur Coriolis-Methode.</p></details>
+    <details><summary>Wing Foil oder Kite Foil — was soll ich wählen?</summary><p>Der Wing ist einfacher zu handhaben und perfekt für die Lagunen; das Kite Foil bietet mehr Geschwindigkeit und Finesse, setzt aber voraus, dass Du schon selbstständig Twintip-Kitesurfen kannst.</p></details>
+    <details><summary>Was passiert, wenn kein Wind weht?</summary><p>Das ist das Schöne am Wake Foil: Das Boot ersetzt den Wind. Flautentage werden zu Flugtagen.</p></details>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Kontakt</p>
+    <h2>Bereit zum <em>Abheben?</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Luc antwortet Dir schnell und stellt Deinen Flugplan zusammen — vom ersten gezogenen Ride bis zum selbstständigen Foilen.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33662070867?text=Hallo%2C%20ich%20m%C3%B6chte%20einen%20Foil-Kurs%20buchen" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33662070867">📞 06 62 07 08 67</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:contact@coriolisfoilschool.fr" class="contact-line">✉ contact@coriolisfoilschool.fr</a>
+        <span class="contact-line">📍 Port Leucate, 11370 Leucate</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Dein Name" required />
+        <input type="text" id="cf-dates" placeholder="Deine Termine (z. B. 12.–15. Juli)" />
+      </div>
+      <select id="cf-level">
+        <option>Simulator / Wake Foil — ich fange an</option>
+        <option>Wing Foil</option>
+        <option>Kite Foil</option>
+        <option>3er-Pack</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Deine Nachricht…"></textarea>
+      <button type="submit" class="btn">Per E-Mail senden</button>
+      <p class="form-note">Der Button öffnet Dein E-Mail-Programm mit vorausgefüllter Nachricht — oder noch schneller: WhatsApp nebenan.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33662070867">📞 Anrufen</a>
+  <a class="btn btn-wa" href="https://wa.me/33662070867" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">CORIOLIS<span> FOIL SCHOOL</span></p>
+    <p>Wing Foil · Kite Foil · Wake Foil — Port Leucate</p>
+    <p class="credits">Demo-Entwurf. Fotos: Coriolis Foil School.</p>
+  </div>
+  <p class="footer-hint" title="Ein Hinweis…">🛸 Psst… zum Schweben tippe <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter Egg gefunden!</b> Beweg die Maus, um den Kite zu steuern — <kbd>ESC</kbd> zum Zurückkehren.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Coriolis Foil School",
+  lang: "de",
+  spotName: "in Port Leucate",
+  email: "contact@coriolisfoilschool.fr",
+  phone: "+33662070867",
+  lat: 42.8704, lon: 3.0345, zoom: 13,
+  kite: { main: 0x8b7bff, stripe: 0x4de1ff },
+  egg: { sky: [0x120f2e, 0x6d5bd0], water: 0x1c1650, kite: 0x8b7bff, kiteStripe: 0x4de1ff, sun: 0xe8e0ff },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

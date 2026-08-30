@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Akila Gruissan Pôle Mer — Kitesurfing &amp; wingfoil at Chalets beach</title>
+<meta name="description" content="Kitesurfing, wingfoil and boardsports in Gruissan, on the Défi-Wind and Défi-Kite spot. Private lessons, courses, supervised riding and rentals — in the heart of the Wind Valley, less than 2 hours from Toulouse." />
+<meta property="og:title" content="Akila Gruissan Pôle Mer — The Défi-Kite spot" />
+<meta property="og:description" content="300 days of wind a year, the spot of the world's biggest races, and a team of globe-trotting instructors." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">AKILA<span> GRUISSAN</span></a>
+  <div class="nav-links">
+    <a href="#spot">The spot</a>
+    <a href="#seance">Your 1st session</a>
+    <a href="#cours">Lessons &amp; courses</a>
+    <a href="#base">The base</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Book now</a>
+  <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-defi.jpg" alt="Mass start of the Défi-Kite at Chalets beach in Gruissan" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Pôle Mer · Plage des Chalets · Gruissan</p>
+    <h1 class="reveal">Ride the spot<br /><em>of the Défi-Kite.</em></h1>
+    <p class="hero-sub reveal">This is where, in the heart of the Wind Valley, the Défi-Wind
+    and the Défi-Kite — the world's biggest long-distance races — are held every year. Tramontane wind 300 days a year:
+    if you're looking for wind, you've come to the right place.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#cours">Lessons &amp; courses</a>
+      <a class="btn btn-ghost" href="#base">Discover the base</a>
+    </div>
+    <div class="wind-widget reveal" title="Open-Meteo forecast for Chalets beach">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Loading wind…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> The <b>Défi-Wind &amp; Défi-Kite</b> spot</span>
+  <span><i>✔</i> <b>State-certified</b> instructors</span>
+  <span><i>✔</i> <b>Duotone</b> gear</span>
+  <span><i>✔</i> Seafront restaurant &amp; shop</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurfing</span><i>▸</i><span>Wingfoil</span><i>▸</i><span>Windsurfing</span><i>▸</i><span>Défi-Wind</span><i>▸</i><span>Défi-Kite</span><i>▸</i><span>Wind Valley</span><i>▸</i>
+    <span>Kitesurfing</span><i>▸</i><span>Wingfoil</span><i>▸</i><span>Windsurfing</span><i>▸</i><span>Défi-Wind</span><i>▸</i><span>Défi-Kite</span><i>▸</i><span>Wind Valley</span><i>▸</i>
+  </div>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">The spot</p>
+    <h2>The Wind Valley, <em>300 days of wind a year.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/aerial-jetty.jpg" alt="Aerial view of the Gruissan jetty at sunset" loading="lazy" />
+      <span class="img-tag">Gruissan from the sky</span>
+    </div>
+    <div>
+      <p class="lead reveal">The Pôle Mer (sea base), at the entrance to the legendary <strong>plage des Chalets</strong>, gives you direct access
+      to the best freeride spot in France. Beginners: step-by-step, safe learning.
+      Experienced riders: our instructors take you <strong>by boat</strong> to la Vieille Nouvelle
+      for freeride and big-air sessions.</p>
+      <ul class="checklist reveal">
+        <li>The spot of the Défi-Wind and the Défi-Kite</li>
+        <li>Steady Tramontane in the heart of the Wind Valley</li>
+        <li>Boat access to the best spots of the day</li>
+        <li>Less than 2 hours from Toulouse, in the Narbonnaise Nature Park</li>
+      </ul>
+    </div>
+  </div>
+  <div class="band reveal" style="margin-top:2.5rem">
+    <img src="img/defi2.jpg" alt="Start of the Défi at Chalets beach" loading="lazy" />
+    <div><b data-count="300">0</b><span>days of wind per year</span></div>
+    <div><b data-count="2">0</b><span>bases: sea &amp; étang de Mateille</span></div>
+    <div><b data-count="1000" data-suffix="+">0</b><span>riders at the start of the Défi</span></div>
+    <div><b data-count="5">0</b><span>years old, starting age at the Jardin des Mers</span></div>
+  </div>
+</section>
+
+<section class="section section-alt" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Your first session</p>
+    <h2>From briefing to your first run, <em>guided by pros.</em></h2>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration: flying the kite" loading="lazy" /></div>
+      <div class="tl-body"><h3>Taming the kite</h3><p>Core theory and kite control in the water without the board: wind window, static and dynamic piloting, body-dragging.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration: waterstart" loading="lazy" /></div>
+      <div class="tl-body"><h3>The waterstart</h3><p>Board recovery, waterstart and relaunching — the boat takes you straight to the wild beach.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration: first runs" loading="lazy" /></div>
+      <div class="tl-body"><h3>Your first runs</h3><p>Riding upwind, refining your glide, sliding then jumping transitions — all the way to big-air coaching.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">In pictures</p>
+    <h2>The Pôle Mer <em>in action.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/action-girl.jpg" alt="Female kitesurfer riding the sea at Gruissan" loading="lazy" /><figcaption>Kitesurfing, the Pôle Mer exclusive</figcaption></figure>
+    <figure><img src="img/wingfoil-duo.jpg" alt="Two wingfoilers flying" loading="lazy" /><figcaption>Wingfoil, the fastest-growing discipline</figcaption></figure>
+    <figure><img src="img/catamaran.jpg" alt="Orange catamaran planing" loading="lazy" /><figcaption>Catamaran at the Pôle Étang</figcaption></figure>
+    <figure class="m-wide"><img src="img/hero-defi.jpg" alt="Mass start of the Défi-Kite" loading="lazy" /><figcaption>The Défi: 1,000 riders, a horizon of kites</figcaption></figure>
+    <figure><img src="img/instructor.jpg" alt="Akila instructor on the beach" loading="lazy" /><figcaption>Globe-trotting instructors</figcaption></figure>
+    <figure><img src="img/base.jpg" alt="The Akila base with its Duotone flags" loading="lazy" /><figcaption>The base, plage des Chalets</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="cours">
+  <div class="section-head reveal">
+    <p class="eyebrow">Lessons &amp; courses</p>
+    <h2>A formula for every <em>goal.</em></h2>
+    <p class="section-sub">Kitesurfing — the Pôle Mer exclusive — plus wingfoil, windsurfing and every boardsport. State-certified instructors, regularly renewed Duotone gear.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Fast-track progress</div>
+      <h3>Private lessons</h3>
+      <p class="price">1-to-1<span>dedicated instructor</span></p>
+      <ul>
+        <li>The most effective formula</li>
+        <li>Kitesurfing and wingfoil</li>
+        <li>From your first run to big-air</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Group lessons &amp; courses</h3>
+      <p class="price">Small group<span>sporty, friendly vibe</span></p>
+      <ul>
+        <li>During the holidays or all season long</li>
+        <li>Max 3 students for wingfoil</li>
+        <li>Theory, piloting, waterstart, points of sail</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>2-hour coaching</h3>
+      <p class="price">Targeted goal<span>independent riders</span></p>
+      <ul>
+        <li>From first jumps to big-air</li>
+        <li>Freestyle, foil, strapless</li>
+        <li>One-on-one with a certified instructor</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Riding &amp; rentals</h3>
+      <p class="price">Independent riders<span>supervision is mandatory on this spot</span></p>
+      <ul>
+        <li>Boat-supervised riding</li>
+        <li>Kite, wing, windsurf and SUP rental</li>
+        <li>This year's Duotone gear</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">The youngest (ages 5–8) discover boardsports at the Jardin des Mers (kids' sea garden), on the étang de Mateille — Akila's Pôle Étang, dedicated to beginners and first wingfoil sessions. Contact the base for this season's prices.</p>
+</section>
+
+<section class="section" id="base">
+  <div class="section-head reveal">
+    <p class="eyebrow">The base</p>
+    <h2>Everything, facing <em>the sea.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <ul class="checklist">
+        <li>Changing rooms, showers, toilets and rinsing area</li>
+        <li>Seafront restaurant, surf shop and bar</li>
+        <li>Globe-trotting instructors, all disciplines</li>
+        <li>Pôle Étang at Mateille for kids and beginners</li>
+      </ul>
+      <p class="lead" style="margin-top:1.4rem">You get out of the water, rinse off, and relive the session over a drink
+      facing the spot. No-wind days have their own programme too: paddle, kayak, catamaran.</p>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Pôle Mer, plage des Chalets, Gruissan"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Frequently asked questions</p>
+    <h2>Before your <em>session.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>What times are the kitesurfing lessons?</summary><p>Morning sessions (from 9 am) or afternoon depending on the weather, plus 2-hour evening coaching for independent riders with a specific goal.</p></details>
+    <details><summary>I'm an independent rider — can I ride freely?</summary><p>On this spot, boat-supervised riding is mandatory for kitesurfing. Rentals include this year's Duotone gear; a level check and a deposit may be required.</p></details>
+    <details><summary>Can my kids get started?</summary><p>From age 5 at the Jardin des Mers (étang de Mateille): a playful discovery of the water, then optimist, catamaran, windsurfing and wingfoil as they grow.</p></details>
+    <details><summary>What about no-wind days?</summary><p>Paddle, kayak and catamaran at the Pôle Étang — and the seafront restaurant to relive past sessions and plan the next ones.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Contact</p>
+    <h2>The session starts <em>here.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Call the base or send a message with your dates and your level — the Pôle Mer team gets back to you fast.</p>
+      <div class="contact-ctas">
+        <a class="btn" href="tel:+33468493333">📞 04 68 49 33 33</a>
+        <a class="btn btn-ghost" href="tel:+33767594064">📱 07 67 59 40 64</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:gruissan@akila-centers.com" class="contact-line">✉ gruissan@akila-centers.com</a>
+        <span class="contact-line">📍 Pôle Mer, plage des Chalets, 11430 Gruissan</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Your name" required />
+        <input type="text" id="cf-dates" placeholder="Your dates (e.g. 12–15 July)" />
+      </div>
+      <select id="cf-level">
+        <option>Private kitesurfing lesson</option>
+        <option>Group lesson / course</option>
+        <option>2-hour coaching — targeted goal</option>
+        <option>Wingfoil (Pôle Étang)</option>
+        <option>Supervised riding / rental</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Your message…"></textarea>
+      <button type="submit" class="btn">Send by e-mail</button>
+      <p class="form-note">The button opens your e-mail app with a pre-filled message.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33468493333">📞 Call the base</a>
+  <a class="btn btn-ghost" href="mailto:gruissan@akila-centers.com">✉ E-mail</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">AKILA<span> GRUISSAN</span></p>
+    <p>Pôle Mer · Plage des Chalets · the Défi-Wind &amp; Défi-Kite spot</p>
+    <p class="credits">Demo mockup. Photos: Akila Gruissan.</p>
+  </div>
+  <p class="footer-hint" title="A hint…">🏆 Psst… champions type <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter egg found!</b> Move your mouse to fly the kite — <kbd>ESC</kbd> to go back.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Akila Gruissan",
+  lang: "en",
+  spotName: "at Chalets beach",
+  email: "gruissan@akila-centers.com",
+  phone: "+33468493333",
+  lat: 43.1035, lon: 3.1092, zoom: 13,
+  kite: { main: 0xe8541f, stripe: 0xffffff },
+  egg: { sky: [0x30364d, 0xffc490], water: 0x275e70, kite: 0xe8541f, kiteStripe: 0xffffff, sun: 0xffe2b8 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

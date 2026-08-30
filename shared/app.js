@@ -12,6 +12,47 @@ import * as THREE from "three";
 const SITE = window.SITE;
 const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+/* ---------- i18n (JS-generated strings only; page text is static per language) ---------- */
+const LANG = SITE.lang || "fr";
+const STR = {
+  fr: {
+    windNow: (spot, s, dir, g) => `En ce moment ${spot} : ${s} nds ${dir} · rafales ${g} nds`,
+    windFail: "Vent en direct indisponible — mais ici, il souffle souvent.",
+    mailSubject: "Réservation — ",
+    mailBody: (n, d, l, m) => `Bonjour,\n\nJe souhaite réserver un cours / stage.\n\nNom : ${n}\nDates envisagées : ${d}\nFormule : ${l}\n\n${m}\n\nMerci !`,
+    compass: ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSO", "SO", "OSO", "O", "ONO", "NO", "NNO"],
+  },
+  en: {
+    windNow: (spot, s, dir, g) => `Right now ${spot}: ${s} kn ${dir} · gusts ${g} kn`,
+    windFail: "Live wind unavailable — but around here, it usually blows.",
+    mailSubject: "Booking — ",
+    mailBody: (n, d, l, m) => `Hello,\n\nI would like to book a lesson / course.\n\nName: ${n}\nDates: ${d}\nOption: ${l}\n\n${m}\n\nThank you!`,
+    compass: ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"],
+  },
+  de: {
+    windNow: (spot, s, dir, g) => `Gerade jetzt ${spot}: ${s} kn ${dir} · Böen ${g} kn`,
+    windFail: "Live-Wind nicht verfügbar — aber hier weht es fast immer.",
+    mailSubject: "Buchung — ",
+    mailBody: (n, d, l, m) => `Hallo,\n\nich möchte einen Kurs buchen.\n\nName: ${n}\nDaten: ${d}\nOption: ${l}\n\n${m}\n\nVielen Dank!`,
+    compass: ["N", "NNO", "NO", "ONO", "O", "OSO", "SO", "SSO", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"],
+  },
+  es: {
+    windNow: (spot, s, dir, g) => `Ahora mismo ${spot}: ${s} kn ${dir} · rachas ${g} kn`,
+    windFail: "Viento en directo no disponible — pero aquí casi siempre sopla.",
+    mailSubject: "Reserva — ",
+    mailBody: (n, d, l, m) => `Hola:\n\nMe gustaría reservar un curso.\n\nNombre: ${n}\nFechas: ${d}\nOpción: ${l}\n\n${m}\n\n¡Gracias!`,
+    compass: ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSO", "SO", "OSO", "O", "ONO", "NO", "NNO"],
+  },
+  nl: {
+    windNow: (spot, s, dir, g) => `Nu ${spot}: ${s} kn ${dir} · vlagen ${g} kn`,
+    windFail: "Live wind niet beschikbaar — maar hier waait het bijna altijd.",
+    mailSubject: "Reservering — ",
+    mailBody: (n, d, l, m) => `Hallo,\n\nIk wil graag een cursus boeken.\n\nNaam: ${n}\nData: ${d}\nOptie: ${l}\n\n${m}\n\nBedankt!`,
+    compass: ["N", "NNO", "NO", "ONO", "O", "OZO", "ZO", "ZZO", "Z", "ZZW", "ZW", "WZW", "W", "WNW", "NW", "NNW"],
+  },
+};
+const T = STR[LANG] || STR.fr;
+
 /* ---------- Nav ---------- */
 const nav = document.getElementById("nav");
 addEventListener("scroll", () => nav.classList.toggle("scrolled", scrollY > 30), { passive: true });
@@ -19,6 +60,24 @@ const burger = document.getElementById("burger");
 const links = document.querySelector(".nav-links");
 burger?.addEventListener("click", () => links.classList.toggle("open"));
 links?.addEventListener("click", () => links.classList.remove("open"));
+
+/* ---------- Language switcher (injected) ---------- */
+(function langSwitch() {
+  const LANGS = SITE.langs || ["fr", "en", "de", "es"];
+  if (LANGS.length < 2 || !nav) return;
+  const div = document.createElement("div");
+  div.className = "lang-switch";
+  LANGS.forEach((l) => {
+    const a = document.createElement("a");
+    a.textContent = l.toUpperCase();
+    a.href = l === "fr" ? "index.html" : `${l}.html`;
+    a.hreflang = l;
+    if (l === LANG) a.className = "active";
+    div.appendChild(a);
+  });
+  const btn = nav.querySelector(":scope > .btn");
+  nav.insertBefore(div, btn || nav.querySelector(".nav-burger"));
+})();
 
 /* ---------- Scroll reveal (text + image wipes) ---------- */
 const io = new IntersectionObserver(
@@ -62,7 +121,6 @@ const cio = new IntersectionObserver((entries) => {
 counters.forEach((el) => cio.observe(el));
 
 /* ---------- Live wind (Open-Meteo, no key needed) ---------- */
-const COMPASS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSO", "SO", "OSO", "O", "ONO", "NO", "NNO"];
 (async function loadWind() {
   const el = document.getElementById("wind-text");
   if (!el) return;
@@ -71,10 +129,10 @@ const COMPASS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSO", "
     const r = await fetch(url);
     const d = await r.json();
     const c = d.current;
-    const dir = COMPASS[Math.round(c.wind_direction_10m / 22.5) % 16];
-    el.textContent = `En ce moment ${SITE.spotName} : ${Math.round(c.wind_speed_10m)} nds ${dir} · rafales ${Math.round(c.wind_gusts_10m)} nds`;
+    const dir = T.compass[Math.round(c.wind_direction_10m / 22.5) % 16];
+    el.textContent = T.windNow(SITE.spotName, Math.round(c.wind_speed_10m), dir, Math.round(c.wind_gusts_10m));
   } catch {
-    el.textContent = `Vent en direct indisponible — mais ici, il souffle souvent.`;
+    el.textContent = T.windFail;
   }
 })();
 
@@ -112,10 +170,8 @@ document.getElementById("contact-form")?.addEventListener("submit", (e) => {
   const dates = document.getElementById("cf-dates")?.value || "";
   const level = document.getElementById("cf-level")?.value || "";
   const msg = document.getElementById("cf-msg")?.value || "";
-  const body = encodeURIComponent(
-    `Bonjour,\n\nJe souhaite réserver un cours / stage.\n\nNom : ${name}\nDates envisagées : ${dates}\nFormule : ${level}\n\n${msg}\n\nMerci !`
-  );
-  location.href = `mailto:${SITE.email}?subject=${encodeURIComponent("Réservation — " + name)}&body=${body}`;
+  const body = encodeURIComponent(T.mailBody(name, dates, level, msg));
+  location.href = `mailto:${SITE.email}?subject=${encodeURIComponent(T.mailSubject + name)}&body=${body}`;
 });
 
 /* ============================================================
