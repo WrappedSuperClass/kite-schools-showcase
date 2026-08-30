@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>KITEPULSION — Kitesurfschule in La Franqui, Leucate</title>
+<meta name="description" content="FFVL-zertifizierte Kiteschule am Strand Les Coussoules in La Franqui. Kitesurfkurse für alle Levels mit Thomas Kraemer, staatlich geprüfter Kitelehrer seit 2002. Mini-Gruppen, Funkbetreuung, Zodiac-Sicherungsboot." />
+<meta property="og:title" content="KITEPULSION — Kitesurfschule in La Franqui" />
+<meta property="og:description" content="8 km unberührter Strand. Mini-Gruppen mit 3 Personen. Funkbetreuung. Seit 2002 am legendären Spot Les Coussoules." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪁</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">KITE<span>PULSION</span></a>
+  <div class="nav-links">
+    <a href="#seance">Deine 1. Session</a>
+    <a href="#ecole">Die Schule</a>
+    <a href="#formules">Angebote</a>
+    <a href="#spot">Der Spot</a>
+    <a href="#contact">Kontakt</a>
+  </div>
+  <a class="btn btn-small" href="#contact">Buchen</a>
+  <button class="nav-burger" id="burger" aria-label="Menü">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="../shared/img/hero-bigair.jpg" alt="Kitesurfer beim Sprung über dem Meer" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Französische Kiteschule · FFVL · La Franqui</p>
+    <h1 class="reveal">Der Wind wartet auf Dich<br /><em>an den Coussoules.</em></h1>
+    <p class="hero-sub reveal">8 km unberührter Strand, die Tramontane als Motor und ein staatlich geprüfter
+    Kitelehrer, der hier seit 2002 unterrichtet. Vom ersten Start bis zur sportlichen Performance.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#contact">Kurs buchen</a>
+      <a class="btn btn-ghost" href="#seance">Wie läuft das ab?</a>
+    </div>
+    <div class="wind-widget reveal" title="Open-Meteo-Vorhersage für den Strand Les Coussoules">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Wind wird geladen…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> Schule mit <b>FFVL</b>-Label</span>
+  <span><i>✔</i> Kitelehrer <b>BPJEPS &amp; DEJEPS</b>, CREPS-Ausbilder</span>
+  <span><i>✔</i> Seit <b>2002</b> am Spot</span>
+  <span><i>✔</i> Französisch · Englisch · Deutsch</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurfen</span><i>✦</i><span>Freestyle</span><i>✦</i><span>Strapless</span><i>✦</i><span>Foil</span><i>✦</i><span>Powerkite</span><i>✦</i><span>Catakite</span><i>✦</i><span>Snowkite</span><i>✦</i>
+    <span>Kitesurfen</span><i>✦</i><span>Freestyle</span><i>✦</i><span>Strapless</span><i>✦</i><span>Foil</span><i>✦</i><span>Powerkite</span><i>✦</i><span>Catakite</span><i>✦</i><span>Snowkite</span><i>✦</i>
+  </div>
+</section>
+
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Deine erste Session</p>
+    <h2>Drei Stunden, und <em>das Kite-Fieber packt Dich.</em></h2>
+    <p class="section-sub">Der Treffpunkt wird am Vorabend um 20 Uhr aufs beste Windfenster gelegt. Funk im Helm, Anweisungen in Echtzeit, maximal 3 Teilnehmer.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration: Kitesteuerung im Wasser" loading="lazy" /></div>
+      <div class="tl-body"><h3>Den Kite zähmen</h3><p>Windfenster, Sicherheit, Steuern im flachen Wasser. Der Wind wird zum Partner statt zum Rätsel.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration: Wasserstart mit Begleitboot" loading="lazy" /></div>
+      <div class="tl-body"><h3>Der Wasserstart</h3><p>Bodydrag, dann die ersten Starts auf dem Board — das Zodiac sichert Dich. Genau hier macht es Klick.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration: erste Schläge beim Kitesurfen" loading="lazy" /></div>
+      <div class="tl-body"><h3>Deine ersten Schläge</h3><p>Gleiten, Höhe laufen, Schlag an Schlag reihen — mit Thomas' Videoanalyse kommst Du doppelt so schnell voran.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
+  <div class="section-head reveal">
+    <p class="eyebrow">Die Schule</p>
+    <h2>Eine Schule, ein Ort, <em>ein Kitelehrer.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/zodiac-bw.jpg" alt="Das Zodiac-Sicherungsboot von Kitepulsion am Strand Les Coussoules" loading="lazy" />
+      <span class="img-tag">Das Zodiac der Schule, Les Coussoules</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Thomas Kraemer</p>
+        <p>Kitelehrer und Leistungssport-Trainer, CREPS-Ausbilder, staatlich diplomiert
+        <strong>BPJEPS &amp; DEJEPS Kite</strong>. Er unterrichtet am Spot von Leucate seit
+        <strong>2002</strong> — über zwanzig Jahre Erfahrung mit dem Wind an den Coussoules.</p>
+        <p class="card-tags"><span>Französisch</span><span>Englisch</span><span>Deutsch</span><span>Videoanalyse</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="3">0</b><span>Teilnehmer max. pro Kitelehrer</span></div>
+        <div class="stat"><b data-count="3" data-suffix=" h">0</b><span>pro Session, Funk im Helm</span></div>
+        <div class="stat"><b data-count="8" data-suffix=" km">0</b><span>unberührter Strand an den Coussoules</span></div>
+        <div class="stat"><b data-count="20" data-suffix="+">0</b><span>Jahre Unterricht in Leucate</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">In Bildern</p>
+    <h2>Das erwartet Dich <em>da oben.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="../shared/img/action-jump.jpg" alt="Sprung beim Kitesurfen" loading="lazy" /><figcaption>Freestyle, wenn Du so weit bist</figcaption></figure>
+    <figure><img src="../shared/img/lagoon-kites.jpg" alt="Kites über einer Lagune" loading="lazy" /><figcaption>Flaches Wasser für den Einstieg</figcaption></figure>
+    <figure><img src="../shared/img/beach-kite.jpg" alt="Kite am Strand" loading="lazy" /><figcaption>Materialvorbereitung</figcaption></figure>
+    <figure class="m-wide"><img src="../shared/img/speed.jpg" alt="Rider mit voller Geschwindigkeit" loading="lazy" /><figcaption>Gleiten, pur</figcaption></figure>
+    <figure><img src="../shared/img/strapless.jpg" alt="Strapless-Surfen" loading="lazy" /><figcaption>Strapless &amp; Foil im Programm</figcaption></figure>
+    <figure><img src="../shared/img/sunset-kite.jpg" alt="Kite im Sonnenuntergang" loading="lazy" /><figcaption>Abendsessions im Sommer</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="formules">
+  <div class="section-head reveal">
+    <p class="eyebrow">Angebote</p>
+    <h2>Bau Dir Deinen Kurs <em>in Deinem Tempo.</em></h2>
+    <p class="section-sub">Ein einziger, klarer Tarif: <strong>130 € / Person</strong> außerhalb der Saison, <strong>150 €</strong> im Juli–August. Du wählst das Format.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card reveal">
+      <h3>À la carte</h3>
+      <p class="price">130–150 €<span>/ Pers. / Session</span></p>
+      <ul>
+        <li>3-stündige Gruppensession</li>
+        <li>Max. 3 Teilnehmer pro Kitelehrer</li>
+        <li>Termine nach Wetterlage optimiert</li>
+        <li>Anfänger, Aufsteiger oder Fortgeschrittene</li>
+      </ul>
+    </div>
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Am flexibelsten</div>
+      <h3>Flexibilität</h3>
+      <p class="price">130–150 €<span>/ Pers.</span></p>
+      <ul>
+        <li>1 Gruppensession à 3 h, oder</li>
+        <li>1 Privatstunde à 1 h, oder</li>
+        <li>1 Privatkurs à 2 h zu zweit</li>
+        <li>Du entscheidest, Session für Session</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Privatunterricht</h3>
+      <p class="price">Nach Maß<span>&nbsp;</span></p>
+      <ul>
+        <li>100 % individuelle Betreuung</li>
+        <li>Freie Wahl des idealen Wetterfensters</li>
+        <li>Individuelles Programm</li>
+        <li>Videoanalyse &amp; Trainingstipps</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Perf.-Coaching</h3>
+      <p class="price">Gruppe 4–6<span>selbstständige Rider</span></p>
+      <ul>
+        <li>Freestyle, Strapless, Foil</li>
+        <li>Neues Material zum Testen</li>
+        <li>Videodreh &amp; -analyse</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">FFVL-Lizenz / Versicherung obligatorisch, nicht inbegriffen: ab 7,50 € (2 oder 9 Tage), Jahreslizenz ab 25 €. Verschiebung oder Erstattung, wenn das Wetter nicht mitspielt — Gutschriften bleiben ein Jahr gültig. Im Winter bietet die Schule auch Snowkiten an.</p>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">Der Spot</p>
+    <h2>Les Coussoules, <em>der legendäre Spot.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">In La Franqui, zwischen Steilküste und Dünen, erstreckt sich der Strand Les Coussoules
+      über <strong>8 Kilometer unberührten Sand</strong>. Hier findet der Mondial du Vent statt:
+      riesige Fläche, flaches Wasser am Ufer, verlässliche Tramontane von April bis Oktober.</p>
+      <ul class="checklist">
+        <li>Günstige Windstatistik von April bis Oktober</li>
+        <li>Lernzone im flachen Wasser</li>
+        <li>Offenes Wasser mit Zodiac-Sicherung</li>
+        <li>~1 h 45 von Toulouse, 30 min von Perpignan</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Strand Les Coussoules, La Franqui"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Häufige Fragen</p>
+    <h2>Bevor Du <em>abhebst.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Und wenn während meines Kurses kein Wind weht?</summary><p>Die Session wird auf Initiative des Kitelehrers verschoben oder erstattet. Gutschriften bleiben ein Jahr gültig — plane nach Möglichkeit einen Puffertag in Deinen Aufenthalt ein.</p></details>
+    <details><summary>Um wie viel Uhr findet der Kurs statt?</summary><p>Uhrzeit und Treffpunkt werden am Vorabend um 20 Uhr bestätigt, nach dem letzten Wetterbericht — für das beste Windfenster.</p></details>
+    <details><summary>Was muss ich mitbringen?</summary><p>Langen Neoprenanzug (Leihgabe möglich, gib Deine Größe bei der Buchung an), Neoprenschuhe, Sonnenbrille, Sonnencreme, Snack und Wasser.</p></details>
+    <details><summary>Ist die Versicherung inbegriffen?</summary><p>Nein — die FFVL-Lizenz für Kitesport ist Pflicht: ab 7,50 € für 2 oder 9 Tage, 25 € fürs Jahr. Schließe sie am besten vor dem Kurs online ab, das spart Zeit am ersten Tag.</p></details>
+    <details><summary>Ich fahre schon selbstständig — was bietet ihr an?</summary><p>Perfektionscoaching in Gruppen von 4 bis 6: Freestyle, Strapless, Foil, Video und Analyse. Und im Winter übernimmt das Snowkiten.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Kontakt</p>
+    <h2>Planen wir <em>Dein Projekt.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Schick Deine Termine, Dein Level und Deine Wünsche — Thomas antwortet schnell und stellt Deinen Kurs zusammen.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33682314920?text=Hallo%2C%20ich%20m%C3%B6chte%20einen%20Kitesurfkurs%20buchen" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33682314920">📞 06 82 31 49 20</a>
+      </div>
+      <div class="contact-lines">
+        <a href="mailto:kitepulsion@gmail.com" class="contact-line">✉ kitepulsion@gmail.com</a>
+        <span class="contact-line">📍 La Franqui, 11370 Leucate</span>
+        <img src="img/logo-efk.png" alt="FFVL-Label — Französische Kiteschule" style="width:110px;margin-top:1rem" loading="lazy" />
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Dein Name" required />
+        <input type="text" id="cf-dates" placeholder="Deine Termine (z. B. 12.–15. Juli)" />
+      </div>
+      <select id="cf-level">
+        <option>Anfänger — noch nie gekitet</option>
+        <option>Aufsteiger — Kitesteuerung / Bodydrag sitzt</option>
+        <option>Fortgeschritten — selbstständig, ich verbessere mich</option>
+        <option>Perfektionscoaching (Gruppe)</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Deine Nachricht…"></textarea>
+      <button type="submit" class="btn">Per E-Mail senden</button>
+      <p class="form-note">Der Button öffnet Dein Mailprogramm mit vorausgefüllter Nachricht — oder schneller: WhatsApp nebenan.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33682314920">📞 Anrufen</a>
+  <a class="btn btn-wa" href="https://wa.me/33682314920" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">KITE<span>PULSION</span></p>
+    <p>FFVL-angeschlossene Französische Kiteschule · Strand Les Coussoules, La Franqui</p>
+    <p class="credits">Demo-Entwurf. Illustrationsfotos: Kitepulsion · Wikimedia Commons (P. Bouras, Q. Dein u. a. — CC BY-SA / CC0).</p>
+  </div>
+  <p class="footer-hint" title="Ein Hinweis…">🪁 Psst… der Wind frischt auf — tippe <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter Egg gefunden!</b> Beweg die Maus, um den Kite zu steuern — <kbd>ESC</kbd> zum Zurückkehren.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Kitepulsion",
+  lang: "de",
+  spotName: "an den Coussoules",
+  email: "kitepulsion@gmail.com",
+  phone: "+33682314920",
+  lat: 42.9385, lon: 3.0255, zoom: 13,
+  kite: { main: 0x37e0ff, stripe: 0xb4ff3a },
+  egg: { sky: [0x0b1e33, 0x37b6e0], water: 0x0e3a52, kite: 0x37e0ff, kiteStripe: 0xb4ff3a, sun: 0xfff3d6 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

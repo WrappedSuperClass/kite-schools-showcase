@@ -59,6 +59,16 @@ img { display: block; max-width: 100%; }
 .nav-links a { transition: color 0.2s; }
 .nav-links a:hover { color: var(--text); }
 .nav-burger { display: none; background: none; border: none; color: var(--text); font-size: 1.5rem; cursor: pointer; }
+.lang-switch {
+  display: flex; gap: 0.15rem; align-items: center;
+  font-family: var(--font-head); font-size: 0.78rem;
+}
+.lang-switch a {
+  padding: 0.25rem 0.45rem; border-radius: 7px; color: var(--muted);
+  transition: color 0.2s, background 0.2s;
+}
+.lang-switch a:hover { color: var(--text); }
+.lang-switch a.active { color: var(--accent-contrast); background: var(--accent); font-weight: 700; }
 
 /* ---------- Buttons ---------- */
 .btn {

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chinook Kite School — Kitesurf school in Leucate since 1999</title>
+<meta name="description" content="FFVL-certified kitesurf school in Leucate since 1999. 3-hour sessions on the La Palme lagoon, shallow water, gear provided. Leucate Village's historic boardsports shop." />
+<meta property="og:title" content="Chinook Kite School — Leucate since 1999" />
+<meta property="og:description" content="25 years of kite experience on the La Palme lagoon. FFVL school + boardsports shop in Leucate Village." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏄</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">CHINOOK<span> · Leucate</span></a>
+  <div class="nav-links">
+    <a href="#seance">Your first session</a>
+    <a href="#ecole">The school</a>
+    <a href="#stages">Courses</a>
+    <a href="#spot">The spot</a>
+    <a href="#shop">The shop</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a class="btn btn-small" href="tel:+33630820952">Call Philou</a>
+  <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-bg" src="img/hero-kite.jpg" alt="Kitesurfer with an orange kite on the sea off Leucate" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">FFVL school &amp; boardsports shop · Leucate · since 1999</p>
+    <h1 class="reveal">25 years of kite,<br /><em>still the same stoke.</em></h1>
+    <p class="hero-sub reveal">Chinook is Leucate's original kite school: one passionate instructor,
+    a shallow lagoon with ideal conditions, and a proper shop in the village to kit you out
+    from head to toe.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#stages">Discover the courses</a>
+      <a class="btn btn-ghost" href="#spot">The La Palme spot</a>
+    </div>
+    <div class="wind-widget reveal" title="Open-Meteo forecast for the La Palme lagoon">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Loading wind data…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<div class="badges">
+  <span><i>✔</i> <b>FFVL</b>-certified school</span>
+  <span><i>✔</i> Qualified instruction since <b>1999</b></span>
+  <span><i>✔</i> Gear provided, <b>wetsuit included</b></span>
+  <span><i>✔</i> AFKite licence issued on site</span>
+</div>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurfing</span><i>●</i><span>FFVL school</span><i>●</i><span>Shop</span><i>●</i><span>Windsurfing</span><i>●</i><span>Stand-up paddle</span><i>●</i><span>Since 1999</span><i>●</i>
+    <span>Kitesurfing</span><i>●</i><span>FFVL school</span><i>●</i><span>Shop</span><i>●</i><span>Windsurfing</span><i>●</i><span>Stand-up paddle</span><i>●</i><span>Since 1999</span><i>●</i>
+  </div>
+</section>
+
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Your first session</p>
+    <h2>Three hours on <em>the La Palme lagoon.</em></h2>
+    <p class="section-sub">Shallow water, conditions for every level, and the FFVL method: a structured welcome, teaching tailored to you, and your skills assessed as you go.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration: flying the kite in the water" loading="lazy" /></div>
+      <div class="tl-body"><h3>Tame the kite</h3><p>Kite control and safety, standing in the lagoon's shallow water. Kites in perfect condition and all the right safety systems.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration: waterstart" loading="lazy" /></div>
+      <div class="tl-body"><h3>The waterstart</h3><p>Body-dragging, then your first starts on the board — with 25 years of Philippe's tricks to shorten the learning curve.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration: first runs" loading="lazy" /></div>
+      <div class="tl-body"><h3>Your first runs</h3><p>Riding, points of sail and a skills check at every step — the coaching continues until you're fully independent.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
+  <div class="section-head reveal">
+    <p class="eyebrow">The school</p>
+    <h2>The FFVL label, <em>with experience on top.</em></h2>
+  </div>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/foil.jpg" alt="Kitefoil on the sea off Leucate" loading="lazy" />
+      <span class="img-tag">Kitefoiling off Leucate</span>
+    </div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Philippe « Philou » Blondé</p>
+        <p>Qualified, seasoned instruction <strong>since 1999</strong> — Philippe has been loading the van,
+        checking the gear and tuning the twintips every season for over twenty years. Starting out, progressing,
+        stepping up a level: you're in the best hands on the lagoon.</p>
+        <p class="card-tags"><span>FFVL label</span><span>New gear every season</span><span>Wetsuit provided</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="25" data-suffix="+">0</b><span>years teaching kitesurfing</span></div>
+        <div class="stat"><b data-count="3" data-suffix=" h">0</b><span>per session on the lagoon</span></div>
+        <div class="stat"><b data-count="9">0</b><span>months of season, March to November</span></div>
+        <div class="stat"><b data-count="18" data-suffix=" €">0</b><span>AFKite licence, issued on site</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">In pictures</p>
+    <h2>One passion, <em>every way to ride.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/kites.jpg" alt="Kites riding out on the sea" loading="lazy" /><figcaption>Kitesurfing, the heart of the school</figcaption></figure>
+    <figure><img src="img/jump-far.jpg" alt="Kitesurf jump in the distance" loading="lazy" /><figcaption>Goal: independence</figcaption></figure>
+    <figure><img src="img/windsurf.jpg" alt="Windsurfer at full speed" loading="lazy" /><figcaption>Chinook's windsurfing DNA</figcaption></figure>
+    <figure class="m-wide"><img src="../shared/img/lagoon-kites.jpg" alt="Shallow lagoon with kites" loading="lazy" /><figcaption>The lagoon, the perfect place to learn</figcaption></figure>
+    <figure><img src="img/windsurf2.jpg" alt="Windsurfer planing" loading="lazy" /><figcaption>The Les Vignes spot, La Palme</figcaption></figure>
+    <figure><img src="../shared/img/beach-kite.jpg" alt="Kite laid out on the sand" loading="lazy" /><figcaption>Gear provided, ready to rig</figcaption></figure>
+  </div>
+</section>
+
+<section class="section section-alt" id="stages">
+  <div class="section-head reveal">
+    <p class="eyebrow">Courses &amp; lessons</p>
+    <h2>From first steps to <em>fine-tuning.</em></h2>
+    <p class="section-sub">3-hour sessions on the La Palme lagoon. Book directly with Philippe — slots go fast once the Tramontane wind settles in.</p>
+  </div>
+  <div class="grid grid-3 pricing">
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">For beginners</div>
+      <h3>Beginner</h3>
+      <p class="price">3-hour session<span>book by phone</span></p>
+      <ul>
+        <li>Kite control and safety</li>
+        <li>Body-dragging, first waterstarts</li>
+        <li>Reassuringly shallow water</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Progression</h3>
+      <p class="price">Multi-session course<span>tailored to your level</span></p>
+      <ul>
+        <li>Reliable waterstart, points of sail, transitions</li>
+        <li>Skills assessed at every stage</li>
+        <li>On course for independence</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Advanced</h3>
+      <p class="price">À la carte<span>for already independent riders</span></p>
+      <ul>
+        <li>Technique, jumps, new disciplines</li>
+        <li>Shop gear advice thrown in</li>
+        <li>Accommodation available nearby</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">AFKite licence required (€18, issued on site). Medical certificate required for riders over 59. Off season (December-February), contact the shop: some instructors stay available through the winter.</p>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">The spot</p>
+    <h2>The La Palme lagoon, <em>the Aude's blue lagoon.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Between Leucate and Port-la-Nouvelle, the La Palme lagoon offers <strong>shallow water</strong>
+      across hectares of flat water and <strong>wind conditions for every level</strong>. It's the perfect
+      place to learn: you can stand, there's nothing to fear, and you progress fast.</p>
+      <ul class="checklist">
+        <li>Shallow water, flat water surface</li>
+        <li>Steady Tramontane wind from March to November</li>
+        <li>10 min from the shop, 1 h 45 from Toulouse</li>
+        <li>Protected scenery of the Narbonnaise Natural Park</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Étang de La Palme"></div></div>
+  </div>
+</section>
+
+<section class="section section-alt" id="shop">
+  <div class="section-head reveal">
+    <p class="eyebrow">The shop</p>
+    <h2>The boardsports shop <em>of Leucate Village.</em></h2>
+  </div>
+  <div class="grid grid-3">
+    <div class="feature reveal">
+      <h3>🏪 Chinook Leucate</h3>
+      <p>195 avenue du Général de Gaulle, Leucate Village. Kitesurf, windsurf, surf, accessories: gear from the best brands, recommended by people who actually ride.</p>
+    </div>
+    <div class="feature reveal">
+      <h3>🕘 Opening hours</h3>
+      <p>Tuesday to Saturday: 9:30 am – 12:30 pm and 3 pm – 6 pm. Order online at chinook-leucate.com with delivery or free drive-through pickup.</p>
+    </div>
+    <div class="feature reveal">
+      <h3>🤝 School + shop</h3>
+      <p>The winning combo: learn with the school, gear up at the shop with real on-the-water advice — and stay in touch all year round.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">Frequently asked questions</p>
+    <h2>Before you <em>rig up.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>What should I bring to the lesson?</summary><p>Just your neoprene booties and sunglasses — everything else is provided: kite, board, helmet, harness, vest and wetsuit.</p></details>
+    <details><summary>Do I need a licence or insurance?</summary><p>The AFKite licence is required: €18, issued right on site on your first day. A medical certificate is required for riders over 59.</p></details>
+    <details><summary>Can I ride in winter?</summary><p>The school runs from March to November. Outside that window, contact the shop: some instructors stay available for sessions on demand.</p></details>
+    <details><summary>Why learn on the lagoon rather than at sea?</summary><p>Shallow water, flat surface, steady wind: the La Palme lagoon combines the three conditions that speed up learning — and put beginners at ease.</p></details>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Contact</p>
+    <h2>Book your <em>session.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Info and bookings directly with Philippe, or through the shop. One message is all it takes to set up your course.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33630820952?text=Hello%20Philippe%2C%20I%27d%20like%20to%20book%20a%20kitesurfing%20course" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33630820952">📞 School: 06 30 82 09 52</a>
+      </div>
+      <div class="contact-lines">
+        <a href="tel:+33468401717" class="contact-line">📞 Shop: 04 68 40 17 17</a>
+        <a href="mailto:contact@chinook-leucate.com" class="contact-line">✉ contact@chinook-leucate.com</a>
+        <span class="contact-line">📍 195 av. du Général de Gaulle, 11370 Leucate Village</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Your name" required />
+        <input type="text" id="cf-dates" placeholder="Your dates (e.g. 12–15 July)" />
+      </div>
+      <select id="cf-level">
+        <option>Beginner — never tried</option>
+        <option>Progression — a few sessions done</option>
+        <option>Advanced — independent</option>
+        <option>Shop / gear question</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Your message…"></textarea>
+      <button type="submit" class="btn">Send by e-mail</button>
+      <p class="form-note">The button opens your mail app with the e-mail pre-filled — or faster still: WhatsApp alongside.</p>
+    </form>
+  </div>
+</section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33630820952">📞 Call</a>
+  <a class="btn btn-wa" href="https://wa.me/33630820952" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">CHINOOK<span> · Leucate</span></p>
+    <p>FFVL kitesurf school &amp; boardsports shop · Leucate Village · since 1999</p>
+    <p class="credits">Demo mockup. Photos: Chinook Leucate · additional images Wikimedia Commons (CC BY / CC BY-SA).</p>
+  </div>
+  <p class="footer-hint" title="A hint…">🏄 Psst… the old-timers type <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter egg found!</b> Move your mouse to fly the kite — <kbd>ESC</kbd> to go back.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Chinook",
+  lang: "en",
+  spotName: "on the La Palme lagoon",
+  email: "contact@chinook-leucate.com",
+  phone: "+33630820952",
+  lat: 42.9625, lon: 3.0015, zoom: 13,
+  kite: { main: 0xd9531e, stripe: 0xf7e6c6 },
+  egg: { sky: [0x28425e, 0xf7c884], water: 0x1d5a66, kite: 0xd9531e, kiteStripe: 0xf7e6c6, sun: 0xffe8c0 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>
