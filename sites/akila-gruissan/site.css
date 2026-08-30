@@ -1,0 +1,20 @@
+/* Akila Gruissan — warm white + race orange. Championship energy. */
+:root {
+  --bg: #fdf7f2;
+  --bg-alt: #f6ece2;
+  --panel: #ffffff;
+  --text: #2b1c14;
+  --muted: #71614f;
+  --accent: #e8541f;
+  --accent-2: #0f8b8b;
+  --accent-contrast: #ffffff;
+  --line: rgba(43, 28, 20, 0.13);
+  --nav-bg: rgba(253, 247, 242, 0.6);
+  --nav-bg-solid: rgba(253, 247, 242, 0.92);
+  --map-filter: none;
+  --shadow-accent: rgba(232, 84, 31, 0.25);
+  --radius: 16px;
+  --font-head: "Red Hat Display", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { font-weight: 900; }

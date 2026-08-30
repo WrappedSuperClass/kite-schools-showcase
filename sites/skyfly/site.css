@@ -1,0 +1,20 @@
+/* SkyFly — airy sky blue + sun amber. Light, optimistic, insular. */
+:root {
+  --bg: #f2f8fd;
+  --bg-alt: #e5f0fa;
+  --panel: #ffffff;
+  --text: #0f2c46;
+  --muted: #52708a;
+  --accent: #1d8fe0;
+  --accent-2: #ffb340;
+  --accent-contrast: #ffffff;
+  --line: rgba(15, 44, 70, 0.12);
+  --nav-bg: rgba(242, 248, 253, 0.6);
+  --nav-bg-solid: rgba(242, 248, 253, 0.92);
+  --map-filter: none;
+  --shadow-accent: rgba(29, 143, 224, 0.28);
+  --radius: 20px;
+  --font-head: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { font-weight: 800; }

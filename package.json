@@ -1,0 +1,12 @@
+{
+  "name": "kiting-schools-showcase",
+  "version": "1.0.0",
+  "description": "Modern website redesigns for 10 kitesurf schools on the Aude coast near Toulouse",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

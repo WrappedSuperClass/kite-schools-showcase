@@ -1,0 +1,26 @@
+/* Addicted2kite — dark plum + sunset coral / amber. Fun, punchy. */
+:root {
+  --bg: #16101f;
+  --bg-alt: #1d1529;
+  --panel: #241a33;
+  --text: #f7f0ea;
+  --muted: #b3a4b8;
+  --accent: #ff9e5a;
+  --accent-2: #ff5e7a;
+  --accent-contrast: #2b1405;
+  --line: rgba(255, 190, 150, 0.14);
+  --nav-bg: rgba(22, 16, 31, 0.55);
+  --nav-bg-solid: rgba(22, 16, 31, 0.88);
+  --map-filter: grayscale(0.3) invert(0.9) hue-rotate(190deg);
+  --shadow-accent: rgba(255, 158, 90, 0.3);
+  --radius: 20px;
+  --font-head: "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { font-weight: 800; text-transform: uppercase; letter-spacing: -0.01em; }
+h1 em, h2 em {
+  background: linear-gradient(90deg, #ff9e5a, #ff5e7a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

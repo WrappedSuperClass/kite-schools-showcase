@@ -1,0 +1,20 @@
+/* Coriolis — deep indigo + violet / cyan. Futuristic, levitating. */
+:root {
+  --bg: #0a0918;
+  --bg-alt: #0f0d22;
+  --panel: #16132e;
+  --text: #eeeaff;
+  --muted: #9c93c2;
+  --accent: #8b7bff;
+  --accent-2: #4de1ff;
+  --accent-contrast: #0d0827;
+  --line: rgba(160, 140, 255, 0.16);
+  --nav-bg: rgba(10, 9, 24, 0.55);
+  --nav-bg-solid: rgba(10, 9, 24, 0.88);
+  --map-filter: grayscale(0.4) invert(0.92) hue-rotate(220deg);
+  --shadow-accent: rgba(139, 123, 255, 0.35);
+  --radius: 18px;
+  --font-head: "Sora", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { font-weight: 700; }

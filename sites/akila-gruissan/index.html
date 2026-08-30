@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Akila Gruissan Pôle Mer — Kitesurf &amp; wingfoil sur la plage des Chalets</title>
+<meta name="description" content="Kitesurf, wingfoil et glisse à Gruissan, sur le spot du Défi-Wind et du Défi-Kite. Cours particuliers, stages, navigation surveillée et location — au cœur de la Wind Valley, à moins de 2h de Toulouse." />
+<meta property="og:title" content="Akila Gruissan Pôle Mer — Le spot du Défi-Kite" />
+<meta property="og:description" content="300 jours de vent par an, le spot des plus grandes courses du monde, et une équipe de moniteurs globe-trotters." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">AKILA<span> GRUISSAN</span></a>
+  <div class="nav-links">
+    <a href="#spot">Le spot</a>
+    <a href="#cours">Cours &amp; stages</a>
+    <a href="#base">La base</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a class="btn btn-small" href="mailto:gruissan@akila-centers.com?subject=R%C3%A9servation%20cours%20kitesurf">Réserver</a>
+  <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">Pôle Mer · Plage des Chalets · Gruissan</p>
+    <h1 class="reveal">Naviguez sur le spot<br /><em>du Défi-Kite.</em></h1>
+    <p class="hero-sub reveal">C'est ici, au cœur de la Wind Valley, que se courent chaque année le Défi-Wind
+    et le Défi-Kite — les plus grandes courses de longue distance au monde. Tramontane 300 jours par an :
+    si vous cherchez du vent, vous êtes au bon endroit.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#cours">Cours &amp; stages</a>
+      <a class="btn btn-ghost" href="#base">Découvrir la base</a>
+    </div>
+    <div class="wind-widget reveal" title="Prévisions Open-Meteo pour la plage des Chalets">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Chargement du vent…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurf</span><i>▸</i><span>Wingfoil</span><i>▸</i><span>Windsurf</span><i>▸</i><span>Défi-Wind</span><i>▸</i><span>Défi-Kite</span><i>▸</i><span>Wind Valley</span><i>▸</i>
+    <span>Kitesurf</span><i>▸</i><span>Wingfoil</span><i>▸</i><span>Windsurf</span><i>▸</i><span>Défi-Wind</span><i>▸</i><span>Défi-Kite</span><i>▸</i><span>Wind Valley</span><i>▸</i>
+  </div>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">Le spot</p>
+    <h2>La Wind Valley, <em>300 jours de vent par an.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Le Pôle Mer, à l'entrée de la mythique <strong>plage des Chalets</strong>, donne accès direct
+      au meilleur spot freeride de France. Débutants : apprentissage progressif et sécurisé.
+      Confirmés : nos moniteurs vous emmènent <strong>en bateau</strong> sur la Vieille Nouvelle
+      pour des sessions freeride et big-air.</p>
+      <ul class="checklist">
+        <li>Le spot du Défi-Wind et du Défi-Kite</li>
+        <li>Tramontane régulière au cœur de la Wind Valley</li>
+        <li>Accès bateau aux meilleurs spots du jour</li>
+        <li>À moins de 2 h de Toulouse, dans le Parc Naturel de la Narbonnaise</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal">
+      <iframe title="Carte — Plage des Chalets, Gruissan" src="https://www.openstreetmap.org/export/embed.html?bbox=3.07%2C43.085%2C3.15%2C43.125&amp;layer=mapnik&amp;marker=43.1035%2C3.1092" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="cours">
+  <div class="section-head reveal">
+    <p class="eyebrow">Cours &amp; stages</p>
+    <h2>Une formule pour chaque <em>objectif.</em></h2>
+    <p class="section-sub">Kitesurf — l'exclusivité du Pôle Mer — mais aussi wingfoil, windsurf et toutes les glisses. Moniteurs diplômés d'État, matériel Duotone renouvelé.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Progression express</div>
+      <h3>Cours particuliers</h3>
+      <p class="price">1-to-1<span>moniteur dédié</span></p>
+      <ul>
+        <li>La formule la plus efficace</li>
+        <li>Kitesurf et wingfoil</li>
+        <li>Du premier bord au big-air</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Collectifs &amp; stages</h3>
+      <p class="price">Petit groupe<span>ambiance sportive et conviviale</span></p>
+      <ul>
+        <li>Pendant les vacances ou à la saison</li>
+        <li>3 élèves max en wingfoil</li>
+        <li>Théorie, pilotage, waterstart, allures</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Coaching 2 h</h3>
+      <p class="price">Objectif ciblé<span>riders autonomes</span></p>
+      <ul>
+        <li>Premiers sauts jusqu'au big-air</li>
+        <li>Freestyle, foil, strapless</li>
+        <li>Seul avec un moniteur diplômé</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Nav &amp; location</h3>
+      <p class="price">Autonomes<span>surveillance obligatoire sur ce spot</span></p>
+      <ul>
+        <li>Navigation surveillée par bateau</li>
+        <li>Location kite, wing, windsurf, SUP</li>
+        <li>Matériel Duotone de l'année</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">Les plus jeunes (5–8 ans) découvrent la glisse au Jardin des Mers, sur l'étang de Mateille — le Pôle Étang d'Akila, dédié aux novices et aux premières sessions wingfoil. Contactez la base pour les tarifs de la saison.</p>
+</section>
+
+<section class="section" id="base">
+  <div class="section-head reveal">
+    <p class="eyebrow">La base</p>
+    <h2>Tout, face à <em>la mer.</em></h2>
+  </div>
+  <div class="grid grid-3">
+    <div class="feature reveal">
+      <h3>🚿 Confort complet</h3>
+      <p>Vestiaires, douches, toilettes et aire de rinçage du matériel. On sort de l'eau, on se change, on refait la session autour d'un verre.</p>
+    </div>
+    <div class="feature reveal">
+      <h3>🍽 Restaurant &amp; bar</h3>
+      <p>Un restaurant face à la mer, un surf shop et un bar directement sur la base. Les jours sans vent ont aussi leur programme.</p>
+    </div>
+    <div class="feature reveal">
+      <h3>🌍 Moniteurs globe-trotters</h3>
+      <p>Une équipe de passionnés qui a écumé les meilleurs spots du monde et enseigne sur tous les supports, à tous les niveaux.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Contact</p>
+    <h2>La session commence <em>ici.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Appelez la base ou envoyez un mail avec vos dates et votre niveau — l'équipe du Pôle Mer vous répond vite.</p>
+      <div class="contact-lines">
+        <a href="mailto:gruissan@akila-centers.com" class="contact-line">✉ gruissan@akila-centers.com</a>
+        <a href="tel:+33468493333" class="contact-line">📞 +33 (0)4 68 49 33 33</a>
+        <a href="tel:+33767594064" class="contact-line">📱 +33 (0)7 67 59 40 64</a>
+        <span class="contact-line">📍 Pôle Mer, plage des Chalets, 11430 Gruissan</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Votre nom" required />
+        <input type="text" id="cf-dates" placeholder="Vos dates (ex. 12–15 juillet)" />
+      </div>
+      <select id="cf-level">
+        <option>Cours particulier kitesurf</option>
+        <option>Cours collectif / stage</option>
+        <option>Coaching 2 h — objectif ciblé</option>
+        <option>Wingfoil (Pôle Étang)</option>
+        <option>Navigation surveillée / location</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
+      <button type="submit" class="btn">Envoyer la demande</button>
+      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">AKILA<span> GRUISSAN</span></p>
+    <p>Pôle Mer · Plage des Chalets · le spot du Défi-Wind &amp; du Défi-Kite</p>
+  </div>
+  <p class="footer-hint" title="Un indice…">🏆 Psst… les champions tapent <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter egg trouvé !</b> Bougez la souris pour piloter l'aile — <kbd>ESC</kbd> pour revenir.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Akila Gruissan",
+  spotName: "à la plage des Chalets",
+  email: "gruissan@akila-centers.com",
+  lat: 43.1035, lon: 3.1092,
+  fx: "waves",
+  fxColor: [232, 84, 31],
+  egg: { sky: [0x30364d, 0xffc490], water: 0x275e70, kite: 0xe8541f, kiteStripe: 0xffffff, sun: 0xffe2b8 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

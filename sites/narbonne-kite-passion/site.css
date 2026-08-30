@@ -1,0 +1,21 @@
+/* Narbonne Kite Passion — light sand + lagoon teal, elegant serif display. */
+:root {
+  --bg: #faf6ef;
+  --bg-alt: #f1ebdf;
+  --panel: #ffffff;
+  --text: #17313b;
+  --muted: #5c7480;
+  --accent: #0e8c8c;
+  --accent-2: #ff7a59;
+  --accent-contrast: #ffffff;
+  --line: rgba(23, 49, 59, 0.12);
+  --nav-bg: rgba(250, 246, 239, 0.6);
+  --nav-bg-solid: rgba(250, 246, 239, 0.92);
+  --map-filter: none;
+  --shadow-accent: rgba(14, 140, 140, 0.25);
+  --radius: 22px;
+  --font-head: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { letter-spacing: 0; font-weight: 600; }
+h1 em, h2 em { font-style: italic; }
