@@ -20,17 +20,18 @@
   <a class="nav-logo" href="#top" id="logo">OSMOSE<span> KITE</span></a>
   <div class="nav-links">
     <a href="#concept">Le concept</a>
+    <a href="#seance">Votre 1ʳᵉ séance</a>
     <a href="#tarifs">Tarifs</a>
     <a href="#spots">Les spots</a>
-    <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </div>
-  <a class="btn btn-small" href="mailto:osmose.kite@gmail.com?subject=R%C3%A9servation%20cours%20kitesurf">Réserver</a>
+  <a class="btn btn-small" href="#contact">Réserver</a>
   <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
 </nav>
 
 <header class="hero" id="top">
-  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <img class="hero-bg" src="img/hero-jump.jpg" alt="Rider Osmose Kite en plein saut, grab de planche" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
   <div class="hero-inner">
     <p class="hero-kicker reveal">École de kitesurf · La Franqui · ouverte toute l'année</p>
     <h1 class="reveal">Pas de vent ?<br /><em>Pas payé.</em></h1>
@@ -49,6 +50,13 @@
   <div class="hero-scroll">↓</div>
 </header>
 
+<div class="badges">
+  <span><i>✔</i> Paiement <b>en fin de stage</b></span>
+  <span><i>✔</i> Analyse vidéo <b>incluse</b></span>
+  <span><i>✔</i> Matériel <b>North Kiteboarding</b></span>
+  <span><i>✔</i> Ouvert <b>12 mois / 12</b></span>
+</div>
+
 <section class="strip">
   <div class="strip-track">
     <span>Twintip</span><i>◆</i><span>Surf strapless</span><i>◆</i><span>Foil</span><i>◆</i><span>Mountainboard</span><i>◆</i><span>Simulateur</span><i>◆</i><span>Location</span><i>◆</i>
@@ -61,26 +69,63 @@
     <p class="eyebrow">Le concept</p>
     <h2>Le vent garanti, <em>vraiment.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="card reveal">
-      <p class="card-big">Cours à la carte</p>
-      <p>Vous ne payez que le temps pratiqué avec un vent optimal pour votre progression.
-      Pas de vent pendant votre séjour ? <strong>Rien à payer, rien à rattraper.</strong>
-      Le règlement se fait <strong>en fin de stage</strong> — une transparence rare qui dit tout
-      de la philosophie de l'école.</p>
-      <p class="card-tags"><span>Paiement en fin de stage</span><span>Analyse vidéo incluse</span><span>North Kiteboarding</span></p>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/lesson.jpg" alt="Briefing matériel avec les élèves Osmose sur la plage" loading="lazy" />
+      <span class="img-tag">Briefing matériel, Coussoules Basses</span>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b>4</b><span>spots selon la direction du vent</span></div>
-      <div class="stat"><b>12</b><span>mois d'ouverture par an</span></div>
-      <div class="stat"><b>0 €</b><span>si le vent n'est pas au rendez-vous</span></div>
-      <div class="stat"><b>100%</b><span>vidéos souvenir de vos sessions</span></div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Cours à la carte</p>
+        <p>Vous ne payez que le temps pratiqué avec un vent optimal pour votre progression.
+        Pas de vent pendant votre séjour ? <strong>Rien à payer, rien à rattraper.</strong>
+        Le règlement se fait <strong>en fin de stage</strong> — une transparence rare qui dit tout
+        de la philosophie de l'école.</p>
+        <p class="card-tags"><span>Paiement fin de stage</span><span>Analyse vidéo incluse</span><span>North Kiteboarding</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="4">0</b><span>spots selon la direction du vent</span></div>
+        <div class="stat"><b data-count="12">0</b><span>mois d'ouverture par an</span></div>
+        <div class="stat"><b data-count="0" data-suffix=" €">0</b><span>si le vent n'est pas au rendez-vous</span></div>
+        <div class="stat"><b data-count="100" data-suffix="%">0</b><span>vidéos souvenir de vos sessions</span></div>
+      </div>
     </div>
   </div>
-  <div class="grid grid-3 features">
-    <div class="feature reveal"><h3>Tous les supports</h3><p>Twintip, surf strapless, foil, mountainboard — et un simulateur pour accélérer vos débuts en douceur.</p></div>
-    <div class="feature reveal"><h3>Analyse vidéo incluse</h3><p>Chaque cours comprend vidéos souvenir et analyse vidéo : on voit ses erreurs, on progresse deux fois plus vite.</p></div>
-    <div class="feature reveal"><h3>Même l'hiver</h3><p>Osmose est l'une des rares écoles ouvertes toute l'année — avec un tarif hiver à 100 € la séance.</p></div>
+</section>
+
+<section class="section section-alt" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Votre première séance</p>
+    <h2>Quatre heures pour <em>entrer en osmose.</em></h2>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration : pilotage de l'aile dans l'eau" loading="lazy" /></div>
+      <div class="tl-body"><h3>Apprivoiser l'aile</h3><p>Fenêtre de vol et pilotage en eau peu profonde, sur le spot le mieux orienté du jour parmi les 4 de l'école.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration : waterstart" loading="lazy" /></div>
+      <div class="tl-body"><h3>Le waterstart</h3><p>Nage tractée, départs planche aux pieds — filmés. Le soir, l'analyse vidéo montre exactement quoi corriger.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration : premiers bords" loading="lazy" /></div>
+      <div class="tl-body"><h3>Vos premiers bords</h3><p>Glisse et remontée au vent — et si le vent tombe, la séance s'arrête et vous ne la payez pas. C'est aussi simple que ça.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">En images</p>
+    <h2>La vie aux <em>Coussoules Basses.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/jump2.jpg" alt="Saut au-dessus de l'eau turquoise" loading="lazy" /><figcaption>L'eau turquoise des Coussoules</figcaption></figure>
+    <figure><img src="img/kids.jpg" alt="Groupe d'enfants avec moniteur Osmose" loading="lazy" /><figcaption>Groupes &amp; colonies bienvenus</figcaption></figure>
+    <figure><img src="img/walk.jpg" alt="Marche vers le spot avec les ailes" loading="lazy" /><figcaption>En route vers le spot du jour</figcaption></figure>
+    <figure class="m-wide"><img src="img/mountainboard.jpg" alt="Mountainboard tracté par une aile" loading="lazy" /><figcaption>Mountainboard les jours sans eau</figcaption></figure>
+    <figure><img src="img/base.jpg" alt="La base Osmose sur la plage des Coussoules" loading="lazy" /><figcaption>La base, Coussoules Basses</figcaption></figure>
+    <figure><img src="img/hero-jump.jpg" alt="Grab en plein saut" loading="lazy" /><figcaption>Freestyle pour les confirmés</figcaption></figure>
   </div>
 </section>
 
@@ -149,30 +194,21 @@
         <li>À ~1 h 45 de Toulouse, shop partenaire WeRide au village</li>
       </ul>
     </div>
-    <div class="map-wrap reveal">
-      <iframe title="Carte — Coussoules Basses, La Franqui" src="https://www.openstreetmap.org/export/embed.html?bbox=2.99%2C42.915%2C3.06%2C42.95&amp;layer=mapnik&amp;marker=42.93%2C3.033" loading="lazy"></iframe>
-    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Coussoules Basses, La Franqui"></div></div>
   </div>
 </section>
 
-<section class="section section-alt" id="services">
+<section class="section section-alt">
   <div class="section-head reveal">
-    <p class="eyebrow">Services</p>
-    <h2>Bien plus qu'une <em>école.</em></h2>
+    <p class="eyebrow">Questions fréquentes</p>
+    <h2>Avant de vous <em>lancer.</em></h2>
   </div>
-  <div class="grid grid-3">
-    <div class="feature reveal">
-      <h3>🛹 Mountainboard &amp; powerkite</h3>
-      <p>Pas d'eau, pas de problème : initiation traction sur le sable, mountainboard et pilotage d'aile pour apprivoiser le vent.</p>
-    </div>
-    <div class="feature reveal">
-      <h3>🏄 Shop partenaire</h3>
-      <p>En relation avec le surfshop WeRide à Leucate Village (19 av. de la Méditerranée) : conseil matériel, vente kite, windsurf et accessoires.</p>
-    </div>
-    <div class="feature reveal">
-      <h3>🎥 Souvenirs inclus</h3>
-      <p>Vos sessions filmées, analysées, et remises en souvenir. Le début de votre carrière de rider, documenté dès le premier waterstart.</p>
-    </div>
+  <div class="faq reveal">
+    <details><summary>Comment fonctionne le paiement en fin de stage ?</summary><p>Vous réservez vos séances, vous naviguez… et vous ne réglez qu'à la fin, uniquement le temps réellement pratiqué avec un vent correct. Pas de vent = pas de facture, et rien à rattraper.</p></details>
+    <details><summary>Que se passe-t-il les jours sans vent ?</summary><p>Soit on ne pratique pas (et vous ne payez rien), soit on bascule sur le mountainboard, le powerkite ou le simulateur pour continuer à progresser au sec.</p></details>
+    <details><summary>L'analyse vidéo est-elle vraiment incluse ?</summary><p>Oui — vos sessions sont filmées, analysées avec vous, et les vidéos vous sont remises en souvenir. C'est compris dans chaque cours.</p></details>
+    <details><summary>Peut-on pratiquer l'hiver ?</summary><p>Oui, Osmose est ouverte toute l'année, avec un tarif hiver à 100 € la séance de 4 h (1ᵉʳ décembre – 15 mars). Combinaison chaude fournie sur demande.</p></details>
+    <details><summary>Et pour un groupe ?</summary><p>Dès 3 personnes : comités d'entreprise, EVG/EVJF, scolaires, colonies — devis sur mesure avec tarifs préférentiels.</p></details>
   </div>
 </section>
 
@@ -184,9 +220,12 @@
   <div class="grid grid-2">
     <div class="reveal">
       <p class="lead">Dites-nous vos dates et votre niveau — l'école vous rappelle vite pour caler vos séances sur les meilleurs créneaux de vent.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33670708653?text=Bonjour%2C%20je%20souhaite%20r%C3%A9server%20des%20cours%20de%20kitesurf" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33670708653">📞 06 70 70 86 53</a>
+      </div>
       <div class="contact-lines">
         <a href="mailto:osmose.kite@gmail.com" class="contact-line">✉ osmose.kite@gmail.com</a>
-        <a href="tel:+33670708653" class="contact-line">📞 +33 (0)6 70 70 86 53</a>
         <span class="contact-line">📍 Coussoules Basses, La Franqui, 11370 Leucate</span>
       </div>
     </div>
@@ -203,16 +242,22 @@
         <option>Groupe (3+ personnes)</option>
       </select>
       <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
-      <button type="submit" class="btn">Envoyer la demande</button>
-      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+      <button type="submit" class="btn">Envoyer par e-mail</button>
+      <p class="form-note">Le bouton ouvre votre messagerie avec le mail prérempli — ou plus rapide : WhatsApp ci-contre.</p>
     </form>
   </div>
 </section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33670708653">📞 Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33670708653" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
 
 <footer class="footer">
   <div>
     <p class="nav-logo">OSMOSE<span> KITE</span></p>
     <p>École de kitesurf · Coussoules Basses, La Franqui · ouverte toute l'année</p>
+    <p class="credits">Maquette de démonstration. Photos : Osmose Kite.</p>
   </div>
   <p class="footer-hint" title="Un indice…">🌀 Psst… l'osmose opère quand on tape <b>V·E·N·T</b></p>
 </footer>
@@ -228,9 +273,9 @@ window.SITE = {
   name: "Osmose Kite",
   spotName: "à La Franqui",
   email: "osmose.kite@gmail.com",
-  lat: 42.93, lon: 3.033,
-  fx: "aurora",
-  fxColor: [46, 230, 168],
+  phone: "+33670708653",
+  lat: 42.93, lon: 3.033, zoom: 13,
+  kite: { main: 0x2ee6a8, stripe: 0xd9f76e },
   egg: { sky: [0x03231c, 0x1f8f7a], water: 0x0a3d33, kite: 0x2ee6a8, kiteStripe: 0xd9f76e, sun: 0xeafff2 },
 };
 </script>

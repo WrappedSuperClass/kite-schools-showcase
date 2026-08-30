@@ -19,6 +19,7 @@
 <nav class="nav" id="nav">
   <a class="nav-logo" href="#top" id="logo">CHINOOK<span> · Leucate</span></a>
   <div class="nav-links">
+    <a href="#seance">Votre 1ʳᵉ séance</a>
     <a href="#ecole">L'école</a>
     <a href="#stages">Stages</a>
     <a href="#spot">Le spot</a>
@@ -30,10 +31,11 @@
 </nav>
 
 <header class="hero" id="top">
-  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <img class="hero-bg" src="img/hero-kite.jpg" alt="Kitesurfeur avec aile orange sur la mer à Leucate" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
   <div class="hero-inner">
     <p class="hero-kicker reveal">École FFVL &amp; shop glisse · Leucate · depuis 1999</p>
-    <h1 class="reveal">25 ans de kite,<br /><em>et toujours le même plaisir.</em></h1>
+    <h1 class="reveal">25 ans de kite,<br /><em>toujours le même plaisir.</em></h1>
     <p class="hero-sub reveal">Chinook, c'est l'école historique de Leucate : un moniteur passionné,
     un étang à faible profondeur aux conditions idéales, et un vrai shop au village pour vous équiper
     des pieds à la tête.</p>
@@ -49,37 +51,82 @@
   <div class="hero-scroll">↓</div>
 </header>
 
+<div class="badges">
+  <span><i>✔</i> École labellisée <b>FFVL</b></span>
+  <span><i>✔</i> Encadrement diplômé depuis <b>1999</b></span>
+  <span><i>✔</i> Matériel fourni, <b>combinaison incluse</b></span>
+  <span><i>✔</i> Licence AFKite délivrée sur place</span>
+</div>
+
 <section class="strip">
   <div class="strip-track">
-    <span>Kitesurf</span><i>●</i><span>École FFVL</span><i>●</i><span>Shop</span><i>●</i><span>Stand-up paddle</span><i>●</i><span>Depuis 1999</span><i>●</i>
-    <span>Kitesurf</span><i>●</i><span>École FFVL</span><i>●</i><span>Shop</span><i>●</i><span>Stand-up paddle</span><i>●</i><span>Depuis 1999</span><i>●</i>
+    <span>Kitesurf</span><i>●</i><span>École FFVL</span><i>●</i><span>Shop</span><i>●</i><span>Windsurf</span><i>●</i><span>Stand-up paddle</span><i>●</i><span>Depuis 1999</span><i>●</i>
+    <span>Kitesurf</span><i>●</i><span>École FFVL</span><i>●</i><span>Shop</span><i>●</i><span>Windsurf</span><i>●</i><span>Stand-up paddle</span><i>●</i><span>Depuis 1999</span><i>●</i>
   </div>
 </section>
 
-<section class="section" id="ecole">
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Votre première séance</p>
+    <h2>Trois heures sur <em>l'étang de La Palme.</em></h2>
+    <p class="section-sub">Eau peu profonde, conditions pour tous les niveaux, et la méthode FFVL : accueil organisé, pédagogie différenciée, évaluation des acquis.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration : pilotage de l'aile dans l'eau" loading="lazy" /></div>
+      <div class="tl-body"><h3>Apprivoiser l'aile</h3><p>Pilotage et sécurité, debout dans l'eau de l'étang. Des ailes en parfait état et des dispositifs de sécurité appropriés.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration : waterstart" loading="lazy" /></div>
+      <div class="tl-body"><h3>Le waterstart</h3><p>Nage tractée puis premiers départs sur la planche, avec 25 ans d'astuces de Philippe pour raccourcir le chemin.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration : premiers bords" loading="lazy" /></div>
+      <div class="tl-body"><h3>Vos premiers bords</h3><p>Glisse, allures et évaluation des acquis à chaque étape — la formation continue jusqu'à l'autonomie complète.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
   <div class="section-head reveal">
     <p class="eyebrow">L'école</p>
     <h2>Le label FFVL, <em>l'expérience en plus.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="card reveal">
-      <p class="card-big">Philippe « Philou » Blondé</p>
-      <p>Encadrement diplômé et expérimenté <strong>depuis 1999</strong> — Philippe recharge le camion,
-      checke le matos et affûte les twintips chaque saison depuis plus de vingt ans. Débuter, progresser,
-      passer un cap : vous êtes entre les meilleures mains de l'étang.</p>
-      <p class="card-tags"><span>Label FFVL</span><span>Matériel neuf chaque saison</span><span>Combinaison fournie</span></p>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/foil.jpg" alt="Kitefoil sur la mer à Leucate" loading="lazy" />
+      <span class="img-tag">Kitefoil au large de Leucate</span>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b>1999</b><span>première saison d'enseignement</span></div>
-      <div class="stat"><b>3 h</b><span>par séance sur l'étang</span></div>
-      <div class="stat"><b>9</b><span>mois de saison, mars à novembre</span></div>
-      <div class="stat"><b>18 €</b><span>licence AFKite délivrée sur place</span></div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Philippe « Philou » Blondé</p>
+        <p>Encadrement diplômé et expérimenté <strong>depuis 1999</strong> — Philippe recharge le camion,
+        checke le matos et affûte les twintips chaque saison depuis plus de vingt ans. Débuter, progresser,
+        passer un cap : vous êtes entre les meilleures mains de l'étang.</p>
+        <p class="card-tags"><span>Label FFVL</span><span>Matériel neuf chaque saison</span><span>Combinaison fournie</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="25" data-suffix="+">0</b><span>ans d'enseignement du kite</span></div>
+        <div class="stat"><b data-count="3" data-suffix=" h">0</b><span>par séance sur l'étang</span></div>
+        <div class="stat"><b data-count="9">0</b><span>mois de saison, mars à novembre</span></div>
+        <div class="stat"><b data-count="18" data-suffix=" €">0</b><span>licence AFKite, délivrée sur place</span></div>
+      </div>
     </div>
   </div>
-  <div class="grid grid-3 features">
-    <div class="feature reveal"><h3>Un enseignement structuré</h3><p>Accueil organisé, pédagogie différenciée, évaluation des acquis et formation vers l'autonomie — la méthode du label FFVL.</p></div>
-    <div class="feature reveal"><h3>Tout est fourni</h3><p>Ailes, planches, casque, harnais, gilet et combinaison. Apportez seulement vos chaussons et vos lunettes de soleil.</p></div>
-    <div class="feature reveal"><h3>Sécurité d'abord</h3><p>Des ailes en parfait état, des dispositifs de sécurité appropriés et un site adapté à chaque niveau de pratique.</p></div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">En images</p>
+    <h2>La glisse, <em>toutes les glisses.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/kites.jpg" alt="Kites évoluant sur la mer" loading="lazy" /><figcaption>Le kite, cœur de l'école</figcaption></figure>
+    <figure><img src="img/jump-far.jpg" alt="Saut de kitesurf au loin" loading="lazy" /><figcaption>Objectif autonomie</figcaption></figure>
+    <figure><img src="img/windsurf.jpg" alt="Windsurf en pleine vitesse" loading="lazy" /><figcaption>L'ADN windsurf de Chinook</figcaption></figure>
+    <figure class="m-wide"><img src="../shared/img/lagoon-kites.jpg" alt="Lagune aux eaux peu profondes avec kites" loading="lazy" /><figcaption>L'étang, le terrain d'apprentissage idéal</figcaption></figure>
+    <figure><img src="img/windsurf2.jpg" alt="Windsurfeur au planing" loading="lazy" /><figcaption>Le spot des Vignes, La Palme</figcaption></figure>
+    <figure><img src="../shared/img/beach-kite.jpg" alt="Aile posée sur le sable" loading="lazy" /><figcaption>Matériel fourni, prêt à gréer</figcaption></figure>
   </div>
 </section>
 
@@ -139,9 +186,7 @@
         <li>Décor classé du Parc Naturel de la Narbonnaise</li>
       </ul>
     </div>
-    <div class="map-wrap reveal">
-      <iframe title="Carte — Étang de La Palme" src="https://www.openstreetmap.org/export/embed.html?bbox=2.96%2C42.94%2C3.04%2C42.985&amp;layer=mapnik&amp;marker=42.9625%2C3.0015" loading="lazy"></iframe>
-    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Étang de La Palme"></div></div>
   </div>
 </section>
 
@@ -166,18 +211,34 @@
   </div>
 </section>
 
-<section class="section" id="contact">
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">Questions fréquentes</p>
+    <h2>Avant de <em>gréer.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Que dois-je apporter au cours ?</summary><p>Seulement vos chaussons néoprène et vos lunettes de soleil — tout le reste est fourni : aile, planche, casque, harnais, gilet et combinaison.</p></details>
+    <details><summary>Faut-il une licence ou une assurance ?</summary><p>La licence AFKite est obligatoire : 18 €, délivrée directement sur place le premier jour. Un certificat médical est demandé aux plus de 59 ans.</p></details>
+    <details><summary>Peut-on pratiquer l'hiver ?</summary><p>L'école tourne de mars à novembre. En dehors de cette période, contactez le shop : certains moniteurs restent disponibles pour des sessions à la demande.</p></details>
+    <details><summary>Pourquoi apprendre sur l'étang plutôt qu'en mer ?</summary><p>Faible profondeur, eau plate, vent régulier : l'étang de La Palme réunit les trois conditions qui accélèrent l'apprentissage — et rassurent les débutants.</p></details>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
   <div class="section-head reveal">
     <p class="eyebrow">Contact</p>
     <h2>Réservez votre <em>séance.</em></h2>
   </div>
   <div class="grid grid-2">
     <div class="reveal">
-      <p class="lead">Infos et réservations en direct avec Philippe, ou via le shop. Un mail suffit pour caler votre stage.</p>
+      <p class="lead">Infos et réservations en direct avec Philippe, ou via le shop. Un message suffit pour caler votre stage.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33630820952?text=Bonjour%20Philippe%2C%20je%20souhaite%20r%C3%A9server%20un%20stage%20de%20kitesurf" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33630820952">📞 École : 06 30 82 09 52</a>
+      </div>
       <div class="contact-lines">
+        <a href="tel:+33468401717" class="contact-line">📞 Shop : 04 68 40 17 17</a>
         <a href="mailto:contact@chinook-leucate.com" class="contact-line">✉ contact@chinook-leucate.com</a>
-        <a href="tel:+33630820952" class="contact-line">📞 École : +33 (0)6 30 82 09 52</a>
-        <a href="tel:+33468401717" class="contact-line">📞 Shop : +33 (0)4 68 40 17 17</a>
         <span class="contact-line">📍 195 av. du Général de Gaulle, 11370 Leucate Village</span>
       </div>
     </div>
@@ -193,16 +254,22 @@
         <option>Question shop / matériel</option>
       </select>
       <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
-      <button type="submit" class="btn">Envoyer la demande</button>
-      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+      <button type="submit" class="btn">Envoyer par e-mail</button>
+      <p class="form-note">Le bouton ouvre votre messagerie avec le mail prérempli — ou plus rapide : WhatsApp ci-contre.</p>
     </form>
   </div>
 </section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33630820952">📞 Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33630820952" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
 
 <footer class="footer">
   <div>
     <p class="nav-logo">CHINOOK<span> · Leucate</span></p>
     <p>École de kitesurf FFVL &amp; shop glisse · Leucate Village · depuis 1999</p>
+    <p class="credits">Maquette de démonstration. Photos : Chinook Leucate · compléments Wikimedia Commons (CC BY / CC BY-SA).</p>
   </div>
   <p class="footer-hint" title="Un indice…">🏄 Psst… les anciens tapent <b>V·E·N·T</b></p>
 </footer>
@@ -218,9 +285,9 @@ window.SITE = {
   name: "Chinook",
   spotName: "sur l'étang de La Palme",
   email: "contact@chinook-leucate.com",
-  lat: 42.9625, lon: 3.0015,
-  fx: "streaks",
-  fxColor: [217, 83, 30],
+  phone: "+33630820952",
+  lat: 42.9625, lon: 3.0015, zoom: 13,
+  kite: { main: 0xd9531e, stripe: 0xf7e6c6 },
   egg: { sky: [0x28425e, 0xf7c884], water: 0x1d5a66, kite: 0xd9531e, kiteStripe: 0xf7e6c6, sun: 0xffe8c0 },
 };
 </script>

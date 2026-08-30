@@ -19,25 +19,26 @@
 <nav class="nav" id="nav">
   <a class="nav-logo" href="#top" id="logo">ADDICTED<span>2</span>KITE</a>
   <div class="nav-links">
+    <a href="#seance">Votre 1ʳᵉ séance</a>
     <a href="#ecole">L'école</a>
     <a href="#formules">Formules</a>
     <a href="#spots">Les spots</a>
-    <a href="#avis">Avis</a>
     <a href="#contact">Contact</a>
   </div>
-  <a class="btn btn-small" href="mailto:contact@addicted2kite.fr?subject=R%C3%A9servation%20stage">Réserver</a>
+  <a class="btn btn-small" href="#contact">Réserver</a>
   <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
 </nav>
 
 <header class="hero" id="top">
-  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <img class="hero-bg" src="img/hero-carve.jpg" alt="Rider Addicted2kite en plein carve dans la gerbe d'eau" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
   <div class="hero-inner">
     <p class="hero-kicker reveal">École familiale · Narbonne-Plage · depuis 2015</p>
     <h1 class="reveal">Ici, la glisse<br /><em>est religion.</em></h1>
     <p class="hero-sub reveal">Kitesurf et wingfoil sur les grands espaces de Narbonne et Gruissan.
     Un moniteur en bateau à vos côtés, une radio dans le casque, et la bonne humeur de Ju &amp; Lolo en prime.</p>
     <div class="hero-cta reveal">
-      <a class="btn" href="#formules">Choisir ma formule</a>
+      <a class="btn" href="#contact">Réserver ma séance</a>
       <a class="btn btn-ghost" href="#spots">Voir les spots</a>
     </div>
     <div class="wind-widget reveal" title="Prévisions Open-Meteo pour Narbonne-Plage">
@@ -48,6 +49,13 @@
   <div class="hero-scroll">↓</div>
 </header>
 
+<div class="badges">
+  <span><i>✔</i> Moniteurs <b>diplômés</b> — Julien &amp; Laurent</span>
+  <span><i>✔</i> Coaching <b>bateau + radio</b></span>
+  <span><i>✔</i> Depuis <b>2015</b>, esprit famille</span>
+  <span><i>✔</i> Kids dès 40 kg</span>
+</div>
+
 <section class="strip">
   <div class="strip-track">
     <span>Évasion</span><i>★</i><span>Expérience unique</span><i>★</i><span>Sensation &amp; plaisir</span><i>★</i><span>Kitesurf</span><i>★</i><span>Wingfoil</span><i>★</i>
@@ -55,31 +63,68 @@
   </div>
 </section>
 
-<section class="section" id="ecole">
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Votre première séance</p>
+    <h2>Du sable aux premiers bords, <em>sans stress.</em></h2>
+    <p class="section-sub">Départ plage, exercices en eau peu profonde, puis les grands espaces — le bateau vous remonte au vent pour maximiser la glisse.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration : pilotage de l'aile dans l'eau" loading="lazy" /></div>
+      <div class="tl-body"><h3>Apprivoiser l'aile</h3><p>Pilotage, fenêtre de vol et sécurité dans la zone d'eau peu profonde de 200 m — on a pied, on respire, on apprend.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration : waterstart avec bateau d'assistance" loading="lazy" /></div>
+      <div class="tl-body"><h3>Le waterstart</h3><p>Votre moniteur vous coache depuis le bateau, radio dans le casque. Fini la marche : le hors-bord vous ramène au vent.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration : premiers bords en kitesurf" loading="lazy" /></div>
+      <div class="tl-body"><h3>Vos premiers bords</h3><p>Les grands espaces en mer pour de longues glisses, en situation réelle — le vrai chemin vers l'autonomie.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
   <div class="section-head reveal">
     <p class="eyebrow">L'école</p>
-    <h2>Ju &amp; Lolo, une équipe <em>addict depuis 2015.</em></h2>
+    <h2>Ju &amp; Lolo, addicts <em>depuis 2015.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="card reveal">
-      <p class="card-big">Une école familiale</p>
-      <p>Julien et Laurent, moniteurs diplômés, ont monté leur école en <strong>2015</strong> après des années
-      passées dans les meilleures écoles de la côte. Leur credo : partager la passion
-      <strong>dans la bonne humeur</strong>, avec du matériel récent et des bateaux pour aller chercher
-      les meilleures conditions.</p>
-      <p class="card-tags"><span>Moniteurs diplômés</span><span>Bateaux</span><span>Radio</span></p>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/beach.jpg" alt="Préparation du kite sur la plage de Narbonne" loading="lazy" />
+      <span class="img-tag">Briefing plage du Créneau Naturel</span>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b>2</b><span>spots : Narbonne &amp; Gruissan</span></div>
-      <div class="stat"><b>7/7</b><span>ouvert sur réservation</span></div>
-      <div class="stat"><b>200 m</b><span>de zone d'eau peu profonde</span></div>
-      <div class="stat"><b>40 kg</b><span>poids minimum pour les kids</span></div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Une école familiale</p>
+        <p>Julien et Laurent, moniteurs diplômés, ont monté leur école en <strong>2015</strong> après des années
+        dans les meilleures écoles de la côte. Leur credo : partager la passion <strong>dans la bonne humeur</strong>,
+        avec du matériel récent et des bateaux pour aller chercher les meilleures conditions du jour.</p>
+        <p class="card-tags"><span>Moniteurs diplômés</span><span>Bateaux</span><span>Radio</span><span>Kids dès 40 kg</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="2">0</b><span>spots : Narbonne &amp; Gruissan</span></div>
+        <div class="stat"><b data-count="7">0</b><span>jours sur 7, sur réservation</span></div>
+        <div class="stat"><b data-count="200" data-suffix=" m">0</b><span>de zone d'eau peu profonde</span></div>
+        <div class="stat"><b data-count="40" data-suffix=" kg">0</b><span>poids minimum pour les kids</span></div>
+      </div>
     </div>
   </div>
-  <div class="grid grid-3 features">
-    <div class="feature reveal"><h3>Coaching bateau + radio</h3><p>Votre moniteur vous suit en hors-bord, radio dans le casque. Le bateau vous remonte au vent : plus de glisse, moins de marche.</p></div>
-    <div class="feature reveal"><h3>Départ plage, eau peu profonde</h3><p>Les exercices commencent debout dans l'eau, puis place aux grands espaces en mer pour vos premières vraies glisses.</p></div>
-    <div class="feature reveal"><h3>Kids bienvenus</h3><p>Ailes petites tailles à faible traction, encadrement adapté au cas par cas dès 40 kg. Attestation de natation et autorisation parentale.</p></div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">En images</p>
+    <h2>La preuve <em>par la glisse.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/aerial.jpg" alt="Vue aérienne du spot turquoise de Narbonne" loading="lazy" /><figcaption>Le terrain de jeu, vu du ciel</figcaption></figure>
+    <figure><img src="img/jump.jpg" alt="Saut en kitesurf" loading="lazy" /><figcaption>Objectif : premiers sauts</figcaption></figure>
+    <figure><img src="img/wingfoil.jpg" alt="Wingfoil sur mer calme" loading="lazy" /><figcaption>Le wingfoil, la glisse qui monte</figcaption></figure>
+    <figure class="m-wide"><img src="img/hero-carve.jpg" alt="Carve dans la gerbe d'eau" loading="lazy" /><figcaption>Sensation &amp; plaisir</figcaption></figure>
+    <figure><img src="img/waves-bw.jpg" alt="Vagues en noir et blanc" loading="lazy" /><figcaption>La mer, notre terrain de jeu</figcaption></figure>
+    <figure><img src="img/beach.jpg" alt="Kite sur la plage" loading="lazy" /><figcaption>Départ plage, en douceur</figcaption></figure>
   </div>
 </section>
 
@@ -148,9 +193,7 @@
         <li>À ~1 h 30 de Toulouse, parking et point d'eau sur site</li>
       </ul>
     </div>
-    <div class="map-wrap reveal">
-      <iframe title="Carte — Créneau Naturel, Narbonne-Plage" src="https://www.openstreetmap.org/export/embed.html?bbox=3.12%2C43.14%2C3.21%2C43.18&amp;layer=mapnik&amp;marker=43.1594%2C3.1697" loading="lazy"></iframe>
-    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Créneau Naturel, Narbonne-Plage"></div></div>
   </div>
 </section>
 
@@ -160,23 +203,40 @@
     <h2>Paroles de <em>riders.</em></h2>
   </div>
   <div class="grid grid-3">
-    <div class="quote reveal">Accueil et encadrement aussi sympa que super pro ! L'équipe n'hésite pas à vous emmener sur d'autres plages dans leurs hors-bord pour toujours profiter des meilleures conditions. Super expérience père-fils.<b>Alain</b></div>
-    <div class="quote reveal">Une école de kite très sympa avec un super esprit. Laurent et Julien sauront vous apprendre tous les aspects de ce sport magnifique en toute sécurité, sur un spot totalement adapté. C'est super green, je me régale !<b>Patrick</b></div>
-    <div class="quote reveal">Une team de professionnels à l'écoute, pédagogues et surtout fun ! Débutant ou expérimenté, l'équipe d'Addicted saura vous faire progresser à votre rythme. Je recommande cette école à 200 %.<b>Brice</b></div>
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>Accueil et encadrement aussi sympa que super pro ! L'équipe n'hésite pas à vous emmener sur d'autres plages dans leurs hors-bord pour toujours profiter des meilleures conditions. Super expérience père-fils.<b>Alain</b></div>
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>Une école de kite très sympa avec un super esprit. Laurent et Julien sauront vous apprendre tous les aspects de ce sport magnifique en toute sécurité, sur un spot totalement adapté. C'est super green, je me régale !<b>Patrick</b></div>
+    <div class="quote reveal"><span class="quote-stars">★★★★★</span>Une team de professionnels à l'écoute, pédagogues et surtout fun ! Débutant ou expérimenté, l'équipe d'Addicted saura vous faire progresser à votre rythme. Je recommande cette école à 200 %.<b>Brice</b></div>
   </div>
 </section>
 
-<section class="section" id="contact">
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">Questions fréquentes</p>
+    <h2>On vous dit <em>tout.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Combien de temps faut-il pour apprendre le kite ?</summary><p>Chacun progresse à son rythme : comptez au moins 3 séances pour les bases, 5 pour des bases solides — pilotage, vent, glisse, sécurité, météo, matériel. L'autonomie vient ensuite.</p></details>
+    <details><summary>La pratique en mer est-elle difficile à Narbonne ?</summary><p>Non : on part de la plage, on travaille en zone d'eau peu profonde, puis on utilise les grands espaces pour les premières glisses. Le bateau vous récupère et vous remonte au vent.</p></details>
+    <details><summary>À partir de quel âge les enfants peuvent-ils pratiquer ?</summary><p>C'est le poids qui compte : 40 kg minimum. Ailes petites tailles à faible traction, encadrement adapté au cas par cas. Attestation de natation et autorisation parentale demandées.</p></details>
+    <details><summary>Dois-je prendre une assurance ?</summary><p>Oui, la responsabilité civile kite/wing est obligatoire en école — vos assurances personnelles ne couvrent pas cette pratique. Souscription en ligne possible, justificatif demandé au début du stage.</p></details>
+    <details><summary>Kitesurf ou wingfoil, que choisir ?</summary><p>Le kite procure des sensations plus vite ; la wing permet de naviguer dans très peu de vent et sur des plans d'eau intérieurs. Chez A2K, vous pouvez tester les deux.</p></details>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
   <div class="section-head reveal">
     <p class="eyebrow">Contact</p>
     <h2>Rejoignez le <em>crew.</em></h2>
   </div>
   <div class="grid grid-2">
     <div class="reveal">
-      <p class="lead">Un coup de fil ou un mail avec vos dates et votre niveau, et Ju &amp; Lolo s'occupent du reste.</p>
+      <p class="lead">Un message avec vos dates et votre niveau, et Ju &amp; Lolo s'occupent du reste. Ouvert 7 j/7 sur réservation.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33674651701?text=Bonjour%20Ju%20%26%20Lolo%2C%20je%20souhaite%20r%C3%A9server%20un%20stage" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33674651701">📞 06 74 65 17 01</a>
+      </div>
       <div class="contact-lines">
         <a href="mailto:contact@addicted2kite.fr" class="contact-line">✉ contact@addicted2kite.fr</a>
-        <a href="tel:+33674651701" class="contact-line">📞 +33 (0)6 74 65 17 01</a>
         <span class="contact-line">📍 Base multi-loisirs le Créneau Naturel (D332), 11100 Narbonne-Plage</span>
       </div>
     </div>
@@ -192,16 +252,22 @@
         <option>Location surveillée</option>
       </select>
       <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
-      <button type="submit" class="btn">Envoyer la demande</button>
-      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+      <button type="submit" class="btn">Envoyer par e-mail</button>
+      <p class="form-note">Le bouton ouvre votre messagerie avec le mail prérempli — ou plus rapide : WhatsApp ci-contre.</p>
     </form>
   </div>
 </section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33674651701">📞 Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33674651701" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
 
 <footer class="footer">
   <div>
     <p class="nav-logo">ADDICTED<span>2</span>KITE</p>
     <p>École de kitesurf &amp; wingfoil · Créneau Naturel, Narbonne-Plage · depuis 2015</p>
+    <p class="credits">Maquette de démonstration. Photos : Addicted2kite.</p>
   </div>
   <p class="footer-hint" title="Un indice…">🔥 Psst… les addicts tapent <b>V·E·N·T</b></p>
 </footer>
@@ -217,9 +283,9 @@ window.SITE = {
   name: "Addicted2kite",
   spotName: "à Narbonne-Plage",
   email: "contact@addicted2kite.fr",
-  lat: 43.1594, lon: 3.1697,
-  fx: "particles",
-  fxColor: [255, 158, 90],
+  phone: "+33674651701",
+  lat: 43.1594, lon: 3.1697, zoom: 13,
+  kite: { main: 0xffb43a, stripe: 0xff5e7a },
   egg: { sky: [0x351a5e, 0xffa46b], water: 0x2d2a5e, kite: 0xffb43a, kiteStripe: 0xff5e7a, sun: 0xffd9a0 },
 };
 </script>

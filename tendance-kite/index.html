@@ -19,20 +19,22 @@
 <nav class="nav" id="nav">
   <a class="nav-logo" href="#top" id="logo">TENDANCE<span> KITE</span></a>
   <div class="nav-links">
+    <a href="#seance">Votre 1ʳᵉ séance</a>
     <a href="#ecole">L'école</a>
     <a href="#tarifs">Stages &amp; tarifs</a>
     <a href="#spot">Le spot</a>
     <a href="#contact">Contact</a>
   </div>
-  <a class="btn btn-small" href="mailto:tendancekite@gmail.com?subject=R%C3%A9servation%20stage%20kitesurf">Réserver</a>
+  <a class="btn btn-small" href="#contact">Réserver</a>
   <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
 </nav>
 
 <header class="hero" id="top">
-  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <img class="hero-bg" src="img/hero-jump.jpg" alt="Saut en kitesurf au-dessus de l'étang de Sigean" fetchpriority="high" />
+  <canvas id="hero-kite" aria-hidden="true"></canvas>
   <div class="hero-inner">
     <p class="hero-kicker reveal">École de kitesurf · Sigean · Parc Naturel de la Narbonnaise</p>
-    <h1 class="reveal">Apprenez le kite<br /><em>au milieu des flamants roses.</em></h1>
+    <h1 class="reveal">Apprenez le kite au milieu<br /><em>des flamants roses.</em></h1>
     <p class="hero-sub reveal">À la base nautique de Port Mahon, l'étang de Sigean déroule son eau peu profonde
     dans un décor de parc naturel. Et quand vous êtes prêt pour la mer, le bateau vous emmène
     à la Vieille Nouvelle.</p>
@@ -48,6 +50,13 @@
   <div class="hero-scroll">↓</div>
 </header>
 
+<div class="badges">
+  <span><i>✔</i> Moniteur <b>diplômé d'État</b> — Xavier Dumas</span>
+  <span><i>✔</i> À <b>1 h 30</b> de Toulouse</span>
+  <span><i>✔</i> Étang <b>peu profond</b> + sorties mer</span>
+  <span><i>✔</i> English spoken</span>
+</div>
+
 <section class="strip">
   <div class="strip-track">
     <span>Kitesurf</span><i>❋</i><span>Étang de Sigean</span><i>❋</i><span>Sorties mer</span><i>❋</i><span>Randonnées kayak</span><i>❋</i><span>Navigation surveillée</span><i>❋</i>
@@ -55,26 +64,69 @@
   </div>
 </section>
 
-<section class="section" id="ecole">
+<section class="section" id="seance">
+  <div class="section-head reveal">
+    <p class="eyebrow">Votre première séance</p>
+    <h2>Quatre heures, bateau <em>compris.</em></h2>
+    <p class="section-sub">Chaque session de 4 h comprend la préparation, le transport en bateau jusqu'au spot et la navigation.</p>
+  </div>
+  <div class="grid grid-3 timeline">
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-1-pilotage.svg" alt="Illustration : pilotage de l'aile dans l'eau" loading="lazy" /></div>
+      <div class="tl-body"><h3>Apprivoiser l'aile</h3><p>Fenêtre de vol, sécurité et pilotage, debout dans l'eau peu profonde de l'étang — le cocon parfait pour débuter.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-2-waterstart.svg" alt="Illustration : waterstart avec bateau" loading="lazy" /></div>
+      <div class="tl-body"><h3>Le waterstart</h3><p>Nage tractée puis premiers départs planche aux pieds, avec le bateau de Xavier toujours à portée.</p></div>
+    </div>
+    <div class="tl-step reveal">
+      <div class="tl-art"><img src="../shared/img/step-3-ride.svg" alt="Illustration : premiers bords" loading="lazy" /></div>
+      <div class="tl-body"><h3>Vos premiers bords</h3><p>La remontée au vent maîtrisée, cap sur la mer : la plage sauvage de la Vieille Nouvelle, accessible en bateau uniquement.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="ecole">
   <div class="section-head reveal">
     <p class="eyebrow">L'école</p>
     <h2>Xavier Dumas, votre moniteur <em>au cœur du parc.</em></h2>
   </div>
-  <div class="grid grid-2">
-    <div class="card reveal">
-      <p class="card-big">Une école à taille humaine</p>
-      <p>Moniteur diplômé, Xavier vous accueille <strong>tous les jours</strong> à la base nautique de Port Mahon.
-      Débutant, initié ou confirmé : la progression se construit en eau peu profonde,
-      puis en mer avec <strong>transport en bateau</strong> jusqu'au spot. L'école propose aussi des
-      randonnées kayak pour découvrir l'écosystème de l'étang.</p>
-      <p class="card-tags"><span>Moniteur diplômé</span><span>English spoken</span><span>Kayak &amp; canoë</span></p>
+  <div class="split">
+    <div class="split-img reveal-img">
+      <img src="img/boat-selfie.jpg" alt="Xavier sur le bateau avec un élève" loading="lazy" />
+      <span class="img-tag">Sur le bateau, entre deux exercices</span>
     </div>
-    <div class="stats reveal">
-      <div class="stat"><b>4 h</b><span>par session : préparation, bateau, navigation</span></div>
-      <div class="stat"><b>10 km</b><span>de Leucate, Narbonne et Gruissan</span></div>
-      <div class="stat"><b>1 h 30</b><span>depuis Toulouse en voiture</span></div>
-      <div class="stat"><b>7/7</b><span>ouvert tous les jours en saison</span></div>
+    <div>
+      <div class="card reveal">
+        <p class="card-big">Une école à taille humaine</p>
+        <p>Moniteur diplômé, Xavier vous accueille <strong>tous les jours</strong> à la base nautique de Port Mahon.
+        Débutant, initié ou confirmé : la progression se construit en eau peu profonde,
+        puis en mer avec <strong>transport en bateau</strong> jusqu'au spot. L'école propose aussi des
+        randonnées kayak pour découvrir l'écosystème de l'étang.</p>
+        <p class="card-tags"><span>Moniteur diplômé</span><span>English spoken</span><span>Kayak &amp; canoë</span></p>
+      </div>
+      <div class="stats reveal" style="margin-top:1.4rem">
+        <div class="stat"><b data-count="4" data-suffix=" h">0</b><span>par session : préparation, bateau, nav</span></div>
+        <div class="stat"><b data-count="10" data-suffix=" km">0</b><span>de Leucate, Narbonne et Gruissan</span></div>
+        <div class="stat"><b data-count="90" data-suffix=" min">0</b><span>depuis Toulouse en voiture</span></div>
+        <div class="stat"><b data-count="7">0</b><span>jours sur 7 en saison</span></div>
+      </div>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow">En images</p>
+    <h2>L'étang, la mer, <em>la liberté.</em></h2>
+  </div>
+  <div class="mosaic reveal">
+    <figure class="m-big"><img src="img/pov.jpg" alt="Vue première personne d'un élève naviguant au casque rouge" loading="lazy" /><figcaption>Vos premières glisses, vues de vos yeux</figcaption></figure>
+    <figure><img src="img/kitefoil.jpg" alt="Kitefoil au-dessus de l'étang" loading="lazy" /><figcaption>Le foil pour aller plus loin</figcaption></figure>
+    <figure><img src="img/lesson.jpg" alt="Élève en gilet jaune pendant le cours" loading="lazy" /><figcaption>Progression pas à pas</figcaption></figure>
+    <figure class="m-wide"><img src="img/sit.jpg" alt="Élève assis sur la planche devant le bateau" loading="lazy" /><figcaption>Pause bien méritée sur l'étang</figcaption></figure>
+    <figure><img src="img/boat.jpg" alt="Le bateau jaune de l'école et des kites" loading="lazy" /><figcaption>Le bateau, votre remonte-pente</figcaption></figure>
+    <figure><img src="img/hero-jump.jpg" alt="Saut en kitesurf" loading="lazy" /><figcaption>Et un jour, le premier saut</figcaption></figure>
   </div>
 </section>
 
@@ -143,13 +195,24 @@
         <li>Base nautique : parking, mise à l'eau facile</li>
       </ul>
     </div>
-    <div class="map-wrap reveal">
-      <iframe title="Carte — Port Mahon, Sigean" src="https://www.openstreetmap.org/export/embed.html?bbox=2.97%2C43.04%2C3.04%2C43.08&amp;layer=mapnik&amp;marker=43.0581%2C3.0033" loading="lazy"></iframe>
-    </div>
+    <div class="map-wrap reveal"><div id="map" data-label="Base nautique de Port Mahon, Sigean"></div></div>
   </div>
 </section>
 
-<section class="section section-alt" id="contact">
+<section class="section section-alt">
+  <div class="section-head reveal">
+    <p class="eyebrow">Questions fréquentes</p>
+    <h2>Bon à <em>savoir.</em></h2>
+  </div>
+  <div class="faq reveal">
+    <details><summary>Pourquoi débuter sur un étang plutôt qu'en mer ?</summary><p>Eau peu profonde, plan d'eau abrité, vent régulier : on garde pied, on enchaîne les exercices sans appréhension, et la progression est bien plus rapide. La mer vient ensuite, en bateau.</p></details>
+    <details><summary>Que comprend une session de 4 heures ?</summary><p>La préparation du matériel, le transport en bateau jusqu'au spot et la navigation. Matériel complet fourni — apportez maillot, serviette et crème solaire.</p></details>
+    <details><summary>Et s'il n'y a pas de vent ?</summary><p>La session est reportée selon vos disponibilités. Sur place, les randonnées kayak dans le parc naturel offrent un beau plan B pour découvrir l'écosystème de l'étang.</p></details>
+    <details><summary>Comment payer ?</summary><p>CB, espèces, chèques, chèques vacances et virements sont acceptés. L'assurance responsabilité civile kite est obligatoire et non incluse.</p></details>
+  </div>
+</section>
+
+<section class="section" id="contact">
   <div class="section-head reveal">
     <p class="eyebrow">Contact</p>
     <h2>Votre prochaine session <em>commence ici.</em></h2>
@@ -157,9 +220,12 @@
   <div class="grid grid-2">
     <div class="reveal">
       <p class="lead">Écrivez ou appelez Xavier avec vos dates : il compose le stage qui colle à votre niveau et à la météo.</p>
+      <div class="contact-ctas">
+        <a class="btn btn-wa" href="https://wa.me/33662091703?text=Bonjour%20Xavier%2C%20je%20souhaite%20r%C3%A9server%20un%20stage%20de%20kitesurf" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:+33662091703">📞 06 62 09 17 03</a>
+      </div>
       <div class="contact-lines">
         <a href="mailto:tendancekite@gmail.com" class="contact-line">✉ tendancekite@gmail.com</a>
-        <a href="tel:+33662091703" class="contact-line">📞 +33 (0)6 62 09 17 03</a>
         <span class="contact-line">📍 Base nautique de Port Mahon, 11130 Sigean</span>
       </div>
     </div>
@@ -177,16 +243,22 @@
         <option>Randonnée kayak</option>
       </select>
       <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
-      <button type="submit" class="btn">Envoyer la demande</button>
-      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+      <button type="submit" class="btn">Envoyer par e-mail</button>
+      <p class="form-note">Le bouton ouvre votre messagerie avec le mail prérempli — ou plus rapide : WhatsApp ci-contre.</p>
     </form>
   </div>
 </section>
+
+<div class="mobile-cta">
+  <a class="btn" href="tel:+33662091703">📞 Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33662091703" target="_blank" rel="noopener">💬 WhatsApp</a>
+</div>
 
 <footer class="footer">
   <div>
     <p class="nav-logo">TENDANCE<span> KITE</span></p>
     <p>École de kitesurf · Port Mahon, Sigean · Parc Naturel Régional de la Narbonnaise</p>
+    <p class="credits">Maquette de démonstration. Photos : Tendance Kite.</p>
   </div>
   <p class="footer-hint" title="Un indice…">🦩 Psst… même les flamants tapent <b>V·E·N·T</b></p>
 </footer>
@@ -202,9 +274,9 @@ window.SITE = {
   name: "Tendance Kite",
   spotName: "sur l'étang de Sigean",
   email: "tendancekite@gmail.com",
-  lat: 43.0581, lon: 3.0033,
-  fx: "aurora",
-  fxColor: [42, 157, 100],
+  phone: "+33662091703",
+  lat: 43.0581, lon: 3.0033, zoom: 13,
+  kite: { main: 0xf47fa0, stripe: 0xffffff },
   egg: { sky: [0x1a5e4a, 0xd8f2c8], water: 0x2e8f74, kite: 0xf47fa0, kiteStripe: 0xffffff, sun: 0xfff5d8 },
 };
 </script>
