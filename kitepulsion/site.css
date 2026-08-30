@@ -1,0 +1,19 @@
+/* Kitepulsion — dark navy + electric cyan / lime. Sporty, high-contrast. */
+:root {
+  --bg: #070c11;
+  --bg-alt: #0b1219;
+  --panel: #0f1822;
+  --text: #e8f1f8;
+  --muted: #93a7b8;
+  --accent: #37e0ff;
+  --accent-2: #b4ff3a;
+  --accent-contrast: #04222b;
+  --line: rgba(120, 170, 210, 0.14);
+  --nav-bg: rgba(7, 12, 17, 0.55);
+  --nav-bg-solid: rgba(7, 12, 17, 0.85);
+  --map-filter: grayscale(0.4) invert(0.92) hue-rotate(180deg);
+  --shadow-accent: rgba(55, 224, 255, 0.35);
+  --radius: 18px;
+  --font-head: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SkyFly Kiteschool — École de kitesurf à Port Leucate / Le Barcarès</title>
+<meta name="description" content="École de kitesurf entre Port Leucate et Le Barcarès. Cours sur l'île de la Rascasse : pied partout, zéro affluence, moniteurs diplômés avec 20 ans d'expérience. Kitesurf, wingfoil, kitefoil." />
+<meta property="og:title" content="SkyFly Kiteschool — Port Leucate / Le Barcarès" />
+<meta property="og:description" content="Départ en bateau pour une île au milieu de l'étang : le spot d'apprentissage parfait. Cours 3 h dès 120 €." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏝️</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">SKY<span>FLY</span></a>
+  <div class="nav-links">
+    <a href="#ile">L'île</a>
+    <a href="#offres">Cours &amp; tarifs</a>
+    <a href="#ecole">L'école</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a class="btn btn-small" href="mailto:contact@sky-fly.com?subject=R%C3%A9servation%20cours%20kitesurf">Réserver</a>
+  <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">École de kitesurf · Port Leucate / Le Barcarès</p>
+    <h1 class="reveal">Votre cours de kite<br /><em>sur une île déserte.</em></h1>
+    <p class="hero-sub reveal">Embarquez : le bateau SkyFly vous dépose sur l'île de la Rascasse,
+    au milieu de l'étang de Port Leucate. Pied partout, personne d'autre à l'eau, et un moniteur
+    par radio pour vous guider.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#offres">Cours &amp; tarifs</a>
+      <a class="btn btn-ghost" href="#ile">Découvrir l'île</a>
+    </div>
+    <div class="wind-widget reveal" title="Prévisions Open-Meteo pour l'étang de Port Leucate">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Chargement du vent…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurf</span><i>☀</i><span>Wingfoil</span><i>☀</i><span>Kitefoil</span><i>☀</i><span>Strapless</span><i>☀</i><span>Île de la Rascasse</span><i>☀</i>
+    <span>Kitesurf</span><i>☀</i><span>Wingfoil</span><i>☀</i><span>Kitefoil</span><i>☀</i><span>Strapless</span><i>☀</i><span>Île de la Rascasse</span><i>☀</i>
+  </div>
+</section>
+
+<section class="section" id="ile">
+  <div class="section-head reveal">
+    <p class="eyebrow">Le spot</p>
+    <h2>L'île de la Rascasse, <em>un spot 100 % privé.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Loin de la foule des plages, votre cours démarre par une mini-croisière.
+      Sur l'île, <strong>vous avez pied partout</strong> et il n'y a <strong>aucun autre pratiquant</strong> :
+      les conditions parfaites pour apprendre vite, en confiance, dans l'une des régions les plus
+      ventées et ensoleillées de France.</p>
+      <ul class="checklist">
+        <li>Accès en bateau, encadrement au plus près</li>
+        <li>Eau peu profonde sur toute la zone d'apprentissage</li>
+        <li>Casques radio : les consignes en direct dans l'oreille</li>
+        <li>À ~1 h 50 de Toulouse, entre Narbonne et Perpignan</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal">
+      <iframe title="Carte — Étang de Port Leucate" src="https://www.openstreetmap.org/export/embed.html?bbox=2.98%2C42.82%2C3.06%2C42.88&amp;layer=mapnik&amp;marker=42.8485%2C3.0208" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="offres">
+  <div class="section-head reveal">
+    <p class="eyebrow">Cours &amp; tarifs</p>
+    <h2>Des formules claires, <em>tout inclus.</em></h2>
+    <p class="section-sub">Matériel complet fourni : combinaison, casque radio, harnais, gilet. Ouvert tous les jours de 10 h à 19 h.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card reveal">
+      <h3>Découverte à deux</h3>
+      <p class="price">65 €<span>/ pers — 3 h, 1 aile pour 2</span></p>
+      <ul>
+        <li>Idéal pour tester en duo</li>
+        <li>Toute la partie pilotage &amp; sécurité</li>
+        <li>Le bon plan pour débuter</li>
+      </ul>
+    </div>
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Le classique</div>
+      <h3>Cours kitesurf 3 h</h3>
+      <p class="price">120 €<span>/ pers</span></p>
+      <ul>
+        <li>Du décollage au waterstart</li>
+        <li>Progression selon votre niveau</li>
+        <li>Jusqu'aux sauts et rotations</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Stage 9 h</h3>
+      <p class="price">310 €<span>3 cours de 3 h</span></p>
+      <ul>
+        <li>La vraie trajectoire vers l'autonomie</li>
+        <li>Répartis sur plusieurs jours</li>
+        <li>Meilleur rapport heures / prix</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Spécialités</h3>
+      <p class="price">dès 80 €<span>l'heure d'initiation</span></p>
+      <ul>
+        <li>Wingfoil : 100 € / h</li>
+        <li>Kitefoil : 80 € / h</li>
+        <li>Cours particulier 3 h : 240 €</li>
+        <li>Formule tribu / famille 3 h : 400 €</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">Strapless, planche tractée et surf également au programme dès 80 € l'heure. Réservation conseillée — les créneaux de tramontane partent vite.</p>
+</section>
+
+<section class="section" id="ecole">
+  <div class="section-head reveal">
+    <p class="eyebrow">L'école</p>
+    <h2>20 ans de kite, <em>zéro routine.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="card reveal">
+      <p class="card-big">Sylvain Colson &amp; son équipe</p>
+      <p>Moniteurs diplômés pratiquant le kitesurf depuis <strong>une vingtaine d'années</strong>,
+      installés à la frontière de Port Leucate et du Barcarès depuis 2002. Pionniers de la glisse
+      tractée — l'équipe a même inventé son propre sport aérien, le Sky Fly, accessible à tous.</p>
+      <p class="card-tags"><span>Moniteurs diplômés</span><span>Depuis 2002</span><span>FR · EN</span></p>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><b>20</b><span>ans d'expérience de kite</span></div>
+      <div class="stat"><b>7/7</b><span>ouvert, de 10 h à 19 h</span></div>
+      <div class="stat"><b>100%</b><span>matériel fourni, radio incluse</span></div>
+      <div class="stat"><b>1</b><span>île rien que pour vos cours</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Contact</p>
+    <h2>Embarquement <em>immédiat.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Réservez par téléphone ou par mail — l'équipe vous confirme le créneau selon la météo.</p>
+      <div class="contact-lines">
+        <a href="mailto:contact@sky-fly.com" class="contact-line">✉ contact@sky-fly.com</a>
+        <a href="tel:+33675422691" class="contact-line">📞 +33 (0)6 75 42 26 91</a>
+        <span class="contact-line">📍 22 avenue Cap de Front, 66420 Le Barcarès</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Votre nom" required />
+        <input type="text" id="cf-dates" placeholder="Vos dates (ex. 12–15 juillet)" />
+      </div>
+      <select id="cf-level">
+        <option>Découverte à deux (65 €/pers)</option>
+        <option>Cours kitesurf 3 h (120 €)</option>
+        <option>Stage 9 h (310 €)</option>
+        <option>Wingfoil / kitefoil</option>
+        <option>Cours particulier / formule tribu</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
+      <button type="submit" class="btn">Envoyer la demande</button>
+      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">SKY<span>FLY</span></p>
+    <p>École de kitesurf · Port Leucate / Le Barcarès · île de la Rascasse</p>
+  </div>
+  <p class="footer-hint" title="Un indice…">🏝️ Psst… pour décoller, tapez <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter egg trouvé !</b> Bougez la souris pour piloter l'aile — <kbd>ESC</kbd> pour revenir.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "SkyFly Kiteschool",
+  spotName: "sur l'étang de Port Leucate",
+  email: "contact@sky-fly.com",
+  lat: 42.8485, lon: 3.0208,
+  fx: "particles",
+  fxColor: [29, 143, 224],
+  egg: { sky: [0x0d5ca8, 0xbde4ff], water: 0x1a7fc2, kite: 0xffb340, kiteStripe: 0x1d8fe0, sun: 0xfff6dd },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

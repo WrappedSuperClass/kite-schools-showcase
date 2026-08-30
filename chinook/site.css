@@ -1,0 +1,20 @@
+/* Chinook — warm paper + burnt orange. Heritage surf-shop character. */
+:root {
+  --bg: #faf4ea;
+  --bg-alt: #f2e8d8;
+  --panel: #ffffff;
+  --text: #26201a;
+  --muted: #6f6459;
+  --accent: #d9531e;
+  --accent-2: #1d7a6b;
+  --accent-contrast: #ffffff;
+  --line: rgba(38, 32, 26, 0.13);
+  --nav-bg: rgba(250, 244, 234, 0.6);
+  --nav-bg-solid: rgba(250, 244, 234, 0.92);
+  --map-filter: sepia(0.15);
+  --shadow-accent: rgba(217, 83, 30, 0.25);
+  --radius: 14px;
+  --font-head: "Bricolage Grotesque", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { font-weight: 800; }

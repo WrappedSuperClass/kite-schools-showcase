@@ -1,0 +1,20 @@
+/* Tendance Kite — nature-park green + flamingo pink. Fresh, protected. */
+:root {
+  --bg: #f4f9f4;
+  --bg-alt: #e9f3e7;
+  --panel: #ffffff;
+  --text: #16302a;
+  --muted: #587468;
+  --accent: #2a9d64;
+  --accent-2: #f47fa0;
+  --accent-contrast: #ffffff;
+  --line: rgba(22, 48, 42, 0.12);
+  --nav-bg: rgba(244, 249, 244, 0.6);
+  --nav-bg-solid: rgba(244, 249, 244, 0.92);
+  --map-filter: none;
+  --shadow-accent: rgba(42, 157, 100, 0.25);
+  --radius: 20px;
+  --font-head: "Albert Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { font-weight: 800; }

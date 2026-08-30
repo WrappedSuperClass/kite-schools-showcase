@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Narbonne Kite Passion — École de kitesurf sur l'étang de Bages</title>
+<meta name="description" content="École de kitesurf et stand up paddle à Narbonne depuis 2011. Spot exclusif en eau peu profonde accessible uniquement en bateau, 4 élèves max par moniteur, enseignement radio. À 1h15 de Toulouse." />
+<meta property="og:title" content="Narbonne Kite Passion — Kitesurf sur l'étang de Bages" />
+<meta property="og:description" content="Un spot rien que pour vous, de l'eau à hauteur de taille, et un moniteur dans l'oreille. Le kitesurf en toute sérénité." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../shared/base.css" />
+<link rel="stylesheet" href="site.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌊</text></svg>" />
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top" id="logo">NKP <span>· Narbonne Kite Passion</span></a>
+  <div class="nav-links">
+    <a href="#pourquoi">L'école</a>
+    <a href="#stages">Stages</a>
+    <a href="#spot">Le spot</a>
+    <a href="#infos">Infos</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a class="btn btn-small" href="mailto:contact@narbonnekitepassion.com?subject=R%C3%A9servation%20stage%20kitesurf">Réserver</a>
+  <button class="nav-burger" id="burger" aria-label="Menu">☰</button>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">École de kitesurf &amp; SUP · Narbonne · depuis 2011</p>
+    <h1 class="reveal">Un étang rien<br /><em>que pour vous.</em></h1>
+    <p class="hero-sub reveal">Sur l'étang de Bages, au cœur du Parc Naturel Régional de la Narbonnaise,
+    apprenez le kitesurf avec pied partout, un moniteur dans l'oreille, et pas un autre pratiquant à l'horizon.</p>
+    <div class="hero-cta reveal">
+      <a class="btn" href="#stages">Voir les stages</a>
+      <a class="btn btn-ghost" href="#spot">Le spot secret</a>
+    </div>
+    <div class="wind-widget reveal" title="Prévisions Open-Meteo pour l'étang de Bages">
+      <span class="wind-dot"></span>
+      <span id="wind-text">Chargement du vent…</span>
+    </div>
+  </div>
+  <div class="hero-scroll">↓</div>
+</header>
+
+<section class="strip">
+  <div class="strip-track">
+    <span>Kitesurf</span><i>~</i><span>Kitefoil</span><i>~</i><span>Stand Up Paddle</span><i>~</i><span>Location</span><i>~</i><span>Navigation surveillée</span><i>~</i>
+    <span>Kitesurf</span><i>~</i><span>Kitefoil</span><i>~</i><span>Stand Up Paddle</span><i>~</i><span>Location</span><i>~</i><span>Navigation surveillée</span><i>~</i>
+  </div>
+</section>
+
+<section class="section" id="pourquoi">
+  <div class="section-head reveal">
+    <p class="eyebrow">Pourquoi NKP</p>
+    <h2>Apprendre en toute <em>sérénité.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="card reveal">
+      <p class="card-big">Le confort d'apprendre bien entouré</p>
+      <p>Depuis <strong>2011</strong>, NKP accueille débutants et riders confirmés aux portes de Narbonne.
+      Matériel <strong>Duotone renouvelé chaque année</strong>, vestiaires, douches chaudes et WC sur place.
+      Et si la météo ne s'y prête pas, le cours est <strong>reporté selon vos disponibilités</strong> — garantie vent.</p>
+      <p class="card-tags"><span>Duotone</span><span>Douches chaudes</span><span>Garantie vent</span></p>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><b>4</b><span>élèves max par moniteur</span></div>
+      <div class="stat"><b>1</b><span>kite par élève, à votre rythme</span></div>
+      <div class="stat"><b>100%</b><span>dans l'eau dès la 1ʳᵉ séance</span></div>
+      <div class="stat"><b>0</b><span>autre pratiquant sur le spot</span></div>
+    </div>
+  </div>
+  <div class="grid grid-3 features">
+    <div class="feature reveal"><h3>Radio individuelle</h3><p>Chaque élève est équipé d'un casque radio sur un canal séparé : un enseignement différencié et instantané.</p></div>
+    <div class="feature reveal"><h3>Pied partout</h3><p>Les cours ont lieu en eau peu profonde sur un vaste banc de sable — l'autonomie vient plus vite quand on n'a pas peur.</p></div>
+    <div class="feature reveal"><h3>Accès bateau exclusif</h3><p>Le spot école n'est accessible qu'en bateau. Vous êtes seuls au monde, dans un décor de parc naturel.</p></div>
+  </div>
+</section>
+
+<section class="section section-alt" id="stages">
+  <div class="section-head reveal">
+    <p class="eyebrow">Stages &amp; cours</p>
+    <h2>Deux créneaux par jour, <em>toute la saison.</em></h2>
+    <p class="section-sub">De mars à novembre, tous les jours : <strong>9 h – 13 h</strong> ou <strong>14 h – 18 h</strong>. Séances de 4 heures, matériel et équipement néoprène inclus.</p>
+  </div>
+  <div class="grid grid-4 pricing">
+    <div class="price-card reveal">
+      <h3>S'initier</h3>
+      <p class="price">dès 130 €<span>1 séance de 4 h</span></p>
+      <ul>
+        <li>Aucun prérequis</li>
+        <li>Préparer et ranger son matériel</li>
+        <li>Fenêtre de vol, redécollage, sécurité</li>
+        <li>Pilotage et nage tractée</li>
+      </ul>
+    </div>
+    <div class="price-card price-featured reveal">
+      <div class="price-badge">Le préféré</div>
+      <h3>Stage découverte</h3>
+      <p class="price">255 €<span>2 × 4 h</span></p>
+      <ul>
+        <li>Jour 1 : pilotage dans l'eau</li>
+        <li>Jour 2 : allier kite et planche</li>
+        <li>Premiers waterstarts</li>
+        <li>280 € en haute saison</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Se perfectionner</h3>
+      <p class="price">dès 130 €<span>4 h — vous fixez les objectifs</span></p>
+      <ul>
+        <li>Waterstart, allures, transitions</li>
+        <li>Kitefoil pour aller plus loin</li>
+        <li>Niveau intermédiaire / avancé</li>
+      </ul>
+    </div>
+    <div class="price-card reveal">
+      <h3>Nav &amp; location</h3>
+      <p class="price">dès 45 €<span>riders autonomes</span></p>
+      <ul>
+        <li>Navigation surveillée depuis le bateau</li>
+        <li>Matériel Duotone de l'année</li>
+        <li>Location demi-journée 55 €</li>
+        <li>Stand up paddle dès 30 €</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine-print reveal">Les tarifs comprennent la location du matériel et l'équipement néoprène et technique (combinaison, harnais, gilet, casque radio). Assurance AFKite obligatoire : 25 € en pratique école, 35 € en pratique libre — valable 365 jours dans le monde entier.</p>
+</section>
+
+<section class="section" id="spot">
+  <div class="section-head reveal">
+    <p class="eyebrow">Le spot</p>
+    <h2>L'étang de Bages, <em>votre jardin d'eau plate.</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">À 3 minutes de la sortie 38 de l'A9 et à 10 minutes de Gruissan, la base de la Nautique
+      ouvre sur un plan d'eau <strong>peu profond, plat et immense</strong>, fréquenté exclusivement par l'école.
+      Le bateau vous dépose sur le banc de sable : il ne reste qu'à voler.</p>
+      <ul class="checklist">
+        <li>Spot accessible uniquement en bateau — zéro affluence</li>
+        <li>Eau à hauteur de taille sur des centaines de mètres</li>
+        <li>Au cœur du Parc Naturel Régional de la Narbonnaise</li>
+        <li>À ~1 h 15 de Toulouse par l'A61/A9</li>
+      </ul>
+    </div>
+    <div class="map-wrap reveal">
+      <iframe title="Carte — La Nautique, Narbonne" src="https://www.openstreetmap.org/export/embed.html?bbox=2.975%2C43.12%2C3.045%2C43.16&amp;layer=mapnik&amp;marker=43.1403%2C3.0078" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="infos">
+  <div class="section-head reveal">
+    <p class="eyebrow">Infos pratiques</p>
+    <h2>Tout ce qu'il faut <em>savoir.</em></h2>
+  </div>
+  <div class="grid grid-3">
+    <div class="feature reveal">
+      <h3>🗓 Réservation simple</h3>
+      <p>Vérifiez les disponibilités, inscrivez-vous en ligne ou par téléphone, recevez la confirmation par mail. L'école est ouverte 7 j/7 de mars à novembre.</p>
+    </div>
+    <div class="feature reveal">
+      <h3>🏋️ Conditions</h3>
+      <p>Le kitesurf se pratique dès 45 kg environ, savoir nager est indispensable. La progression est plus rapide si vous avez déjà piloté un cerf-volant ou pratiqué une glisse.</p>
+    </div>
+    <div class="feature reveal">
+      <h3>🚿 Sur place</h3>
+      <p>Vestiaires, WC et douches chaudes à votre disposition à la base de la Nautique. De quoi finir la séance de 4 heures en douceur.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-head reveal">
+    <p class="eyebrow">Contact</p>
+    <h2>On vous garde <em>une place ?</em></h2>
+  </div>
+  <div class="grid grid-2">
+    <div class="reveal">
+      <p class="lead">Appelez, écrivez, ou remplissez le formulaire : l'équipe NKP vous répond 7 j/7 de 8 h 30 à 19 h 30.</p>
+      <div class="contact-lines">
+        <a href="mailto:contact@narbonnekitepassion.com" class="contact-line">✉ contact@narbonnekitepassion.com</a>
+        <a href="tel:+33679827253" class="contact-line">📞 +33 (0)6 79 82 72 53</a>
+        <span class="contact-line">📍 Base de la Nautique, rue des Nautiquards, 11100 Narbonne</span>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contact-form">
+      <div class="form-row">
+        <input type="text" id="cf-name" placeholder="Votre nom" required />
+        <input type="text" id="cf-dates" placeholder="Vos dates (ex. 12–15 juillet)" />
+      </div>
+      <select id="cf-level">
+        <option>Initiation — jamais pratiqué</option>
+        <option>Perfectionnement</option>
+        <option>Location / navigation surveillée</option>
+        <option>Stand up paddle</option>
+      </select>
+      <textarea id="cf-msg" rows="4" placeholder="Votre message…"></textarea>
+      <button type="submit" class="btn">Envoyer la demande</button>
+      <p class="form-note">Ce bouton ouvre votre messagerie avec le mail prérempli.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div>
+    <p class="nav-logo">NKP <span>· Narbonne Kite Passion</span></p>
+    <p>École de kitesurf &amp; stand up paddle · La Nautique, Narbonne · depuis 2011</p>
+  </div>
+  <p class="footer-hint" title="Un indice…">🌊 Psst… ici, tout commence quand on tape <b>V·E·N·T</b></p>
+</footer>
+
+<div id="egg-overlay" class="egg-overlay" hidden>
+  <div class="egg-ui">
+    <p>🪁 <b>Easter egg trouvé !</b> Bougez la souris pour piloter l'aile — <kbd>ESC</kbd> pour revenir.</p>
+  </div>
+</div>
+
+<script>
+window.SITE = {
+  name: "Narbonne Kite Passion",
+  spotName: "sur l'étang de Bages",
+  email: "contact@narbonnekitepassion.com",
+  lat: 43.1403, lon: 3.0078,
+  fx: "waves",
+  fxColor: [14, 140, 140],
+  egg: { sky: [0x1e6e96, 0xbfe8ee], water: 0x2fa8a0, kite: 0xff7a59, kiteStripe: 0xfff3e0, sun: 0xfff0d0 },
+};
+</script>
+<script type="importmap">{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }</script>
+<script type="module" src="../shared/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* Osmose Kite — deep sea green + mint aurora. Organic, immersive. */
+:root {
+  --bg: #05130f;
+  --bg-alt: #081b15;
+  --panel: #0c231c;
+  --text: #e9f7f0;
+  --muted: #8fb0a3;
+  --accent: #2ee6a8;
+  --accent-2: #d9f76e;
+  --accent-contrast: #032018;
+  --line: rgba(110, 200, 170, 0.15);
+  --nav-bg: rgba(5, 19, 15, 0.55);
+  --nav-bg-solid: rgba(5, 19, 15, 0.88);
+  --map-filter: grayscale(0.4) invert(0.9) hue-rotate(140deg);
+  --shadow-accent: rgba(46, 230, 168, 0.3);
+  --radius: 24px;
+  --font-head: "Syne", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { font-weight: 800; }

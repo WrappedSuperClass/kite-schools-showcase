@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kite Schools Showcase — 10 redesigned websites</title>
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0e14; color: #e8f1f8; font-family: "Inter", sans-serif; padding: 4rem clamp(1rem, 6vw, 5rem); }
+  h1 { font-family: "Space Grotesk", sans-serif; font-size: clamp(1.8rem, 4vw, 3rem); margin-bottom: 0.6rem; }
+  p.sub { color: #93a7b8; margin-bottom: 3rem; }
+  .grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  a.card {
+    display: block; padding: 1.6rem; border: 1px solid rgba(120,170,210,.15); border-radius: 16px;
+    background: #101823; color: inherit; text-decoration: none; transition: transform .2s, border-color .2s;
+  }
+  a.card:hover { transform: translateY(-4px); border-color: var(--c); }
+  a.card b { font-family: "Space Grotesk", sans-serif; font-size: 1.15rem; color: var(--c); display: block; margin-bottom: .35rem; }
+  a.card span { color: #93a7b8; font-size: .9rem; }
+  .hint { margin-top: 3rem; color: #5c7480; font-size: .85rem; }
+</style>
+</head>
+<body>
+  <h1>Kite Schools Showcase</h1>
+  <p class="sub">10 kitesurf schools within ~1.5–2 h of Toulouse — each with a redesigned, modern website. Type <b>VENT</b> on any site for a surprise.</p>
+  <div class="grid">
+    <a class="card" style="--c:#37e0ff" href="kitepulsion/"><b>Kitepulsion</b><span>La Franqui · dark electric</span></a>
+    <a class="card" style="--c:#0e8c8c" href="narbonne-kite-passion/"><b>Narbonne Kite Passion</b><span>Étang de Bages · sand &amp; lagoon serif</span></a>
+    <a class="card" style="--c:#ff9e5a" href="addicted2kite/"><b>Addicted2kite</b><span>Narbonne-Plage · sunset punch</span></a>
+    <a class="card" style="--c:#2ee6a8" href="osmose-kite/"><b>Osmose Kite</b><span>La Franqui · deep-sea aurora</span></a>
+    <a class="card" style="--c:#d9531e" href="chinook/"><b>Chinook Kite School</b><span>Étang de La Palme · heritage paper</span></a>
+    <a class="card" style="--c:#1d8fe0" href="skyfly/"><b>SkyFly Kiteschool</b><span>Port Leucate / Barcarès · island sky</span></a>
+    <a class="card" style="--c:#8b7bff" href="coriolis/"><b>Coriolis Foil School</b><span>Port Leucate · foil futurism</span></a>
+    <a class="card" style="--c:#2a9d64" href="tendance-kite/"><b>Tendance Kite</b><span>Sigean · nature-park green</span></a>
+    <a class="card" style="--c:#6fc7ff" href="ksl/"><b>KSL Kite Surf Leucate</b><span>Les Coussoules · club royal</span></a>
+    <a class="card" style="--c:#e8541f" href="akila-gruissan/"><b>Akila Gruissan</b><span>Plage des Chalets · race orange</span></a>
+  </div>
+  <p class="hint">Built as website redesign proposals — all content sourced from each school's public information.</p>
+</body>
+</html>

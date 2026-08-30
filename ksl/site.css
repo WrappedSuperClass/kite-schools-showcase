@@ -1,0 +1,20 @@
+/* KSL — royal navy + heart-blue. Club sportif, fédérateur. */
+:root {
+  --bg: #0b1530;
+  --bg-alt: #101c3f;
+  --panel: #16244d;
+  --text: #eaf2fc;
+  --muted: #93a8c9;
+  --accent: #6fc7ff;
+  --accent-2: #ffd166;
+  --accent-contrast: #06213a;
+  --line: rgba(140, 180, 240, 0.16);
+  --nav-bg: rgba(11, 21, 48, 0.55);
+  --nav-bg-solid: rgba(11, 21, 48, 0.88);
+  --map-filter: grayscale(0.4) invert(0.92) hue-rotate(180deg);
+  --shadow-accent: rgba(111, 199, 255, 0.32);
+  --radius: 16px;
+  --font-head: "Archivo", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+h1, h2 { font-weight: 900; text-transform: uppercase; }
