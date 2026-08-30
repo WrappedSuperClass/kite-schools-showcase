@@ -16,7 +16,7 @@
   --nav-bg: rgba(7, 12, 17, 0.55);
   --nav-bg-solid: rgba(7, 12, 17, 0.85);
   --shadow-accent: rgba(55, 224, 255, 0.35);
-  --hero-overlay: linear-gradient(180deg, rgba(4, 8, 12, 0.55) 0%, rgba(4, 8, 12, 0.25) 45%, var(--bg) 98%);
+  --hero-overlay: linear-gradient(180deg, rgba(4, 8, 12, 0.55) 0%, rgba(4, 8, 12, 0.38) 45%, rgba(4, 8, 12, 0.55) 72%, var(--bg) 98%);
   --radius: 18px;
   --font-head: "Space Grotesk", sans-serif;
   --font-body: "Inter", sans-serif;
@@ -109,7 +109,7 @@ img { display: block; max-width: 100%; }
 }
 .hero-kicker::before { content: ""; width: 42px; height: 2px; background: var(--accent); }
 .hero h1 { color: #fff; text-shadow: 0 4px 40px rgba(0, 0, 0, 0.45); }
-.hero h1 em { color: var(--accent); }
+.hero h1 em { color: var(--accent); text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55), 0 4px 40px rgba(0, 0, 0, 0.5); }
 .hero-sub { color: rgba(255, 255, 255, 0.88); font-size: clamp(1.02rem, 2vw, 1.25rem); max-width: 620px; margin: 1.5rem 0 2rem; text-shadow: 0 2px 18px rgba(0, 0, 0, 0.5); }
 .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
 
