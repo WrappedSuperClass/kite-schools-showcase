@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+site-dist/
+output/
+.verification/
+.DS_Store
+.env
+.env.*
+auth.json

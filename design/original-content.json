@@ -1,0 +1,3777 @@
+{
+  "kitepulsion": {
+    "fr": {
+      "title": "KITEPULSION — École de kitesurf à La Franqui, Leucate",
+      "intro": "8 km de plage vierge, la tramontane en moteur, et un moniteur diplômé d'État qui enseigne ici depuis 2002. Du premier décollage à la performance sportive.",
+      "legacyHeadline": "Le vent vous attend aux Coussoules.",
+      "phone": "+33682314920",
+      "email": "kitepulsion@gmail.com",
+      "lat": 42.9385,
+      "lon": 3.0255,
+      "courses": [
+        {
+          "name": "À la carte",
+          "price": "130–150 €",
+          "unit": "/ pers / séance",
+          "features": [
+            "Séance collective de 3 h",
+            "3 stagiaires max par moniteur",
+            "Créneaux optimisés selon la météo",
+            "Débutant, initié ou confirmé"
+          ]
+        },
+        {
+          "name": "Flexibilité",
+          "price": "130–150 €",
+          "unit": "/ pers",
+          "features": [
+            "1 séance collective de 3 h, ou",
+            "1 cours particulier d'1 h, ou",
+            "1 cours particulier de 2 h à deux",
+            "Vous choisissez, séance après séance"
+          ]
+        },
+        {
+          "name": "Cours particulier",
+          "price": "Sur mesure",
+          "unit": "",
+          "features": [
+            "Pédagogie 100 % personnalisée",
+            "Choix du créneau météo idéal",
+            "Programme individuel",
+            "Analyse vidéo & pistes de travail"
+          ]
+        },
+        {
+          "name": "Coaching perf.",
+          "price": "Groupe 4–6",
+          "unit": "riders autonomes",
+          "features": [
+            "Freestyle, strapless, foil",
+            "Nouveaux supports à tester",
+            "Réalisation & analyse vidéo"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Et s'il n'y a pas de vent pendant mon stage ?",
+          "a": "La séance est reportée à l'initiative du moniteur, ou remboursée. Les reports restent valables un an — prévoyez si possible un jour de battement dans votre séjour."
+        },
+        {
+          "q": "À quelle heure a lieu le cours ?",
+          "a": "L'horaire et le lieu de rendez-vous sont confirmés la veille à 20 h, après le dernier bulletin météo, pour viser le meilleur créneau de vent."
+        },
+        {
+          "q": "Que dois-je apporter ?",
+          "a": "Combinaison néoprène intégrale (prêt possible, signalez votre taille à la réservation), chaussons néoprène, lunettes, crème solaire, en-cas et eau."
+        },
+        {
+          "q": "L'assurance est-elle incluse ?",
+          "a": "Non — la licence FFVL « glisses aérotractées » est obligatoire : à partir de 7,50 € pour 2 ou 9 jours, 25 € à l'année. Souscrivez-la en ligne avant le stage pour gagner du temps le premier jour."
+        },
+        {
+          "q": "Je suis déjà autonome, que proposez-vous ?",
+          "a": "Coaching perfectionnement en groupe de 4 à 6 : freestyle, strapless, foil, vidéos et analyse. Et l'hiver, le snowkite prend le relais."
+        }
+      ],
+      "about": [
+        "Moniteur et entraîneur haut-niveau, formateur CREPS, diplômé d'État BPJEPS & DEJEPS Kite . Il enseigne sur le spot de Leucate depuis 2002 — plus de vingt ans à lire le vent des Coussoules."
+      ],
+      "spot": "À La Franqui, entre falaise et cordon dunaire, la plage des Coussoules déroule 8 kilomètres de sable vierge . C'est ici que se court le Mondial du Vent : espace immense, eau peu profonde au bord, tramontane régulière d'avril à octobre.",
+      "spotFeatures": [
+        "Statistiques de vent favorables d'avril à octobre",
+        "Zone d'apprentissage en eau peu profonde",
+        "Pleine eau avec assistance Zodiac",
+        "À ~1 h 45 de Toulouse, 30 min de Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Apprivoiser l'aile",
+          "body": "Fenêtre de vol, sécurité, pilotage dans l'eau peu profonde. Le vent devient un partenaire, plus un mystère."
+        },
+        {
+          "title": "Le waterstart",
+          "body": "Nage tractée puis premiers départs sur la planche, Zodiac en assistance. C'est là que tout bascule."
+        },
+        {
+          "title": "Vos premiers bords",
+          "body": "Glisser, remonter au vent, enchaîner les bords — avec l'analyse vidéo de Thomas pour progresser deux fois plus vite."
+        }
+      ],
+      "meta": "École Française de Kite FFVL sur la plage des Coussoules à La Franqui. Cours de kitesurf tous niveaux avec Thomas Kraemer, moniteur diplômé d'État depuis 2002. Mini-groupes, suivi radio, assistance Zodiac."
+    },
+    "en": {
+      "title": "KITEPULSION — Kitesurf school in La Franqui, Leucate",
+      "intro": "8 km of unspoiled beach, the tramontane wind as your engine, and a state-certified instructor who has been teaching here since 2002. From your first launch to high-level riding.",
+      "legacyHeadline": "The wind is waiting for you at Les Coussoules.",
+      "phone": "+33682314920",
+      "email": "kitepulsion@gmail.com",
+      "lat": 42.9385,
+      "lon": 3.0255,
+      "courses": [
+        {
+          "name": "À la carte",
+          "price": "130–150 €",
+          "unit": "/ pers / session",
+          "features": [
+            "3-hour group session",
+            "3 students max per instructor",
+            "Slots optimised around the weather",
+            "Beginner, intermediate or advanced"
+          ]
+        },
+        {
+          "name": "Flexibility",
+          "price": "130–150 €",
+          "unit": "/ pers",
+          "features": [
+            "1 group session of 3 h, or",
+            "1 private lesson of 1 h, or",
+            "1 private 2 h lesson for two",
+            "You choose, session by session"
+          ]
+        },
+        {
+          "name": "Private lessons",
+          "price": "Tailor-made",
+          "unit": "",
+          "features": [
+            "100% personalised teaching",
+            "Pick of the ideal weather window",
+            "Individual programme",
+            "Video analysis & things to work on"
+          ]
+        },
+        {
+          "name": "Perf. coaching",
+          "price": "Group of 4–6",
+          "unit": "independent riders",
+          "features": [
+            "Freestyle, strapless, foil",
+            "New gear to try out",
+            "Video shooting & analysis"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What if there's no wind during my course?",
+          "a": "The session is postponed at the instructor's discretion, or refunded. Postponed sessions stay valid for one year — if you can, plan a spare day into your stay."
+        },
+        {
+          "q": "What time does the lesson take place?",
+          "a": "The time and meeting point are confirmed the evening before at 8 pm, after the last weather bulletin, to hit the best wind window."
+        },
+        {
+          "q": "What should I bring?",
+          "a": "A full neoprene wetsuit (loan possible, mention your size when booking), neoprene booties, sunglasses, sunscreen, a snack and water."
+        },
+        {
+          "q": "Is insurance included?",
+          "a": "No — the FFVL kite-sports licence is required: from 7.50 € for 2 or 9 days, 25 € for the year. Take it out online before the course to save time on day one."
+        },
+        {
+          "q": "I'm already independent — what do you offer?",
+          "a": "Performance coaching in groups of 4 to 6: freestyle, strapless, foil, video shooting and analysis. And in winter, snowkiting takes over."
+        }
+      ],
+      "about": [
+        "High-level instructor and coach, CREPS trainer, state-certified with BPJEPS & DEJEPS Kite diplomas. He has been teaching on the Leucate spot since 2002 — more than twenty years reading the wind at Les Coussoules."
+      ],
+      "spot": "In La Franqui, between the cliff and the dunes, Les Coussoules beach stretches out over 8 kilometres of unspoiled sand . This is where the Mondial du Vent is held: huge open space, shallow water along the shore, steady tramontane from April to October.",
+      "spotFeatures": [
+        "Favourable wind statistics from April to October",
+        "Shallow-water learning zone",
+        "Open water with Zodiac support",
+        "~1 h 45 from Toulouse, 30 min from Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Taming the kite",
+          "body": "Wind window, safety, kite control in shallow water. The wind becomes a partner, not a mystery."
+        },
+        {
+          "title": "The waterstart",
+          "body": "Body-dragging, then your first starts on the board, with the Zodiac on standby. This is where everything clicks."
+        },
+        {
+          "title": "Your first runs",
+          "body": "Riding, going upwind, linking your runs — with Thomas's video analysis to progress twice as fast."
+        }
+      ],
+      "meta": "FFVL French Kite School on Les Coussoules beach in La Franqui. Kitesurfing lessons for all levels with Thomas Kraemer, state-certified instructor since 2002. Small groups, radio coaching, Zodiac boat support."
+    },
+    "de": {
+      "title": "KITEPULSION — Kitesurfschule in La Franqui, Leucate",
+      "intro": "8 km unberührter Strand, die Tramontane als Motor und ein staatlich geprüfter Kitelehrer, der hier seit 2002 unterrichtet. Vom ersten Start bis zur sportlichen Performance.",
+      "legacyHeadline": "Der Wind wartet auf Dich an den Coussoules.",
+      "phone": "+33682314920",
+      "email": "kitepulsion@gmail.com",
+      "lat": 42.9385,
+      "lon": 3.0255,
+      "courses": [
+        {
+          "name": "À la carte",
+          "price": "130–150 €",
+          "unit": "/ Pers. / Session",
+          "features": [
+            "3-stündige Gruppensession",
+            "Max. 3 Teilnehmer pro Kitelehrer",
+            "Termine nach Wetterlage optimiert",
+            "Anfänger, Aufsteiger oder Fortgeschrittene"
+          ]
+        },
+        {
+          "name": "Flexibilität",
+          "price": "130–150 €",
+          "unit": "/ Pers.",
+          "features": [
+            "1 Gruppensession à 3 h, oder",
+            "1 Privatstunde à 1 h, oder",
+            "1 Privatkurs à 2 h zu zweit",
+            "Du entscheidest, Session für Session"
+          ]
+        },
+        {
+          "name": "Privatunterricht",
+          "price": "Nach Maß",
+          "unit": "",
+          "features": [
+            "100 % individuelle Betreuung",
+            "Freie Wahl des idealen Wetterfensters",
+            "Individuelles Programm",
+            "Videoanalyse & Trainingstipps"
+          ]
+        },
+        {
+          "name": "Perf.-Coaching",
+          "price": "Gruppe 4–6",
+          "unit": "selbstständige Rider",
+          "features": [
+            "Freestyle, Strapless, Foil",
+            "Neues Material zum Testen",
+            "Videodreh & -analyse"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Und wenn während meines Kurses kein Wind weht?",
+          "a": "Die Session wird auf Initiative des Kitelehrers verschoben oder erstattet. Gutschriften bleiben ein Jahr gültig — plane nach Möglichkeit einen Puffertag in Deinen Aufenthalt ein."
+        },
+        {
+          "q": "Um wie viel Uhr findet der Kurs statt?",
+          "a": "Uhrzeit und Treffpunkt werden am Vorabend um 20 Uhr bestätigt, nach dem letzten Wetterbericht — für das beste Windfenster."
+        },
+        {
+          "q": "Was muss ich mitbringen?",
+          "a": "Langen Neoprenanzug (Leihgabe möglich, gib Deine Größe bei der Buchung an), Neoprenschuhe, Sonnenbrille, Sonnencreme, Snack und Wasser."
+        },
+        {
+          "q": "Ist die Versicherung inbegriffen?",
+          "a": "Nein — die FFVL-Lizenz für Kitesport ist Pflicht: ab 7,50 € für 2 oder 9 Tage, 25 € fürs Jahr. Schließe sie am besten vor dem Kurs online ab, das spart Zeit am ersten Tag."
+        },
+        {
+          "q": "Ich fahre schon selbstständig — was bietet ihr an?",
+          "a": "Perfektionscoaching in Gruppen von 4 bis 6: Freestyle, Strapless, Foil, Video und Analyse. Und im Winter übernimmt das Snowkiten."
+        }
+      ],
+      "about": [
+        "Kitelehrer und Leistungssport-Trainer, CREPS-Ausbilder, staatlich diplomiert BPJEPS & DEJEPS Kite . Er unterrichtet am Spot von Leucate seit 2002 — über zwanzig Jahre Erfahrung mit dem Wind an den Coussoules."
+      ],
+      "spot": "In La Franqui, zwischen Steilküste und Dünen, erstreckt sich der Strand Les Coussoules über 8 Kilometer unberührten Sand . Hier findet der Mondial du Vent statt: riesige Fläche, flaches Wasser am Ufer, verlässliche Tramontane von April bis Oktober.",
+      "spotFeatures": [
+        "Günstige Windstatistik von April bis Oktober",
+        "Lernzone im flachen Wasser",
+        "Offenes Wasser mit Zodiac-Sicherung",
+        "~1 h 45 von Toulouse, 30 min von Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Den Kite zähmen",
+          "body": "Windfenster, Sicherheit, Steuern im flachen Wasser. Der Wind wird zum Partner statt zum Rätsel."
+        },
+        {
+          "title": "Der Wasserstart",
+          "body": "Bodydrag, dann die ersten Starts auf dem Board — das Zodiac sichert Dich. Genau hier macht es Klick."
+        },
+        {
+          "title": "Deine ersten Schläge",
+          "body": "Gleiten, Höhe laufen, Schlag an Schlag reihen — mit Thomas' Videoanalyse kommst Du doppelt so schnell voran."
+        }
+      ],
+      "meta": "FFVL-zertifizierte Kiteschule am Strand Les Coussoules in La Franqui. Kitesurfkurse für alle Levels mit Thomas Kraemer, staatlich geprüfter Kitelehrer seit 2002. Mini-Gruppen, Funkbetreuung, Zodiac-Sicherungsboot."
+    },
+    "es": {
+      "title": "KITEPULSION — Escuela de kitesurf en La Franqui, Leucate",
+      "intro": "8 km de playa virgen, la tramontana como motor y un monitor titulado por el Estado que enseña aquí desde 2002. Del primer despegue al rendimiento deportivo.",
+      "legacyHeadline": "El viento te espera en Les Coussoules.",
+      "phone": "+33682314920",
+      "email": "kitepulsion@gmail.com",
+      "lat": 42.9385,
+      "lon": 3.0255,
+      "courses": [
+        {
+          "name": "A la carta",
+          "price": "130–150 €",
+          "unit": "/ pers. / sesión",
+          "features": [
+            "Sesión colectiva de 3 h",
+            "3 alumnos máx. por monitor",
+            "Horarios optimizados según la meteo",
+            "Debutante, iniciado o avanzado"
+          ]
+        },
+        {
+          "name": "Flexibilidad",
+          "price": "130–150 €",
+          "unit": "/ pers.",
+          "features": [
+            "1 sesión colectiva de 3 h, o",
+            "1 clase particular de 1 h, o",
+            "1 clase particular de 2 h entre dos",
+            "Tú eliges, sesión a sesión"
+          ]
+        },
+        {
+          "name": "Clase particular",
+          "price": "A medida",
+          "unit": "",
+          "features": [
+            "Pedagogía 100 % personalizada",
+            "Elección de la mejor ventana meteo",
+            "Programa individual",
+            "Análisis en vídeo y líneas de trabajo"
+          ]
+        },
+        {
+          "name": "Coaching perf.",
+          "price": "Grupo 4–6",
+          "unit": "riders autónomos",
+          "features": [
+            "Freestyle, strapless, foil",
+            "Nuevos materiales para probar",
+            "Grabación y análisis en vídeo"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Y si no hay viento durante mi curso?",
+          "a": "La sesión se aplaza a criterio del monitor o se reembolsa. Los aplazamientos son válidos durante un año — si puedes, deja un día de margen en tu estancia."
+        },
+        {
+          "q": "¿A qué hora es la clase?",
+          "a": "La hora y el punto de encuentro se confirman la víspera a las 20 h, tras el último parte meteorológico, para apuntar a la mejor ventana de viento."
+        },
+        {
+          "q": "¿Qué tengo que llevar?",
+          "a": "Traje de neopreno integral (posible préstamo, indica tu talla al reservar), escarpines de neopreno, gafas, crema solar, algo de picar y agua."
+        },
+        {
+          "q": "¿El seguro está incluido?",
+          "a": "No — la licencia FFVL de deportes de tracción es obligatoria: desde 7,50 € para 2 o 9 días, 25 € al año. Contrátala en línea antes del curso para ganar tiempo el primer día."
+        },
+        {
+          "q": "Ya soy autónomo, ¿qué me proponéis?",
+          "a": "Coaching de perfeccionamiento en grupos de 4 a 6: freestyle, strapless, foil, vídeos y análisis. Y en invierno, el snowkite toma el relevo."
+        }
+      ],
+      "about": [
+        "Monitor y entrenador de alto nivel, formador del CREPS, titulado por el Estado BPJEPS & DEJEPS Kite . Enseña en el spot de Leucate desde 2002 : más de veinte años leyendo el viento de Les Coussoules."
+      ],
+      "spot": "En La Franqui, entre el acantilado y el cordón de dunas, la playa de Les Coussoules despliega 8 kilómetros de arena virgen . Aquí se celebra el Mondial du Vent: espacio inmenso, agua poco profunda en la orilla y tramontana regular de abril a octubre.",
+      "spotFeatures": [
+        "Estadísticas de viento favorables de abril a octubre",
+        "Zona de aprendizaje en agua poco profunda",
+        "Aguas abiertas con asistencia en Zodiac",
+        "A ~1 h 45 de Toulouse, 30 min de Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Domar la cometa",
+          "body": "Ventana de vuelo, seguridad, pilotaje en agua poco profunda. El viento se convierte en un aliado, no en un misterio."
+        },
+        {
+          "title": "El waterstart",
+          "body": "Nado de arrastre y primeras salidas sobre la tabla, con el Zodiac de asistencia. Ahí es donde todo cambia."
+        },
+        {
+          "title": "Tus primeros bordos",
+          "body": "Deslizarte, ceñir, encadenar bordos — con el análisis en vídeo de Thomas para progresar el doble de rápido."
+        }
+      ],
+      "meta": "Escuela Francesa de Kite FFVL en la playa de Les Coussoules, en La Franqui. Cursos de kitesurf para todos los niveles con Thomas Kraemer, monitor titulado por el Estado desde 2002. Grupos reducidos, seguimiento por radio, asistencia en Zodiac."
+    }
+  },
+  "narbonne-kite-passion": {
+    "fr": {
+      "title": "Narbonne Kite Passion — École de kitesurf sur l'étang de Bages",
+      "intro": "Sur l'étang de Bages, au cœur du Parc Naturel Régional de la Narbonnaise, apprenez le kitesurf avec pied partout, un moniteur dans l'oreille, et pas un autre pratiquant à l'horizon.",
+      "legacyHeadline": "Un étang rien que pour vous.",
+      "phone": "+33679827253",
+      "email": "contact@narbonnekitepassion.com",
+      "lat": 43.1403,
+      "lon": 3.0078,
+      "courses": [
+        {
+          "name": "S'initier",
+          "price": "dès 130 €",
+          "unit": "1 séance de 4 h",
+          "features": [
+            "Aucun prérequis",
+            "Préparer et ranger son matériel",
+            "Fenêtre de vol, redécollage, sécurité",
+            "Pilotage et nage tractée"
+          ]
+        },
+        {
+          "name": "Stage découverte",
+          "price": "255 €",
+          "unit": "2 × 4 h",
+          "features": [
+            "Jour 1 : pilotage dans l'eau",
+            "Jour 2 : allier kite et planche",
+            "Premiers waterstarts",
+            "280 € en haute saison"
+          ]
+        },
+        {
+          "name": "Se perfectionner",
+          "price": "dès 130 €",
+          "unit": "4 h — vous fixez les objectifs",
+          "features": [
+            "Waterstart, allures, transitions",
+            "Kitefoil pour aller plus loin",
+            "Niveau intermédiaire / avancé"
+          ]
+        },
+        {
+          "name": "Nav & location",
+          "price": "dès 45 €",
+          "unit": "riders autonomes",
+          "features": [
+            "Navigation surveillée depuis le bateau",
+            "Matériel Duotone de l'année",
+            "Location demi-journée 55 €",
+            "Stand up paddle dès 30 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Et s'il n'y a pas de vent le jour de mon cours ?",
+          "a": "Le cours est annulé et reporté en fonction de vos disponibilités — c'est la garantie vent NKP. Vous ne payez jamais une séance non navigable."
+        },
+        {
+          "q": "Faut-il savoir nager ? Y a-t-il un poids minimum ?",
+          "a": "Savoir nager est indispensable. Le kitesurf se pratique à partir d'environ 45 kg. Aucune autre condition physique particulière n'est requise pour débuter."
+        },
+        {
+          "q": "Comment se passe la réservation ?",
+          "a": "Vérifiez les disponibilités, inscrivez-vous en ligne ou par téléphone, recevez la confirmation par mail. L'école est ouverte 7 j/7 de mars à novembre, 8 h 30 – 19 h 30."
+        },
+        {
+          "q": "Le matériel est-il fourni ?",
+          "a": "Oui, tout est inclus : aile et planche Duotone de l'année, combinaison, harnais, gilet et casque avec radio. Apportez maillot, serviette et crème solaire."
+        },
+        {
+          "q": "Peut-on venir à deux avec des niveaux différents ?",
+          "a": "Oui — chaque élève a son propre kite et son propre canal radio, le moniteur adapte les consignes à chacun en temps réel."
+        }
+      ],
+      "about": [
+        "Depuis 2011 , NKP accueille débutants et riders confirmés aux portes de Narbonne. Matériel Duotone renouvelé chaque année , vestiaires, douches chaudes et WC sur place. Si la météo ne s'y prête pas, le cours est reporté selon vos disponibilités — garantie vent."
+      ],
+      "spot": "À 3 minutes de la sortie 38 de l'A9 et à 10 minutes de Gruissan, la base de la Nautique ouvre sur un plan d'eau peu profond, plat et immense , fréquenté exclusivement par l'école. Le bateau vous dépose sur le banc de sable : il ne reste qu'à voler.",
+      "spotFeatures": [
+        "Spot accessible uniquement en bateau — zéro affluence",
+        "Eau à hauteur de taille sur des centaines de mètres",
+        "Au cœur du Parc Naturel Régional de la Narbonnaise",
+        "À ~1 h 15 de Toulouse par l'A61/A9"
+      ],
+      "steps": [
+        {
+          "title": "Apprivoiser l'aile",
+          "body": "Fenêtre de vol, redécollage, sécurité — debout dans l'eau à hauteur de taille, sur un spot où vous êtes seuls au monde."
+        },
+        {
+          "title": "Le waterstart",
+          "body": "Nage tractée puis premiers départs planche aux pieds. Le moniteur vous parle en direct dans le casque, canal séparé."
+        },
+        {
+          "title": "Vos premiers bords",
+          "body": "Le vaste banc de sable pardonne tout : on tombe, on a pied, on repart. L'autonomie vient plus vite quand on n'a pas peur."
+        }
+      ],
+      "meta": "École de kitesurf et stand up paddle à Narbonne depuis 2011. Spot exclusif en eau peu profonde accessible uniquement en bateau, 4 élèves max par moniteur, enseignement radio. À 1h15 de Toulouse."
+    },
+    "en": {
+      "title": "Narbonne Kite Passion — Kitesurf school on the Bages lagoon",
+      "intro": "On the Bages lagoon, in the heart of the Narbonnaise Regional Nature Park, learn to kitesurf with your feet touching the bottom everywhere, an instructor in your ear, and not another rider in sight.",
+      "legacyHeadline": "A lagoon all to yourself.",
+      "phone": "+33679827253",
+      "email": "contact@narbonnekitepassion.com",
+      "lat": 43.1403,
+      "lon": 3.0078,
+      "courses": [
+        {
+          "name": "Get started",
+          "price": "from €130",
+          "unit": "one 4 h session",
+          "features": [
+            "No prerequisites",
+            "Set up and pack away your gear",
+            "Wind window, relaunching, safety",
+            "Kite control and body dragging"
+          ]
+        },
+        {
+          "name": "Discovery course",
+          "price": "€255",
+          "unit": "2 × 4 h",
+          "features": [
+            "Day 1: kite control in the water",
+            "Day 2: putting kite and board together",
+            "Your first waterstarts",
+            "€280 in high season"
+          ]
+        },
+        {
+          "name": "Level up",
+          "price": "from €130",
+          "unit": "4 h — you set the goals",
+          "features": [
+            "Waterstart, riding upwind, transitions",
+            "Kitefoil to take it further",
+            "Intermediate / advanced level"
+          ]
+        },
+        {
+          "name": "Riding & rentals",
+          "price": "from €45",
+          "unit": "independent riders",
+          "features": [
+            "Boat-supervised riding",
+            "Current-year Duotone gear",
+            "Half-day rental €55",
+            "Stand up paddle from €30"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What if there's no wind on the day of my lesson?",
+          "a": "The lesson is cancelled and rescheduled around your availability — that's the NKP wind guarantee. You never pay for a session you can't ride."
+        },
+        {
+          "q": "Do I need to know how to swim? Is there a minimum weight?",
+          "a": "Being able to swim is essential. Kitesurfing is possible from around 45 kg. No other particular physical condition is required to get started."
+        },
+        {
+          "q": "How does booking work?",
+          "a": "Check availability, sign up online or by phone, and receive your confirmation by email. The school is open 7 days a week from March to November, 8:30 am – 7:30 pm."
+        },
+        {
+          "q": "Is the gear provided?",
+          "a": "Yes, everything is included: current-year Duotone kite and board, wetsuit, harness, impact vest and radio helmet. Just bring a swimsuit, a towel and sunscreen."
+        },
+        {
+          "q": "Can two people with different levels come together?",
+          "a": "Yes — each student has their own kite and their own radio channel, so the instructor adapts the coaching to each of you in real time."
+        }
+      ],
+      "about": [
+        "Since 2011 , NKP has welcomed beginners and experienced riders on the doorstep of Narbonne. Duotone gear renewed every year , changing rooms, hot showers and toilets on site. If the weather doesn't cooperate, your lesson is rescheduled around your availability — wind guarantee."
+      ],
+      "spot": "Three minutes from exit 38 on the A9 and ten minutes from Gruissan, the la Nautique base opens onto a shallow, flat and immense stretch of water used exclusively by the school. The boat drops you on the sandbank: all that's left to do is fly.",
+      "spotFeatures": [
+        "Spot accessible only by boat — zero crowds",
+        "Waist-deep water for hundreds of metres",
+        "In the heart of the Narbonnaise Regional Nature Park",
+        "About 1 h 15 from Toulouse via the A61/A9"
+      ],
+      "steps": [
+        {
+          "title": "Taming the kite",
+          "body": "Wind window, relaunching, safety — standing in waist-deep water, on a spot where you have the whole place to yourself."
+        },
+        {
+          "title": "The waterstart",
+          "body": "Body dragging, then your first starts with the board on your feet. The instructor talks to you live through your helmet, on a separate channel."
+        },
+        {
+          "title": "Your first runs",
+          "body": "The vast sandbank forgives everything: you fall, you stand up, you go again. Independence comes faster when you're not afraid."
+        }
+      ],
+      "meta": "Kitesurf and stand up paddle school in Narbonne since 2011. Exclusive shallow-water spot accessible only by boat, max 4 students per instructor, radio coaching. 1 h 15 from Toulouse."
+    },
+    "de": {
+      "title": "Narbonne Kite Passion — Kitesurfschule auf der Lagune von Bages",
+      "intro": "Auf der Lagune von Bages, im Herzen des Parc Naturel Régional de la Narbonnaise, lernst Du Kitesurfen mit Stehtiefe überall, einem Lehrer im Ohr und keinem anderen Kiter weit und breit.",
+      "legacyHeadline": "Eine Lagune ganz für Dich.",
+      "phone": "+33679827253",
+      "email": "contact@narbonnekitepassion.com",
+      "lat": 43.1403,
+      "lon": 3.0078,
+      "courses": [
+        {
+          "name": "Einsteigen",
+          "price": "ab 130 €",
+          "unit": "1 Session à 4 h",
+          "features": [
+            "Keine Vorkenntnisse nötig",
+            "Material auf- und abbauen",
+            "Windfenster, Relaunch, Sicherheit",
+            "Kitesteuerung und Bodydrag"
+          ]
+        },
+        {
+          "name": "Schnupperkurs",
+          "price": "255 €",
+          "unit": "2 × 4 h",
+          "features": [
+            "Tag 1: Kitesteuerung im Wasser",
+            "Tag 2: Kite und Board kombinieren",
+            "Erste Waterstarts",
+            "280 € in der Hochsaison"
+          ]
+        },
+        {
+          "name": "Weiterkommen",
+          "price": "ab 130 €",
+          "unit": "4 h — Du bestimmst die Ziele",
+          "features": [
+            "Waterstart, Höhe fahren, Transitions",
+            "Kitefoil für den nächsten Schritt",
+            "Mittleres / fortgeschrittenes Niveau"
+          ]
+        },
+        {
+          "name": "Kiten & Verleih",
+          "price": "ab 45 €",
+          "unit": "selbstständige Rider",
+          "features": [
+            "Betreutes Kiten vom Boot aus",
+            "Aktuelles Duotone-Material",
+            "Halbtagesmiete 55 €",
+            "Stand up paddle ab 30 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Und wenn am Tag meines Kurses kein Wind weht?",
+          "a": "Der Kurs wird abgesagt und nach Deiner Verfügbarkeit verschoben — das ist die NKP-Windgarantie. Du zahlst nie für eine Session ohne Wind."
+        },
+        {
+          "q": "Muss ich schwimmen können? Gibt es ein Mindestgewicht?",
+          "a": "Schwimmen können ist Pflicht. Kitesurfen geht ab etwa 45 kg. Sonst brauchst Du keine besondere körperliche Voraussetzung, um anzufangen."
+        },
+        {
+          "q": "Wie läuft die Buchung ab?",
+          "a": "Verfügbarkeit prüfen, online oder telefonisch anmelden, Bestätigung per Mail erhalten. Die Schule ist von März bis November 7 Tage die Woche geöffnet, 8:30 – 19:30 Uhr."
+        },
+        {
+          "q": "Ist das Material inklusive?",
+          "a": "Ja, alles ist dabei: aktueller Duotone-Kite samt Board, Neoprenanzug, Trapez, Weste und Funkhelm. Bring nur Badesachen, Handtuch und Sonnencreme mit."
+        },
+        {
+          "q": "Können wir zu zweit mit unterschiedlichem Niveau kommen?",
+          "a": "Ja — jeder Schüler hat seinen eigenen Kite und seinen eigenen Funkkanal, der Lehrer passt die Anweisungen in Echtzeit individuell an."
+        }
+      ],
+      "about": [
+        "Seit 2011 empfängt NKP Anfänger und erfahrene Rider vor den Toren von Narbonne. Duotone-Material, jedes Jahr erneuert , Umkleiden, warme Duschen und WC vor Ort. Spielt das Wetter nicht mit, wird der Kurs nach Deiner Verfügbarkeit verschoben — Windgarantie."
+      ],
+      "spot": "3 Minuten von der Ausfahrt 38 der A9 und 10 Minuten von Gruissan öffnet sich die Basis la Nautique auf ein flaches, glattes und riesiges Gewässer, das ausschließlich von der Schule genutzt wird. Das Boot setzt Dich auf der Sandbank ab: Du musst nur noch fliegen.",
+      "spotFeatures": [
+        "Spot nur per Boot erreichbar — null Andrang",
+        "Hüfttiefes Wasser über Hunderte von Metern",
+        "Im Herzen des Parc Naturel Régional de la Narbonnaise",
+        "Ca. 1 h 15 von Toulouse über die A61/A9"
+      ],
+      "steps": [
+        {
+          "title": "Den Kite zähmen",
+          "body": "Windfenster, Relaunch, Sicherheit — stehend im hüfttiefen Wasser, auf einem Spot, den Du ganz für Dich hast."
+        },
+        {
+          "title": "Der Waterstart",
+          "body": "Bodydrag, dann die ersten Starts mit dem Board an den Füßen. Der Lehrer spricht live über den Funkhelm mit Dir, auf eigenem Kanal."
+        },
+        {
+          "title": "Deine ersten Meter",
+          "body": "Die riesige Sandbank verzeiht alles: Du fällst, stehst wieder, fährst weiter. Ohne Angst kommt die Selbstständigkeit viel schneller."
+        }
+      ],
+      "meta": "Kitesurf- und Stand-up-Paddle-Schule in Narbonne seit 2011. Exklusiver Flachwasser-Spot, nur per Boot erreichbar, max. 4 Schüler pro Lehrer, Funkunterricht. 1 h 15 von Toulouse."
+    },
+    "es": {
+      "title": "Narbonne Kite Passion — Escuela de kitesurf en la laguna de Bages",
+      "intro": "En la laguna de Bages, en pleno corazón del Parc Naturel Régional de la Narbonnaise, aprende kitesurf haciendo pie en todas partes, con un monitor en el oído y sin ningún otro rider a la vista.",
+      "legacyHeadline": "Una laguna solo para ti.",
+      "phone": "+33679827253",
+      "email": "contact@narbonnekitepassion.com",
+      "lat": 43.1403,
+      "lon": 3.0078,
+      "courses": [
+        {
+          "name": "Iniciarse",
+          "price": "desde 130 €",
+          "unit": "1 sesión de 4 h",
+          "features": [
+            "Sin requisitos previos",
+            "Preparar y recoger el material",
+            "Ventana de vuelo, redespegue, seguridad",
+            "Pilotaje y body drag"
+          ]
+        },
+        {
+          "name": "Curso descubrimiento",
+          "price": "255 €",
+          "unit": "2 × 4 h",
+          "features": [
+            "Día 1: pilotaje en el agua",
+            "Día 2: combinar kite y tabla",
+            "Primeros waterstarts",
+            "280 € en temporada alta"
+          ]
+        },
+        {
+          "name": "Perfeccionarse",
+          "price": "desde 130 €",
+          "unit": "4 h — tú marcas los objetivos",
+          "features": [
+            "Waterstart, rumbos, transiciones",
+            "Kitefoil para ir más lejos",
+            "Nivel intermedio / avanzado"
+          ]
+        },
+        {
+          "name": "Navegación y alquiler",
+          "price": "desde 45 €",
+          "unit": "riders autónomos",
+          "features": [
+            "Navegación supervisada desde el barco",
+            "Material Duotone del año",
+            "Alquiler de media jornada 55 €",
+            "Stand up paddle desde 30 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Y si no hay viento el día de mi clase?",
+          "a": "La clase se anula y se aplaza según tu disponibilidad: es la garantía de viento de NKP. Nunca pagas una sesión sin condiciones navegables."
+        },
+        {
+          "q": "¿Hay que saber nadar? ¿Existe un peso mínimo?",
+          "a": "Saber nadar es imprescindible. El kitesurf se practica a partir de unos 45 kg. No se exige ninguna otra condición física especial para empezar."
+        },
+        {
+          "q": "¿Cómo funciona la reserva?",
+          "a": "Consulta la disponibilidad, apúntate online o por teléfono y recibe la confirmación por correo. La escuela abre los 7 días de la semana de marzo a noviembre, de 8:30 a 19:30."
+        },
+        {
+          "q": "¿El material está incluido?",
+          "a": "Sí, todo va incluido: cometa y tabla Duotone del año, traje de neopreno, arnés, chaleco y casco con radio. Trae bañador, toalla y crema solar."
+        },
+        {
+          "q": "¿Podemos venir dos personas con niveles distintos?",
+          "a": "Sí — cada alumno tiene su propio kite y su propio canal de radio, y el monitor adapta las instrucciones a cada uno en tiempo real."
+        }
+      ],
+      "about": [
+        "Desde 2011 , NKP acoge a principiantes y riders experimentados a las puertas de Narbonne. Material Duotone renovado cada año , vestuarios, duchas calientes y WC in situ. Si el tiempo no acompaña, la clase se aplaza según tu disponibilidad — garantía de viento."
+      ],
+      "spot": "A 3 minutos de la salida 38 de la A9 y a 10 minutos de Gruissan, la base de la Nautique se abre a un plano de agua poco profundo, liso e inmenso , frecuentado exclusivamente por la escuela. El barco te deja en el banco de arena: solo queda volar.",
+      "spotFeatures": [
+        "Spot accesible solo en barco — cero aglomeraciones",
+        "Agua por la cintura durante cientos de metros",
+        "En pleno corazón del Parc Naturel Régional de la Narbonnaise",
+        "A ~1 h 15 de Toulouse por la A61/A9"
+      ],
+      "steps": [
+        {
+          "title": "Domar la cometa",
+          "body": "Ventana de vuelo, redespegue, seguridad — de pie en agua por la cintura, en un spot donde estás solo en el mundo."
+        },
+        {
+          "title": "El waterstart",
+          "body": "Body drag y después las primeras salidas con la tabla en los pies. El monitor te habla en directo por el casco, en un canal independiente."
+        },
+        {
+          "title": "Tus primeros bordos",
+          "body": "El enorme banco de arena lo perdona todo: te caes, haces pie, vuelves a empezar. La autonomía llega antes cuando no tienes miedo."
+        }
+      ],
+      "meta": "Escuela de kitesurf y stand up paddle en Narbonne desde 2011. Spot exclusivo de aguas poco profundas accesible solo en barco, máximo 4 alumnos por monitor, enseñanza por radio. A 1 h 15 de Toulouse."
+    }
+  },
+  "addicted2kite": {
+    "fr": {
+      "title": "Addicted2kite — École de kitesurf & wingfoil à Narbonne-Plage",
+      "intro": "Kitesurf et wingfoil sur les grands espaces de Narbonne et Gruissan. Un moniteur en bateau à vos côtés, une radio dans le casque, et la bonne humeur de Ju & Lolo en prime.",
+      "legacyHeadline": "Ici, la glisse est religion.",
+      "phone": "+33674651701",
+      "email": "contact@addicted2kite.fr",
+      "lat": 43.1594,
+      "lon": 3.1697,
+      "courses": [
+        {
+          "name": "Initiation kitesurf",
+          "price": "Débutant",
+          "unit": "ou 1–2 séances déjà faites",
+          "features": [
+            "Pilotage, sécurité, nage tractée",
+            "Zone d'eau peu profonde",
+            "Premières glisses assistées bateau"
+          ]
+        },
+        {
+          "name": "Perfectionnement",
+          "price": "Progression",
+          "unit": "vous avez déjà goûté à la planche",
+          "features": [
+            "Waterstart fiable, allures",
+            "Remontée au vent, transitions",
+            "Cap vers l'autonomie et les sauts"
+          ]
+        },
+        {
+          "name": "Wingsurf / Wingfoil",
+          "price": "Nouveauté",
+          "unit": "la glisse qui monte",
+          "features": [
+            "Entre kitesurf et planche à voile",
+            "Décollez au-dessus de l'eau",
+            "Idéal par vent léger"
+          ]
+        },
+        {
+          "name": "Location surveillée",
+          "price": "Autonome",
+          "unit": "naviguez en sécurité",
+          "features": [
+            "Matériel récent fourni",
+            "Surveillance bateau",
+            "Les meilleures fenêtres météo"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Combien de temps faut-il pour apprendre le kite ?",
+          "a": "Chacun progresse à son rythme : comptez au moins 3 séances pour les bases, 5 pour des bases solides — pilotage, vent, glisse, sécurité, météo, matériel. L'autonomie vient ensuite."
+        },
+        {
+          "q": "La pratique en mer est-elle difficile à Narbonne ?",
+          "a": "Non : on part de la plage, on travaille en zone d'eau peu profonde, puis on utilise les grands espaces pour les premières glisses. Le bateau vous récupère et vous remonte au vent."
+        },
+        {
+          "q": "À partir de quel âge les enfants peuvent-ils pratiquer ?",
+          "a": "C'est le poids qui compte : 40 kg minimum. Ailes petites tailles à faible traction, encadrement adapté au cas par cas. Attestation de natation et autorisation parentale demandées."
+        },
+        {
+          "q": "Dois-je prendre une assurance ?",
+          "a": "Oui, la responsabilité civile kite/wing est obligatoire en école — vos assurances personnelles ne couvrent pas cette pratique. Souscription en ligne possible, justificatif demandé au début du stage."
+        },
+        {
+          "q": "Kitesurf ou wingfoil, que choisir ?",
+          "a": "Le kite procure des sensations plus vite ; la wing permet de naviguer dans très peu de vent et sur des plans d'eau intérieurs. Chez A2K, vous pouvez tester les deux."
+        }
+      ],
+      "about": [
+        "Julien et Laurent, moniteurs diplômés, ont monté leur école en 2015 après des années dans les meilleures écoles de la côte. Leur credo : partager la passion dans la bonne humeur , avec du matériel récent et des bateaux pour aller chercher les meilleures conditions du jour."
+      ],
+      "spot": "",
+      "spotFeatures": [],
+      "steps": [
+        {
+          "title": "Apprivoiser l'aile",
+          "body": "Pilotage, fenêtre de vol et sécurité dans la zone d'eau peu profonde de 200 m — on a pied, on respire, on apprend."
+        },
+        {
+          "title": "Le waterstart",
+          "body": "Votre moniteur vous coache depuis le bateau, radio dans le casque. Fini la marche : le hors-bord vous ramène au vent."
+        },
+        {
+          "title": "Vos premiers bords",
+          "body": "Les grands espaces en mer pour de longues glisses, en situation réelle — le vrai chemin vers l'autonomie."
+        }
+      ],
+      "meta": "École familiale de kitesurf et wingfoil à Narbonne-Plage depuis 2015. Coaching bateau + radio sur les spots de Narbonne et Gruissan. Initiation, perfectionnement, wingfoil, location surveillée."
+    },
+    "en": {
+      "title": "Addicted2kite — Kitesurf & wingfoil school at Narbonne-Plage",
+      "intro": "Kitesurf and wingfoil across the wide-open waters of Narbonne and Gruissan. An instructor in a boat by your side, a radio in your helmet — and Ju & Lolo's good vibes thrown in.",
+      "legacyHeadline": "Here, riding is religion.",
+      "phone": "+33674651701",
+      "email": "contact@addicted2kite.fr",
+      "lat": 43.1594,
+      "lon": 3.1697,
+      "courses": [
+        {
+          "name": "Beginner kitesurf",
+          "price": "Beginner",
+          "unit": "or 1–2 sessions under your belt",
+          "features": [
+            "Kite control, safety, body-dragging",
+            "Shallow-water zone",
+            "First boat-assisted rides"
+          ]
+        },
+        {
+          "name": "Progression",
+          "price": "Level up",
+          "unit": "you've already had a taste of the board",
+          "features": [
+            "Reliable waterstart, points of sail",
+            "Riding upwind, transitions",
+            "On course for independence and jumps"
+          ]
+        },
+        {
+          "name": "Wingsurf / Wingfoil",
+          "price": "New",
+          "unit": "the fast-rising sport",
+          "features": [
+            "Between kitesurfing and windsurfing",
+            "Take off above the water",
+            "Perfect in light wind"
+          ]
+        },
+        {
+          "name": "Supervised rental",
+          "price": "Independent",
+          "unit": "ride safely",
+          "features": [
+            "Up-to-date gear provided",
+            "Boat supervision",
+            "The best weather windows"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does it take to learn kitesurfing?",
+          "a": "Everyone progresses at their own pace: allow at least 3 sessions for the basics, 5 for solid foundations — kite control, wind, riding, safety, weather, gear. Independence comes after that."
+        },
+        {
+          "q": "Is riding in the sea difficult at Narbonne?",
+          "a": "No: you start from the beach, work in the shallow-water zone, then use the open sea for your first rides. The boat picks you up and brings you back upwind."
+        },
+        {
+          "q": "From what age can kids take part?",
+          "a": "It's weight that matters: 40 kg minimum. Small, low-pull kites and coaching adapted case by case. A swimming certificate and parental consent are required."
+        },
+        {
+          "q": "Do I need insurance?",
+          "a": "Yes, kite/wing third-party liability insurance is mandatory at the school — your personal policies don't cover this sport. Online sign-up available, proof required at the start of your course."
+        },
+        {
+          "q": "Kitesurf or wingfoil — which should I choose?",
+          "a": "Kitesurfing delivers thrills faster; the wing lets you ride in very little wind and on inland waters. At A2K, you can try both."
+        }
+      ],
+      "about": [
+        "Julien and Laurent, certified instructors, founded their school in 2015 after years spent at the best schools on the coast. Their credo: sharing the passion with a smile , with up-to-date gear and boats to go chase the best conditions of the day."
+      ],
+      "spot": "",
+      "spotFeatures": [],
+      "steps": [
+        {
+          "title": "Taming the kite",
+          "body": "Kite control, wind window and safety in the 200 m shallow-water zone — you can stand, you can breathe, you learn."
+        },
+        {
+          "title": "The waterstart",
+          "body": "Your instructor coaches you from the boat, radio in your helmet. No more walking: the speedboat brings you back upwind."
+        },
+        {
+          "title": "Your first runs",
+          "body": "The wide-open sea for long rides, in real conditions — the true path to riding on your own."
+        }
+      ],
+      "meta": "Family-run kitesurf and wingfoil school at Narbonne-Plage since 2015. Boat + radio coaching on the Narbonne and Gruissan spots. Beginner courses, progression, wingfoil, supervised rental."
+    },
+    "de": {
+      "title": "Addicted2kite — Kitesurf- & Wingfoil-Schule in Narbonne-Plage",
+      "intro": "Kitesurfen und Wingfoilen auf den weiten Wasserflächen von Narbonne und Gruissan. Ein Lehrer im Boot an Deiner Seite, Funk im Helm — und die gute Laune von Ju & Lolo gibt's obendrauf.",
+      "legacyHeadline": "Hier ist Gleiten Religion.",
+      "phone": "+33674651701",
+      "email": "contact@addicted2kite.fr",
+      "lat": 43.1594,
+      "lon": 3.1697,
+      "courses": [
+        {
+          "name": "Kitesurf-Einsteigerkurs",
+          "price": "Anfänger",
+          "unit": "oder schon 1–2 Sessions gemacht",
+          "features": [
+            "Steuerung, Sicherheit, Bodydrag",
+            "Flachwasserzone",
+            "Erste Gleitmeter mit Boot-Unterstützung"
+          ]
+        },
+        {
+          "name": "Aufbaukurs",
+          "price": "Weiterkommen",
+          "unit": "Du hast das Board schon ausprobiert",
+          "features": [
+            "Sicherer Wasserstart, Kurse fahren",
+            "Höhe laufen, Wenden",
+            "Kurs auf Selbstständigkeit und Sprünge"
+          ]
+        },
+        {
+          "name": "Wingsurf / Wingfoil",
+          "price": "Neu",
+          "unit": "der Trendsport",
+          "features": [
+            "Zwischen Kitesurfen und Windsurfen",
+            "Heb ab übers Wasser",
+            "Ideal bei leichtem Wind"
+          ]
+        },
+        {
+          "name": "Betreute Miete",
+          "price": "Selbstständig",
+          "unit": "fahre in Sicherheit",
+          "features": [
+            "Aktuelles Material inklusive",
+            "Überwachung per Boot",
+            "Die besten Wetterfenster"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wie lange braucht man, um Kitesurfen zu lernen?",
+          "a": "Jeder lernt in seinem eigenen Tempo: Rechne mit mindestens 3 Sessions für die Basics, 5 für solide Grundlagen — Steuerung, Wind, Gleiten, Sicherheit, Wetter, Material. Die Selbstständigkeit kommt danach."
+        },
+        {
+          "q": "Ist das Fahren im Meer bei Narbonne schwierig?",
+          "a": "Nein: Wir starten am Strand, üben in der Flachwasserzone und nutzen dann die weite See für die ersten Gleitmeter. Das Boot holt Dich ab und bringt Dich zurück nach Luv."
+        },
+        {
+          "q": "Ab welchem Alter können Kinder mitmachen?",
+          "a": "Es zählt das Gewicht: mindestens 40 kg. Kleine Kites mit wenig Zugkraft, Betreuung individuell angepasst. Schwimmnachweis und Einverständnis der Eltern erforderlich."
+        },
+        {
+          "q": "Brauche ich eine Versicherung?",
+          "a": "Ja, die Haftpflichtversicherung Kite/Wing ist in der Schule Pflicht — Deine privaten Versicherungen decken diesen Sport nicht ab. Online-Abschluss möglich, Nachweis zu Kursbeginn erforderlich."
+        },
+        {
+          "q": "Kitesurfen oder Wingfoilen — was soll ich wählen?",
+          "a": "Der Kite liefert schneller Nervenkitzel; die Wing lässt Dich bei sehr wenig Wind und auf Binnengewässern fahren. Bei A2K kannst Du beides testen."
+        }
+      ],
+      "about": [
+        "Julien und Laurent, lizenzierte Lehrer, haben ihre Schule 2015 gegründet, nach Jahren in den besten Schulen der Küste. Ihr Credo: die Leidenschaft mit guter Laune teilen — mit aktuellem Material und Booten, um die besten Bedingungen des Tages zu finden."
+      ],
+      "spot": "",
+      "spotFeatures": [],
+      "steps": [
+        {
+          "title": "Den Kite zähmen",
+          "body": "Steuerung, Windfenster und Sicherheit in der 200 m langen Flachwasserzone — Du kannst stehen, durchatmen und lernen."
+        },
+        {
+          "title": "Der Wasserstart",
+          "body": "Dein Lehrer coacht Dich vom Boot aus, Funk im Helm. Schluss mit Laufen: Das Motorboot bringt Dich zurück nach Luv."
+        },
+        {
+          "title": "Deine ersten Meter",
+          "body": "Die weite See für lange Gleitstrecken, unter realen Bedingungen — der echte Weg zur Selbstständigkeit."
+        }
+      ],
+      "meta": "Familiäre Kitesurf- und Wingfoil-Schule in Narbonne-Plage seit 2015. Coaching per Boot + Funk an den Spots von Narbonne und Gruissan. Einsteigerkurse, Aufbaukurse, Wingfoil, betreute Miete."
+    },
+    "es": {
+      "title": "Addicted2kite — Escuela de kitesurf & wingfoil en Narbonne-Plage",
+      "intro": "Kitesurf y wingfoil en los grandes espacios de Narbonne y Gruissan. Un monitor en barco a tu lado, una radio en el casco y el buen rollo de Ju & Lolo de regalo.",
+      "legacyHeadline": "Aquí, el deslizamiento es religión.",
+      "phone": "+33674651701",
+      "email": "contact@addicted2kite.fr",
+      "lat": 43.1594,
+      "lon": 3.1697,
+      "courses": [
+        {
+          "name": "Iniciación al kitesurf",
+          "price": "Principiante",
+          "unit": "o con 1–2 sesiones hechas",
+          "features": [
+            "Pilotaje, seguridad, body drag",
+            "Zona de aguas poco profundas",
+            "Primeros deslizamientos asistidos por barco"
+          ]
+        },
+        {
+          "name": "Perfeccionamiento",
+          "price": "Progresión",
+          "unit": "ya has probado la tabla",
+          "features": [
+            "Waterstart fiable, rumbos",
+            "Ceñida, transiciones",
+            "Rumbo a la autonomía y a los saltos"
+          ]
+        },
+        {
+          "name": "Wingsurf / Wingfoil",
+          "price": "Novedad",
+          "unit": "la modalidad en auge",
+          "features": [
+            "Entre el kitesurf y el windsurf",
+            "Despega sobre el agua",
+            "Ideal con viento suave"
+          ]
+        },
+        {
+          "name": "Alquiler supervisado",
+          "price": "Autónomo",
+          "unit": "navega con seguridad",
+          "features": [
+            "Material reciente incluido",
+            "Vigilancia desde el barco",
+            "Las mejores ventanas meteorológicas"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuánto tiempo se tarda en aprender kitesurf?",
+          "a": "Cada uno progresa a su ritmo: cuenta con al menos 3 sesiones para lo básico y 5 para una base sólida (pilotaje, viento, deslizamiento, seguridad, meteorología, material). La autonomía llega después."
+        },
+        {
+          "q": "¿Es difícil practicar en el mar en Narbonne?",
+          "a": "No: salimos desde la playa, trabajamos en la zona de aguas poco profundas y luego usamos los grandes espacios para los primeros deslizamientos. El barco te recoge y te sube contra el viento."
+        },
+        {
+          "q": "¿A partir de qué edad pueden practicar los niños?",
+          "a": "Lo que cuenta es el peso: 40 kg como mínimo. Cometas pequeñas de poca tracción y acompañamiento adaptado caso por caso. Se piden certificado de natación y autorización parental."
+        },
+        {
+          "q": "¿Necesito un seguro?",
+          "a": "Sí, la responsabilidad civil kite/wing es obligatoria en la escuela: tus seguros personales no cubren esta práctica. Contratación online posible, justificante requerido al inicio del curso."
+        },
+        {
+          "q": "¿Kitesurf o wingfoil? ¿Cuál elegir?",
+          "a": "El kite da sensaciones más rápido; la wing permite navegar con muy poco viento y en aguas interiores. En A2K puedes probar los dos."
+        }
+      ],
+      "about": [
+        "Julien y Laurent, monitores titulados, montaron su escuela en 2015 tras años en las mejores escuelas de la costa. Su credo: compartir la pasión con buen rollo , con material reciente y barcos para ir a buscar las mejores condiciones del día."
+      ],
+      "spot": "",
+      "spotFeatures": [],
+      "steps": [
+        {
+          "title": "Domar la cometa",
+          "body": "Pilotaje, ventana de vuelo y seguridad en la zona de aguas poco profundas de 200 m: haces pie, respiras, aprendes."
+        },
+        {
+          "title": "El waterstart",
+          "body": "Tu monitor te guía desde el barco, con la radio en el casco. Se acabó caminar: la lancha te devuelve contra el viento."
+        },
+        {
+          "title": "Tus primeros bordos",
+          "body": "Los grandes espacios en el mar para largas planeadas, en situación real: el verdadero camino hacia la autonomía."
+        }
+      ],
+      "meta": "Escuela familiar de kitesurf y wingfoil en Narbonne-Plage desde 2015. Coaching con barco + radio en los spots de Narbonne y Gruissan. Iniciación, perfeccionamiento, wingfoil, alquiler supervisado."
+    }
+  },
+  "osmose-kite": {
+    "fr": {
+      "title": "Osmose Kite — École de kitesurf à La Franqui, Leucate",
+      "intro": "Chez Osmose, vous réglez en fin de stage, et uniquement le temps réellement pratiqué avec un vent optimal. Le reste — la passion, l'analyse vidéo, les 4 spots des Coussoules — c'est cadeau.",
+      "legacyHeadline": "Pas de vent ? Pas payé.",
+      "phone": "+33670708653",
+      "email": "osmose.kite@gmail.com",
+      "lat": 42.93,
+      "lon": 3.033,
+      "courses": [
+        {
+          "name": "Cours 4 h",
+          "price": "130 €",
+          "unit": "150 € en été · 100 € l'hiver",
+          "features": [
+            "Vent optimal garanti",
+            "Paiement en fin de stage",
+            "100 € / 110 € dès la 6ᵉ séance"
+          ]
+        },
+        {
+          "name": "Cours foil",
+          "price": "dès 130 €",
+          "unit": "+ location foil : 140–160 €",
+          "features": [
+            "Découvrez le vol au-dessus de l'eau",
+            "Progression encadrée",
+            "Tarif hiver 100–140 €"
+          ]
+        },
+        {
+          "name": "Nav & location",
+          "price": "dès 70 €",
+          "unit": "location 3 h avec sécurité",
+          "features": [
+            "Nav accompagnée 4 h + matériel : 90–110 €",
+            "Aile seule dès 50 €",
+            "Board + aile dès 100 €"
+          ]
+        },
+        {
+          "name": "Groupes",
+          "price": "Sur devis",
+          "unit": "dès 3 personnes",
+          "features": [
+            "Comités d'entreprise",
+            "EVG / EVJF, colonies, scolaires",
+            "Tarifs préférentiels"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Comment fonctionne le paiement en fin de stage ?",
+          "a": "Vous réservez vos séances, vous naviguez… et vous ne réglez qu'à la fin, uniquement le temps réellement pratiqué avec un vent correct. Pas de vent = pas de facture, et rien à rattraper."
+        },
+        {
+          "q": "Que se passe-t-il les jours sans vent ?",
+          "a": "Soit on ne pratique pas (et vous ne payez rien), soit on bascule sur le mountainboard, le powerkite ou le simulateur pour continuer à progresser au sec."
+        },
+        {
+          "q": "L'analyse vidéo est-elle vraiment incluse ?",
+          "a": "Oui — vos sessions sont filmées, analysées avec vous, et les vidéos vous sont remises en souvenir. C'est compris dans chaque cours."
+        },
+        {
+          "q": "Peut-on pratiquer l'hiver ?",
+          "a": "Oui, Osmose est ouverte toute l'année, avec un tarif hiver à 100 € la séance de 4 h (1ᵉʳ décembre – 15 mars). Combinaison chaude fournie sur demande."
+        },
+        {
+          "q": "Et pour un groupe ?",
+          "a": "Dès 3 personnes : comités d'entreprise, EVG/EVJF, scolaires, colonies — devis sur mesure avec tarifs préférentiels."
+        }
+      ],
+      "about": [
+        "Vous ne payez que le temps pratiqué avec un vent optimal pour votre progression. Pas de vent pendant votre séjour ? Rien à payer, rien à rattraper. Le règlement se fait en fin de stage — une transparence rare qui dit tout de la philosophie de l'école."
+      ],
+      "spot": "Base aux Coussoules Basses à La Franqui, sur l'immense plage du Mondial du Vent. Selon la direction et la force du vent, Osmose bascule entre 4 spots différents pour vous offrir les meilleures conditions du jour — mer, étang, eau plate ou petites vagues.",
+      "spotFeatures": [
+        "8 km de plage sauvage aux Coussoules",
+        "Eau peu profonde pour débuter en confiance",
+        "Tramontane et marin : ça souffle presque toute l'année",
+        "À ~1 h 45 de Toulouse, shop partenaire WeRide au village"
+      ],
+      "steps": [
+        {
+          "title": "Apprivoiser l'aile",
+          "body": "Fenêtre de vol et pilotage en eau peu profonde, sur le spot le mieux orienté du jour parmi les 4 de l'école."
+        },
+        {
+          "title": "Le waterstart",
+          "body": "Nage tractée, départs planche aux pieds — filmés. Le soir, l'analyse vidéo montre exactement quoi corriger."
+        },
+        {
+          "title": "Vos premiers bords",
+          "body": "Glisse et remontée au vent — et si le vent tombe, la séance s'arrête et vous ne la payez pas. C'est aussi simple que ça."
+        }
+      ],
+      "meta": "École de kitesurf à La Franqui (Coussoules Basses). Cours à la carte payés en fin de stage : vous ne payez que le temps pratiqué avec un vent optimal. Kitesurf, foil, strapless, mountainboard — toute l'année."
+    },
+    "en": {
+      "title": "Osmose Kite — Kitesurf school at La Franqui, Leucate",
+      "intro": "At Osmose, you pay at the end of your course, and only for the time actually spent on the water with optimal wind. The rest — the passion, the video analysis, the 4 spots at Les Coussoules — is on us.",
+      "legacyHeadline": "No wind? No charge.",
+      "phone": "+33670708653",
+      "email": "osmose.kite@gmail.com",
+      "lat": 42.93,
+      "lon": 3.033,
+      "courses": [
+        {
+          "name": "4 h lesson",
+          "price": "130 €",
+          "unit": "150 € in summer · 100 € in winter",
+          "features": [
+            "Optimal wind guaranteed",
+            "Pay at the end of your course",
+            "100 € / 110 € from the 6th session"
+          ]
+        },
+        {
+          "name": "Foil lessons",
+          "price": "from 130 €",
+          "unit": "+ foil rental: 140–160 €",
+          "features": [
+            "Discover flying above the water",
+            "Guided progression",
+            "Winter rate 100–140 €"
+          ]
+        },
+        {
+          "name": "Riding & rental",
+          "price": "from 70 €",
+          "unit": "3 h rental with safety cover",
+          "features": [
+            "4 h supervised riding + gear: 90–110 €",
+            "Kite only from 50 €",
+            "Board + kite from 100 €"
+          ]
+        },
+        {
+          "name": "Groups",
+          "price": "Custom quote",
+          "unit": "from 3 people",
+          "features": [
+            "Corporate groups",
+            "Stag / hen parties, camps, schools",
+            "Preferential rates"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does end-of-course payment work?",
+          "a": "You book your sessions, you ride… and you only settle up at the end, only for the time actually spent practising with decent wind. No wind = no bill, and nothing to catch up."
+        },
+        {
+          "q": "What happens on windless days?",
+          "a": "Either we don't practise (and you pay nothing), or we switch to mountainboard, powerkite or the simulator to keep progressing on dry land."
+        },
+        {
+          "q": "Is the video analysis really included?",
+          "a": "Yes — your sessions are filmed, reviewed with you, and you keep the videos as a souvenir. It's included in every lesson."
+        },
+        {
+          "q": "Can you practise in winter?",
+          "a": "Yes, Osmose is open all year round, with a winter rate of 100 € for the 4 h session (1 December – 15 March). Warm wetsuit provided on request."
+        },
+        {
+          "q": "What about groups?",
+          "a": "From 3 people: corporate groups, stag/hen parties, schools, camps — tailor-made quotes with preferential rates."
+        }
+      ],
+      "about": [
+        "You only pay for the time spent practising with optimal wind for your progression. No wind during your stay? Nothing to pay, nothing to catch up. Payment happens at the end of your course — a rare transparency that says everything about the school's philosophy."
+      ],
+      "spot": "Based at Coussoules Basses in La Franqui, on the huge Mondial du Vent beach. Depending on the wind's direction and strength, Osmose switches between 4 different spots to give you the day's best conditions — sea, lagoon, flat water or small waves.",
+      "spotFeatures": [
+        "8 km of wild beach at Les Coussoules",
+        "Shallow water to start with confidence",
+        "Tramontane and sea breeze: it blows almost all year round",
+        "~1 h 45 from Toulouse, WeRide partner shop in the village"
+      ],
+      "steps": [
+        {
+          "title": "Taming the kite",
+          "body": "Wind window and kite control in shallow water, on the day's best-oriented spot among the school's 4."
+        },
+        {
+          "title": "The waterstart",
+          "body": "Body-dragging and board starts — all on film. In the evening, the video analysis shows you exactly what to fix."
+        },
+        {
+          "title": "Your first runs",
+          "body": "Riding and going upwind — and if the wind drops, the session stops and you don't pay for it. It's as simple as that."
+        }
+      ],
+      "meta": "Kitesurf school at La Franqui (Coussoules Basses). À la carte lessons paid at the end of your course: you only pay for the time actually spent on the water with optimal wind. Kitesurfing, foil, strapless, mountainboard — all year round."
+    },
+    "de": {
+      "title": "Osmose Kite — Kitesurfschule in La Franqui, Leucate",
+      "intro": "Bei Osmose zahlst Du am Ende des Kurses — und nur die Zeit, die Du wirklich bei optimalem Wind auf dem Wasser warst. Der Rest — die Leidenschaft, die Videoanalyse, die 4 Spots von Les Coussoules — ist geschenkt.",
+      "legacyHeadline": "Kein Wind? Keine Kosten.",
+      "phone": "+33670708653",
+      "email": "osmose.kite@gmail.com",
+      "lat": 42.93,
+      "lon": 3.033,
+      "courses": [
+        {
+          "name": "4-Stunden-Kurs",
+          "price": "130 €",
+          "unit": "150 € im Sommer · 100 € im Winter",
+          "features": [
+            "Optimaler Wind garantiert",
+            "Bezahlung am Kursende",
+            "100 € / 110 € ab der 6. Session"
+          ]
+        },
+        {
+          "name": "Foilkurs",
+          "price": "ab 130 €",
+          "unit": "+ Foil-Miete: 140–160 €",
+          "features": [
+            "Entdecke das Fliegen über dem Wasser",
+            "Begleiteter Fortschritt",
+            "Wintertarif 100–140 €"
+          ]
+        },
+        {
+          "name": "Fahren & Verleih",
+          "price": "ab 70 €",
+          "unit": "3 Std. Miete mit Sicherung",
+          "features": [
+            "Begleitetes Fahren 4 Std. + Material: 90–110 €",
+            "Nur Kite ab 50 €",
+            "Board + Kite ab 100 €"
+          ]
+        },
+        {
+          "name": "Gruppen",
+          "price": "Auf Anfrage",
+          "unit": "ab 3 Personen",
+          "features": [
+            "Firmenevents",
+            "JGA, Ferienlager, Schulklassen",
+            "Vorzugspreise"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wie funktioniert die Bezahlung am Kursende?",
+          "a": "Du buchst Deine Sessions, Du fährst… und Du zahlst erst am Ende — nur die Zeit, die Du wirklich bei ordentlichem Wind gefahren bist. Kein Wind = keine Rechnung, und nichts nachzuholen."
+        },
+        {
+          "q": "Was passiert an Tagen ohne Wind?",
+          "a": "Entweder wird nicht gefahren (und Du zahlst nichts), oder wir wechseln aufs Mountainboard, den Powerkite oder den Simulator, um im Trockenen weiter Fortschritte zu machen."
+        },
+        {
+          "q": "Ist die Videoanalyse wirklich inklusive?",
+          "a": "Ja — Deine Sessions werden gefilmt, gemeinsam mit Dir analysiert, und Du bekommst die Videos als Erinnerung. Das ist in jedem Kurs enthalten."
+        },
+        {
+          "q": "Kann man im Winter fahren?",
+          "a": "Ja, Osmose ist das ganze Jahr geöffnet, mit einem Wintertarif von 100 € für die 4-Stunden-Session (1. Dezember – 15. März). Warmer Neoprenanzug auf Anfrage gestellt."
+        },
+        {
+          "q": "Und für Gruppen?",
+          "a": "Ab 3 Personen: Firmenevents, JGA, Schulklassen, Ferienlager — maßgeschneidertes Angebot mit Vorzugspreisen."
+        }
+      ],
+      "about": [
+        "Du zahlst nur die Zeit, die Du bei optimalem Wind für Deinen Fortschritt gefahren bist. Kein Wind während Deines Aufenthalts? Nichts zu zahlen, nichts nachzuholen. Bezahlt wird am Kursende — eine seltene Transparenz, die alles über die Philosophie der Schule sagt."
+      ],
+      "spot": "Basis an den Coussoules Basses in La Franqui, am riesigen Strand des Mondial du Vent. Je nach Richtung und Stärke des Windes wechselt Osmose zwischen 4 verschiedenen Spots , um Dir die besten Bedingungen des Tages zu bieten — Meer, Lagune, Flachwasser oder kleine Wellen.",
+      "spotFeatures": [
+        "8 km wilder Strand an den Coussoules",
+        "Flaches Wasser für einen sicheren Einstieg",
+        "Tramontane und Seewind: es weht fast das ganze Jahr",
+        "Ca. 1 Std. 45 von Toulouse, WeRide-Partnershop im Ort"
+      ],
+      "steps": [
+        {
+          "title": "Den Kite zähmen",
+          "body": "Windfenster und Kitesteuerung im flachen Wasser, am jeweils am besten ausgerichteten der 4 Spots der Schule."
+        },
+        {
+          "title": "Der Waterstart",
+          "body": "Bodydrag und Starts mit dem Board an den Füßen — alles gefilmt. Abends zeigt Dir die Videoanalyse genau, was zu korrigieren ist."
+        },
+        {
+          "title": "Deine ersten Meter",
+          "body": "Gleiten und Höhe laufen — und wenn der Wind einschläft, endet die Session und Du zahlst sie nicht. So einfach ist das."
+        }
+      ],
+      "meta": "Kitesurfschule in La Franqui (Coussoules Basses). Kurse à la carte, bezahlt am Kursende: Du zahlst nur die Zeit, die Du bei optimalem Wind gefahren bist. Kitesurfen, Foil, Strapless, Mountainboard — das ganze Jahr."
+    },
+    "es": {
+      "title": "Osmose Kite — Escuela de kitesurf en La Franqui, Leucate",
+      "intro": "En Osmose pagas al final del curso, y solo el tiempo realmente practicado con viento óptimo. El resto — la pasión, el análisis en vídeo, los 4 spots de Les Coussoules — va de regalo.",
+      "legacyHeadline": "¿Sin viento? No pagas.",
+      "phone": "+33670708653",
+      "email": "osmose.kite@gmail.com",
+      "lat": 42.93,
+      "lon": 3.033,
+      "courses": [
+        {
+          "name": "Curso de 4 h",
+          "price": "130 €",
+          "unit": "150 € en verano · 100 € en invierno",
+          "features": [
+            "Viento óptimo garantizado",
+            "Pago al final del curso",
+            "100 € / 110 € a partir de la 6ª sesión"
+          ]
+        },
+        {
+          "name": "Curso de foil",
+          "price": "desde 130 €",
+          "unit": "+ alquiler de foil: 140–160 €",
+          "features": [
+            "Descubre el vuelo sobre el agua",
+            "Progresión guiada",
+            "Tarifa de invierno 100–140 €"
+          ]
+        },
+        {
+          "name": "Navegación & alquiler",
+          "price": "desde 70 €",
+          "unit": "alquiler 3 h con seguridad",
+          "features": [
+            "Navegación acompañada 4 h + material: 90–110 €",
+            "Solo cometa desde 50 €",
+            "Tabla + cometa desde 100 €"
+          ]
+        },
+        {
+          "name": "Grupos",
+          "price": "A medida",
+          "unit": "a partir de 3 personas",
+          "features": [
+            "Grupos de empresa",
+            "Despedidas de soltero/a, campamentos, escolares",
+            "Tarifas preferentes"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo funciona el pago al final del curso?",
+          "a": "Reservas tus sesiones, navegas… y solo pagas al final, únicamente el tiempo realmente practicado con un viento correcto. Sin viento = sin factura, y nada que recuperar."
+        },
+        {
+          "q": "¿Qué pasa los días sin viento?",
+          "a": "O no se practica (y no pagas nada), o pasamos al mountainboard, el powerkite o el simulador para seguir progresando en seco."
+        },
+        {
+          "q": "¿El análisis en vídeo está realmente incluido?",
+          "a": "Sí — tus sesiones se graban, se analizan contigo y te llevas los vídeos de recuerdo. Está incluido en cada clase."
+        },
+        {
+          "q": "¿Se puede practicar en invierno?",
+          "a": "Sí, Osmose abre todo el año, con una tarifa de invierno de 100 € la sesión de 4 h (1 de diciembre – 15 de marzo). Traje térmico disponible bajo petición."
+        },
+        {
+          "q": "¿Y para un grupo?",
+          "a": "A partir de 3 personas: grupos de empresa, despedidas, escolares, campamentos — presupuesto a medida con tarifas preferentes."
+        }
+      ],
+      "about": [
+        "Solo pagas el tiempo practicado con un viento óptimo para tu progresión. ¿Sin viento durante tu estancia? Nada que pagar, nada que recuperar. El pago se hace al final del curso — una transparencia poco común que lo dice todo sobre la filosofía de la escuela."
+      ],
+      "spot": "Base en Coussoules Basses , en La Franqui, en la inmensa playa del Mondial du Vent. Según la dirección y la fuerza del viento, Osmose alterna entre 4 spots diferentes para ofrecerte las mejores condiciones del día — mar, laguna, agua plana o pequeñas olas.",
+      "spotFeatures": [
+        "8 km de playa salvaje en Les Coussoules",
+        "Agua poco profunda para empezar con confianza",
+        "Tramontana y viento marino: sopla casi todo el año",
+        "A ~1 h 45 de Toulouse, tienda asociada WeRide en el pueblo"
+      ],
+      "steps": [
+        {
+          "title": "Domar la cometa",
+          "body": "Ventana de vuelo y pilotaje en agua poco profunda, en el spot mejor orientado del día entre los 4 de la escuela."
+        },
+        {
+          "title": "El waterstart",
+          "body": "Nado de arrastre y salidas con la tabla en los pies — todo grabado. Por la tarde, el análisis en vídeo te muestra exactamente qué corregir."
+        },
+        {
+          "title": "Tus primeros bordos",
+          "body": "Deslizarte y remontar el viento — y si el viento cae, la sesión se detiene y no la pagas. Así de simple."
+        }
+      ],
+      "meta": "Escuela de kitesurf en La Franqui (Coussoules Basses). Clases a la carta pagadas al final del curso: solo pagas el tiempo practicado con viento óptimo. Kitesurf, foil, strapless, mountainboard — todo el año."
+    }
+  },
+  "chinook": {
+    "fr": {
+      "title": "Chinook Kite School — École de kitesurf à Leucate depuis 1999",
+      "intro": "Chinook, c'est l'école historique de Leucate : un moniteur passionné, un étang à faible profondeur aux conditions idéales, et un vrai shop au village pour vous équiper des pieds à la tête.",
+      "legacyHeadline": "25 ans de kite, toujours le même plaisir.",
+      "phone": "+33630820952",
+      "email": "contact@chinook-leucate.com",
+      "lat": 42.9625,
+      "lon": 3.0015,
+      "courses": [
+        {
+          "name": "Initiation",
+          "price": "Séance 3 h",
+          "unit": "réservation par téléphone",
+          "features": [
+            "Pilotage de l'aile et sécurité",
+            "Nage tractée, premiers waterstarts",
+            "Eau peu profonde rassurante"
+          ]
+        },
+        {
+          "name": "Progression",
+          "price": "Stage multi-séances",
+          "unit": "sur mesure selon vos acquis",
+          "features": [
+            "Waterstart fiable, allures, transitions",
+            "Évaluation des acquis à chaque étape",
+            "Cap vers l'autonomie"
+          ]
+        },
+        {
+          "name": "Perfectionnement",
+          "price": "À la carte",
+          "unit": "pour riders déjà autonomes",
+          "features": [
+            "Technique, sauts, nouveaux supports",
+            "Conseils matériel du shop en prime",
+            "Hébergement possible à proximité"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Que dois-je apporter au cours ?",
+          "a": "Seulement vos chaussons néoprène et vos lunettes de soleil — tout le reste est fourni : aile, planche, casque, harnais, gilet et combinaison."
+        },
+        {
+          "q": "Faut-il une licence ou une assurance ?",
+          "a": "La licence AFKite est obligatoire : 18 €, délivrée directement sur place le premier jour. Un certificat médical est demandé aux plus de 59 ans."
+        },
+        {
+          "q": "Peut-on pratiquer l'hiver ?",
+          "a": "L'école tourne de mars à novembre. En dehors de cette période, contactez le shop : certains moniteurs restent disponibles pour des sessions à la demande."
+        },
+        {
+          "q": "Pourquoi apprendre sur l'étang plutôt qu'en mer ?",
+          "a": "Faible profondeur, eau plate, vent régulier : l'étang de La Palme réunit les trois conditions qui accélèrent l'apprentissage — et rassurent les débutants."
+        }
+      ],
+      "about": [
+        "Encadrement diplômé et expérimenté depuis 1999 — Philippe recharge le camion, checke le matos et affûte les twintips chaque saison depuis plus de vingt ans. Débuter, progresser, passer un cap : vous êtes entre les meilleures mains de l'étang."
+      ],
+      "spot": "Entre Leucate et Port-la-Nouvelle, l'étang de La Palme offre une faible profondeur sur des hectares d'eau plate et des conditions de vent pour tous les niveaux . C'est le terrain d'apprentissage idéal : on a pied, on ne craint rien, on progresse vite.",
+      "spotFeatures": [
+        "Eau peu profonde, plan d'eau plat",
+        "Tramontane régulière de mars à novembre",
+        "À 10 min du shop, 1 h 45 de Toulouse",
+        "Décor classé du Parc Naturel de la Narbonnaise"
+      ],
+      "steps": [
+        {
+          "title": "Apprivoiser l'aile",
+          "body": "Pilotage et sécurité, debout dans l'eau de l'étang. Des ailes en parfait état et des dispositifs de sécurité appropriés."
+        },
+        {
+          "title": "Le waterstart",
+          "body": "Nage tractée puis premiers départs sur la planche, avec 25 ans d'astuces de Philippe pour raccourcir le chemin."
+        },
+        {
+          "title": "Vos premiers bords",
+          "body": "Glisse, allures et évaluation des acquis à chaque étape — la formation continue jusqu'à l'autonomie complète."
+        }
+      ],
+      "meta": "École de kitesurf labellisée FFVL à Leucate depuis 1999. Séances de 3 h sur l'étang de La Palme, eau peu profonde, matériel fourni. Le shop glisse historique de Leucate Village."
+    },
+    "en": {
+      "title": "Chinook Kite School — Kitesurf school in Leucate since 1999",
+      "intro": "Chinook is Leucate's original kite school: one passionate instructor, a shallow lagoon with ideal conditions, and a proper shop in the village to kit you out from head to toe.",
+      "legacyHeadline": "25 years of kite, still the same stoke.",
+      "phone": "+33630820952",
+      "email": "contact@chinook-leucate.com",
+      "lat": 42.9625,
+      "lon": 3.0015,
+      "courses": [
+        {
+          "name": "Beginner",
+          "price": "3-hour session",
+          "unit": "book by phone",
+          "features": [
+            "Kite control and safety",
+            "Body-dragging, first waterstarts",
+            "Reassuringly shallow water"
+          ]
+        },
+        {
+          "name": "Progression",
+          "price": "Multi-session course",
+          "unit": "tailored to your level",
+          "features": [
+            "Reliable waterstart, points of sail, transitions",
+            "Skills assessed at every stage",
+            "On course for independence"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "price": "À la carte",
+          "unit": "for already independent riders",
+          "features": [
+            "Technique, jumps, new disciplines",
+            "Shop gear advice thrown in",
+            "Accommodation available nearby"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should I bring to the lesson?",
+          "a": "Just your neoprene booties and sunglasses — everything else is provided: kite, board, helmet, harness, vest and wetsuit."
+        },
+        {
+          "q": "Do I need a licence or insurance?",
+          "a": "The AFKite licence is required: €18, issued right on site on your first day. A medical certificate is required for riders over 59."
+        },
+        {
+          "q": "Can I ride in winter?",
+          "a": "The school runs from March to November. Outside that window, contact the shop: some instructors stay available for sessions on demand."
+        },
+        {
+          "q": "Why learn on the lagoon rather than at sea?",
+          "a": "Shallow water, flat surface, steady wind: the La Palme lagoon combines the three conditions that speed up learning — and put beginners at ease."
+        }
+      ],
+      "about": [
+        "Qualified, seasoned instruction since 1999 — Philippe has been loading the van, checking the gear and tuning the twintips every season for over twenty years. Starting out, progressing, stepping up a level: you're in the best hands on the lagoon."
+      ],
+      "spot": "Between Leucate and Port-la-Nouvelle, the La Palme lagoon offers shallow water across hectares of flat water and wind conditions for every level . It's the perfect place to learn: you can stand, there's nothing to fear, and you progress fast.",
+      "spotFeatures": [
+        "Shallow water, flat water surface",
+        "Steady Tramontane wind from March to November",
+        "10 min from the shop, 1 h 45 from Toulouse",
+        "Protected scenery of the Narbonnaise Natural Park"
+      ],
+      "steps": [
+        {
+          "title": "Tame the kite",
+          "body": "Kite control and safety, standing in the lagoon's shallow water. Kites in perfect condition and all the right safety systems."
+        },
+        {
+          "title": "The waterstart",
+          "body": "Body-dragging, then your first starts on the board — with 25 years of Philippe's tricks to shorten the learning curve."
+        },
+        {
+          "title": "Your first runs",
+          "body": "Riding, points of sail and a skills check at every step — the coaching continues until you're fully independent."
+        }
+      ],
+      "meta": "FFVL-certified kitesurf school in Leucate since 1999. 3-hour sessions on the La Palme lagoon, shallow water, gear provided. Leucate Village's historic boardsports shop."
+    },
+    "de": {
+      "title": "Chinook Kite School — Kitesurfschule in Leucate seit 1999",
+      "intro": "Chinook ist die legendäre Kiteschule von Leucate: ein leidenschaftlicher Lehrer, eine flache Lagune mit idealen Bedingungen und ein echter Shop im Dorf, der Dich von Kopf bis Fuß ausstattet.",
+      "legacyHeadline": "25 Jahre Kite, immer noch derselbe Spaß.",
+      "phone": "+33630820952",
+      "email": "contact@chinook-leucate.com",
+      "lat": 42.9625,
+      "lon": 3.0015,
+      "courses": [
+        {
+          "name": "Einstieg",
+          "price": "Session 3 Std.",
+          "unit": "Reservierung per Telefon",
+          "features": [
+            "Kitesteuerung und Sicherheit",
+            "Bodydrag, erste Waterstarts",
+            "Beruhigend flaches Wasser"
+          ]
+        },
+        {
+          "name": "Aufbau",
+          "price": "Kurs mit mehreren Sessions",
+          "unit": "maßgeschneidert nach Deinem Level",
+          "features": [
+            "Sicherer Waterstart, Kurse fahren, Transitions",
+            "Lernkontrolle bei jedem Schritt",
+            "Kurs auf Selbstständigkeit"
+          ]
+        },
+        {
+          "name": "Perfektionierung",
+          "price": "À la carte",
+          "unit": "für bereits selbstständige Rider",
+          "features": [
+            "Technik, Sprünge, neue Disziplinen",
+            "Material-Tipps aus dem Shop obendrauf",
+            "Unterkunft in der Nähe möglich"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Was muss ich zum Kurs mitbringen?",
+          "a": "Nur Deine Neoprenschuhe und Deine Sonnenbrille — alles andere wird gestellt: Kite, Board, Helm, Trapez, Weste und Neoprenanzug."
+        },
+        {
+          "q": "Brauche ich eine Lizenz oder Versicherung?",
+          "a": "Die AFKite-Lizenz ist Pflicht: 18 €, wird am ersten Tag direkt vor Ort ausgestellt. Ab 59 Jahren wird ein ärztliches Attest verlangt."
+        },
+        {
+          "q": "Kann man im Winter kiten?",
+          "a": "Die Schule läuft von März bis November. Außerhalb dieser Zeit frag im Shop nach: Einige Lehrer stehen für Sessions auf Anfrage zur Verfügung."
+        },
+        {
+          "q": "Warum auf der Lagune lernen statt im Meer?",
+          "a": "Flaches Wasser, glatte Fläche, konstanter Wind: Die Lagune von La Palme vereint die drei Bedingungen, die das Lernen beschleunigen — und Einsteigern Sicherheit geben."
+        }
+      ],
+      "about": [
+        "Diplomierte und erfahrene Betreuung seit 1999 — Philippe belädt den Van, checkt das Material und tunt die Twintips, jede Saison seit über zwanzig Jahren. Einsteigen, Fortschritte machen, das nächste Level knacken: Du bist in den besten Händen der Lagune."
+      ],
+      "spot": "Zwischen Leucate und Port-la-Nouvelle bietet die Lagune von La Palme flaches Wasser auf Hektar um Hektar spiegelglatter Fläche und Windbedingungen für jedes Level . Das ideale Lernrevier: Du hast überall Stand, Dir kann nichts passieren, und Du machst schnell Fortschritte.",
+      "spotFeatures": [
+        "Flaches Wasser, glatte Wasserfläche",
+        "Konstante Tramontane von März bis November",
+        "10 Min. vom Shop, 1 Std. 45 von Toulouse",
+        "Geschützte Kulisse des Naturparks Narbonnaise"
+      ],
+      "steps": [
+        {
+          "title": "Den Kite zähmen",
+          "body": "Kitesteuerung und Sicherheit, stehend im flachen Wasser der Lagune. Kites in Top-Zustand und die passenden Sicherheitssysteme."
+        },
+        {
+          "title": "Der Waterstart",
+          "body": "Bodydrag, dann die ersten Starts auf dem Board — mit 25 Jahren von Philippes Tricks, die Deinen Weg abkürzen."
+        },
+        {
+          "title": "Deine ersten Schläge",
+          "body": "Gleiten, Kurse fahren und Lernkontrolle bei jedem Schritt — das Training geht weiter bis zur vollen Selbstständigkeit."
+        }
+      ],
+      "meta": "FFVL-zertifizierte Kitesurfschule in Leucate seit 1999. 3-Stunden-Sessions auf der Lagune von La Palme, flaches Wasser, Material inklusive. Der legendäre Boardsport-Shop von Leucate Village."
+    },
+    "es": {
+      "title": "Chinook Kite School — Escuela de kitesurf en Leucate desde 1999",
+      "intro": "Chinook es la escuela histórica de Leucate: un monitor apasionado, una laguna poco profunda con condiciones ideales y una tienda de verdad en el pueblo para equiparte de pies a cabeza.",
+      "legacyHeadline": "25 años de kite, y las mismas ganas de siempre.",
+      "phone": "+33630820952",
+      "email": "contact@chinook-leucate.com",
+      "lat": 42.9625,
+      "lon": 3.0015,
+      "courses": [
+        {
+          "name": "Iniciación",
+          "price": "Sesión de 3 h",
+          "unit": "reserva por teléfono",
+          "features": [
+            "Pilotaje de la cometa y seguridad",
+            "Body drag, primeros waterstarts",
+            "Agua poco profunda que da confianza"
+          ]
+        },
+        {
+          "name": "Progresión",
+          "price": "Curso de varias sesiones",
+          "unit": "a medida según tu nivel",
+          "features": [
+            "Waterstart fiable, rumbos, transiciones",
+            "Evaluación de lo aprendido en cada etapa",
+            "Rumbo a la autonomía"
+          ]
+        },
+        {
+          "name": "Perfeccionamiento",
+          "price": "A la carta",
+          "unit": "para riders ya autónomos",
+          "features": [
+            "Técnica, saltos, nuevas disciplinas",
+            "Consejos de material de la tienda de regalo",
+            "Alojamiento posible muy cerca"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué tengo que llevar al curso?",
+          "a": "Solo tus escarpines de neopreno y tus gafas de sol — todo lo demás está incluido: cometa, tabla, casco, arnés, chaleco y neopreno."
+        },
+        {
+          "q": "¿Necesito licencia o seguro?",
+          "a": "La licencia AFKite es obligatoria: 18 €, expedida directamente in situ el primer día. A los mayores de 59 años se les pide certificado médico."
+        },
+        {
+          "q": "¿Se puede practicar en invierno?",
+          "a": "La escuela funciona de marzo a noviembre. Fuera de ese periodo, contacta con la tienda: algunos monitores siguen disponibles para sesiones bajo demanda."
+        },
+        {
+          "q": "¿Por qué aprender en la laguna y no en el mar?",
+          "a": "Poca profundidad, agua plana, viento regular: la laguna de La Palme reúne las tres condiciones que aceleran el aprendizaje — y tranquilizan a los principiantes."
+        }
+      ],
+      "about": [
+        "Enseñanza titulada y con experiencia desde 1999 — Philippe carga la furgoneta, revisa el material y pone a punto los twintips cada temporada desde hace más de veinte años. Empezar, progresar, dar el salto: estás en las mejores manos de la laguna."
+      ],
+      "spot": "Entre Leucate y Port-la-Nouvelle, la laguna de La Palme ofrece poca profundidad en hectáreas de agua plana y condiciones de viento para todos los niveles . Es el terreno de aprendizaje ideal: haces pie, no corres riesgos y progresas rápido.",
+      "spotFeatures": [
+        "Agua poco profunda, lámina de agua plana",
+        "Tramontana regular de marzo a noviembre",
+        "A 10 min de la tienda, 1 h 45 de Toulouse",
+        "Paisaje protegido del Parque Natural de la Narbonnaise"
+      ],
+      "steps": [
+        {
+          "title": "Domina la cometa",
+          "body": "Pilotaje y seguridad, de pie en el agua de la laguna. Cometas en perfecto estado y los sistemas de seguridad adecuados."
+        },
+        {
+          "title": "El waterstart",
+          "body": "Body drag y primeras salidas sobre la tabla, con 25 años de trucos de Philippe para acortar el camino."
+        },
+        {
+          "title": "Tus primeros bordos",
+          "body": "Navegación, rumbos y evaluación de lo aprendido en cada etapa — la formación continúa hasta la autonomía completa."
+        }
+      ],
+      "meta": "Escuela de kitesurf con sello FFVL en Leucate desde 1999. Sesiones de 3 h en la laguna de La Palme, agua poco profunda, material incluido. La tienda de surf histórica de Leucate Village."
+    }
+  },
+  "skyfly": {
+    "fr": {
+      "title": "SkyFly Kiteschool — École de kitesurf à Port Leucate / Le Barcarès",
+      "intro": "Embarquez : le bateau SkyFly vous dépose sur l'île de la Rascasse, au milieu de l'étang de Port Leucate. Pied partout, personne d'autre à l'eau, et un moniteur par radio pour vous guider.",
+      "legacyHeadline": "Votre cours de kite sur une île déserte.",
+      "phone": "+33675422691",
+      "email": "contact@sky-fly.com",
+      "lat": 42.8485,
+      "lon": 3.0208,
+      "courses": [
+        {
+          "name": "Découverte à deux",
+          "price": "65 €",
+          "unit": "/ pers — 3 h, 1 aile pour 2",
+          "features": [
+            "Idéal pour tester en duo",
+            "Toute la partie pilotage & sécurité",
+            "Le bon plan pour débuter"
+          ]
+        },
+        {
+          "name": "Cours kitesurf 3 h",
+          "price": "120 €",
+          "unit": "/ pers",
+          "features": [
+            "Du décollage au waterstart",
+            "Progression selon votre niveau",
+            "Jusqu'aux sauts et rotations"
+          ]
+        },
+        {
+          "name": "Stage 9 h",
+          "price": "310 €",
+          "unit": "3 cours de 3 h",
+          "features": [
+            "La vraie trajectoire vers l'autonomie",
+            "Répartis sur plusieurs jours",
+            "Meilleur rapport heures / prix"
+          ]
+        },
+        {
+          "name": "Spécialités",
+          "price": "dès 80 €",
+          "unit": "l'heure d'initiation",
+          "features": [
+            "Wingfoil : 100 € / h",
+            "Kitefoil : 80 € / h",
+            "Cours particulier 3 h : 240 €",
+            "Formule tribu / famille 3 h : 400 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Où se trouve le point de rendez-vous ?",
+          "a": "Au 22 avenue Cap de Front, 66420 Le Barcarès — à la frontière de Port Leucate. Le bateau part de là pour rejoindre l'île de la Rascasse en quelques minutes."
+        },
+        {
+          "q": "Faut-il savoir nager ?",
+          "a": "Oui, mais rassurez-vous : autour de l'île, vous avez pied partout. Le gilet et le casque radio fournis ajoutent une double sécurité."
+        },
+        {
+          "q": "Que comprend le tarif ?",
+          "a": "Tout le matériel : aile, planche, combinaison, harnais, gilet et casque avec radio — plus le transport en bateau jusqu'au spot. Apportez seulement vos chaussons si vous en avez."
+        },
+        {
+          "q": "Le spot est-il vraiment privé ?",
+          "a": "L'île est au milieu de l'étang, accessible uniquement en bateau : pendant votre cours, il n'y a aucun autre pratiquant dans la zone. C'est unique dans la région."
+        },
+        {
+          "q": "Et pour un groupe ou une famille ?",
+          "a": "La formule tribu / famille (3 h, 400 €) est faite pour ça, et la découverte à deux (65 €/pers) permet de goûter au kite à petit prix."
+        }
+      ],
+      "about": [
+        "Moniteurs diplômés pratiquant le kitesurf depuis une vingtaine d'années , installés à la frontière de Port Leucate et du Barcarès depuis 2002. Pionniers de la glisse tractée — l'équipe a même inventé son propre sport aérien, le Sky Fly, accessible à tous."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "Accès en bateau, encadrement au plus près",
+        "Eau peu profonde sur toute la zone d'apprentissage",
+        "Casques radio : les consignes en direct dans l'oreille",
+        "À ~1 h 50 de Toulouse, entre Narbonne et Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Cap sur l'île",
+          "body": "Équipement, embarquement, briefing du spot et des signaux de sécurité. Puis pilotage statique et découverte de la fenêtre de vol."
+        },
+        {
+          "title": "Le waterstart",
+          "body": "Nage tractée orientée, relances de l'aile, puis l'entraînement au waterstart — avec pied à chaque pause, l'apprentissage sans appréhension."
+        },
+        {
+          "title": "Vos premiers bords",
+          "body": "Premiers bords et remontée au vent — jusqu'aux sauts, rotations et strapless pour les plus avancés."
+        }
+      ],
+      "meta": "École de kitesurf entre Port Leucate et Le Barcarès. Cours sur l'île de la Rascasse : pied partout, zéro affluence, moniteurs diplômés avec 20 ans d'expérience. Kitesurf, wingfoil, kitefoil."
+    },
+    "en": {
+      "title": "SkyFly Kiteschool — Kitesurf school in Port Leucate / Le Barcarès",
+      "intro": "Hop aboard: the SkyFly boat drops you on Rascasse Island, in the middle of the Port Leucate lagoon. Standing depth everywhere, nobody else on the water, and an instructor guiding you by radio.",
+      "legacyHeadline": "Your kite lesson on a desert island.",
+      "phone": "+33675422691",
+      "email": "contact@sky-fly.com",
+      "lat": 42.8485,
+      "lon": 3.0208,
+      "courses": [
+        {
+          "name": "Discovery for two",
+          "price": "65 €",
+          "unit": "/ pers — 3 h, 1 kite for 2",
+          "features": [
+            "Perfect for a first try as a duo",
+            "All the kite-flying & safety basics",
+            "The smart way to get started"
+          ]
+        },
+        {
+          "name": "3 h kitesurf lesson",
+          "price": "120 €",
+          "unit": "/ pers",
+          "features": [
+            "From launch to waterstart",
+            "Progression at your own level",
+            "All the way to jumps and rotations"
+          ]
+        },
+        {
+          "name": "9 h course",
+          "price": "310 €",
+          "unit": "3 lessons of 3 h",
+          "features": [
+            "The real path to riding solo",
+            "Spread over several days",
+            "Best hours-to-price ratio"
+          ]
+        },
+        {
+          "name": "Specialities",
+          "price": "from 80 €",
+          "unit": "per intro hour",
+          "features": [
+            "Wingfoil: 100 € / h",
+            "Kitefoil: 80 € / h",
+            "3 h private lesson: 240 €",
+            "3 h tribe / family package: 400 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where is the meeting point?",
+          "a": "At 22 avenue Cap de Front, 66420 Le Barcarès — on the border of Port Leucate. The boat leaves from there and reaches Rascasse Island in a few minutes."
+        },
+        {
+          "q": "Do I need to know how to swim?",
+          "a": "Yes, but don't worry: all around the island you can stand up everywhere. The vest and radio helmet provided add a double layer of safety."
+        },
+        {
+          "q": "What does the price include?",
+          "a": "All the gear: kite, board, wetsuit, harness, vest and helmet with radio — plus the boat ride to the spot. Just bring your booties if you have some."
+        },
+        {
+          "q": "Is the spot really private?",
+          "a": "The island sits in the middle of the lagoon, reachable only by boat: during your lesson, there are no other riders in the zone. It's one of a kind in the region."
+        },
+        {
+          "q": "What about a group or a family?",
+          "a": "The tribe / family package (3 h, 400 €) is made for exactly that, and the discovery for two (65 €/pers) lets you taste kitesurfing at a small price."
+        }
+      ],
+      "about": [
+        "Certified instructors who have been kitesurfing for around twenty years , based on the border of Port Leucate and Le Barcarès since 2002. Pioneers of towed watersports — the team even invented its own aerial sport, the Sky Fly, open to everyone."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "Boat access, coaching right by your side",
+        "Shallow water across the whole learning zone",
+        "Radio helmets: live instructions straight in your ear",
+        "About 1 h 50 from Toulouse, between Narbonne and Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Course set for the island",
+          "body": "Gear up, hop aboard, briefing on the spot and the safety signals. Then static kite flying and discovering the wind window."
+        },
+        {
+          "title": "The waterstart",
+          "body": "Directional body-dragging, relaunching the kite, then waterstart training — with standing depth at every break, you learn without fear."
+        },
+        {
+          "title": "Your first rides",
+          "body": "First runs and riding upwind — all the way to jumps, rotations and strapless for the more advanced."
+        }
+      ],
+      "meta": "Kitesurf school between Port Leucate and Le Barcarès. Lessons on Rascasse Island: standing depth everywhere, zero crowds, certified instructors with 20 years of experience. Kitesurfing, wingfoil, kitefoil."
+    },
+    "de": {
+      "title": "SkyFly Kiteschool — Kitesurfschule in Port Leucate / Le Barcarès",
+      "intro": "Steig ein: Das SkyFly-Boot bringt Dich auf die Rascasse-Insel, mitten in der Lagune von Port Leucate. Überall Stehtiefe, niemand sonst im Wasser, und ein Lehrer, der Dich per Funk anleitet.",
+      "legacyHeadline": "Dein Kitekurs auf einer einsamen Insel.",
+      "phone": "+33675422691",
+      "email": "contact@sky-fly.com",
+      "lat": 42.8485,
+      "lon": 3.0208,
+      "courses": [
+        {
+          "name": "Schnuppern zu zweit",
+          "price": "65 €",
+          "unit": "/ Pers. — 3 h, 1 Kite für 2",
+          "features": [
+            "Ideal zum Ausprobieren im Duo",
+            "Komplettes Steuern & Sicherheit",
+            "Der clevere Einstieg"
+          ]
+        },
+        {
+          "name": "Kitesurfkurs 3 h",
+          "price": "120 €",
+          "unit": "/ Pers.",
+          "features": [
+            "Vom Start bis zum Wasserstart",
+            "Fortschritt nach Deinem Level",
+            "Bis zu Sprüngen und Rotationen"
+          ]
+        },
+        {
+          "name": "Kurspaket 9 h",
+          "price": "310 €",
+          "unit": "3 Kurse à 3 h",
+          "features": [
+            "Der echte Weg zur Selbstständigkeit",
+            "Verteilt auf mehrere Tage",
+            "Bestes Stunden-Preis-Verhältnis"
+          ]
+        },
+        {
+          "name": "Specials",
+          "price": "ab 80 €",
+          "unit": "pro Schnupperstunde",
+          "features": [
+            "Wingfoil: 100 € / h",
+            "Kitefoil: 80 € / h",
+            "Privatkurs 3 h: 240 €",
+            "Tribe- / Familienpaket 3 h: 400 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wo ist der Treffpunkt?",
+          "a": "22 avenue Cap de Front, 66420 Le Barcarès — an der Grenze zu Port Leucate. Von dort legt das Boot ab und erreicht die Rascasse-Insel in wenigen Minuten."
+        },
+        {
+          "q": "Muss ich schwimmen können?",
+          "a": "Ja, aber keine Sorge: Rund um die Insel hast Du überall Stehtiefe. Weste und Funkhelm sind inklusive und geben doppelte Sicherheit."
+        },
+        {
+          "q": "Was ist im Preis enthalten?",
+          "a": "Das komplette Material: Kite, Board, Neopren, Trapez, Weste und Helm mit Funk — plus der Bootstransfer zum Spot. Bring nur Deine Neoprenschuhe mit, falls Du welche hast."
+        },
+        {
+          "q": "Ist der Spot wirklich privat?",
+          "a": "Die Insel liegt mitten in der Lagune und ist nur per Boot erreichbar: Während Deines Kurses ist kein anderer Kiter in der Zone. Das ist einzigartig in der Region."
+        },
+        {
+          "q": "Und für eine Gruppe oder Familie?",
+          "a": "Das Tribe- / Familienpaket (3 h, 400 €) ist genau dafür gemacht, und das Schnuppern zu zweit (65 €/Pers.) lässt Dich das Kiten zum kleinen Preis testen."
+        }
+      ],
+      "about": [
+        "Lizenzierte Lehrer, die seit rund zwanzig Jahren kitesurfen, seit 2002 an der Grenze von Port Leucate und Le Barcarès zu Hause. Pioniere des Zugdrachensports — das Team hat sogar eine eigene Luftsportart erfunden, das Sky Fly, zugänglich für alle."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "Anfahrt per Boot, Betreuung ganz nah dran",
+        "Flaches Wasser in der gesamten Lernzone",
+        "Funkhelme: Anweisungen live direkt ins Ohr",
+        "Ca. 1 h 50 von Toulouse, zwischen Narbonne und Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Kurs auf die Insel",
+          "body": "Ausrüstung, Einschiffen, Briefing zu Spot und Sicherheitszeichen. Dann statisches Steuern und Entdecken des Windfensters."
+        },
+        {
+          "title": "Der Wasserstart",
+          "body": "Gezieltes Bodydrag, Relaunch des Kites, dann Wasserstart-Training — mit Stehtiefe bei jeder Pause lernst Du ganz ohne Angst."
+        },
+        {
+          "title": "Deine ersten Schläge",
+          "body": "Erste Schläge und Höhelaufen — bis hin zu Sprüngen, Rotationen und Strapless für Fortgeschrittene."
+        }
+      ],
+      "meta": "Kitesurfschule zwischen Port Leucate und Le Barcarès. Kurse auf der Rascasse-Insel: überall Stehtiefe, null Trubel, lizenzierte Lehrer mit 20 Jahren Erfahrung. Kitesurfen, Wingfoil, Kitefoil."
+    },
+    "es": {
+      "title": "SkyFly Kiteschool — Escuela de kitesurf en Port Leucate / Le Barcarès",
+      "intro": "Súbete a bordo: el barco de SkyFly te deja en la isla de la Rascasse, en medio de la laguna de Port Leucate. Haces pie en todas partes, nadie más en el agua y un monitor que te guía por radio.",
+      "legacyHeadline": "Tu curso de kite en una isla desierta.",
+      "phone": "+33675422691",
+      "email": "contact@sky-fly.com",
+      "lat": 42.8485,
+      "lon": 3.0208,
+      "courses": [
+        {
+          "name": "Descubrimiento a dos",
+          "price": "65 €",
+          "unit": "/ pers — 3 h, 1 cometa para 2",
+          "features": [
+            "Ideal para probar en pareja",
+            "Todo el pilotaje y la seguridad",
+            "El plan perfecto para empezar"
+          ]
+        },
+        {
+          "name": "Curso de kitesurf 3 h",
+          "price": "120 €",
+          "unit": "/ pers",
+          "features": [
+            "Del despegue al waterstart",
+            "Progresión según tu nivel",
+            "Hasta los saltos y rotaciones"
+          ]
+        },
+        {
+          "name": "Cursillo 9 h",
+          "price": "310 €",
+          "unit": "3 cursos de 3 h",
+          "features": [
+            "El verdadero camino hacia la autonomía",
+            "Repartidos en varios días",
+            "La mejor relación horas / precio"
+          ]
+        },
+        {
+          "name": "Especialidades",
+          "price": "desde 80 €",
+          "unit": "la hora de iniciación",
+          "features": [
+            "Wingfoil: 100 € / h",
+            "Kitefoil: 80 € / h",
+            "Curso particular 3 h: 240 €",
+            "Fórmula tribu / familia 3 h: 400 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Dónde está el punto de encuentro?",
+          "a": "En el 22 avenue Cap de Front, 66420 Le Barcarès — en la frontera con Port Leucate. El barco sale desde allí y llega a la isla de la Rascasse en pocos minutos."
+        },
+        {
+          "q": "¿Hay que saber nadar?",
+          "a": "Sí, pero tranquilo: alrededor de la isla haces pie en todas partes. El chaleco y el casco con radio incluidos añaden una doble seguridad."
+        },
+        {
+          "q": "¿Qué incluye la tarifa?",
+          "a": "Todo el material: cometa, tabla, neopreno, arnés, chaleco y casco con radio — más el transporte en barco hasta el spot. Trae solo tus escarpines si los tienes."
+        },
+        {
+          "q": "¿El spot es realmente privado?",
+          "a": "La isla está en medio de la laguna y solo se llega en barco: durante tu curso no hay ningún otro rider en la zona. Es único en la región."
+        },
+        {
+          "q": "¿Y para un grupo o una familia?",
+          "a": "La fórmula tribu / familia (3 h, 400 €) está pensada para eso, y el descubrimiento a dos (65 €/pers) permite probar el kite a pequeño precio."
+        }
+      ],
+      "about": [
+        "Monitores titulados que practican kitesurf desde hace unos veinte años , instalados en la frontera entre Port Leucate y Le Barcarès desde 2002. Pioneros del deslizamiento con tracción — el equipo incluso inventó su propio deporte aéreo, el Sky Fly, accesible a todos."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "Acceso en barco, supervisión siempre cerca",
+        "Agua poco profunda en toda la zona de aprendizaje",
+        "Cascos con radio: las instrucciones en directo en tu oído",
+        "A ~1 h 50 de Toulouse, entre Narbonne y Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Rumbo a la isla",
+          "body": "Equipamiento, embarque, briefing del spot y de las señales de seguridad. Después, pilotaje estático y descubrimiento de la ventana de vuelo."
+        },
+        {
+          "title": "El waterstart",
+          "body": "Nado de arrastre dirigido, relanzamientos de la cometa y entrenamiento del waterstart — haciendo pie en cada pausa, aprendes sin miedo."
+        },
+        {
+          "title": "Tus primeros bordos",
+          "body": "Primeros bordos y remontada contra el viento — hasta los saltos, rotaciones y strapless para los más avanzados."
+        }
+      ],
+      "meta": "Escuela de kitesurf entre Port Leucate y Le Barcarès. Cursos en la isla de la Rascasse: haces pie en todas partes, cero aglomeraciones, monitores titulados con 20 años de experiencia. Kitesurf, wingfoil, kitefoil."
+    },
+    "nl": {
+      "title": "SkyFly Kiteschool — Kitesurfschool in Port Leucate / Le Barcarès",
+      "intro": "Stap aan boord: de SkyFly-boot zet je af op het Rascasse-eiland, midden in de lagune van Port Leucate. Je kunt overal staan, niemand anders op het water, en een instructeur die je via de radio begeleidt.",
+      "legacyHeadline": "Jouw kiteles op een onbewoond eiland.",
+      "phone": "+33675422691",
+      "email": "contact@sky-fly.com",
+      "lat": 42.8485,
+      "lon": 3.0208,
+      "courses": [
+        {
+          "name": "Ontdekking met z'n tweeën",
+          "price": "65 €",
+          "unit": "/ pers — 3 u, 1 kite voor 2",
+          "features": [
+            "Ideaal om samen te proberen",
+            "Alle basics van sturen & veiligheid",
+            "De slimme manier om te beginnen"
+          ]
+        },
+        {
+          "name": "Kitesurfles 3 u",
+          "price": "120 €",
+          "unit": "/ pers",
+          "features": [
+            "Van opstijgen tot waterstart",
+            "Vooruitgang op jouw niveau",
+            "Tot aan sprongen en rotaties"
+          ]
+        },
+        {
+          "name": "Cursus 9 u",
+          "price": "310 €",
+          "unit": "3 lessen van 3 u",
+          "features": [
+            "De echte weg naar zelfstandigheid",
+            "Gespreid over meerdere dagen",
+            "Beste verhouding uren / prijs"
+          ]
+        },
+        {
+          "name": "Specialiteiten",
+          "price": "vanaf 80 €",
+          "unit": "per uur initiatie",
+          "features": [
+            "Wingfoil: 100 € / u",
+            "Kitefoil: 80 € / u",
+            "Privéles 3 u: 240 €",
+            "Tribe- / familieformule 3 u: 400 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Waar is het verzamelpunt?",
+          "a": "Op 22 avenue Cap de Front, 66420 Le Barcarès — op de grens met Port Leucate. Daar vertrekt de boot, die het Rascasse-eiland in een paar minuten bereikt."
+        },
+        {
+          "q": "Moet ik kunnen zwemmen?",
+          "a": "Ja, maar geen zorgen: rond het eiland kun je overal staan. Het vest en de radiohelm die je krijgt, zorgen voor dubbele veiligheid."
+        },
+        {
+          "q": "Wat is inbegrepen in het tarief?",
+          "a": "Alle uitrusting: kite, board, wetsuit, trapeze, vest en helm met radio — plus het boottransport naar de spot. Neem alleen je surfschoentjes mee als je die hebt."
+        },
+        {
+          "q": "Is de spot echt privé?",
+          "a": "Het eiland ligt midden in de lagune en is alleen per boot bereikbaar: tijdens je les is er geen enkele andere kiter in de zone. Dat is uniek in de regio."
+        },
+        {
+          "q": "En voor een groep of gezin?",
+          "a": "De tribe- / familieformule (3 u, 400 €) is daarvoor gemaakt, en de ontdekking met z'n tweeën (65 €/pers) laat je voor een klein prijsje proeven van het kiten."
+        }
+      ],
+      "about": [
+        "Gediplomeerde instructeurs die al zo'n twintig jaar kitesurfen, sinds 2002 gevestigd op de grens van Port Leucate en Le Barcarès. Pioniers van de getrokken watersport — het team vond zelfs zijn eigen luchtsport uit, de Sky Fly, toegankelijk voor iedereen."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "Bereikbaar per boot, begeleiding altijd dichtbij",
+        "Ondiep water in de hele leerzone",
+        "Radiohelmen: instructies live in je oor",
+        "Op ~1 u 50 van Toulouse, tussen Narbonne en Perpignan"
+      ],
+      "steps": [
+        {
+          "title": "Koers naar het eiland",
+          "body": "Uitrusting aan, aan boord, briefing over de spot en de veiligheidssignalen. Daarna statisch sturen en het windvenster ontdekken."
+        },
+        {
+          "title": "De waterstart",
+          "body": "Gericht bodydraggen, de kite relaunchen en dan waterstart-training — met vaste grond bij elke pauze leer je zonder angst."
+        },
+        {
+          "title": "Je eerste rakken",
+          "body": "Eerste rakken en hoogte lopen — tot aan sprongen, rotaties en strapless voor gevorderden."
+        }
+      ],
+      "meta": "Kitesurfschool tussen Port Leucate en Le Barcarès. Lessen op het Rascasse-eiland: overal staan, nul drukte, gediplomeerde instructeurs met 20 jaar ervaring. Kitesurfen, wingfoil, kitefoil."
+    }
+  },
+  "coriolis": {
+    "fr": {
+      "title": "Coriolis Foil School — Wing foil, kite foil & wake foil à Leucate",
+      "intro": "Wing foil, kite foil, simulateur tracté : Coriolis est l'école spécialiste du foil à Leucate. Une glisse subtile, silencieuse, presque magique — accessible dès la première séance.",
+      "legacyHeadline": "Et si vous voliez au-dessus de l'eau ?",
+      "phone": "+33662070867",
+      "email": "contact@coriolisfoilschool.fr",
+      "lat": 42.8704,
+      "lon": 3.0345,
+      "courses": [
+        {
+          "name": "Simulateur / wake foil",
+          "price": "Tracté bateau",
+          "unit": "45 min de vol pur",
+          "features": [
+            "Aucune aile à gérer : 100 % foil",
+            "Volez dès la première séance",
+            "La meilleure façon de débuter"
+          ]
+        },
+        {
+          "name": "Wing foil",
+          "price": "Initiation & perf",
+          "unit": "la glisse qui explose",
+          "features": [
+            "Aile légère tenue à la main",
+            "Idéal étangs et vent léger",
+            "Décollage, transitions, jibes"
+          ]
+        },
+        {
+          "name": "Kite foil",
+          "price": "Pour kiteurs",
+          "unit": "autonomes en twintip",
+          "features": [
+            "Naviguez dans 8 nœuds de vent",
+            "Vitesse et finesse incomparables",
+            "Coaching technique pointu"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Faut-il déjà savoir naviguer pour débuter le foil ?",
+          "a": "Non. Le simulateur tracté est fait pour ça : aucune aile à gérer, le bateau fournit la traction, vous vous concentrez sur l'équilibre et le vol. Beaucoup volent dès la première séance."
+        },
+        {
+          "q": "Le foil, c'est dangereux ?",
+          "a": "C'est une glisse douce et peu traumatisante pour le corps quand elle est bien encadrée : casque, gilet, plan d'eau adapté et progression graduelle font partie de la méthode Coriolis."
+        },
+        {
+          "q": "Wing foil ou kite foil, que choisir ?",
+          "a": "La wing est plus simple à mettre en œuvre et parfaite sur les étangs ; le kite foil offre plus de vitesse et de finesse, mais suppose d'être déjà autonome en kitesurf twintip."
+        },
+        {
+          "q": "Que se passe-t-il s'il n'y a pas de vent ?",
+          "a": "C'est la beauté du wake foil : le bateau remplace le vent. Les jours de pétole deviennent des jours de vol."
+        }
+      ],
+      "about": [
+        "Le foil se compose d'une aile avant et d'un stabilisateur reliés par un mât à la planche. Dès quelques nœuds de vitesse, la portance vous soulève : vous naviguez un mètre au-dessus de l'eau , sans bruit, sans effort, même dans un vent très léger."
+      ],
+      "spot": "",
+      "spotFeatures": [],
+      "steps": [
+        {
+          "title": "On se lance",
+          "body": "Tracté par le bateau, vous trouvez l'équilibre sur la planche, sans vous soucier du vent."
+        },
+        {
+          "title": "Premiers vols",
+          "body": "Le foil décolle, vous planez au-dessus de l'eau. Ensuite : wing ou kite foil selon votre projet."
+        },
+        {
+          "title": "L'autonomie",
+          "body": "Décollage, transitions, jibes : vous volez seul, même dans 8 nœuds de vent."
+        }
+      ],
+      "meta": "L'école 100 % foil de Port Leucate : wing foil, kite foil et simulateur tracté bateau. Volez au-dessus de l'eau, dès le vent léger, avec Luc Graulou. 3 personnes max par cours."
+    },
+    "en": {
+      "title": "Coriolis Foil School — Wing foil, kite foil & wake foil in Leucate",
+      "intro": "Wing foil, kite foil, tow-foil simulator: Coriolis is the foil specialist school in Leucate. A subtle, silent, almost magical ride — within reach from your very first session.",
+      "legacyHeadline": "What if you could fly above the water?",
+      "phone": "+33662070867",
+      "email": "contact@coriolisfoilschool.fr",
+      "lat": 42.8704,
+      "lon": 3.0345,
+      "courses": [
+        {
+          "name": "Simulator / wake foil",
+          "price": "Boat-towed",
+          "unit": "45 min of pure flight",
+          "features": [
+            "No wing to handle: 100% foil",
+            "Fly from your very first session",
+            "The best way to get started"
+          ]
+        },
+        {
+          "name": "Wing foil",
+          "price": "Beginner & advanced",
+          "unit": "the ride that's booming",
+          "features": [
+            "Lightweight handheld wing",
+            "Perfect for lagoons and light wind",
+            "Take-off, transitions, jibes"
+          ]
+        },
+        {
+          "name": "Kite foil",
+          "price": "For kiters",
+          "unit": "independent on a twintip",
+          "features": [
+            "Ride in 8 knots of wind",
+            "Unmatched speed and finesse",
+            "Sharp technical coaching"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need to know how to sail before starting foiling?",
+          "a": "No. That's exactly what the towed simulator is for: no wing to handle, the boat provides the traction, and you focus on balance and flight. Many people fly on their very first session."
+        },
+        {
+          "q": "Is foiling dangerous?",
+          "a": "It's a smooth ride that's easy on the body when properly supervised: helmet, impact vest, a suitable stretch of water and gradual progression are all part of the Coriolis method."
+        },
+        {
+          "q": "Wing foil or kite foil — which should I choose?",
+          "a": "The wing is simpler to get going and perfect on the lagoons; kite foil offers more speed and finesse, but requires you to already be independent on a twintip kiteboard."
+        },
+        {
+          "q": "What happens if there's no wind?",
+          "a": "That's the beauty of wake foil: the boat replaces the wind. No-wind days become flying days."
+        }
+      ],
+      "about": [
+        "The foil is made up of a front wing and a stabiliser connected to the board by a mast. At just a few knots of speed, the lift raises you up: you ride one metre above the water — no noise, no effort, even in very light wind."
+      ],
+      "spot": "",
+      "spotFeatures": [],
+      "steps": [
+        {
+          "title": "Getting started",
+          "body": "Towed by the boat, you find your balance on the board without worrying about the wind."
+        },
+        {
+          "title": "First flights",
+          "body": "The foil takes off and you glide above the water. Then: wing or kite foil, depending on your goals."
+        },
+        {
+          "title": "Independence",
+          "body": "Take-off, transitions, jibes: you fly on your own, even in 8 knots of wind."
+        }
+      ],
+      "meta": "The 100% foil school in Port Leucate: wing foil, kite foil and boat-towed simulator. Fly above the water, even in light wind, with Luc Graulou. Max 3 people per lesson."
+    },
+    "de": {
+      "title": "Coriolis Foil School — Wing Foil, Kite Foil & Wake Foil in Leucate",
+      "intro": "Wing Foil, Kite Foil, gezogener Simulator: Coriolis ist die Foil-Spezialschule in Leucate. Ein feines, lautloses, fast magisches Gleiten — erlebbar schon in der ersten Stunde.",
+      "legacyHeadline": "Was, wenn Du über dem Wasser fliegen könntest?",
+      "phone": "+33662070867",
+      "email": "contact@coriolisfoilschool.fr",
+      "lat": 42.8704,
+      "lon": 3.0345,
+      "courses": [
+        {
+          "name": "Simulator / Wake Foil",
+          "price": "Vom Boot gezogen",
+          "unit": "45 Min. pures Fliegen",
+          "features": [
+            "Kein Flügel, kein Schirm: 100 % Foil",
+            "Flieg schon in der ersten Stunde",
+            "Der beste Weg zum Einstieg"
+          ]
+        },
+        {
+          "name": "Wing Foil",
+          "price": "Einstieg & Aufbau",
+          "unit": "das Gleiten, das gerade explodiert",
+          "features": [
+            "Leichter Flügel in der Hand",
+            "Ideal für Lagunen und leichten Wind",
+            "Abheben, Transitions, Jibes"
+          ]
+        },
+        {
+          "name": "Kite Foil",
+          "price": "Für Kiter",
+          "unit": "selbstständig am Twintip",
+          "features": [
+            "Fahre schon bei 8 Knoten Wind",
+            "Unvergleichliche Geschwindigkeit und Finesse",
+            "Präzises Technik-Coaching"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Muss ich schon Wassersport-Erfahrung haben, um mit dem Foil zu starten?",
+          "a": "Nein. Genau dafür gibt es den gezogenen Simulator: kein Flügel, das Boot zieht Dich, Du konzentrierst Dich ganz auf Balance und Flug. Viele fliegen schon in der ersten Stunde."
+        },
+        {
+          "q": "Ist Foilen gefährlich?",
+          "a": "Es ist ein sanftes, gelenkschonendes Gleiten, wenn es gut betreut wird: Helm, Weste, das passende Revier und eine schrittweise Progression gehören zur Coriolis-Methode."
+        },
+        {
+          "q": "Wing Foil oder Kite Foil — was soll ich wählen?",
+          "a": "Der Wing ist einfacher zu handhaben und perfekt für die Lagunen; das Kite Foil bietet mehr Geschwindigkeit und Finesse, setzt aber voraus, dass Du schon selbstständig Twintip-Kitesurfen kannst."
+        },
+        {
+          "q": "Was passiert, wenn kein Wind weht?",
+          "a": "Das ist das Schöne am Wake Foil: Das Boot ersetzt den Wind. Flautentage werden zu Flugtagen."
+        }
+      ],
+      "about": [
+        "Das Foil besteht aus einem Frontflügel und einem Stabilisator , die über einen Mast mit dem Board verbunden sind. Schon bei wenigen Knoten Fahrt hebt Dich der Auftrieb an: Du gleitest einen Meter über dem Wasser — lautlos, mühelos, selbst bei sehr leichtem Wind."
+      ],
+      "spot": "",
+      "spotFeatures": [],
+      "steps": [
+        {
+          "title": "Los geht's",
+          "body": "Vom Boot gezogen findest Du die Balance auf dem Board — ganz ohne an den Wind zu denken."
+        },
+        {
+          "title": "Erste Flüge",
+          "body": "Das Foil hebt ab, Du schwebst über dem Wasser. Danach: Wing oder Kite Foil, je nach Deinem Ziel."
+        },
+        {
+          "title": "Die Selbstständigkeit",
+          "body": "Abheben, Transitions, Jibes: Du fliegst allein, selbst bei 8 Knoten Wind."
+        }
+      ],
+      "meta": "Die 100 % Foil-Schule in Port Leucate: Wing Foil, Kite Foil und bootgezogener Simulator. Flieg über dem Wasser, schon bei leichtem Wind, mit Luc Graulou. Max. 3 Personen pro Kurs."
+    },
+    "es": {
+      "title": "Coriolis Foil School — Wing foil, kite foil & wake foil en Leucate",
+      "intro": "Wing foil, kite foil, simulador remolcado: Coriolis es la escuela especialista en foil de Leucate. Un deslizamiento sutil, silencioso, casi mágico — a tu alcance desde la primera sesión.",
+      "legacyHeadline": "¿Y si pudieras volar sobre el agua?",
+      "phone": "+33662070867",
+      "email": "contact@coriolisfoilschool.fr",
+      "lat": 42.8704,
+      "lon": 3.0345,
+      "courses": [
+        {
+          "name": "Simulador / wake foil",
+          "price": "Remolcado por barco",
+          "unit": "45 min de vuelo puro",
+          "features": [
+            "Sin ala que manejar: 100 % foil",
+            "Vuela desde la primera sesión",
+            "La mejor forma de empezar"
+          ]
+        },
+        {
+          "name": "Wing foil",
+          "price": "Iniciación & perfeccionamiento",
+          "unit": "la modalidad que arrasa",
+          "features": [
+            "Ala ligera sujeta con las manos",
+            "Ideal para lagunas y viento suave",
+            "Despegue, transiciones, jibes"
+          ]
+        },
+        {
+          "name": "Kite foil",
+          "price": "Para kiters",
+          "unit": "autónomos en twintip",
+          "features": [
+            "Navega con 8 nudos de viento",
+            "Velocidad y finura incomparables",
+            "Coaching técnico de precisión"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Hay que saber navegar para empezar con el foil?",
+          "a": "No. El simulador remolcado está pensado justo para eso: sin ala que manejar, el barco proporciona la tracción y tú te concentras en el equilibrio y el vuelo. Muchos vuelan desde la primera sesión."
+        },
+        {
+          "q": "¿Es peligroso el foil?",
+          "a": "Es un deslizamiento suave y poco lesivo para el cuerpo cuando está bien supervisado: casco, chaleco, una zona de navegación adecuada y una progresión gradual forman parte del método Coriolis."
+        },
+        {
+          "q": "¿Wing foil o kite foil? ¿Cuál elegir?",
+          "a": "El wing es más sencillo de manejar y perfecto en las lagunas; el kite foil ofrece más velocidad y finura, pero requiere ser ya autónomo en kitesurf twintip."
+        },
+        {
+          "q": "¿Qué pasa si no hay viento?",
+          "a": "Esa es la belleza del wake foil: el barco sustituye al viento. Los días de calma se convierten en días de vuelo."
+        }
+      ],
+      "about": [
+        "El foil se compone de un ala delantera y un estabilizador unidos a la tabla por un mástil. Con solo unos nudos de velocidad, la sustentación te eleva: navegas un metro por encima del agua , sin ruido, sin esfuerzo, incluso con viento muy suave."
+      ],
+      "spot": "",
+      "spotFeatures": [],
+      "steps": [
+        {
+          "title": "Nos lanzamos",
+          "body": "Remolcado por el barco, encuentras el equilibrio sobre la tabla sin preocuparte del viento."
+        },
+        {
+          "title": "Primeros vuelos",
+          "body": "El foil despega y planeas sobre el agua. Después: wing o kite foil, según tu proyecto."
+        },
+        {
+          "title": "La autonomía",
+          "body": "Despegue, transiciones, jibes: vuelas solo, incluso con 8 nudos de viento."
+        }
+      ],
+      "meta": "La escuela 100 % foil de Port Leucate: wing foil, kite foil y simulador remolcado por barco. Vuela sobre el agua, incluso con viento suave, con Luc Graulou. Máximo 3 personas por clase."
+    }
+  },
+  "tendance-kite": {
+    "fr": {
+      "title": "Tendance Kite — École de kitesurf à Sigean, étang de Port Mahon",
+      "intro": "À la base nautique de Port Mahon, l'étang de Sigean déroule son eau peu profonde dans un décor de parc naturel. Et quand vous êtes prêt pour la mer, le bateau vous emmène à la Vieille Nouvelle.",
+      "legacyHeadline": "Apprenez le kite au milieu des flamants roses.",
+      "phone": "+33662091703",
+      "email": "tendancekite@gmail.com",
+      "lat": 43.0581,
+      "lon": 3.0033,
+      "courses": [
+        {
+          "name": "Tendance Découverte",
+          "price": "120–140 €",
+          "unit": "1 session de 4 h",
+          "features": [
+            "Découverte du pilotage",
+            "Sécurité et fenêtre de vol",
+            "Matériel complet fourni"
+          ]
+        },
+        {
+          "name": "Tendance Évolution",
+          "price": "330–390 €",
+          "unit": "3 sessions de 4 h",
+          "features": [
+            "Du pilotage aux premières glisses",
+            "Progression réelle et durable",
+            "Aussi : Initiation 2 sess. 230–270 €"
+          ]
+        },
+        {
+          "name": "Tendance Évasion",
+          "price": "530–600 €",
+          "unit": "5 sessions de 4 h",
+          "features": [
+            "Le grand parcours vers l'autonomie",
+            "Étang + sorties mer en bateau",
+            "Aussi : Glisse 4 sess. 430–500 €"
+          ]
+        },
+        {
+          "name": "Particulier & location",
+          "price": "dès 40 €",
+          "unit": "kite surveillé 4 h",
+          "features": [
+            "Cours privé 1 h dans l'eau : 180–200 €",
+            "Location complète : 80 €",
+            "Board / aile +20 €, foil +50 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Pourquoi débuter sur un étang plutôt qu'en mer ?",
+          "a": "Eau peu profonde, plan d'eau abrité, vent régulier : on garde pied, on enchaîne les exercices sans appréhension, et la progression est bien plus rapide. La mer vient ensuite, en bateau."
+        },
+        {
+          "q": "Que comprend une session de 4 heures ?",
+          "a": "La préparation du matériel, le transport en bateau jusqu'au spot et la navigation. Matériel complet fourni — apportez maillot, serviette et crème solaire."
+        },
+        {
+          "q": "Et s'il n'y a pas de vent ?",
+          "a": "La session est reportée selon vos disponibilités. Sur place, les randonnées kayak dans le parc naturel offrent un beau plan B pour découvrir l'écosystème de l'étang."
+        },
+        {
+          "q": "Comment payer ?",
+          "a": "CB, espèces, chèques, chèques vacances et virements sont acceptés. L'assurance responsabilité civile kite est obligatoire et non incluse."
+        }
+      ],
+      "about": [
+        "Moniteur diplômé, Xavier vous accueille tous les jours à la base nautique de Port Mahon. Débutant, initié ou confirmé : la progression se construit en eau peu profonde, puis en mer avec transport en bateau jusqu'au spot. L'école propose aussi des randonnées kayak pour découvrir l'écosystème de l'étang."
+      ],
+      "spot": "L'étang de Sigean, peu profond et abrité , est le cocon parfait pour vos débuts. Une fois la remontée au vent maîtrisée, cap sur la plage de la Vieille Nouvelle , joyau sauvage entre Gruissan et Port-la-Nouvelle, accessible en bateau uniquement.",
+      "spotFeatures": [
+        "Eau peu profonde : on apprend avec pied",
+        "Décor unique du Parc Naturel de la Narbonnaise",
+        "Sorties mer sur plage sauvage, loin du béton",
+        "Base nautique : parking, mise à l'eau facile"
+      ],
+      "steps": [
+        {
+          "title": "Apprivoiser l'aile",
+          "body": "Fenêtre de vol, sécurité et pilotage, debout dans l'eau peu profonde de l'étang — le cocon parfait pour débuter."
+        },
+        {
+          "title": "Le waterstart",
+          "body": "Nage tractée puis premiers départs planche aux pieds, avec le bateau de Xavier toujours à portée."
+        },
+        {
+          "title": "Vos premiers bords",
+          "body": "La remontée au vent maîtrisée, cap sur la mer : la plage sauvage de la Vieille Nouvelle, accessible en bateau uniquement."
+        }
+      ],
+      "meta": "École de kitesurf à Sigean, au cœur du Parc Naturel Régional de la Narbonnaise. Cours en eau peu profonde sur l'étang, sorties mer en bateau à la Vieille Nouvelle. À 1h30 de Toulouse."
+    },
+    "en": {
+      "title": "Tendance Kite — Kitesurf school in Sigean, Port Mahon lagoon",
+      "intro": "At the Port Mahon water-sports base, the Sigean lagoon spreads its shallow water across the scenery of a nature park. And when you're ready for the sea, the boat takes you to la Vieille Nouvelle.",
+      "legacyHeadline": "Learn to kite among the flamingos.",
+      "phone": "+33662091703",
+      "email": "tendancekite@gmail.com",
+      "lat": 43.0581,
+      "lon": 3.0033,
+      "courses": [
+        {
+          "name": "Tendance Découverte",
+          "price": "120–140 €",
+          "unit": "1 session of 4 h",
+          "features": [
+            "Intro to kite control",
+            "Safety and the wind window",
+            "Full equipment provided"
+          ]
+        },
+        {
+          "name": "Tendance Évolution",
+          "price": "330–390 €",
+          "unit": "3 sessions of 4 h",
+          "features": [
+            "From kite control to your first rides",
+            "Real, lasting progress",
+            "Also: Initiation 2 sess. 230–270 €"
+          ]
+        },
+        {
+          "name": "Tendance Évasion",
+          "price": "530–600 €",
+          "unit": "5 sessions of 4 h",
+          "features": [
+            "The full journey to independence",
+            "Lagoon + sea trips by boat",
+            "Also: Glisse 4 sess. 430–500 €"
+          ]
+        },
+        {
+          "name": "Private & rental",
+          "price": "from 40 €",
+          "unit": "supervised kiting 4 h",
+          "features": [
+            "Private lesson, 1 h in the water: 180–200 €",
+            "Full rental: 80 €",
+            "Board / kite +20 €, foil +50 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why learn on a lagoon rather than at sea?",
+          "a": "Shallow water, a sheltered spot, steady wind: you keep your feet on the bottom, you string exercises together without fear, and you progress much faster. The sea comes next — by boat."
+        },
+        {
+          "q": "What does a 4-hour session include?",
+          "a": "Equipment prep, the boat ride out to the spot and time on the water. Full equipment provided — bring a swimsuit, a towel and sunscreen."
+        },
+        {
+          "q": "What if there's no wind?",
+          "a": "The session is rescheduled to suit your availability. On site, kayak tours through the nature park make a lovely plan B to explore the lagoon's ecosystem."
+        },
+        {
+          "q": "How can I pay?",
+          "a": "Card, cash, cheques, French holiday vouchers and bank transfers are accepted. Third-party kite liability insurance is required and not included."
+        }
+      ],
+      "about": [
+        "A certified instructor, Xavier welcomes you every day at the Port Mahon water-sports base. Beginner, intermediate or advanced: your progression is built in shallow water, then at sea with boat transport to the spot. The school also offers kayak tours to explore the lagoon's ecosystem."
+      ],
+      "spot": "The Sigean lagoon, shallow and sheltered , is the perfect cocoon for your first steps. Once you've mastered riding upwind, it's off to la Vieille Nouvelle beach , a wild gem between Gruissan and Port-la-Nouvelle, reachable only by boat.",
+      "spotFeatures": [
+        "Shallow water: you learn with your feet on the bottom",
+        "The unique scenery of the Narbonnaise Nature Park",
+        "Sea trips to a wild beach, far from the concrete",
+        "Water-sports base: parking, easy launch"
+      ],
+      "steps": [
+        {
+          "title": "Tame the kite",
+          "body": "Wind window, safety and kite control, standing in the lagoon's shallow water — the perfect cocoon for your first steps."
+        },
+        {
+          "title": "The waterstart",
+          "body": "Body-dragging, then your first starts with the board on your feet — Xavier's boat always within reach."
+        },
+        {
+          "title": "Your first runs",
+          "body": "Once you've mastered riding upwind, it's off to the sea: the wild beach of la Vieille Nouvelle, reachable only by boat."
+        }
+      ],
+      "meta": "Kitesurf school in Sigean, in the heart of the Narbonnaise Regional Nature Park. Lessons in the shallow water of the lagoon, boat trips out to sea at la Vieille Nouvelle. Just 1 h 30 from Toulouse."
+    },
+    "de": {
+      "title": "Tendance Kite — Kitesurfschule in Sigean, Lagune von Port Mahon",
+      "intro": "An der Wassersportbasis Port Mahon breitet die Lagune von Sigean ihr flaches Wasser inmitten der Kulisse eines Naturparks aus. Und sobald Du bereit fürs Meer bist, bringt Dich das Boot zur Vieille Nouvelle.",
+      "legacyHeadline": "Lerne Kiten zwischen Flamingos.",
+      "phone": "+33662091703",
+      "email": "tendancekite@gmail.com",
+      "lat": 43.0581,
+      "lon": 3.0033,
+      "courses": [
+        {
+          "name": "Tendance Découverte",
+          "price": "120–140 €",
+          "unit": "1 Session à 4 h",
+          "features": [
+            "Erste Schritte in der Kitesteuerung",
+            "Sicherheit und Windfenster",
+            "Komplette Ausrüstung inklusive"
+          ]
+        },
+        {
+          "name": "Tendance Évolution",
+          "price": "330–390 €",
+          "unit": "3 Sessions à 4 h",
+          "features": [
+            "Von der Kitesteuerung zu den ersten Metern",
+            "Echter, nachhaltiger Fortschritt",
+            "Auch: Initiation 2 Sess. 230–270 €"
+          ]
+        },
+        {
+          "name": "Tendance Évasion",
+          "price": "530–600 €",
+          "unit": "5 Sessions à 4 h",
+          "features": [
+            "Der große Weg zur Selbstständigkeit",
+            "Lagune + Meeressessions per Boot",
+            "Auch: Glisse 4 Sess. 430–500 €"
+          ]
+        },
+        {
+          "name": "Privatstunden & Verleih",
+          "price": "ab 40 €",
+          "unit": "betreutes Kiten 4 h",
+          "features": [
+            "Privatstunde, 1 h im Wasser: 180–200 €",
+            "Kompletter Verleih: 80 €",
+            "Board / Kite +20 €, Foil +50 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Warum auf einer Lagune starten statt auf dem Meer?",
+          "a": "Flaches Wasser, geschütztes Revier, konstanter Wind: Du behältst Boden unter den Füßen, übst ohne Angst eine Übung nach der anderen und kommst viel schneller voran. Das Meer kommt danach — per Boot."
+        },
+        {
+          "q": "Was umfasst eine 4-Stunden-Session?",
+          "a": "Die Vorbereitung des Materials, den Bootstransfer zum Spot und das Fahren. Komplette Ausrüstung inklusive — bring Badesachen, Handtuch und Sonnencreme mit."
+        },
+        {
+          "q": "Und wenn kein Wind weht?",
+          "a": "Die Session wird nach Deiner Verfügbarkeit verschoben. Vor Ort sind die Kajaktouren durch den Naturpark ein schöner Plan B, um das Ökosystem der Lagune zu entdecken."
+        },
+        {
+          "q": "Wie kann ich bezahlen?",
+          "a": "Karte, Bargeld, Schecks, Chèques Vacances und Überweisungen werden akzeptiert. Die Kite-Haftpflichtversicherung ist Pflicht und nicht inbegriffen."
+        }
+      ],
+      "about": [
+        "Xavier, Kitelehrer mit staatlichem Diplom, empfängt Dich jeden Tag an der Wassersportbasis Port Mahon. Ob Anfänger, Aufsteiger oder Fortgeschrittener: Der Fortschritt beginnt im flachen Wasser, dann geht es aufs Meer — mit Bootstransfer zum Spot. Die Schule bietet außerdem Kajaktouren an, um das Ökosystem der Lagune zu entdecken."
+      ],
+      "spot": "Die Lagune von Sigean, flach und geschützt , ist der perfekte Kokon für Deine ersten Schritte. Sobald Du das Höhelaufen beherrschst, geht es zum Strand der Vieille Nouvelle — einem wilden Juwel zwischen Gruissan und Port-la-Nouvelle, nur per Boot erreichbar.",
+      "spotFeatures": [
+        "Flaches Wasser: Du lernst mit Boden unter den Füßen",
+        "Einzigartige Kulisse des Naturparks Narbonnaise",
+        "Meeressessions am wilden Strand, weit weg vom Beton",
+        "Wassersportbasis: Parkplatz, einfacher Einstieg ins Wasser"
+      ],
+      "steps": [
+        {
+          "title": "Den Kite zähmen",
+          "body": "Windfenster, Sicherheit und Kitesteuerung — stehend im flachen Wasser der Lagune, dem perfekten Kokon für den Einstieg."
+        },
+        {
+          "title": "Der Wasserstart",
+          "body": "Bodydrag, dann die ersten Starts mit dem Board an den Füßen — Xaviers Boot immer in Reichweite."
+        },
+        {
+          "title": "Deine ersten Schläge",
+          "body": "Sobald das Höhelaufen sitzt, geht es aufs Meer: zum wilden Strand der Vieille Nouvelle, nur per Boot erreichbar."
+        }
+      ],
+      "meta": "Kitesurfschule in Sigean, im Herzen des Regionalen Naturparks Narbonnaise. Kurse im flachen Wasser der Lagune, Meeressessions mit Bootstransfer zur Vieille Nouvelle. Nur 1 h 30 von Toulouse."
+    },
+    "es": {
+      "title": "Tendance Kite — Escuela de kitesurf en Sigean, laguna de Port Mahon",
+      "intro": "En la base náutica de Port Mahon, la laguna de Sigean despliega sus aguas poco profundas en un escenario de parque natural. Y cuando estés listo para el mar, el barco te lleva a la Vieille Nouvelle.",
+      "legacyHeadline": "Aprende kite entre flamencos.",
+      "phone": "+33662091703",
+      "email": "tendancekite@gmail.com",
+      "lat": 43.0581,
+      "lon": 3.0033,
+      "courses": [
+        {
+          "name": "Tendance Découverte",
+          "price": "120–140 €",
+          "unit": "1 sesión de 4 h",
+          "features": [
+            "Iniciación al pilotaje",
+            "Seguridad y ventana de vuelo",
+            "Material completo incluido"
+          ]
+        },
+        {
+          "name": "Tendance Évolution",
+          "price": "330–390 €",
+          "unit": "3 sesiones de 4 h",
+          "features": [
+            "Del pilotaje a tus primeras planeadas",
+            "Progresión real y duradera",
+            "También: Initiation 2 ses. 230–270 €"
+          ]
+        },
+        {
+          "name": "Tendance Évasion",
+          "price": "530–600 €",
+          "unit": "5 sesiones de 4 h",
+          "features": [
+            "El gran camino hacia la autonomía",
+            "Laguna + salidas al mar en barco",
+            "También: Glisse 4 ses. 430–500 €"
+          ]
+        },
+        {
+          "name": "Particular y alquiler",
+          "price": "desde 40 €",
+          "unit": "kite supervisado 4 h",
+          "features": [
+            "Clase privada de 1 h en el agua: 180–200 €",
+            "Alquiler completo: 80 €",
+            "Tabla / cometa +20 €, foil +50 €"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Por qué empezar en una laguna y no en el mar?",
+          "a": "Aguas poco profundas, zona resguardada, viento regular: haces pie, encadenas ejercicios sin miedo y la progresión es mucho más rápida. El mar llega después, en barco."
+        },
+        {
+          "q": "¿Qué incluye una sesión de 4 horas?",
+          "a": "La preparación del material, el traslado en barco hasta el spot y la navegación. Material completo incluido: trae bañador, toalla y crema solar."
+        },
+        {
+          "q": "¿Y si no hay viento?",
+          "a": "La sesión se aplaza según tu disponibilidad. Allí mismo, las rutas en kayak por el parque natural son un buen plan B para descubrir el ecosistema de la laguna."
+        },
+        {
+          "q": "¿Cómo pagar?",
+          "a": "Se aceptan tarjeta, efectivo, cheques, cheques vacances y transferencias. El seguro de responsabilidad civil de kite es obligatorio y no está incluido."
+        }
+      ],
+      "about": [
+        "Monitor titulado, Xavier te recibe todos los días en la base náutica de Port Mahon. Principiante, iniciado o avanzado: la progresión se construye en aguas poco profundas y después en el mar, con traslado en barco hasta el spot. La escuela también ofrece rutas en kayak para descubrir el ecosistema de la laguna."
+      ],
+      "spot": "La laguna de Sigean, poco profunda y resguardada , es el refugio perfecto para tus primeros pasos. Una vez dominada la ceñida, rumbo a la playa de la Vieille Nouvelle , una joya salvaje entre Gruissan y Port-la-Nouvelle, accesible solo en barco.",
+      "spotFeatures": [
+        "Aguas poco profundas: aprendes haciendo pie",
+        "El escenario único del Parque Natural de la Narbonnaise",
+        "Salidas al mar en una playa salvaje, lejos del cemento",
+        "Base náutica: aparcamiento y puesta en el agua fácil"
+      ],
+      "steps": [
+        {
+          "title": "Domar la cometa",
+          "body": "Ventana de vuelo, seguridad y pilotaje, de pie en las aguas poco profundas de la laguna: el refugio perfecto para empezar."
+        },
+        {
+          "title": "El waterstart",
+          "body": "Body drag y después tus primeras salidas con la tabla en los pies, con el barco de Xavier siempre al alcance."
+        },
+        {
+          "title": "Tus primeros bordes",
+          "body": "Con la ceñida dominada, rumbo al mar: la playa salvaje de la Vieille Nouvelle, accesible solo en barco."
+        }
+      ],
+      "meta": "Escuela de kitesurf en Sigean, en pleno Parque Natural Regional de la Narbonnaise. Clases en aguas poco profundas en la laguna, salidas al mar en barco a la Vieille Nouvelle. A 1 h 30 de Toulouse."
+    }
+  },
+  "ksl": {
+    "fr": {
+      "title": "KSL — Kite Surf Leucate · Club & école de kitesurf à La Franqui",
+      "intro": "Depuis 2004, KSL réunit les passionnés autour du spot mythique de La Franqui : découverte, apprentissage, progression, compétition — et une vraie communauté de riders, du premier bord au Pôle Espoir.",
+      "legacyHeadline": "Apprendre la glisse, vivre l'esprit club.",
+      "phone": "+33611581614",
+      "email": "ecole.kitesurfleucate@gmail.com",
+      "lat": 42.937,
+      "lon": 3.027,
+      "courses": [
+        {
+          "name": "Cours kitesurf",
+          "price": "Sur réservation",
+          "unit": "encadrement BPJEPS",
+          "features": [
+            "Découverte, apprentissage, navigation",
+            "Encadrement diplômé d'État",
+            "Sur le spot mythique des Coussoules"
+          ]
+        },
+        {
+          "name": "Cours wing",
+          "price": "Sur réservation",
+          "unit": "la glisse montante",
+          "features": [
+            "Initiation et perfectionnement",
+            "Moniteurs spécialisés wing",
+            "Conditions idéales d'apprentissage"
+          ]
+        },
+        {
+          "name": "Groupes & teams",
+          "price": "Sur demande",
+          "unit": "écoles, CE, clubs",
+          "features": [
+            "Cours pour les groupes",
+            "Teams jeunes et adultes à l'année",
+            "Filière compétition — Pôle Espoir"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quelle différence entre le club et l'école ?",
+          "a": "L'école donne les cours (kitesurf et wing, tous niveaux, sur réservation). Le club anime le spot : sécurité, location kite et SUP, teams, compétition et vie associative. Deux contacts, une même maison."
+        },
+        {
+          "q": "Quand le service sécurité / location est-il ouvert ?",
+          "a": "Tous les jours de vent tramontane : d'avril à octobre de 9 h à 17 h, les week-ends jusqu'à 19 h, juillet-août jusqu'à 20 h."
+        },
+        {
+          "q": "Le handikite, comment ça marche ?",
+          "a": "Le tandem handikite ouvre la glisse aux personnes en situation de handicap, encadré par l'équipe du club. Contactez le club pour organiser une session adaptée."
+        },
+        {
+          "q": "Mon enfant veut progresser en compétition, c'est possible ?",
+          "a": "Oui — c'est même une spécialité du club : teams jeunes débutants et jeunes performance, filière vers le Pôle Espoir kiteboard."
+        }
+      ],
+      "about": [
+        "L'association KSL est née en 2004 pour structurer la pratique, sécuriser le site des Coussoules et créer une vraie communauté. Installé dans l'ancien poste de secours, le club accompagne les pratiquants à toutes les étapes : découverte, apprentissage, navigation, progression, compétition."
+      ],
+      "spot": "Le service de sécurité et location est ouvert tous les jours de vent tramontane : d'avril à octobre de 9 h à 17 h, les week-ends jusqu'à 19 h, et jusqu'à 20 h en juillet-août.",
+      "spotFeatures": [
+        "Service de sécurité sur le spot",
+        "Location kite et stand up paddle",
+        "Tandem handikite — la glisse pour tous",
+        "À ~1 h 45 de Toulouse — l'ancien poste de secours, La Franqui"
+      ],
+      "steps": [],
+      "meta": "Depuis 2004, le club KSL réunit les passionnés de glisse sur le spot mythique des Coussoules à La Franqui. École de kitesurf et wing, sécurité du spot, location, handikite, Pôle Espoir kiteboard."
+    },
+    "en": {
+      "title": "KSL — Kite Surf Leucate · Kitesurf club & school in La Franqui",
+      "intro": "Since 2004, KSL has brought enthusiasts together around La Franqui's legendary spot: discovery, learning, progression, competition — and a real community of riders, from your first run to the Pôle Espoir (national youth squad).",
+      "legacyHeadline": "Learn to ride, live the club spirit.",
+      "phone": "+33611581614",
+      "email": "ecole.kitesurfleucate@gmail.com",
+      "lat": 42.937,
+      "lon": 3.027,
+      "courses": [
+        {
+          "name": "Kitesurf lessons",
+          "price": "By reservation",
+          "unit": "BPJEPS-certified coaching",
+          "features": [
+            "Discovery, learning, riding",
+            "State-certified instruction",
+            "On the legendary Les Coussoules spot"
+          ]
+        },
+        {
+          "name": "Wing lessons",
+          "price": "By reservation",
+          "unit": "the rising discipline",
+          "features": [
+            "Introduction and improvement",
+            "Wing-specialized instructors",
+            "Ideal learning conditions"
+          ]
+        },
+        {
+          "name": "Groups & teams",
+          "price": "On request",
+          "unit": "schools, companies, clubs",
+          "features": [
+            "Lessons for groups",
+            "Year-round youth and adult teams",
+            "Competition pathway — Pôle Espoir"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What's the difference between the club and the school?",
+          "a": "The school gives the lessons (kitesurf and wing, all levels, by reservation). The club runs the spot: safety, kite and SUP rental, teams, competition and club life. Two contacts, one home."
+        },
+        {
+          "q": "When is the safety / rental service open?",
+          "a": "Every tramontane wind day: April to October from 9 am to 5 pm, weekends until 7 pm, July and August until 8 pm."
+        },
+        {
+          "q": "How does handikite work?",
+          "a": "The handikite tandem opens up riding to people with disabilities, supervised by the club team. Contact the club to arrange an adapted session."
+        },
+        {
+          "q": "My child wants to progress towards competition, is that possible?",
+          "a": "Yes — it's even one of the club's specialties: beginner and performance youth teams, with a pathway to the kiteboard Pôle Espoir (national youth squad)."
+        }
+      ],
+      "about": [
+        "The KSL association was founded in 2004 to structure the sport, make the Les Coussoules site safe and build a real community. Based in the former lifeguard station, the club supports riders at every stage: discovery, learning, riding, progression, competition."
+      ],
+      "spot": "The safety and rental service is open every tramontane wind day: April to October from 9 am to 5 pm, weekends until 7 pm, and until 8 pm in July and August.",
+      "spotFeatures": [
+        "Safety service on the spot",
+        "Kite and stand-up paddle rental",
+        "Handikite tandem — riding for everyone",
+        "About 1 h 45 from Toulouse — the former lifeguard station, La Franqui"
+      ],
+      "steps": [],
+      "meta": "Since 2004, the KSL club has brought riders together on the legendary Les Coussoules spot in La Franqui. Kitesurf and wing school, spot safety, rentals, handikite, kiteboard Pôle Espoir (national youth squad)."
+    },
+    "de": {
+      "title": "KSL — Kite Surf Leucate · Kitesurf-Club & -Schule in La Franqui",
+      "intro": "Seit 2004 vereint KSL die Begeisterten rund um den legendären Spot von La Franqui: Entdecken, Lernen, Fortschritt, Wettkampf — und eine echte Rider-Community, vom ersten Schlag bis zum Pôle Espoir (nationaler Nachwuchskader).",
+      "legacyHeadline": "Gleiten lernen, Clubgeist leben.",
+      "phone": "+33611581614",
+      "email": "ecole.kitesurfleucate@gmail.com",
+      "lat": 42.937,
+      "lon": 3.027,
+      "courses": [
+        {
+          "name": "Kitesurf-Kurse",
+          "price": "Auf Reservierung",
+          "unit": "BPJEPS-Betreuung",
+          "features": [
+            "Entdecken, Lernen, Fahren",
+            "Staatlich geprüfte Betreuung",
+            "Am legendären Spot Les Coussoules"
+          ]
+        },
+        {
+          "name": "Wing-Kurse",
+          "price": "Auf Reservierung",
+          "unit": "der Gleitsport im Aufwind",
+          "features": [
+            "Einstieg und Perfektionierung",
+            "Auf Wing spezialisierte Lehrer",
+            "Ideale Lernbedingungen"
+          ]
+        },
+        {
+          "name": "Gruppen & Teams",
+          "price": "Auf Anfrage",
+          "unit": "Schulen, Firmen, Clubs",
+          "features": [
+            "Kurse für Gruppen",
+            "Jugend- und Erwachsenen-Teams das ganze Jahr",
+            "Wettkampfschiene — Pôle Espoir"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Was ist der Unterschied zwischen Club und Schule?",
+          "a": "Die Schule gibt die Kurse (Kitesurfen und Wing, alle Levels, auf Reservierung). Der Club belebt den Spot: Sicherheit, Kite- und SUP-Verleih, Teams, Wettkampf und Vereinsleben. Zwei Kontakte, ein Zuhause."
+        },
+        {
+          "q": "Wann ist der Sicherheits-/Verleihservice geöffnet?",
+          "a": "An allen Tramontana-Tagen: von April bis Oktober von 9 bis 17 Uhr, an Wochenenden bis 19 Uhr, Juli–August bis 20 Uhr."
+        },
+        {
+          "q": "Handikite — wie funktioniert das?",
+          "a": "Das Handikite-Tandem öffnet den Gleitsport für Menschen mit Behinderung, betreut vom Team des Clubs. Kontaktiere den Club, um eine angepasste Session zu organisieren."
+        },
+        {
+          "q": "Mein Kind möchte im Wettkampf vorankommen, geht das?",
+          "a": "Ja — das ist sogar eine Spezialität des Clubs: Jugend-Teams für Einsteiger und Performance, mit Weg zum Pôle Espoir Kiteboard (nationaler Nachwuchskader)."
+        }
+      ],
+      "about": [
+        "Der Verein KSL wurde 2004 gegründet, um den Sport zu strukturieren, den Spot Les Coussoules sicher zu machen und eine echte Community aufzubauen. Untergebracht in der ehemaligen Rettungsstation, begleitet der Club alle Rider in jeder Phase: Entdecken, Lernen, Fahren, Fortschritt, Wettkampf."
+      ],
+      "spot": "Der Sicherheits- und Verleihservice ist an allen Tramontana-Tagen geöffnet: von April bis Oktober von 9 bis 17 Uhr, an Wochenenden bis 19 Uhr und im Juli–August bis 20 Uhr.",
+      "spotFeatures": [
+        "Sicherheitsservice am Spot",
+        "Verleih von Kites und Stand-up-Paddles",
+        "Handikite-Tandem — Gleiten für alle",
+        "Ca. 1 h 45 von Toulouse — die ehemalige Rettungsstation, La Franqui"
+      ],
+      "steps": [],
+      "meta": "Seit 2004 vereint der Club KSL Gleitsport-Begeisterte am legendären Spot Les Coussoules in La Franqui. Kitesurf- und Wing-Schule, Spot-Sicherheit, Verleih, Handikite, Pôle Espoir Kiteboard (nationaler Nachwuchskader)."
+    },
+    "es": {
+      "title": "KSL — Kite Surf Leucate · Club y escuela de kitesurf en La Franqui",
+      "intro": "Desde 2004, KSL reúne a los apasionados en torno al mítico spot de La Franqui: descubrimiento, aprendizaje, progresión, competición — y una auténtica comunidad de riders, desde tu primera bordada hasta el Pôle Espoir (equipo nacional juvenil).",
+      "legacyHeadline": "Aprende a deslizarte, vive el espíritu de club.",
+      "phone": "+33611581614",
+      "email": "ecole.kitesurfleucate@gmail.com",
+      "lat": 42.937,
+      "lon": 3.027,
+      "courses": [
+        {
+          "name": "Cursos de kitesurf",
+          "price": "Con reserva",
+          "unit": "supervisión BPJEPS",
+          "features": [
+            "Descubrimiento, aprendizaje, navegación",
+            "Monitores con titulación estatal",
+            "En el mítico spot de Les Coussoules"
+          ]
+        },
+        {
+          "name": "Cursos de wing",
+          "price": "Con reserva",
+          "unit": "la modalidad en auge",
+          "features": [
+            "Iniciación y perfeccionamiento",
+            "Monitores especializados en wing",
+            "Condiciones ideales de aprendizaje"
+          ]
+        },
+        {
+          "name": "Grupos & equipos",
+          "price": "Bajo petición",
+          "unit": "colegios, empresas, clubes",
+          "features": [
+            "Cursos para grupos",
+            "Equipos de jóvenes y adultos todo el año",
+            "Vía de competición — Pôle Espoir"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué diferencia hay entre el club y la escuela?",
+          "a": "La escuela imparte los cursos (kitesurf y wing, todos los niveles, con reserva). El club anima el spot: seguridad, alquiler de kite y SUP, equipos, competición y vida asociativa. Dos contactos, una misma casa."
+        },
+        {
+          "q": "¿Cuándo abre el servicio de seguridad / alquiler?",
+          "a": "Todos los días de viento de tramontana: de abril a octubre de 9 a 17 h, los fines de semana hasta las 19 h, julio y agosto hasta las 20 h."
+        },
+        {
+          "q": "El handikite, ¿cómo funciona?",
+          "a": "El tándem handikite abre el deslizamiento a las personas con discapacidad, supervisado por el equipo del club. Contacta con el club para organizar una sesión adaptada."
+        },
+        {
+          "q": "Mi hijo quiere progresar en competición, ¿es posible?",
+          "a": "Sí — es incluso una especialidad del club: equipos de jóvenes debutantes y de jóvenes performance, con vía hacia el Pôle Espoir de kiteboard."
+        }
+      ],
+      "about": [
+        "La asociación KSL nació en 2004 para estructurar la práctica, hacer seguro el sitio de Les Coussoules y crear una auténtica comunidad. Instalado en el antiguo puesto de socorro, el club acompaña a los riders en todas las etapas: descubrimiento, aprendizaje, navegación, progresión, competición."
+      ],
+      "spot": "El servicio de seguridad y alquiler abre todos los días de viento de tramontana: de abril a octubre de 9 a 17 h, los fines de semana hasta las 19 h, y hasta las 20 h en julio y agosto.",
+      "spotFeatures": [
+        "Servicio de seguridad en el spot",
+        "Alquiler de kite y stand up paddle",
+        "Tándem handikite — el deslizamiento para todos",
+        "A ~1 h 45 de Toulouse — el antiguo puesto de socorro, La Franqui"
+      ],
+      "steps": [],
+      "meta": "Desde 2004, el club KSL reúne a los apasionados del deslizamiento en el mítico spot de Les Coussoules en La Franqui. Escuela de kitesurf y wing, seguridad del spot, alquiler, handikite, Pôle Espoir de kiteboard (equipo nacional juvenil)."
+    }
+  },
+  "akila-gruissan": {
+    "fr": {
+      "title": "Akila Gruissan Pôle Mer — Kitesurf & wingfoil sur la plage des Chalets",
+      "intro": "C'est ici, au cœur de la Wind Valley, que se courent chaque année le Défi-Wind et le Défi-Kite — les plus grandes courses de longue distance au monde. Tramontane 300 jours par an : si vous cherchez du vent, vous êtes au bon endroit.",
+      "legacyHeadline": "Naviguez sur le spot du Défi-Kite.",
+      "phone": "+33468493333",
+      "email": "gruissan@akila-centers.com",
+      "lat": 43.1035,
+      "lon": 3.1092,
+      "courses": [
+        {
+          "name": "Cours particuliers",
+          "price": "1-to-1",
+          "unit": "moniteur dédié",
+          "features": [
+            "La formule la plus efficace",
+            "Kitesurf et wingfoil",
+            "Du premier bord au big-air"
+          ]
+        },
+        {
+          "name": "Collectifs & stages",
+          "price": "Petit groupe",
+          "unit": "ambiance sportive et conviviale",
+          "features": [
+            "Pendant les vacances ou à la saison",
+            "3 élèves max en wingfoil",
+            "Théorie, pilotage, waterstart, allures"
+          ]
+        },
+        {
+          "name": "Coaching 2 h",
+          "price": "Objectif ciblé",
+          "unit": "riders autonomes",
+          "features": [
+            "Premiers sauts jusqu'au big-air",
+            "Freestyle, foil, strapless",
+            "Seul avec un moniteur diplômé"
+          ]
+        },
+        {
+          "name": "Nav & location",
+          "price": "Autonomes",
+          "unit": "surveillance obligatoire sur ce spot",
+          "features": [
+            "Navigation surveillée par bateau",
+            "Location kite, wing, windsurf, SUP",
+            "Matériel Duotone de l'année"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quels horaires pour les cours de kitesurf ?",
+          "a": "Sessions le matin (dès 9 h) ou l'après-midi selon la météo, plus des coachings de 2 h en soirée pour les riders autonomes avec un objectif précis."
+        },
+        {
+          "q": "Je suis autonome, puis-je naviguer librement ?",
+          "a": "Sur ce spot, la navigation surveillée (bateau) est obligatoire en kitesurf. La location inclut du matériel Duotone de l'année ; un contrôle de niveau et une caution peuvent être demandés."
+        },
+        {
+          "q": "Mes enfants peuvent-ils s'initier ?",
+          "a": "Dès 5 ans au Jardin des Mers (étang de Mateille) : découverte ludique du milieu aquatique, puis optimist, catamaran, windsurf et wingfoil en grandissant."
+        },
+        {
+          "q": "Que faire les jours sans vent ?",
+          "a": "Paddle, kayak, catamaran au Pôle Étang — et le restaurant face à la mer pour refaire les sessions passées et planifier les prochaines."
+        }
+      ],
+      "about": [
+        "On sort de l'eau, on se rince, on refait la session autour d'un verre face au spot. Les jours sans vent ont aussi leur programme : paddle, kayak, catamaran."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "Le spot du Défi-Wind et du Défi-Kite",
+        "Tramontane régulière au cœur de la Wind Valley",
+        "Accès bateau aux meilleurs spots du jour",
+        "À moins de 2 h de Toulouse, dans le Parc de la Narbonnaise"
+      ],
+      "steps": [
+        {
+          "title": "Apprivoiser l'aile",
+          "body": "Théorie fondamentale et pilotage dans l'eau sans la planche : fenêtre de vol, pilotage statique, dynamique, nage tractée."
+        },
+        {
+          "title": "Le waterstart",
+          "body": "Récupération de planche, waterstart et redécollage — le bateau vous emmène directement sur la plage sauvage."
+        },
+        {
+          "title": "Vos premiers bords",
+          "body": "Remontée au vent, optimisation de la glisse, transitions glissées puis sautées — jusqu'au coaching big-air."
+        }
+      ],
+      "meta": "Kitesurf, wingfoil et glisse à Gruissan, sur le spot du Défi-Wind et du Défi-Kite. Cours particuliers, stages, navigation surveillée et location — au cœur de la Wind Valley, à moins de 2h de Toulouse."
+    },
+    "en": {
+      "title": "Akila Gruissan Pôle Mer — Kitesurfing & wingfoil at Chalets beach",
+      "intro": "This is where, in the heart of the Wind Valley, the Défi-Wind and the Défi-Kite — the world's biggest long-distance races — are held every year. Tramontane wind 300 days a year: if you're looking for wind, you've come to the right place.",
+      "legacyHeadline": "Ride the spot of the Défi-Kite.",
+      "phone": "+33468493333",
+      "email": "gruissan@akila-centers.com",
+      "lat": 43.1035,
+      "lon": 3.1092,
+      "courses": [
+        {
+          "name": "Private lessons",
+          "price": "1-to-1",
+          "unit": "dedicated instructor",
+          "features": [
+            "The most effective formula",
+            "Kitesurfing and wingfoil",
+            "From your first run to big-air"
+          ]
+        },
+        {
+          "name": "Group lessons & courses",
+          "price": "Small group",
+          "unit": "sporty, friendly vibe",
+          "features": [
+            "During the holidays or all season long",
+            "Max 3 students for wingfoil",
+            "Theory, piloting, waterstart, points of sail"
+          ]
+        },
+        {
+          "name": "2-hour coaching",
+          "price": "Targeted goal",
+          "unit": "independent riders",
+          "features": [
+            "From first jumps to big-air",
+            "Freestyle, foil, strapless",
+            "One-on-one with a certified instructor"
+          ]
+        },
+        {
+          "name": "Riding & rentals",
+          "price": "Independent riders",
+          "unit": "supervision is mandatory on this spot",
+          "features": [
+            "Boat-supervised riding",
+            "Kite, wing, windsurf and SUP rental",
+            "This year's Duotone gear"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What times are the kitesurfing lessons?",
+          "a": "Morning sessions (from 9 am) or afternoon depending on the weather, plus 2-hour evening coaching for independent riders with a specific goal."
+        },
+        {
+          "q": "I'm an independent rider — can I ride freely?",
+          "a": "On this spot, boat-supervised riding is mandatory for kitesurfing. Rentals include this year's Duotone gear; a level check and a deposit may be required."
+        },
+        {
+          "q": "Can my kids get started?",
+          "a": "From age 5 at the Jardin des Mers (étang de Mateille): a playful discovery of the water, then optimist, catamaran, windsurfing and wingfoil as they grow."
+        },
+        {
+          "q": "What about no-wind days?",
+          "a": "Paddle, kayak and catamaran at the Pôle Étang — and the seafront restaurant to relive past sessions and plan the next ones."
+        }
+      ],
+      "about": [
+        "You get out of the water, rinse off, and relive the session over a drink facing the spot. No-wind days have their own programme too: paddle, kayak, catamaran."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "The spot of the Défi-Wind and the Défi-Kite",
+        "Steady Tramontane in the heart of the Wind Valley",
+        "Boat access to the best spots of the day",
+        "Less than 2 hours from Toulouse, in the Narbonnaise Nature Park"
+      ],
+      "steps": [
+        {
+          "title": "Taming the kite",
+          "body": "Core theory and kite control in the water without the board: wind window, static and dynamic piloting, body-dragging."
+        },
+        {
+          "title": "The waterstart",
+          "body": "Board recovery, waterstart and relaunching — the boat takes you straight to the wild beach."
+        },
+        {
+          "title": "Your first runs",
+          "body": "Riding upwind, refining your glide, sliding then jumping transitions — all the way to big-air coaching."
+        }
+      ],
+      "meta": "Kitesurfing, wingfoil and boardsports in Gruissan, on the Défi-Wind and Défi-Kite spot. Private lessons, courses, supervised riding and rentals — in the heart of the Wind Valley, less than 2 hours from Toulouse."
+    },
+    "de": {
+      "title": "Akila Gruissan Pôle Mer — Kitesurfen & Wingfoil am Chalets-Strand",
+      "intro": "Hier, im Herzen der Wind Valley, werden jedes Jahr der Défi-Wind und der Défi-Kite ausgetragen — die größten Langstreckenrennen der Welt. Tramontane an 300 Tagen im Jahr: Wenn Du Wind suchst, bist Du hier genau richtig.",
+      "legacyHeadline": "Fahre auf dem Spot des Défi-Kite.",
+      "phone": "+33468493333",
+      "email": "gruissan@akila-centers.com",
+      "lat": 43.1035,
+      "lon": 3.1092,
+      "courses": [
+        {
+          "name": "Privatstunden",
+          "price": "1-to-1",
+          "unit": "eigener Instruktor",
+          "features": [
+            "Die effizienteste Formel",
+            "Kitesurfen und Wingfoil",
+            "Vom ersten Schlag bis zum Big-Air"
+          ]
+        },
+        {
+          "name": "Gruppenkurse & Camps",
+          "price": "Kleine Gruppe",
+          "unit": "sportliche, gesellige Atmosphäre",
+          "features": [
+            "In den Ferien oder über die Saison",
+            "Max. 3 Schüler im Wingfoil",
+            "Theorie, Steuern, Wasserstart, Kurse zum Wind"
+          ]
+        },
+        {
+          "name": "2-h-Coaching",
+          "price": "Klares Ziel",
+          "unit": "autonome Rider",
+          "features": [
+            "Von den ersten Sprüngen bis zum Big-Air",
+            "Freestyle, Foil, Strapless",
+            "Allein mit einem diplomierten Instruktor"
+          ]
+        },
+        {
+          "name": "Fahren & Verleih",
+          "price": "Autonome Rider",
+          "unit": "Überwachung auf diesem Spot Pflicht",
+          "features": [
+            "Bootsüberwachtes Fahren",
+            "Verleih von Kite, Wing, Windsurf, SUP",
+            "Duotone-Material des aktuellen Jahrgangs"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wann finden die Kitesurf-Kurse statt?",
+          "a": "Sessions am Morgen (ab 9 Uhr) oder am Nachmittag je nach Wetter, dazu 2-h-Coachings am Abend für autonome Rider mit einem klaren Ziel."
+        },
+        {
+          "q": "Ich bin autonom — darf ich frei fahren?",
+          "a": "Auf diesem Spot ist überwachtes Fahren (per Boot) beim Kitesurfen Pflicht. Der Verleih umfasst Duotone-Material des aktuellen Jahrgangs; ein Levelcheck und eine Kaution können verlangt werden."
+        },
+        {
+          "q": "Können meine Kinder einsteigen?",
+          "a": "Ab 5 Jahren im Jardin des Mers (étang de Mateille): spielerisches Entdecken des Wassers, dann Optimist, Katamaran, Windsurfen und Wingfoil, wenn sie größer werden."
+        },
+        {
+          "q": "Was tun an windstillen Tagen?",
+          "a": "Paddle, Kajak, Katamaran am Pôle Étang — und das Restaurant am Meer, um vergangene Sessions Revue passieren zu lassen und die nächsten zu planen."
+        }
+      ],
+      "about": [
+        "Raus aus dem Wasser, abspülen, und die Session bei einem Drink mit Blick auf den Spot Revue passieren lassen. Auch windstille Tage haben ihr Programm: Paddle, Kajak, Katamaran."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "Der Spot des Défi-Wind und des Défi-Kite",
+        "Beständige Tramontane im Herzen der Wind Valley",
+        "Bootszugang zu den besten Spots des Tages",
+        "Weniger als 2 Stunden von Toulouse, im Naturpark der Narbonnaise"
+      ],
+      "steps": [
+        {
+          "title": "Den Kite zähmen",
+          "body": "Grundlegende Theorie und Kitesteuerung im Wasser ohne Board: Windfenster, statisches und dynamisches Steuern, Bodydrag."
+        },
+        {
+          "title": "Der Wasserstart",
+          "body": "Board zurückholen, Wasserstart und Relaunch — das Boot bringt Dich direkt an den wilden Strand."
+        },
+        {
+          "title": "Deine ersten Schläge",
+          "body": "Höhelaufen, Gleiten optimieren, gleitende und dann gesprungene Transitions — bis zum Big-Air-Coaching."
+        }
+      ],
+      "meta": "Kitesurfen, Wingfoil und Wassersport in Gruissan, auf dem Spot des Défi-Wind und des Défi-Kite. Privatstunden, Kurse, überwachtes Fahren und Verleih — im Herzen der Wind Valley, weniger als 2 Stunden von Toulouse."
+    },
+    "es": {
+      "title": "Akila Gruissan Pôle Mer — Kitesurf y wingfoil en la playa des Chalets",
+      "intro": "Es aquí, en el corazón de la Wind Valley, donde se disputan cada año el Défi-Wind y el Défi-Kite — las mayores carreras de larga distancia del mundo. Tramontana 300 días al año: si buscas viento, estás en el lugar indicado.",
+      "legacyHeadline": "Navega en el spot del Défi-Kite.",
+      "phone": "+33468493333",
+      "email": "gruissan@akila-centers.com",
+      "lat": 43.1035,
+      "lon": 3.1092,
+      "courses": [
+        {
+          "name": "Clases particulares",
+          "price": "1-to-1",
+          "unit": "monitor dedicado",
+          "features": [
+            "La fórmula más eficaz",
+            "Kitesurf y wingfoil",
+            "Del primer bordo al big-air"
+          ]
+        },
+        {
+          "name": "Colectivas y cursillos",
+          "price": "Grupo reducido",
+          "unit": "ambiente deportivo y cercano",
+          "features": [
+            "En vacaciones o durante la temporada",
+            "Máx. 3 alumnos en wingfoil",
+            "Teoría, pilotaje, waterstart, rumbos"
+          ]
+        },
+        {
+          "name": "Coaching 2 h",
+          "price": "Objetivo concreto",
+          "unit": "riders autónomos",
+          "features": [
+            "De los primeros saltos al big-air",
+            "Freestyle, foil, strapless",
+            "A solas con un monitor titulado"
+          ]
+        },
+        {
+          "name": "Navegación y alquiler",
+          "price": "Autónomos",
+          "unit": "supervisión obligatoria en este spot",
+          "features": [
+            "Navegación supervisada por barco",
+            "Alquiler de kite, wing, windsurf, SUP",
+            "Material Duotone del año"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué horarios tienen las clases de kitesurf?",
+          "a": "Sesiones por la mañana (desde las 9 h) o por la tarde según la meteo, además de coachings de 2 h al atardecer para riders autónomos con un objetivo concreto."
+        },
+        {
+          "q": "Soy autónomo, ¿puedo navegar libremente?",
+          "a": "En este spot, la navegación supervisada (en barco) es obligatoria en kitesurf. El alquiler incluye material Duotone del año; pueden pedirse una prueba de nivel y una fianza."
+        },
+        {
+          "q": "¿Pueden iniciarse mis hijos?",
+          "a": "Desde los 5 años en el Jardin des Mers (étang de Mateille): descubrimiento lúdico del medio acuático, y después optimist, catamarán, windsurf y wingfoil a medida que crecen."
+        },
+        {
+          "q": "¿Qué hacer los días sin viento?",
+          "a": "Paddle, kayak y catamarán en el Pôle Étang — y el restaurante frente al mar para revivir las sesiones pasadas y planear las próximas."
+        }
+      ],
+      "about": [
+        "Sales del agua, te aclaras y revives la sesión con una copa frente al spot. Los días sin viento también tienen su plan: paddle, kayak, catamarán."
+      ],
+      "spot": "",
+      "spotFeatures": [
+        "El spot del Défi-Wind y del Défi-Kite",
+        "Tramontana constante en el corazón de la Wind Valley",
+        "Acceso en barco a los mejores spots del día",
+        "A menos de 2 h de Toulouse, en el Parque Natural de la Narbonnaise"
+      ],
+      "steps": [
+        {
+          "title": "Domar la cometa",
+          "body": "Teoría fundamental y pilotaje en el agua sin la tabla: ventana de vuelo, pilotaje estático y dinámico, body drag."
+        },
+        {
+          "title": "El waterstart",
+          "body": "Recuperación de la tabla, waterstart y redespegue — el barco te lleva directamente a la playa salvaje."
+        },
+        {
+          "title": "Tus primeros bordos",
+          "body": "Remontar el viento, optimizar el deslizamiento, transiciones deslizadas y luego saltadas — hasta el coaching de big-air."
+        }
+      ],
+      "meta": "Kitesurf, wingfoil y deportes de deslizamiento en Gruissan, en el spot del Défi-Wind y del Défi-Kite. Clases particulares, cursillos, navegación supervisada y alquiler — en el corazón de la Wind Valley, a menos de 2 h de Toulouse."
+    }
+  }
+}
