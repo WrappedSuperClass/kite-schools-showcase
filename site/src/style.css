@@ -32,3 +32,50 @@ dialog{border:0;padding:0;background:var(--paper);color:var(--ink);max-height:90
 .school-page:not(.layout-editorial) .school-hero-copy{min-height:max(710px,calc(100svh - 130px))}
 }
 @media(max-width:600px){.layout-technical .school-hero .hero-shade{background:linear-gradient(90deg,#d5d1e7ed,#d5d1e7bb)}}
+
+/* Source-backed details keep the same visual identity as each school. */
+.content-review{display:flex;justify-content:space-between;gap:18px;padding-top:22px;padding-bottom:22px;border-bottom:1px solid #203d3925;font-size:11px;line-height:1.7}
+.content-review time{font-weight:650}.content-review>a{text-decoration:underline;text-underline-offset:4px}
+.source-link{display:inline-block;font-size:11px;line-height:1.6;text-decoration:underline;text-underline-offset:4px;opacity:.85;overflow-wrap:anywhere}
+.source-link:hover{opacity:1}.source-link:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.about-copy>.source-link,.spot-copy .source-link{display:table;margin:16px 0}.session-copy>.source-link{margin-top:9px;font-size:10px}
+.session-price{max-width:260px;overflow-wrap:break-word}.session-price>span{line-height:1.6}
+.dated-price-notice{border-left:3px solid currentColor;padding:16px 20px;background:color-mix(in srgb,var(--accent),transparent 82%);margin:0 0 28px;font-size:13px;line-height:1.8;max-width:900px}
+.reference-rates{max-width:760px;margin-top:28px;padding:20px 0;border-block:1px solid #203d3925}
+.reference-rates summary{cursor:pointer;font-size:14px;font-weight:650}.reference-rates>p{margin-top:20px;font-size:12px}
+.reference-rates table{width:100%;border-collapse:collapse;font-size:13px;margin:18px 0}.reference-rates caption{text-align:left;font-weight:600;margin-bottom:10px}
+.reference-rates th,.reference-rates td{text-align:left;padding:12px 8px;border-top:1px solid #203d3925}.reference-rates th{font-weight:500;width:65%}
+.practical-section{padding-top:85px;padding-bottom:75px}.practical-heading h2{font-size:clamp(34px,4.2vw,58px);line-height:1.1;letter-spacing:-.045em;margin:22px 0 42px;max-width:850px}
+.practical-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:65px;row-gap:35px}
+.practical-item{border-top:1px solid color-mix(in srgb,var(--ink),transparent 72%);padding-top:24px}
+.practical-item h3{font-size:19px;letter-spacing:-.02em}.practical-item p{font-size:13px;line-height:1.85;margin:15px 0;max-width:620px;overflow-wrap:break-word}
+.school-team{margin-top:50px;padding-top:30px;border-top:1px solid #203d3925}.school-team>h3{font-size:24px}
+.school-team ul{list-style:none;padding:0;margin:25px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 30px}
+.school-team li{display:flex;flex-direction:column;gap:6px;font-size:13px}.school-team li span{font-size:11px;line-height:1.6}
+.school-resources{display:flex;flex-wrap:wrap;gap:12px;margin-top:40px}.school-resources>a{display:flex;align-items:center;gap:24px;padding:14px 18px;border:1px solid color-mix(in srgb,var(--ink),transparent 65%);font-size:12px;line-height:1.5}
+.school-resources>a:hover{background:var(--ink);color:var(--paper)}.school-resources>a span{margin-left:auto}
+.contact-section h2{font-size:clamp(48px,7.5vw,112px);max-width:1000px}.contact-bottom>p{max-width:650px;font-size:14px;line-height:1.85}
+.contact-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px}
+.contact-card{min-width:0}.contact-card h3{font-size:13px;font-weight:600;margin-bottom:20px}.contact-card>a{display:flex;flex-direction:column;align-items:flex-start;gap:5px;margin-top:16px;font-size:11px;line-height:1.7}
+.contact-card>a span{font-size:14px;overflow-wrap:anywhere;max-width:100%;opacity:1}.contact-card>a:hover span{text-decoration:underline;text-underline-offset:4px}
+.enquiry-compose{margin-top:40px;border-top:1px solid #ffffff45;padding-top:24px;max-width:850px}.enquiry-compose>summary{cursor:pointer;font-size:17px;font-weight:600;line-height:1.6}
+.enquiry-compose>p{font-size:12px;line-height:1.8;margin:18px 0 24px;max-width:620px}
+.enquiry-compose form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.enquiry-compose label{display:flex;flex-direction:column;gap:9px;font-size:12px}.enquiry-message,.draft-result{grid-column:1/-1}
+.enquiry-compose input,.enquiry-compose textarea{font:inherit;font-size:14px;line-height:1.7;width:100%;min-width:0;border:1px solid #ffffff70;background:#ffffff0c;color:inherit;padding:13px 15px;border-radius:0}.enquiry-compose textarea{resize:vertical}
+.enquiry-compose input:focus,.enquiry-compose textarea:focus{outline:2px solid var(--accent);outline-offset:3px}
+.enquiry-compose button{justify-self:start;grid-column:1/-1}.draft-result>p{font-size:12px;margin:0 0 15px}.draft-result textarea{background:#ffffff16}
+.sources-section{padding-top:65px;padding-bottom:65px;display:grid;grid-template-columns:1fr 1.2fr;gap:60px;border-bottom:1px solid #203d3925}
+.sources-section h2{font-size:clamp(28px,3vw,42px);letter-spacing:-.04em;line-height:1.15;margin:18px 0;max-width:430px}.sources-section p{font-size:11px;line-height:1.7}
+.sources-section ul{list-style:none;padding:0;margin:0}.sources-section li{display:flex;justify-content:space-between;align-items:baseline;gap:20px;border-bottom:1px solid #203d3925;padding:15px 0}.sources-section li span{font-size:9px;opacity:.7;overflow-wrap:anywhere;text-align:right;max-width:50%}
+.dialog-source{display:table;margin:18px 0 24px}.course-dialog-content .dialog-note{line-height:1.8}
+@media(max-width:850px){.practical-grid{column-gap:35px}.school-team ul{grid-template-columns:repeat(2,minmax(0,1fr))}.sources-section{gap:35px}.session-price{max-width:210px}}
+@media(max-width:600px){
+ .content-review{font-size:10px;padding-top:19px;padding-bottom:19px;flex-direction:column;gap:7px}.source-link{font-size:11px}
+ .practical-section{padding-top:50px;padding-bottom:45px}.practical-heading h2{font-size:35px;margin:20px 0 28px}.practical-grid{grid-template-columns:1fr;gap:27px}.practical-item{padding-top:20px}.practical-item h3{font-size:18px}.practical-item p{font-size:12px;line-height:1.85;margin:12px 0}
+ .school-team ul{gap:22px 16px}.school-team li{font-size:12px}.school-resources{margin-top:30px;gap:10px}.school-resources>a{font-size:11px;padding:12px 14px;width:100%;gap:18px}
+ .dated-price-notice{font-size:12px;padding:14px 16px}.reference-rates table{font-size:12px}.reference-rates th{width:60%}.reference-rates summary{font-size:13px}
+ .contact-section h2{font-size:45px;overflow-wrap:break-word}.contact-bottom>p{font-size:12px;max-width:none}.contact-links{grid-template-columns:1fr;gap:27px}.contact-card h3{margin-bottom:12px}.contact-card>a span{font-size:13px}
+ .enquiry-compose>summary{font-size:16px}.enquiry-compose form{grid-template-columns:1fr}.enquiry-compose input,.enquiry-compose textarea{font-size:16px}.enquiry-compose button{max-width:100%;white-space:normal;text-align:left;font-size:12px}
+ .sources-section{padding-top:45px;padding-bottom:40px;grid-template-columns:1fr;gap:18px}.sources-section h2{font-size:31px}.sources-section li{gap:14px}.sources-section li span{font-size:8px}
+}
