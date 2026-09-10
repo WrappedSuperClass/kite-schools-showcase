@@ -1,3 +1,4 @@
+// Historical audit of the source-heavy 9 September version. Current UI: standalone-audit.cjs.
 const assert=require('node:assert/strict');
 // Independent acceptance fixtures transcribed from official sources on 2026-09-09.
 const expected={

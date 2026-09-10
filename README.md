@@ -1,60 +1,52 @@
-# VENT — The Kite School Collection
+# Independent kite school websites
 
-A complete redesign of the showcase and all ten school websites, including the existing French, English, German, Spanish, and SkyFly Dutch routes (42 pages total).
+Ten owner-facing school sites. Each URL contains only that school's identity, content and booking demo. There is no directory, collection brand, source-link section or link to a competing school. The root address opens Kitepulsion; use a school's own URL for its presentation.
 
-**Live:** https://wrappedsuperclass.github.io/kite-schools-showcase/
+| School | Presentation |
+|---|---|
+| Kitepulsion | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/kitepulsion/) |
+| Narbonne Kite Passion | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/narbonne-kite-passion/) |
+| Addicted2kite | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/addicted2kite/) |
+| Osmose Kite | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/osmose-kite/) |
+| Chinook | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/chinook/) |
+| SkyFly | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/skyfly/) |
+| Coriolis | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/coriolis/) |
+| Tendance Kite | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/tendance-kite/) |
+| KSL | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/ksl/) |
+| Akila Gruissan | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/akila-gruissan/) |
 
-**Hosting:** GitHub Pages serves the repository root on **`gh-pages`**. This project does not use Railway. Publishing to `main` will not update the site.
+FR/EN/DE/ES for every school, plus NL for SkyFly. 41 localized pages plus the default school home.
 
-## Local development
+## Run and publish
 
-```sh
-npm ci
-npm run dev
-```
+`npm run dev` starts development at http://127.0.0.1:4173/kite-schools-showcase/.
 
-Open http://127.0.0.1:4173/kite-schools-showcase/.
+`npm run build` generates the HTML, builds the assets and copies production files into the repository root. `npm run preview` serves the build at http://127.0.0.1:4174/kite-schools-showcase/.
 
-## Build and publish
-
-```sh
-npm run build
-npm run preview
-```
-
-The build generates all 42 source HTML files, builds with Vite, then copies the production HTML, shared assets, and images into the repository root. Preview: http://127.0.0.1:4174/kite-schools-showcase/.
-
-Review and commit the generated files alongside the sources on `gh-pages`, then push that branch. `.nojekyll` preserves the generated assets. The existing Git history retains the earlier design.
+GitHub Pages serves the repository root on **gh-pages**. Commit generated output with its sources and push that branch. Main does not publish this site.
 
 ## Editing
 
-- `design/schools.mjs`: the ten visual identities, locations, themes, headlines and official website links.
-- `design/locales.mjs`: translated interface text.
-- `design/content/`: manually reviewed, translated school facts, prices, contacts, booking routes and their official source URLs.
-- `design/verified-content.mjs`: assembles the reviewed content and enforces complete translations. Update its review date only after actually reviewing the official sources.
-- `design/original-content.json`: historical snapshot of the previous showcase, retained for comparison; no longer a build input.
-- `design/build.mjs`: page templates and production publishing.
-- `site/src/style.css`: responsive design and ten school identities.
-- `site/src/app.js`: filters, school finder, interactive locator, course dialogs, mobile menu and motion settings.
-- `site/src/scene.js`: Three.js ocean and wind image refraction, pointer response, viewport/visibility pausing, and static-image fallback.
-- `site/public/images/`: final generated photography and smaller mobile assets.
-- `site/public/school-photos/`: restored photographs from the earlier showcase, identified as archive photographs.
-- `design/image-prompts.jsonl`: the exact eleven image prompts.
+- `design/presentation.mjs`: short translated visitor copy, units and offer presentation.
+- `design/schools.mjs`: visual identities, headlines and themes.
+- `design/build.mjs`: independent school pages and embedded booking form.
+- `site/src/app.js`: menus, course dialogs and motion preferences.
+- `site/src/booking.js`: local three-step enquiry demonstration.
+- `site/src/style.css`: responsive layout and school identities.
+- `site/src/scene.js`: Three.js visual enhancement and fallback.
+- `design/content/` and `design/verified-content.mjs`: the underlying source research, retained for maintenance, not rendered as citations or sent to the browser.
+- `site/public/images/`: generated mood imagery. `site/public/school-photos/`: retained school photographs.
 
-## Images and content
+## Booking demo
 
-Eleven original mood images were generated through the OpenAI Images API using `gpt-image-2`, high quality, 2048 × 1152. Final web assets are compressed WebP with 800px variants. The image-generation skill’s bundled CLI was used; no API credentials are stored in this repository or in browser code.
+Every school has its own on-page flow: session and preferred date → visitor details → review. Course buttons preselect the offer. The calendar represents date preferences, not live availability. Past dates are disabled. Each step validates its fields; going back preserves the draft. Optional equipment measurements appear for the relevant schools.
 
-The generated hero/spot imagery is conceptual, not documentary photography of the schools, their staff, or exact locations. It is disclosed on each website and distinguished from the restored archive photographs. School information was reviewed against official pages on 9 September 2026, with visible source links and specific treatment of conflicting or dated information. Addicted2kite and Coriolis publish 2022 price tables: these are explicitly historical references, not current quotes. Chinook's located school notice is dated 2024. Availability, the final price and insurance cover remain the school's responsibility.
+The form is explicitly labelled as a demonstration. It makes no network submission, creates no reservation, takes no payment and stores no personal details. Completion clears entered details. Real telephone, email and WhatsApp contacts remain inside the contact disclosure.
 
-Booking links lead to the actual official calendars, registration forms or school contacts. Tendance's private lessons use telephone booking. Akila's centre page separates Pôle Mer and Pôle Étang. Seven schools with verified public email addresses also have a composer that opens an email draft, with a copy fallback. This showcase does not process bookings or payments or send email. Read `design/CONTENT-AUDIT.md` for the school-by-school correction table and historical audit.
+Before accepting real bookings, connect each owner's chosen provider and validate their policies, capacity, prices and availability. Cal.com is an available embedded option: individual plan free, Teams $12/user/month billed annually, checked 10 September 2026 ([pricing](https://cal.com/pricing), [embedding](https://cal.com/embed)). The current presentation intentionally uses the requested local demo.
 
-## Verification
+## Content and checks
 
-`design/audit.cjs` and `design/content-checks.cjs` check all routes, loaded images, desktop/mobile overflow, Three.js rendering, filters, the school finder, locator, all course dialogs, official booking destinations, verified contacts, source dates, dated-price notices, FAQ, email draft composition, mobile navigation, language routing, reduced motion and fallback without WebGL. `design/preview-check.cjs` produces screenshots of the index and all ten schools at desktop and mobile sizes. They use Playwright available in the local workspace runtime; it is not a production dependency.
+Visitor text is 52% shorter than the source-heavy version, counting all static text including collapsed content. Three featured offers appear initially; all other offers, practical details and secondary contacts expand on demand. Old 2022 prices remain in research only; the presentation uses “on request”.
 
-Dependencies were checked against current releases and official documentation on 9 September 2026: Three.js 0.186.0 and Vite 8.2.2. These projects use stable releases rather than an LTS-labelled release line. Node 22.22.2 was used locally.
-
-## Hosted alternative considered
-
-Framer Basic is a good hosted visual-editor alternative, listed at $10/month when billed yearly on https://www.framer.com/pricing (checked 9 September 2026). This implementation retains the requested GitHub Pages hosting and custom Three.js control.
+Run `design/standalone-audit.cjs` with the existing workspace Playwright runtime. It exercises every school/language page, all offer selectors, the complete local form flow, dates and validation, language isolation, source-link removal, responsive layout and no-submission behaviour. `design/VERIFICATION.md` records the latest results. Earlier audits are retained as historical evidence.

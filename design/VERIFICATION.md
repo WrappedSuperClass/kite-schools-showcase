@@ -1,39 +1,37 @@
-# Source correction verification — 9 September 2026
+# Independent school presentation — 10 September 2026
 
-Production build: PASS (`npm run build`). Pages deployment target: repository root on **gh-pages**.
+Production target: GitHub Pages, repository root on **gh-pages**.
 
-## Source review and coverage
+## What changed
 
-All ten schools were checked against their official public pages. The factual content is now maintained in `design/content/`, with official source URLs and the review date rendered on every school page. The legacy extraction is no longer a build input. `design/CONTENT-AUDIT.md` contains the correction table and historical audit.
+- Removed the collection landing page, VENT branding, school numbering, next-school links and cross-school navigation. Root opens Kitepulsion; the ten school URLs remain independent.
+- Removed visitor-facing source citations, review dates, old website URLs and external registration/booking links. Underlying research remains in `design/content/` for maintenance.
+- Reduced static text by approximately 52% across 41 language pages, counting collapsed content too. Each page starts with three offers; further offers, practical details, team and direct contacts expand on demand.
+- Retained the school-specific themes, images, Three.js enhancement, verified practical facts and all 56 course/service entries (232 localized entries).
+- Old dated tariffs remain in research only. The presentation uses current published figures where available and “on request” otherwise.
+- Added a styled three-step on-page booking demo to every school: preferred session/date → visitor details → review. Dates represent preferences, not real inventory. Relevant equipment fields remain available for Addicted2kite and Coriolis.
+- Explicit demo note before interaction and at completion. No backend call, email, reservation, payment or persistent storage. Personal fields are cleared after the demo.
 
-- 41 localized school pages: French, English, German and Spanish for all ten schools, plus Dutch for SkyFly.
-- 56 course/service entries across the ten schools; 232 localized entries. Every entry includes a source and its correct booking handoff.
-- School-specific practical facts, published prices, arrival guidance, insurance/deposit instructions, multiple contacts and official resource links.
-- Ten restored archive photographs, distinguished from AI-generated hero/spot imagery.
-- Seven verified email contacts support an enquiry composer (28 localized forms), which prepares an email draft and offers text to copy.
-- Schools with a verified official calendar/form/portal link directly to that existing process. Tendance private lessons link to telephone booking. Chinook's equipment offer links to the shop.
-- The finder matches level within a discipline: beginner kite plus advanced foil does not qualify a school for beginner-foil recommendations.
+## Verification
 
-## Browser verification
+`design/standalone-audit.cjs`, Chrome with the existing workspace Playwright runtime:
 
-Chrome with Playwright, using the production preview under `/kite-schools-showcase/`:
+- All 42 routes load with intact images, working anchors and exactly three featured offers.
+- All school/language booking flows tested through selection, date navigation, required-field validation, contact details, review, back, completion and reset.
+- Every offer selects the on-page form; course-dialog booking also remains on the page.
+- No rendered source/collection blocks, old-site HTTP links, competing-school links or outbound form submissions.
+- Language menus stay within their school. The root uses Kitepulsion's own language routes.
+- Past dates disabled; calendar month controls and selected date consistent. SkyFly family option limits the participant field to four; resetting restores the ordinary field limit.
+- All routes checked at 320, 390, 768, 1024 and 1440px for horizontal overflow and clipped headlines. Long German offer names wrap without forcing cards wider than the screen.
+- Mobile menus, booking-bar visibility while using the form, and menu closure when resizing to desktop checked.
+- Three.js initialization checked. Reduced-motion mode used throughout the form/layout checks.
+- Zero JavaScript errors, failed same-site resources or non-GET requests in the audit.
+- Representative Akila, Kitepulsion, Narbonne Kite Passion, SkyFly, Coriolis and KSL offer/booking screens inspected at desktop/mobile sizes. Browser-use visitor check independently confirmed course selection, preferred date and details step.
 
-- **42 routes PASS:** rendered headlines, all images loaded, working section anchors, no horizontal overflow at 1440px and 390px, Three.js initialized.
-- **All 232 course dialogs PASS:** details, official source and correct booking target; the telephone-only private lesson and Chinook shop exceptions checked independently.
-- **All 41 school pages PASS:** review date, official sources, course counts, primary telephone and booking URLs, correct presence/absence of verified-email composer and dated-price notice.
-- KSL's nine-person roster and both contact pairs; SkyFly's Port Adhoc arrival guidance; Osmose's €60 deposit; Akila's official WhatsApp; Chinook's 2024 qualification: PASS.
-- Filters: eight foil schools, nine beginner schools and ten schools in total. Beginner-foil finder returns three suitable schools.
-- Interactive locator, FAQ, course-dialog close, mobile menu and Dutch next-school fallback: PASS.
-- Motion preference persistence, system reduced motion, usable image/content fallback without WebGL: PASS.
-- Email draft preserves multiline content and literal special characters; copy fallback appears. No email, form submission, reservation or payment was sent to a school.
-- **Zero JavaScript errors and zero failed same-site resource requests.**
-- 36 additional practical/contact screenshots at 1440, 390 and 320px, plus expanded price-reference and email-form screenshots. No horizontal overflow. Representative desktop/mobile sections visually reviewed.
-- Source whitespace check and credential-pattern scan: PASS.
+Local logs, text counts and screenshots are under `.verification/standalone/` and are excluded from publishing. No new package was installed. Source whitespace checked before publication.
 
-Local evidence is saved under `.verification/` and excluded from publishing. Main repeatable checks: `design/audit.cjs` with `design/content-checks.cjs`. Playwright comes from the existing workspace runtime; no dependency was installed for this correction.
+## Launch boundary
 
-## Explicit limits
+These are owner-facing design proposals with functional local demonstrations. Real booking operations still require the owner to connect their provider and approve current capacity, prices and policies. The demo never pretends that a booking was sent or confirmed. Existing phone/email/WhatsApp contacts are retained in the contact disclosure, and map directions remain available inside the meeting-point disclosure.
 
-This checks fidelity to the schools' published information, not private confirmation by the schools. Addicted2kite and Coriolis publish tariff tables dated **2022**, so their historical figures are labelled and current prices require enquiry. Chinook's located school-specific notice is dated **2024**. Narbonne Kite Passion has conflicting street numbers/season dates, and SkyFly's older offers conflict with its 2026 arrival news; those conflicts are explained rather than silently resolved by guessing.
-
-NKP's Amelia and Akila's Activiteez inventory/checkout did not fully render during source inspection. Their official booking entry points and phone fallbacks are provided, but completed booking/payment functionality is not claimed as verified. A KSL contact form was observed; no live date selector was verified on the inspected route. Official map/weather pages remain external links, not embedded live widgets.
+For an embedded production option, Cal.com offers a free individual plan and Teams at $12 per user/month billed annually (checked 10 September 2026): [pricing](https://cal.com/pricing), [embed documentation](https://cal.com/embed).

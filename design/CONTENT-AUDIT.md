@@ -1,5 +1,7 @@
 # School information and functionality audit
 
+> Historical source audit. On 10 September 2026 the owner-facing presentation was simplified: citations and external website/form links were removed from visitor pages, and all schools received an on-page booking demo. Research remains here for maintenance. See README.md and VERIFICATION.md for the current presentation and checks.
+
 ## Corrections — 9 September 2026
 
 The source review below led to a replacement of the inherited content across all 41 school/language pages. Each page now includes dated official sources, practical information, the school's actual booking route, and verified public contacts. Course details have expanded to 56 offers across the ten schools (232 localized entries). Historical findings below describe the earlier deployment, not the corrected pages.

@@ -1,3 +1,4 @@
+// Historical audit of the source-heavy 9 September version. Current UI: standalone-audit.cjs.
 const {chromium}=require('playwright');
 const fs=require('node:fs');
 const assert=require('node:assert/strict');
