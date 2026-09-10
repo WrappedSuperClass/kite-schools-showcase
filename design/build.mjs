@@ -57,11 +57,11 @@ function schoolPage(s,lang){
 await mkdir('site/public',{recursive:true});
 await writeFile('site/public/favicon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#143d3d"/><path d="m32 7 7 18 18 7-18 7-7 18-7-18L7 32l18-7z" fill="#d4f76a"/></svg>');
 await writeFile('site/public/.nojekyll','');
-// The former collection address opens the first independent school. No directory or cross-selling.
-await writeFile('site/index.html',schoolPage(schools[0],'fr'));
+// Keep the shared root address blank; each school remains at its own URL.
+await writeFile('site/index.html', '<!doctype html><html><head><meta charset="utf-8"><meta name="robots" content="noindex"><title></title></head><body></body></html>\n');
 for(const s of schools){await mkdir(`site/${s.slug}`,{recursive:true});for(const lang of languagesFor(s.slug))await writeFile(`site/${s.slug}/${lang==='fr'?'index':lang}.html`,schoolPage(s,lang));}
 if(!process.argv.includes('--templates-only')){
  const {build}=await import('vite');await build();
  for(const file of await readdir('site-dist'))await cp(`site-dist/${file}`,file,{recursive:true});
- console.log('Published build to repository root: 41 independent school pages + default school home.');
+ console.log('Published build to repository root: 41 independent school pages + blank root.');
 }

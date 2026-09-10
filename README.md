@@ -1,6 +1,6 @@
 # Independent kite school websites
 
-Ten owner-facing school sites. Each URL contains only that school's identity, content and booking demo. There is no directory, collection brand, source-link section or link to a competing school. The root address opens Kitepulsion; use a school's own URL for its presentation.
+Ten owner-facing school sites. Each URL contains only that school's identity, content and booking demo. There is no directory, collection brand, source-link section or link to a competing school. The root address is intentionally blank; use a school's own URL for its presentation.
 
 | School | Presentation |
 |---|---|
@@ -15,7 +15,7 @@ Ten owner-facing school sites. Each URL contains only that school's identity, co
 | KSL | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/ksl/) |
 | Akila Gruissan | [Open](https://wrappedsuperclass.github.io/kite-schools-showcase/akila-gruissan/) |
 
-FR/EN/DE/ES for every school, plus NL for SkyFly. 41 localized pages plus the default school home.
+FR/EN/DE/ES for every school, plus NL for SkyFly. 41 localized school pages plus an intentionally blank root.
 
 ## Run and publish
 

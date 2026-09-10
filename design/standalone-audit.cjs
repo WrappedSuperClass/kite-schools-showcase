@@ -2,7 +2,7 @@ const {chromium}=require('playwright');
 const fs=require('node:fs'),assert=require('node:assert/strict');
 const base=process.env.VENT_TEST_BASE||'http://127.0.0.1:4174/kite-schools-showcase/';
 const slugs=['kitepulsion','narbonne-kite-passion','addicted2kite','osmose-kite','chinook','skyfly','coriolis','tendance-kite','ksl','akila-gruissan'];
-const routes=['',...slugs.flatMap(s=>(s==='skyfly'?['fr','en','de','es','nl']:['fr','en','de','es']).map(l=>s+'/'+(l==='fr'?'':l+'.html')))];
+const routes=[...slugs.flatMap(s=>(s==='skyfly'?['fr','en','de','es','nl']:['fr','en','de','es']).map(l=>s+'/'+(l==='fr'?'':l+'.html')))];
 (async()=>{
  const browser=await chromium.launch({channel:'chrome',headless:true,args:['--use-angle=metal']});
  const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
@@ -66,6 +66,6 @@ const routes=['',...slugs.flatMap(s=>(s==='skyfly'?['fr','en','de','es','nl']:['
  await page.setViewportSize({width:768,height:900});await page.goto(base+'akila-gruissan/',{waitUntil:'domcontentloaded'});await page.locator('.menu-toggle').click();await page.setViewportSize({width:1024,height:900});await page.waitForFunction(()=>!document.body.classList.contains('menu-open'));
  const webgl=await browser.newPage({viewport:{width:1440,height:1000}});await webgl.goto(base+'akila-gruissan/',{waitUntil:'domcontentloaded'});await webgl.waitForFunction(()=>document.querySelector('.scene').dataset.rendered==='true');await webgl.close();
  assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);assert.deepEqual(outbound,[],'form must not send data');
- report.checks=['All 42 pages: three featured offers, no source/showcase/cross-school links.','All 42 same-page booking demos: selection, calendar, validation, back/review, completion, reset, no outbound submission.','All 232 school course selectors plus default-home offers stay on the same page.','All 42 pages at 320, 390, 768, 1024 and 1440px: no horizontal overflow or clipped headlines.','Mobile menus and booking-bar visibility, language links, local course dialogs, Three.js.'];
+ report.checks=['All 41 school pages: three featured offers, no source/showcase/cross-school links.','All 41 same-page booking demos: selection, calendar, validation, back/review, completion, reset, no outbound submission.','All 232 school course selectors stay on the same page.','All 41 school pages at 320, 390, 768, 1024 and 1440px: no horizontal overflow or clipped headlines.','Mobile menus and booking-bar visibility, language links, local course dialogs, Three.js.'];
  report.errors=errors;report.failed=failed;report.outbound=outbound;report.passed=true;fs.writeFileSync('.verification/standalone/audit.json',JSON.stringify(report,null,2));console.log('PASS ALL',JSON.stringify({pages:report.pages.length,flows:report.flows.length,errors,failed,outbound}));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});
